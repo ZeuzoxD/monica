@@ -8,15 +8,16 @@ import Vector::*;
 
 interface IfcCOP;
    method Action start_computation(Vector#(768, BF16) x, Bit#(32) i, Vector#(768, BF16) d);  
-   method Vector#(192, BF16) get_result();  // Changed from 768 to 192
+   method Vector#(768, BF16) get_result();  // Final 768-element output
    method Bool computation_done();
-   method Action load_sa_weights(Vector#(16, Vector#(16, BF16)) w);
+   method Action load_sa1_weights(Vector#(16, Vector#(16, BF16)) w);  // First MM weights
+   method Action load_sa2_weights(Vector#(16, Vector#(16, BF16)) w);  // Second MM weights
 endinterface
 
 typedef enum {
    Idle, InitBRAMs, WaitK1Ready, SliceStage0, LaunchStage0, SliceStage1,
    WaitK2AndStage0, LaunchStage1, SliceStage2, WaitK3AndStage1, LaunchStage2,
-   WaitStage2, WaitSAComplete, Done
+   WaitStage2, WaitSA1Complete, WaitSA2Complete, Done
 } State deriving (Bits, Eq);
 
 typedef enum {SA_Idle, SA_WaitWeights, SA_LoadAct, SA_Compute, SA_RowDone, SA_AllDone} SA_State deriving (Bits, Eq);
@@ -58,17 +59,25 @@ module mkCOP(IfcCOP);
    Reg#(Bool) stage1_captured <- mkReg(False);
    Reg#(Bool) stage2_captured <- mkReg(False);
   
-   // SA control for 192x768 matrix multiplication
-   Reg#(SA_State) sa_state <- mkReg(SA_Idle);
-   Reg#(Vector#(192, BF16)) sa_final_output <- mkReg(unpack(0));  // Final 192-element output
-   Reg#(Vector#(16, BF16)) sa_accumulator <- mkReg(unpack(0));    // Accumulator for current 16 outputs
-   
-   Reg#(Bit#(6)) sa_input_chunk_idx <- mkReg(0);   // 0-47 (768/16 = 48 input chunks)
-   Reg#(Bit#(4)) sa_output_row_idx <- mkReg(0);    // 0-11 (192/16 = 12 output row groups)
-   
-   Reg#(Bool) sa_weights_ready <- mkReg(False);
-   Reg#(Bool) sa_processing_complete <- mkReg(False);
-   Reg#(Bool) sa_started <- mkReg(False);
+   // First SA: 192x768 matrix multiplication (768 input -> 192 output)
+   Reg#(SA_State) sa1_state <- mkReg(SA_Idle);
+   Reg#(Vector#(192, BF16)) sa1_final_output <- mkReg(unpack(0));  // 192-element intermediate output
+   Reg#(Vector#(16, BF16)) sa1_accumulator <- mkReg(unpack(0));
+   Reg#(Bit#(6)) sa1_input_chunk_idx <- mkReg(0);   // 0-47 (768/16 = 48 input chunks)
+   Reg#(Bit#(4)) sa1_output_row_idx <- mkReg(0);    // 0-11 (192/16 = 12 output row groups)
+   Reg#(Bool) sa1_weights_ready <- mkReg(False);
+   Reg#(Bool) sa1_processing_complete <- mkReg(False);
+   Reg#(Bool) sa1_started <- mkReg(False);
+
+   // Second SA: 768x192 matrix multiplication (192 input -> 768 output)
+   Reg#(SA_State) sa2_state <- mkReg(SA_Idle);
+   Reg#(Vector#(768, BF16)) sa2_final_output <- mkReg(unpack(0));  // 768-element final output
+   Reg#(Vector#(16, BF16)) sa2_accumulator <- mkReg(unpack(0));
+   Reg#(Bit#(4)) sa2_input_chunk_idx <- mkReg(0);    // 0-11 (192/16 = 12 input chunks)
+   Reg#(Bit#(6)) sa2_output_row_idx <- mkReg(0);     // 0-47 (768/16 = 48 output row groups)
+   Reg#(Bool) sa2_weights_ready <- mkReg(False);
+   Reg#(Bool) sa2_processing_complete <- mkReg(False);
+   Reg#(Bool) sa2_started <- mkReg(False);
 
    rule count_cycles; cycle_count <= cycle_count + 1; endrule
 
@@ -196,103 +205,180 @@ module mkCOP(IfcCOP);
       simd_full_result <= full_vec;
       simd_results_ready <= True;
       
-      // Initialize SA processing
-      sa_state <= SA_WaitWeights;
-      sa_input_chunk_idx <= 0;
-      sa_output_row_idx <= 0;
-      sa_weights_ready <= False;
-      sa_started <= False;
-      sa_accumulator <= unpack(0);
+      // Initialize First SA processing (192x768)
+      sa1_state <= SA_WaitWeights;
+      sa1_input_chunk_idx <= 0;
+      sa1_output_row_idx <= 0;
+      sa1_weights_ready <= False;
+      sa1_started <= False;
+      sa1_accumulator <= unpack(0);
       
-      state <= WaitSAComplete;
+      state <= WaitSA1Complete;
       $display("[Cycle %0d] ========================================", cycle_count);
       $display("[Cycle %0d] SIMD Pipeline Complete - All 768 elements ready", cycle_count);
-      $display("[Cycle %0d] Starting 192x768 Matrix Multiplication with SA", cycle_count);
+      $display("[Cycle %0d] Starting FIRST Matrix Multiplication (192x768)", cycle_count);
       $display("[Cycle %0d]   - 12 output row groups (16 rows each)", cycle_count);
       $display("[Cycle %0d]   - 48 input chunks per row group (16 elements each)", cycle_count);
       $display("[Cycle %0d]   - Total SA operations: 12 x 48 = 576", cycle_count);
       $display("[Cycle %0d] ========================================", cycle_count);
    endrule
 
-   // SA Processing: Load activations and start computation
-   rule sa_load_activations (sa_state == SA_WaitWeights && sa_weights_ready && !sa_started);
-      // Extract 16 elements from the 768-element input vector
-      Bit#(10) start_idx = zeroExtend(sa_input_chunk_idx) << 4;  // multiply by 16
+   // ====== FIRST SA (192x768): Load activations and start computation ======
+   rule sa1_load_activations (sa1_state == SA_WaitWeights && sa1_weights_ready && !sa1_started);
+      Bit#(10) start_idx = zeroExtend(sa1_input_chunk_idx) << 4;
       Vector#(16, BF16) act_chunk = newVector();
       for (Integer i = 0; i < 16; i = i + 1) begin
          act_chunk[i] = simd_full_result[start_idx + fromInteger(i)];
       end
       sa.load_activations(act_chunk);
       sa.start();
-      sa_started <= True;
-      sa_state <= SA_Compute;
-      $display("[Cycle %0d] SA: Row_group=%0d, Input_chunk=%0d/48, Elements[%0d:%0d]", 
-               cycle_count, sa_output_row_idx, sa_input_chunk_idx, start_idx, start_idx + 15);
+      sa1_started <= True;
+      sa1_state <= SA_Compute;
+      $display("[Cycle %0d] SA1: Row_group=%0d, Input_chunk=%0d/48, Elements[%0d:%0d]", 
+               cycle_count, sa1_output_row_idx, sa1_input_chunk_idx, start_idx, start_idx + 15);
    endrule
 
-   // SA Processing: Collect result and accumulate
-   rule sa_collect_result (sa_state == SA_Compute && sa.is_done());
+   rule sa1_collect_result (sa1_state == SA_Compute && sa.is_done());
       let sa_result <- sa.get_result();
       
-      // Accumulate the result
       Vector#(16, BF16) new_acc = newVector();
       for (Integer i = 0; i < 16; i = i + 1) begin
-         Bit#(16) acc = bf16_add.add(fromBF16(sa_accumulator[i]), fromBF16(sa_result[i])); 
+         Bit#(16) acc = bf16_add.add(fromBF16(sa1_accumulator[i]), fromBF16(sa_result[i])); 
          new_acc[i] = toBF16(acc); 
       end
-      sa_accumulator <= new_acc;
+      sa1_accumulator <= new_acc;
       
-      $display("[Cycle %0d] SA: Row_group=%0d, Input_chunk=%0d done, accumulated", 
-               cycle_count, sa_output_row_idx, sa_input_chunk_idx);
+      $display("[Cycle %0d] SA1: Row_group=%0d, Input_chunk=%0d done, accumulated", 
+               cycle_count, sa1_output_row_idx, sa1_input_chunk_idx);
       
-      // Check if we've processed all 48 input chunks for this output row group
-      if (sa_input_chunk_idx == 47) begin
-         sa_state <= SA_RowDone;
-         $display("[Cycle %0d] SA: Row_group=%0d COMPLETE (all 48 chunks accumulated)", 
-                  cycle_count, sa_output_row_idx);
+      if (sa1_input_chunk_idx == 47) begin
+         sa1_state <= SA_RowDone;
+         $display("[Cycle %0d] SA1: Row_group=%0d COMPLETE (all 48 chunks accumulated)", 
+                  cycle_count, sa1_output_row_idx);
       end else begin
-         sa_input_chunk_idx <= sa_input_chunk_idx + 1;
-         sa_weights_ready <= False;
-         sa_started <= False;
-         sa_state <= SA_WaitWeights;
+         sa1_input_chunk_idx <= sa1_input_chunk_idx + 1;
+         sa1_weights_ready <= False;
+         sa1_started <= False;
+         sa1_state <= SA_WaitWeights;
       end
    endrule
 
-   // SA Processing: Store completed row group and move to next
-   rule sa_row_done (sa_state == SA_RowDone);
-      // Store the accumulated 16 outputs in the final output vector
-      Vector#(192, BF16) temp_output = sa_final_output;
-      Bit#(8) output_start_idx = zeroExtend(sa_output_row_idx) << 4;  // multiply by 16
+   rule sa1_row_done (sa1_state == SA_RowDone);
+      Vector#(192, BF16) temp_output = sa1_final_output;
+      Bit#(8) output_start_idx = zeroExtend(sa1_output_row_idx) << 4;
       for (Integer i = 0; i < 16; i = i + 1) begin
-         temp_output[output_start_idx + fromInteger(i)] = sa_accumulator[i];
+         temp_output[output_start_idx + fromInteger(i)] = sa1_accumulator[i];
       end
-      sa_final_output <= temp_output;
+      sa1_final_output <= temp_output;
       
-      $display("[Cycle %0d] SA: Stored row_group=%0d outputs [%0d:%0d]", 
-               cycle_count, sa_output_row_idx, output_start_idx, output_start_idx + 15);
+      $display("[Cycle %0d] SA1: Stored row_group=%0d outputs [%0d:%0d]", 
+               cycle_count, sa1_output_row_idx, output_start_idx, output_start_idx + 15);
       
-      // Check if all 12 output row groups are done
-      if (sa_output_row_idx == 11) begin
-         sa_state <= SA_AllDone;
-         sa_processing_complete <= True;
+      if (sa1_output_row_idx == 11) begin
+         sa1_state <= SA_AllDone;
+         sa1_processing_complete <= True;
          $display("[Cycle %0d] ========================================", cycle_count);
-         $display("[Cycle %0d] SA: ALL 192 OUTPUTS COMPLETE!", cycle_count);
-         $display("[Cycle %0d]   - Processed 12 row groups x 48 input chunks = 576 operations", cycle_count);
+         $display("[Cycle %0d] SA1: ALL 192 OUTPUTS COMPLETE!", cycle_count);
          $display("[Cycle %0d] ========================================", cycle_count);
       end else begin
-         sa_output_row_idx <= sa_output_row_idx + 1;
-         sa_input_chunk_idx <= 0;
-         sa_accumulator <= unpack(0);  // Reset accumulator for next row group
-         sa_weights_ready <= False;
-         sa_started <= False;
-         sa_state <= SA_WaitWeights;
-         $display("[Cycle %0d] SA: Moving to row_group=%0d", cycle_count, sa_output_row_idx + 1);
+         sa1_output_row_idx <= sa1_output_row_idx + 1;
+         sa1_input_chunk_idx <= 0;
+         sa1_accumulator <= unpack(0);
+         sa1_weights_ready <= False;
+         sa1_started <= False;
+         sa1_state <= SA_WaitWeights;
       end
    endrule
 
-   rule wait_sa_complete (state == WaitSAComplete && sa_processing_complete);
+   rule wait_sa1_complete (state == WaitSA1Complete && sa1_processing_complete);
+      // Initialize Second SA processing (768x192)
+      sa2_state <= SA_WaitWeights;
+      sa2_input_chunk_idx <= 0;
+      sa2_output_row_idx <= 0;
+      sa2_weights_ready <= False;
+      sa2_started <= False;
+      sa2_accumulator <= unpack(0);
+      sa2_processing_complete <= False;
+      
+      state <= WaitSA2Complete;
+      $display("[Cycle %0d] ========================================", cycle_count);
+      $display("[Cycle %0d] Starting SECOND Matrix Multiplication (768x192)", cycle_count);
+      $display("[Cycle %0d]   - 48 output row groups (16 rows each)", cycle_count);
+      $display("[Cycle %0d]   - 12 input chunks per row group (16 elements each)", cycle_count);
+      $display("[Cycle %0d]   - Total SA operations: 48 x 12 = 576", cycle_count);
+      $display("[Cycle %0d] ========================================", cycle_count);
+   endrule
+
+   // ====== SECOND SA (768x192): Load activations and start computation ======
+   rule sa2_load_activations (sa2_state == SA_WaitWeights && sa2_weights_ready && !sa2_started);
+      Bit#(8) start_idx = zeroExtend(sa2_input_chunk_idx) << 4;
+      Vector#(16, BF16) act_chunk = newVector();
+      for (Integer i = 0; i < 16; i = i + 1) begin
+         act_chunk[i] = sa1_final_output[start_idx + fromInteger(i)];
+      end
+      sa.load_activations(act_chunk);
+      sa.start();
+      sa2_started <= True;
+      sa2_state <= SA_Compute;
+      $display("[Cycle %0d] SA2: Row_group=%0d, Input_chunk=%0d/12, Elements[%0d:%0d]", 
+               cycle_count, sa2_output_row_idx, sa2_input_chunk_idx, start_idx, start_idx + 15);
+   endrule
+
+   rule sa2_collect_result (sa2_state == SA_Compute && sa.is_done());
+      let sa_result <- sa.get_result();
+      
+      Vector#(16, BF16) new_acc = newVector();
+      for (Integer i = 0; i < 16; i = i + 1) begin
+         Bit#(16) acc = bf16_add.add(fromBF16(sa2_accumulator[i]), fromBF16(sa_result[i])); 
+         new_acc[i] = toBF16(acc); 
+      end
+      sa2_accumulator <= new_acc;
+      
+      $display("[Cycle %0d] SA2: Row_group=%0d, Input_chunk=%0d done, accumulated", 
+               cycle_count, sa2_output_row_idx, sa2_input_chunk_idx);
+      
+      if (sa2_input_chunk_idx == 11) begin
+         sa2_state <= SA_RowDone;
+         $display("[Cycle %0d] SA2: Row_group=%0d COMPLETE (all 12 chunks accumulated)", 
+                  cycle_count, sa2_output_row_idx);
+      end else begin
+         sa2_input_chunk_idx <= sa2_input_chunk_idx + 1;
+         sa2_weights_ready <= False;
+         sa2_started <= False;
+         sa2_state <= SA_WaitWeights;
+      end
+   endrule
+
+   rule sa2_row_done (sa2_state == SA_RowDone);
+      Vector#(768, BF16) temp_output = sa2_final_output;
+      Bit#(10) output_start_idx = zeroExtend(sa2_output_row_idx) << 4;
+      for (Integer i = 0; i < 16; i = i + 1) begin
+         temp_output[output_start_idx + fromInteger(i)] = sa2_accumulator[i];
+      end
+      sa2_final_output <= temp_output;
+      
+      $display("[Cycle %0d] SA2: Stored row_group=%0d outputs [%0d:%0d]", 
+               cycle_count, sa2_output_row_idx, output_start_idx, output_start_idx + 15);
+      
+      if (sa2_output_row_idx == 47) begin
+         sa2_state <= SA_AllDone;
+         sa2_processing_complete <= True;
+         $display("[Cycle %0d] ========================================", cycle_count);
+         $display("[Cycle %0d] SA2: ALL 768 OUTPUTS COMPLETE!", cycle_count);
+         $display("[Cycle %0d] ========================================", cycle_count);
+      end else begin
+         sa2_output_row_idx <= sa2_output_row_idx + 1;
+         sa2_input_chunk_idx <= 0;
+         sa2_accumulator <= unpack(0);
+         sa2_weights_ready <= False;
+         sa2_started <= False;
+         sa2_state <= SA_WaitWeights;
+      end
+   endrule
+
+   rule wait_sa2_complete (state == WaitSA2Complete && sa2_processing_complete);
       state <= Done;
-      $display("[Cycle %0d] COP: Matrix multiplication complete. ALL DONE!", cycle_count);
+      $display("[Cycle %0d] COP: Both matrix multiplications complete. ALL DONE!", cycle_count);
    endrule
 
    method Action start_computation(Vector#(768, BF16) x, Bit#(32) i, Vector#(768, BF16) d) if (state == Idle);
@@ -303,19 +389,27 @@ module mkCOP(IfcCOP);
       k1_fetched <= False; k2_fetched <= False; k3_fetched <= False;
       sliced <= False; stage0_captured <= False; stage1_captured <= False;
       stage2_captured <= False; simd_results_ready <= False;
+      sa1_processing_complete <= False; sa2_processing_complete <= False;
    endmethod
 
-   method Vector#(192, BF16) get_result() if (state == Done);
-      return sa_final_output;
+   method Vector#(768, BF16) get_result() if (state == Done);
+      return sa2_final_output;
    endmethod
 
    method Bool computation_done() = (state == Done);
 
-   method Action load_sa_weights(Vector#(16, Vector#(16, BF16)) w) if (sa_state == SA_WaitWeights && !sa_weights_ready);
+   method Action load_sa1_weights(Vector#(16, Vector#(16, BF16)) w) if (sa1_state == SA_WaitWeights && !sa1_weights_ready);
       sa.load_weights(w);
-      sa_weights_ready <= True;
-      $display("[Cycle %0d] COP: Loaded SA weights for row_group=%0d, input_chunk=%0d", 
-               cycle_count, sa_output_row_idx, sa_input_chunk_idx);
+      sa1_weights_ready <= True;
+      $display("[Cycle %0d] COP: Loaded SA1 weights for row_group=%0d, input_chunk=%0d", 
+               cycle_count, sa1_output_row_idx, sa1_input_chunk_idx);
+   endmethod
+
+   method Action load_sa2_weights(Vector#(16, Vector#(16, BF16)) w) if (sa2_state == SA_WaitWeights && !sa2_weights_ready);
+      sa.load_weights(w);
+      sa2_weights_ready <= True;
+      $display("[Cycle %0d] COP: Loaded SA2 weights for row_group=%0d, input_chunk=%0d", 
+               cycle_count, sa2_output_row_idx, sa2_input_chunk_idx);
    endmethod
 
 endmodule
