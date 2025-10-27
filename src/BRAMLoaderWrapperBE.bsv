@@ -1,42 +1,39 @@
 package BRAMLoaderWrapperBE;
 
 import BRAMHexLoaderBE::*;
-import Vector::*;
 
-// Concrete interface with 16-bit data
 interface BRAMLoaderConcrete;
-   method Action start();
-   method Bool done();
-   method Vector#(256, Bit#(16)) getVectorK1();
-   method Vector#(256, Bit#(16)) getVectorK2();
-   method Vector#(256, Bit#(16)) getVectorK3();
+   method Action requestA(Bit#(10) addr);
+   method Action requestB(Bit#(10) addr);
+   method ActionValue#(Bit#(16)) responseA();
+   method ActionValue#(Bit#(16)) responseB();
+   method Bool ready();
 endinterface
 
 (* synthesize *)
-module mkBRAMLoaderConcreteBE (BRAMLoaderConcrete);
+module mkBRAMLoaderConcrete (BRAMLoaderConcrete);
    
-   // Instantiate with 16-bit data and 2 byte-enable chunks (16 bits = 2 bytes)
-   BRAMLoader#(16,2) loader <- mkBRAMLoader("data.hex");
+   BRAMLoader#(16, 2) loader <- mkBRAMLoader();
    
-   method Action start();
-      loader.start();
+   method Action requestA(Bit#(10) addr);
+      loader.requestA(addr);
    endmethod
    
-   method Bool done();
-      return loader.done();
+   method Action requestB(Bit#(10) addr);
+      loader.requestB(addr);
    endmethod
    
-   method Vector#(256, Bit#(16)) getVectorK1();
-      return loader.getVectorK1();
+   method ActionValue#(Bit#(16)) responseA();
+      let data <- loader.responseA();
+      return data;
    endmethod
    
-   method Vector#(256, Bit#(16)) getVectorK2();
-      return loader.getVectorK2();
+   method ActionValue#(Bit#(16)) responseB();
+      let data <- loader.responseB();
+      return data;
    endmethod
    
-   method Vector#(256, Bit#(16)) getVectorK3();
-      return loader.getVectorK3();
-   endmethod
+   method Bool ready() = loader.ready();
 endmodule
 
 endpackage
