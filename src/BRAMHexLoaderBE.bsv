@@ -6,8 +6,8 @@ import Vector::*;
 
 interface BRAMLoader#(numeric type data_sz, numeric type n);
    // Dual port access - can request from both ports simultaneously
-   method Action requestA(Bit#(10) addr);
-   method Action requestB(Bit#(10) addr);
+   method Action requestA(Bit#(12) addr);
+   method Action requestB(Bit#(12) addr);
    method ActionValue#(Bit#(data_sz)) responseA();
    method ActionValue#(Bit#(data_sz)) responseB();
    method Bool ready();  // BRAM is ready to use
@@ -20,7 +20,7 @@ module mkBRAMLoader (BRAMLoader#(data_sz, n))
             Mul#(chunk_sz, n, data_sz));
    
    // Load BRAM from data.hex - HARDCODED - DUAL PORT
-   BRAM_DUAL_PORT_BE#(Bit#(10), Bit#(data_sz), n) bram <- mkBRAMCore2BELoad(768, False, "data.hex", False);
+   BRAM_DUAL_PORT_BE#(Bit#(12), Bit#(data_sz), n) bram <- mkBRAMCore2BELoad(2240, False, "data.hex", False);
    
    Reg#(Bool) isReady <- mkReg(False);
    Reg#(Bit#(10)) initDelay <- mkReg(0);
@@ -32,13 +32,13 @@ module mkBRAMLoader (BRAMLoader#(data_sz, n))
    endrule
    
    // Request read from BRAM Port A
-   method Action requestA(Bit#(10) addr) if (isReady);
-      bram.a.put(0, addr, ?);  // Read from any address 0-767
+   method Action requestA(Bit#(12) addr) if (isReady);
+      bram.a.put(0, addr, ?);  // Read from any address 0-2239
    endmethod
    
    // Request read from BRAM Port B
-   method Action requestB(Bit#(10) addr) if (isReady);
-      bram.b.put(0, addr, ?);  // Read from any address 0-767
+   method Action requestB(Bit#(12) addr) if (isReady);
+      bram.b.put(0, addr, ?);  // Read from any address 0-2239
    endmethod
    
    // Get response from Port A (1 cycle latency)
@@ -55,5 +55,4 @@ module mkBRAMLoader (BRAMLoader#(data_sz, n))
    
    method Bool ready() = isReady;
 endmodule
-
 endpackage

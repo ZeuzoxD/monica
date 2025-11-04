@@ -5,12 +5,11 @@ import BF16::*;
 import BRAMCore::*;
 import BF16_WS_16x16SA::*;
 import BF16_SIMD_Pipeline::*;
+import BRAMWeightLoader::*;
 
 interface COP_Ifc;
   method Action start_computation();
   method Vector#(768, BF16) get_result_k();
-  method Action load_sa1_weights(Vector#(16, Vector#(16, BF16)) w);
-  method Action load_sa2_weights(Vector#(16, Vector#(16, BF16)) w);
   method Bool computation_done();
 endinterface
 
@@ -43,17 +42,18 @@ typedef enum {
 module mkCOP(COP_Ifc);
 
   // ========== BRAMs
-  BRAM_PORT#(Bit#(10), Bit#(16)) bram_x           <- mkBRAMCore1Load(768, False, "data.hex", False);
-  BRAM_PORT#(Bit#(10), Bit#(16)) bram_time_mix_k  <- mkBRAMCore1Load(768, False, "data.hex", False);
-  BRAM_PORT#(Bit#(10), Bit#(16)) bram_time_mix_v  <- mkBRAMCore1Load(768, False, "data.hex", False);
-  BRAM_PORT#(Bit#(10), Bit#(16)) bram_time_mix_r  <- mkBRAMCore1Load(768, False, "data.hex", False);
-  BRAM_PORT#(Bit#(10), Bit#(16)) bram_state       <- mkBRAMCore1Load(768, False, "data.hex", False);
-  BRAM_PORT#(Bit#(10), Bit#(16)) bram_d           <- mkBRAMCore1Load(768, False, "data.hex", False);
-  BRAM_PORT#(Bit#(10), Bit#(16)) bram_e           <- mkBRAMCore1Load(768, False, "data.hex", False);
-  BRAM_PORT#(Bit#(10), Bit#(16)) bram_f           <- mkBRAMCore1Load(768, False, "data.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_x           <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_time_mix_k  <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_time_mix_v  <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_time_mix_r  <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_state       <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_d           <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_e           <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_f           <- mkBRAMCore1Load(768, False, "simd.hex", False);
 
   // ========== Modules Instantiation
   IfcBF16_SIMD_Pipeline pipeline <- mkBF16_SIMD_Pipeline();
+  BRAMWeightLoaderIfc weight_loader <- mkBRAMWeightLoader();
   BF16_SA_IFC sa <- mkBF16_16x16SA();
   BF16AdderIFC bf16_add <- mkBF16Adder();
 
@@ -78,6 +78,8 @@ module mkCOP(COP_Ifc);
 
   // ========== SA Regs
   Reg#(SA_Operation) current_sa_operation <- mkReg(SA_Operation_K);
+  Reg#(Vector#(256, Bit#(16))) weight_buffer <- mkReg(unpack(0));
+  Reg#(Bit#(10)) weight_batch_counter <- mkReg(0);  // Tracks which 256-element batch we're on
   Reg#(Vector#(768, BF16)) sa_result_k <- mkReg(unpack(0));
   Reg#(Vector#(768, BF16)) sa_result_v <- mkReg(unpack(0));
   Reg#(Vector#(768, BF16)) sa_result_r <- mkReg(unpack(0));
@@ -89,6 +91,11 @@ module mkCOP(COP_Ifc);
   Reg#(Bit#(6)) sa1_input_chunk_idx <- mkReg(0); // 48 input chunks
   Reg#(Bit#(4)) sa1_output_row_idx <- mkReg(0); // 12 output rows
 
+  Reg#(Bit#(4)) sa1_weight_matrix_idx <- mkReg(0); // 0-15 for rows
+  Reg#(Bit#(4)) sa1_weight_col_idx <- mkReg(0);
+  Reg#(Bool) sa1_weight_batch_requested <- mkReg(False);
+  Reg#(Bool) sa1_weight_batch_ready <- mkReg(False);
+
   Reg#(SA_State) sa1_state <- mkReg(SA_Idle);
   Reg#(Bool) sa1_weights_ready <- mkReg(False);
   Reg#(Bool) sa1_processing_complete <- mkReg(False);
@@ -99,6 +106,11 @@ module mkCOP(COP_Ifc);
   Reg#(Vector#(16, BF16)) sa2_accumulator <- mkReg(unpack(0));
   Reg#(Bit#(4)) sa2_input_chunk_idx <- mkReg(0); // 12 input chunks
   Reg#(Bit#(6)) sa2_output_row_idx <- mkReg(0); // 48 output rows
+
+  Reg#(Bit#(4)) sa2_weight_matrix_idx <- mkReg(0);
+  Reg#(Bit#(4)) sa2_weight_col_idx <- mkReg(0);
+  Reg#(Bool) sa2_weight_batch_requested <- mkReg(False);
+  Reg#(Bool) sa2_weight_batch_ready <- mkReg(False);
 
   Reg#(SA_State) sa2_state <- mkReg(SA_Idle);
   Reg#(Bool) sa2_weights_ready <- mkReg(False);
@@ -660,7 +672,39 @@ module mkCOP(COP_Ifc);
     $display("[Cycle %0d] SIMD: ALL SIMD COMPUTATION DONE", cycle_count);
   endrule
 
-  // ========== SA1 
+  // ========== SA1
+  rule sa1_prefetch_weights(sa1_state == SA_WaitWeights && !sa1_weights_ready);
+    weight_loader.start();
+    sa1_weight_batch_requested <= True;
+    $display("[Cycle %0d] SA1: Prefetching weight batch %0d", cycle_count, weight_batch_counter);
+  endrule
+
+  rule sa1_collect_weight_batch (sa1_weight_batch_requested && !sa1_weight_batch_ready);
+    let batch = weight_loader.get_res();
+    weight_loader.done_ack();
+    weight_buffer <= batch;
+    sa1_weight_batch_ready <= True;
+    sa1_weight_batch_requested <= False;
+    $display("[Cycle %0d] SA1: Weight batch %0d ready", cycle_count, weight_batch_counter);
+    weight_batch_counter <= weight_batch_counter + 1;
+  endrule
+
+  rule sa1_load_weights_from_bram (sa1_state == SA_WaitWeights && sa1_weight_batch_ready && !sa1_weights_ready);
+    Vector#(16, Vector#(16, BF16)) w = newVector();
+
+    for (Integer row = 0; row < 16; row = row + 1) begin
+      for (Integer col = 0; col < 16; col = col + 1) begin
+        Bit#(8) idx = fromInteger(row * 16 + col);
+        w[row][col] = toBF16(weight_buffer[idx]);
+      end
+    end
+
+    sa.load_weights(w);
+    sa1_weights_ready <= True;
+    sa1_weight_batch_ready <= False;
+    $display("[Cycle %0d] SA1: Loaded 16x16 weights batch %0d to SA", cycle_count, weight_batch_counter);
+  endrule
+
   rule sa1_load_activations (sa1_state == SA_WaitWeights && sa1_weights_ready && !sa1_started);
     Bit#(10) start_idx = zeroExtend(sa1_input_chunk_idx) << 4;
 
@@ -695,12 +739,13 @@ module mkCOP(COP_Ifc);
                 cycle_count, sa1_output_row_idx);
     end else begin
       sa1_input_chunk_idx <= sa1_input_chunk_idx + 1;
+      sa1_weight_batch_requested <= False;
+      sa1_weight_batch_ready <= False;
       sa1_weights_ready <= False;
       sa1_started <= False;
       sa1_state <= SA_WaitWeights;
     end
   endrule
-
 
   rule sa1_row_done (sa1_state == SA_RowDone);
     Vector#(192, BF16) temp_output = sa1_final_output;
@@ -742,7 +787,39 @@ module mkCOP(COP_Ifc);
     $display("[Cycle %0d] COP: Starting SA 2", cycle_count);
   endrule
 
-  // ========== SA2 
+  // ========== SA2
+  rule sa2_prefetch_weights (sa2_state == SA_WaitWeights && !sa2_weights_ready);
+    weight_loader.start();
+    sa2_weight_batch_requested <= True;
+    $display("[Cycle %0d] SA2: Prefetching weight batch %0d", cycle_count, weight_batch_counter);
+  endrule
+
+  rule sa2_collect_weight_batch (sa2_weight_batch_requested && !sa2_weight_batch_ready);
+    let batch = weight_loader.get_res();
+    weight_loader.done_ack();
+    weight_buffer <= batch;
+    sa2_weight_batch_ready <= True;
+    sa2_weight_batch_requested <= False;
+    $display("[Cycle %0d] SA2: Weight batch %0d ready", cycle_count, weight_batch_counter);
+    weight_batch_counter <= weight_batch_counter + 1;
+  endrule
+
+  rule sa2_load_weights_from_bram (sa2_state == SA_WaitWeights && sa2_weight_batch_ready && !sa2_weights_ready);
+    Vector#(16, Vector#(16, BF16)) w = newVector();
+
+    for (Integer row = 0; row < 16; row = row + 1) begin
+      for (Integer col = 0; col < 16; col = col + 1) begin
+        Bit#(8) idx = fromInteger(row * 16 + col);
+        w[row][col] = toBF16(weight_buffer[idx]);
+      end
+    end
+
+    sa.load_weights(w);
+    sa2_weights_ready <= True;
+    sa2_weight_batch_ready <= False;
+    $display("[Cycle %0d] SA2: Loaded 16x16 weights batch %0d to SA", cycle_count, weight_batch_counter);
+  endrule
+
   rule sa2_load_activations (sa2_state == SA_WaitWeights && sa2_weights_ready && !sa2_started);
     Bit#(8) start_idx = zeroExtend(sa2_input_chunk_idx) << 4;
 
@@ -778,6 +855,8 @@ module mkCOP(COP_Ifc);
                 cycle_count, sa2_output_row_idx);
     end else begin
       sa2_input_chunk_idx <= sa2_input_chunk_idx + 1;
+      sa2_weight_batch_requested <= False;
+      sa2_weight_batch_ready <= False;
       sa2_weights_ready <= False;
       sa2_started <= False;
       sa2_state <= SA_WaitWeights;
@@ -866,20 +945,6 @@ module mkCOP(COP_Ifc);
 
   method Vector#(768, BF16) get_result_k() if (state == Done);
     return simd_result_k;
-  endmethod
-
-  method Action load_sa1_weights(Vector#(16, Vector#(16, BF16)) w) if (sa1_state == SA_WaitWeights && !sa1_weights_ready);
-    sa.load_weights(w);
-    sa1_weights_ready <= True;
-    $display("[Cycle %0d] COP: Loaded SA1 weights for row_group=%0d, input_chunk=%0d", 
-              cycle_count, sa1_output_row_idx, sa1_input_chunk_idx);
-  endmethod
-
-  method Action load_sa2_weights(Vector#(16, Vector#(16, BF16)) w) if (sa2_state == SA_WaitWeights && !sa2_weights_ready);
-    sa.load_weights(w);
-    sa2_weights_ready <= True;
-    $display("[Cycle %0d] COP: Loaded SA2 weights for row_group=%0d, input_chunk=%0d", 
-              cycle_count, sa2_output_row_idx, sa2_input_chunk_idx);
   endmethod
 
   //method Bool computation_done() = results_ready;
