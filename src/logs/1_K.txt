@@ -1,0 +1,55 @@
+[Cycle 5] COP_BRAM: Starting computation
+[Cycle 5] Testbench: Started COP computation
+[Cycle 9] COP_BRAM: BRAMs initialized and ready
+[Cycle 10] COP_BRAM: Loading K chunk 0, issued read addr 0
+[Cycle 266] COP_BRAM: K chunk 0 loaded, starting SIMD
+[Cycle 267] Starting computation on pipeline module
+[Cycle 267] COP_BRAM: K chunk 0 sent to SIMD pipeline
+[Cycle 268] All 4 SIMD lanes dispatched in PARALLEL
+[Cycle 334] All SIMD modules completed. Total computation cycles: 67
+[Cycle 335] COP_BRAM: K chunk 0 complete
+[Cycle 335] Pipeline auto-reset to Idle (ready for next computation)
+[Cycle 336] COP_BRAM: Loading K chunk 1, issued read addr 256
+[Cycle 592] COP_BRAM: K chunk 1 loaded, starting SIMD
+[Cycle 593] Starting computation on pipeline module
+[Cycle 593] COP_BRAM: K chunk 1 sent to SIMD pipeline
+[Cycle 594] All 4 SIMD lanes dispatched in PARALLEL
+[Cycle 660] All SIMD modules completed. Total computation cycles: 67
+[Cycle 661] COP_BRAM: K chunk 1 complete
+[Cycle 661] Pipeline auto-reset to Idle (ready for next computation)
+[Cycle 662] COP_BRAM: Loading K chunk 2, issued read addr 512
+[Cycle 918] COP_BRAM: K chunk 2 loaded, starting SIMD
+[Cycle 919] Starting computation on pipeline module
+[Cycle 919] COP_BRAM: K chunk 2 sent to SIMD pipeline
+[Cycle 920] All 4 SIMD lanes dispatched in PARALLEL
+[Cycle 986] All SIMD modules completed. Total computation cycles: 67
+[Cycle 987] COP_BRAM: K operation complete, moving to V
+[Cycle 987] Pipeline auto-reset to Idle (ready for next computation)
+
+[Cycle 988] ========== COMPUTATION COMPLETE ==========
+
+=== K Results (First 10) ===
+result_k[0] = 0x4939
+result_k[1] = 0x49a2
+result_k[2] = 0x4982
+result_k[3] = 0x4806
+result_k[4] = 0x4943
+result_k[5] = 0x46dd
+result_k[6] = 0x46fa
+result_k[7] = 0x4961
+result_k[8] = 0x48a2
+result_k[9] = 0x49c5
+
+=== K Results (Last 10) ===
+result_k[758] = 0x499d
+result_k[759] = 0x48bb
+result_k[760] = 0x496f
+result_k[761] = 0x4859
+result_k[762] = 0x48e6
+result_k[763] = 0x4993
+result_k[764] = 0x470a
+result_k[765] = 0x489d
+result_k[766] = 0x48f0
+result_k[767] = 0x4928
+
+[Cycle 988] Testbench: Finishing simulation

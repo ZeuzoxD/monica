@@ -1,0 +1,1835 @@
+[Cycle 5] COP: Starting computation
+[Cycle 5] Testbench: Started COP computation
+[Cycle 9] COP: BRAMs initialized and ready
+[Cycle 10] COP: Loading K chunk 0, issued read addr 0
+[Cycle 266] COP: K chunk 0 loaded, starting SIMD
+[Cycle 267] Starting computation on pipeline module
+[Cycle 267] COP: K chunk 0 sent to SIMD pipeline
+[Cycle 268] All 4 SIMD lanes dispatched in PARALLEL
+[Cycle 334] All SIMD modules completed. Total computation cycles: 67
+[Cycle 335] COP: K chunk 0 complete
+[Cycle 335] Pipeline auto-reset to Idle (ready for next computation)
+[Cycle 336] COP: Loading K chunk 1, issued read addr 256
+[Cycle 592] COP: K chunk 1 loaded, starting SIMD
+[Cycle 593] Starting computation on pipeline module
+[Cycle 593] COP: K chunk 1 sent to SIMD pipeline
+[Cycle 594] All 4 SIMD lanes dispatched in PARALLEL
+[Cycle 660] All SIMD modules completed. Total computation cycles: 67
+[Cycle 661] COP: K chunk 1 complete
+[Cycle 661] Pipeline auto-reset to Idle (ready for next computation)
+[Cycle 662] COP: Loading K chunk 2, issued read addr 512
+[Cycle 918] COP: K chunk 2 loaded, starting SIMD
+[Cycle 919] Starting computation on pipeline module
+[Cycle 919] COP: K chunk 2 sent to SIMD pipeline
+[Cycle 920] All 4 SIMD lanes dispatched in PARALLEL
+[Cycle 986] All SIMD modules completed. Total computation cycles: 67
+[Cycle 987] COP: K operation complete, moving to V
+[Cycle 987] COP: Starting SA 1
+[Cycle 987] Pipeline auto-reset to Idle (ready for next computation)
+[Cycle 988] COP: Loaded SA1 weights for row_group=0, input_chunk=0
+[Cycle 988] TB: SA1 Starting row_group=0 (weights 0-47)
+[Cycle 989] SA1: Row_group=0, Input_chunk=0/48, Elements[0:15]
+[Cycle 1022] SA1: Row_group=0, Input_chunk=0 done, accumulated
+[Cycle 1023] COP: Loaded SA1 weights for row_group=0, input_chunk=1
+[Cycle 1024] SA1: Row_group=0, Input_chunk=1/48, Elements[16:31]
+[Cycle 1057] SA1: Row_group=0, Input_chunk=1 done, accumulated
+[Cycle 1058] COP: Loaded SA1 weights for row_group=0, input_chunk=2
+[Cycle 1059] SA1: Row_group=0, Input_chunk=2/48, Elements[32:47]
+[Cycle 1092] SA1: Row_group=0, Input_chunk=2 done, accumulated
+[Cycle 1093] COP: Loaded SA1 weights for row_group=0, input_chunk=3
+[Cycle 1094] SA1: Row_group=0, Input_chunk=3/48, Elements[48:63]
+[Cycle 1127] SA1: Row_group=0, Input_chunk=3 done, accumulated
+[Cycle 1128] COP: Loaded SA1 weights for row_group=0, input_chunk=4
+[Cycle 1129] SA1: Row_group=0, Input_chunk=4/48, Elements[64:79]
+[Cycle 1162] SA1: Row_group=0, Input_chunk=4 done, accumulated
+[Cycle 1163] COP: Loaded SA1 weights for row_group=0, input_chunk=5
+[Cycle 1164] SA1: Row_group=0, Input_chunk=5/48, Elements[80:95]
+[Cycle 1197] SA1: Row_group=0, Input_chunk=5 done, accumulated
+[Cycle 1198] COP: Loaded SA1 weights for row_group=0, input_chunk=6
+[Cycle 1199] SA1: Row_group=0, Input_chunk=6/48, Elements[96:111]
+[Cycle 1232] SA1: Row_group=0, Input_chunk=6 done, accumulated
+[Cycle 1233] COP: Loaded SA1 weights for row_group=0, input_chunk=7
+[Cycle 1234] SA1: Row_group=0, Input_chunk=7/48, Elements[112:127]
+[Cycle 1267] SA1: Row_group=0, Input_chunk=7 done, accumulated
+[Cycle 1268] COP: Loaded SA1 weights for row_group=0, input_chunk=8
+[Cycle 1269] SA1: Row_group=0, Input_chunk=8/48, Elements[128:143]
+[Cycle 1302] SA1: Row_group=0, Input_chunk=8 done, accumulated
+[Cycle 1303] COP: Loaded SA1 weights for row_group=0, input_chunk=9
+[Cycle 1304] SA1: Row_group=0, Input_chunk=9/48, Elements[144:159]
+[Cycle 1337] SA1: Row_group=0, Input_chunk=9 done, accumulated
+[Cycle 1338] COP: Loaded SA1 weights for row_group=0, input_chunk=10
+[Cycle 1339] SA1: Row_group=0, Input_chunk=10/48, Elements[160:175]
+[Cycle 1372] SA1: Row_group=0, Input_chunk=10 done, accumulated
+[Cycle 1373] COP: Loaded SA1 weights for row_group=0, input_chunk=11
+[Cycle 1374] SA1: Row_group=0, Input_chunk=11/48, Elements[176:191]
+[Cycle 1407] SA1: Row_group=0, Input_chunk=11 done, accumulated
+[Cycle 1408] COP: Loaded SA1 weights for row_group=0, input_chunk=12
+[Cycle 1409] SA1: Row_group=0, Input_chunk=12/48, Elements[192:207]
+[Cycle 1442] SA1: Row_group=0, Input_chunk=12 done, accumulated
+[Cycle 1443] COP: Loaded SA1 weights for row_group=0, input_chunk=13
+[Cycle 1444] SA1: Row_group=0, Input_chunk=13/48, Elements[208:223]
+[Cycle 1477] SA1: Row_group=0, Input_chunk=13 done, accumulated
+[Cycle 1478] COP: Loaded SA1 weights for row_group=0, input_chunk=14
+[Cycle 1479] SA1: Row_group=0, Input_chunk=14/48, Elements[224:239]
+[Cycle 1512] SA1: Row_group=0, Input_chunk=14 done, accumulated
+[Cycle 1513] COP: Loaded SA1 weights for row_group=0, input_chunk=15
+[Cycle 1514] SA1: Row_group=0, Input_chunk=15/48, Elements[240:255]
+[Cycle 1547] SA1: Row_group=0, Input_chunk=15 done, accumulated
+[Cycle 1548] COP: Loaded SA1 weights for row_group=0, input_chunk=16
+[Cycle 1549] SA1: Row_group=0, Input_chunk=16/48, Elements[256:271]
+[Cycle 1582] SA1: Row_group=0, Input_chunk=16 done, accumulated
+[Cycle 1583] COP: Loaded SA1 weights for row_group=0, input_chunk=17
+[Cycle 1584] SA1: Row_group=0, Input_chunk=17/48, Elements[272:287]
+[Cycle 1617] SA1: Row_group=0, Input_chunk=17 done, accumulated
+[Cycle 1618] COP: Loaded SA1 weights for row_group=0, input_chunk=18
+[Cycle 1619] SA1: Row_group=0, Input_chunk=18/48, Elements[288:303]
+[Cycle 1652] SA1: Row_group=0, Input_chunk=18 done, accumulated
+[Cycle 1653] COP: Loaded SA1 weights for row_group=0, input_chunk=19
+[Cycle 1654] SA1: Row_group=0, Input_chunk=19/48, Elements[304:319]
+[Cycle 1687] SA1: Row_group=0, Input_chunk=19 done, accumulated
+[Cycle 1688] COP: Loaded SA1 weights for row_group=0, input_chunk=20
+[Cycle 1689] SA1: Row_group=0, Input_chunk=20/48, Elements[320:335]
+[Cycle 1722] SA1: Row_group=0, Input_chunk=20 done, accumulated
+[Cycle 1723] COP: Loaded SA1 weights for row_group=0, input_chunk=21
+[Cycle 1724] SA1: Row_group=0, Input_chunk=21/48, Elements[336:351]
+[Cycle 1757] SA1: Row_group=0, Input_chunk=21 done, accumulated
+[Cycle 1758] COP: Loaded SA1 weights for row_group=0, input_chunk=22
+[Cycle 1759] SA1: Row_group=0, Input_chunk=22/48, Elements[352:367]
+[Cycle 1792] SA1: Row_group=0, Input_chunk=22 done, accumulated
+[Cycle 1793] COP: Loaded SA1 weights for row_group=0, input_chunk=23
+[Cycle 1794] SA1: Row_group=0, Input_chunk=23/48, Elements[368:383]
+[Cycle 1827] SA1: Row_group=0, Input_chunk=23 done, accumulated
+[Cycle 1828] COP: Loaded SA1 weights for row_group=0, input_chunk=24
+[Cycle 1829] SA1: Row_group=0, Input_chunk=24/48, Elements[384:399]
+[Cycle 1862] SA1: Row_group=0, Input_chunk=24 done, accumulated
+[Cycle 1863] COP: Loaded SA1 weights for row_group=0, input_chunk=25
+[Cycle 1864] SA1: Row_group=0, Input_chunk=25/48, Elements[400:415]
+[Cycle 1897] SA1: Row_group=0, Input_chunk=25 done, accumulated
+[Cycle 1898] COP: Loaded SA1 weights for row_group=0, input_chunk=26
+[Cycle 1899] SA1: Row_group=0, Input_chunk=26/48, Elements[416:431]
+[Cycle 1932] SA1: Row_group=0, Input_chunk=26 done, accumulated
+[Cycle 1933] COP: Loaded SA1 weights for row_group=0, input_chunk=27
+[Cycle 1934] SA1: Row_group=0, Input_chunk=27/48, Elements[432:447]
+[Cycle 1967] SA1: Row_group=0, Input_chunk=27 done, accumulated
+[Cycle 1968] COP: Loaded SA1 weights for row_group=0, input_chunk=28
+[Cycle 1969] SA1: Row_group=0, Input_chunk=28/48, Elements[448:463]
+[Cycle 2002] SA1: Row_group=0, Input_chunk=28 done, accumulated
+[Cycle 2003] COP: Loaded SA1 weights for row_group=0, input_chunk=29
+[Cycle 2004] SA1: Row_group=0, Input_chunk=29/48, Elements[464:479]
+[Cycle 2037] SA1: Row_group=0, Input_chunk=29 done, accumulated
+[Cycle 2038] COP: Loaded SA1 weights for row_group=0, input_chunk=30
+[Cycle 2039] SA1: Row_group=0, Input_chunk=30/48, Elements[480:495]
+[Cycle 2072] SA1: Row_group=0, Input_chunk=30 done, accumulated
+[Cycle 2073] COP: Loaded SA1 weights for row_group=0, input_chunk=31
+[Cycle 2074] SA1: Row_group=0, Input_chunk=31/48, Elements[496:511]
+[Cycle 2107] SA1: Row_group=0, Input_chunk=31 done, accumulated
+[Cycle 2108] COP: Loaded SA1 weights for row_group=0, input_chunk=32
+[Cycle 2109] SA1: Row_group=0, Input_chunk=32/48, Elements[512:527]
+[Cycle 2142] SA1: Row_group=0, Input_chunk=32 done, accumulated
+[Cycle 2143] COP: Loaded SA1 weights for row_group=0, input_chunk=33
+[Cycle 2144] SA1: Row_group=0, Input_chunk=33/48, Elements[528:543]
+[Cycle 2177] SA1: Row_group=0, Input_chunk=33 done, accumulated
+[Cycle 2178] COP: Loaded SA1 weights for row_group=0, input_chunk=34
+[Cycle 2179] SA1: Row_group=0, Input_chunk=34/48, Elements[544:559]
+[Cycle 2212] SA1: Row_group=0, Input_chunk=34 done, accumulated
+[Cycle 2213] COP: Loaded SA1 weights for row_group=0, input_chunk=35
+[Cycle 2214] SA1: Row_group=0, Input_chunk=35/48, Elements[560:575]
+[Cycle 2247] SA1: Row_group=0, Input_chunk=35 done, accumulated
+[Cycle 2248] COP: Loaded SA1 weights for row_group=0, input_chunk=36
+[Cycle 2249] SA1: Row_group=0, Input_chunk=36/48, Elements[576:591]
+[Cycle 2282] SA1: Row_group=0, Input_chunk=36 done, accumulated
+[Cycle 2283] COP: Loaded SA1 weights for row_group=0, input_chunk=37
+[Cycle 2284] SA1: Row_group=0, Input_chunk=37/48, Elements[592:607]
+[Cycle 2317] SA1: Row_group=0, Input_chunk=37 done, accumulated
+[Cycle 2318] COP: Loaded SA1 weights for row_group=0, input_chunk=38
+[Cycle 2319] SA1: Row_group=0, Input_chunk=38/48, Elements[608:623]
+[Cycle 2352] SA1: Row_group=0, Input_chunk=38 done, accumulated
+[Cycle 2353] COP: Loaded SA1 weights for row_group=0, input_chunk=39
+[Cycle 2354] SA1: Row_group=0, Input_chunk=39/48, Elements[624:639]
+[Cycle 2387] SA1: Row_group=0, Input_chunk=39 done, accumulated
+[Cycle 2388] COP: Loaded SA1 weights for row_group=0, input_chunk=40
+[Cycle 2389] SA1: Row_group=0, Input_chunk=40/48, Elements[640:655]
+[Cycle 2422] SA1: Row_group=0, Input_chunk=40 done, accumulated
+[Cycle 2423] COP: Loaded SA1 weights for row_group=0, input_chunk=41
+[Cycle 2424] SA1: Row_group=0, Input_chunk=41/48, Elements[656:671]
+[Cycle 2457] SA1: Row_group=0, Input_chunk=41 done, accumulated
+[Cycle 2458] COP: Loaded SA1 weights for row_group=0, input_chunk=42
+[Cycle 2459] SA1: Row_group=0, Input_chunk=42/48, Elements[672:687]
+[Cycle 2492] SA1: Row_group=0, Input_chunk=42 done, accumulated
+[Cycle 2493] COP: Loaded SA1 weights for row_group=0, input_chunk=43
+[Cycle 2494] SA1: Row_group=0, Input_chunk=43/48, Elements[688:703]
+[Cycle 2527] SA1: Row_group=0, Input_chunk=43 done, accumulated
+[Cycle 2528] COP: Loaded SA1 weights for row_group=0, input_chunk=44
+[Cycle 2529] SA1: Row_group=0, Input_chunk=44/48, Elements[704:719]
+[Cycle 2562] SA1: Row_group=0, Input_chunk=44 done, accumulated
+[Cycle 2563] COP: Loaded SA1 weights for row_group=0, input_chunk=45
+[Cycle 2564] SA1: Row_group=0, Input_chunk=45/48, Elements[720:735]
+[Cycle 2597] SA1: Row_group=0, Input_chunk=45 done, accumulated
+[Cycle 2598] COP: Loaded SA1 weights for row_group=0, input_chunk=46
+[Cycle 2599] SA1: Row_group=0, Input_chunk=46/48, Elements[736:751]
+[Cycle 2632] SA1: Row_group=0, Input_chunk=46 done, accumulated
+[Cycle 2633] COP: Loaded SA1 weights for row_group=0, input_chunk=47
+[Cycle 2633] TB: *** SA1 Row group 0 COMPLETE *** (loaded 48/576 weight matrices)
+[Cycle 2634] SA1: Row_group=0, Input_chunk=47/48, Elements[752:767]
+[Cycle 2667] SA1: Row_group=0, Input_chunk=47 done, accumulated
+[Cycle 2667] SA1: Row_group=0 COMPLETE (all 48 chunks accumulated)
+[Cycle 2668] SA1: Stored row_group=0 outputs [0:15]
+[Cycle 2669] COP: Loaded SA1 weights for row_group=1, input_chunk=0
+[Cycle 2669] TB: SA1 Starting row_group=1 (weights 48-95)
+[Cycle 2670] SA1: Row_group=1, Input_chunk=0/48, Elements[0:15]
+[Cycle 2703] SA1: Row_group=1, Input_chunk=0 done, accumulated
+[Cycle 2704] COP: Loaded SA1 weights for row_group=1, input_chunk=1
+[Cycle 2705] SA1: Row_group=1, Input_chunk=1/48, Elements[16:31]
+[Cycle 2738] SA1: Row_group=1, Input_chunk=1 done, accumulated
+[Cycle 2739] COP: Loaded SA1 weights for row_group=1, input_chunk=2
+[Cycle 2740] SA1: Row_group=1, Input_chunk=2/48, Elements[32:47]
+[Cycle 2773] SA1: Row_group=1, Input_chunk=2 done, accumulated
+[Cycle 2774] COP: Loaded SA1 weights for row_group=1, input_chunk=3
+[Cycle 2775] SA1: Row_group=1, Input_chunk=3/48, Elements[48:63]
+[Cycle 2808] SA1: Row_group=1, Input_chunk=3 done, accumulated
+[Cycle 2809] COP: Loaded SA1 weights for row_group=1, input_chunk=4
+[Cycle 2810] SA1: Row_group=1, Input_chunk=4/48, Elements[64:79]
+[Cycle 2843] SA1: Row_group=1, Input_chunk=4 done, accumulated
+[Cycle 2844] COP: Loaded SA1 weights for row_group=1, input_chunk=5
+[Cycle 2845] SA1: Row_group=1, Input_chunk=5/48, Elements[80:95]
+[Cycle 2878] SA1: Row_group=1, Input_chunk=5 done, accumulated
+[Cycle 2879] COP: Loaded SA1 weights for row_group=1, input_chunk=6
+[Cycle 2880] SA1: Row_group=1, Input_chunk=6/48, Elements[96:111]
+[Cycle 2913] SA1: Row_group=1, Input_chunk=6 done, accumulated
+[Cycle 2914] COP: Loaded SA1 weights for row_group=1, input_chunk=7
+[Cycle 2915] SA1: Row_group=1, Input_chunk=7/48, Elements[112:127]
+[Cycle 2948] SA1: Row_group=1, Input_chunk=7 done, accumulated
+[Cycle 2949] COP: Loaded SA1 weights for row_group=1, input_chunk=8
+[Cycle 2950] SA1: Row_group=1, Input_chunk=8/48, Elements[128:143]
+[Cycle 2983] SA1: Row_group=1, Input_chunk=8 done, accumulated
+[Cycle 2984] COP: Loaded SA1 weights for row_group=1, input_chunk=9
+[Cycle 2985] SA1: Row_group=1, Input_chunk=9/48, Elements[144:159]
+[Cycle 3018] SA1: Row_group=1, Input_chunk=9 done, accumulated
+[Cycle 3019] COP: Loaded SA1 weights for row_group=1, input_chunk=10
+[Cycle 3020] SA1: Row_group=1, Input_chunk=10/48, Elements[160:175]
+[Cycle 3053] SA1: Row_group=1, Input_chunk=10 done, accumulated
+[Cycle 3054] COP: Loaded SA1 weights for row_group=1, input_chunk=11
+[Cycle 3055] SA1: Row_group=1, Input_chunk=11/48, Elements[176:191]
+[Cycle 3088] SA1: Row_group=1, Input_chunk=11 done, accumulated
+[Cycle 3089] COP: Loaded SA1 weights for row_group=1, input_chunk=12
+[Cycle 3090] SA1: Row_group=1, Input_chunk=12/48, Elements[192:207]
+[Cycle 3123] SA1: Row_group=1, Input_chunk=12 done, accumulated
+[Cycle 3124] COP: Loaded SA1 weights for row_group=1, input_chunk=13
+[Cycle 3125] SA1: Row_group=1, Input_chunk=13/48, Elements[208:223]
+[Cycle 3158] SA1: Row_group=1, Input_chunk=13 done, accumulated
+[Cycle 3159] COP: Loaded SA1 weights for row_group=1, input_chunk=14
+[Cycle 3160] SA1: Row_group=1, Input_chunk=14/48, Elements[224:239]
+[Cycle 3193] SA1: Row_group=1, Input_chunk=14 done, accumulated
+[Cycle 3194] COP: Loaded SA1 weights for row_group=1, input_chunk=15
+[Cycle 3195] SA1: Row_group=1, Input_chunk=15/48, Elements[240:255]
+[Cycle 3228] SA1: Row_group=1, Input_chunk=15 done, accumulated
+[Cycle 3229] COP: Loaded SA1 weights for row_group=1, input_chunk=16
+[Cycle 3230] SA1: Row_group=1, Input_chunk=16/48, Elements[256:271]
+[Cycle 3263] SA1: Row_group=1, Input_chunk=16 done, accumulated
+[Cycle 3264] COP: Loaded SA1 weights for row_group=1, input_chunk=17
+[Cycle 3265] SA1: Row_group=1, Input_chunk=17/48, Elements[272:287]
+[Cycle 3298] SA1: Row_group=1, Input_chunk=17 done, accumulated
+[Cycle 3299] COP: Loaded SA1 weights for row_group=1, input_chunk=18
+[Cycle 3300] SA1: Row_group=1, Input_chunk=18/48, Elements[288:303]
+[Cycle 3333] SA1: Row_group=1, Input_chunk=18 done, accumulated
+[Cycle 3334] COP: Loaded SA1 weights for row_group=1, input_chunk=19
+[Cycle 3335] SA1: Row_group=1, Input_chunk=19/48, Elements[304:319]
+[Cycle 3368] SA1: Row_group=1, Input_chunk=19 done, accumulated
+[Cycle 3369] COP: Loaded SA1 weights for row_group=1, input_chunk=20
+[Cycle 3370] SA1: Row_group=1, Input_chunk=20/48, Elements[320:335]
+[Cycle 3403] SA1: Row_group=1, Input_chunk=20 done, accumulated
+[Cycle 3404] COP: Loaded SA1 weights for row_group=1, input_chunk=21
+[Cycle 3405] SA1: Row_group=1, Input_chunk=21/48, Elements[336:351]
+[Cycle 3438] SA1: Row_group=1, Input_chunk=21 done, accumulated
+[Cycle 3439] COP: Loaded SA1 weights for row_group=1, input_chunk=22
+[Cycle 3440] SA1: Row_group=1, Input_chunk=22/48, Elements[352:367]
+[Cycle 3473] SA1: Row_group=1, Input_chunk=22 done, accumulated
+[Cycle 3474] COP: Loaded SA1 weights for row_group=1, input_chunk=23
+[Cycle 3475] SA1: Row_group=1, Input_chunk=23/48, Elements[368:383]
+[Cycle 3508] SA1: Row_group=1, Input_chunk=23 done, accumulated
+[Cycle 3509] COP: Loaded SA1 weights for row_group=1, input_chunk=24
+[Cycle 3510] SA1: Row_group=1, Input_chunk=24/48, Elements[384:399]
+[Cycle 3543] SA1: Row_group=1, Input_chunk=24 done, accumulated
+[Cycle 3544] COP: Loaded SA1 weights for row_group=1, input_chunk=25
+[Cycle 3545] SA1: Row_group=1, Input_chunk=25/48, Elements[400:415]
+[Cycle 3578] SA1: Row_group=1, Input_chunk=25 done, accumulated
+[Cycle 3579] COP: Loaded SA1 weights for row_group=1, input_chunk=26
+[Cycle 3580] SA1: Row_group=1, Input_chunk=26/48, Elements[416:431]
+[Cycle 3613] SA1: Row_group=1, Input_chunk=26 done, accumulated
+[Cycle 3614] COP: Loaded SA1 weights for row_group=1, input_chunk=27
+[Cycle 3615] SA1: Row_group=1, Input_chunk=27/48, Elements[432:447]
+[Cycle 3648] SA1: Row_group=1, Input_chunk=27 done, accumulated
+[Cycle 3649] COP: Loaded SA1 weights for row_group=1, input_chunk=28
+[Cycle 3650] SA1: Row_group=1, Input_chunk=28/48, Elements[448:463]
+[Cycle 3683] SA1: Row_group=1, Input_chunk=28 done, accumulated
+[Cycle 3684] COP: Loaded SA1 weights for row_group=1, input_chunk=29
+[Cycle 3685] SA1: Row_group=1, Input_chunk=29/48, Elements[464:479]
+[Cycle 3718] SA1: Row_group=1, Input_chunk=29 done, accumulated
+[Cycle 3719] COP: Loaded SA1 weights for row_group=1, input_chunk=30
+[Cycle 3720] SA1: Row_group=1, Input_chunk=30/48, Elements[480:495]
+[Cycle 3753] SA1: Row_group=1, Input_chunk=30 done, accumulated
+[Cycle 3754] COP: Loaded SA1 weights for row_group=1, input_chunk=31
+[Cycle 3755] SA1: Row_group=1, Input_chunk=31/48, Elements[496:511]
+[Cycle 3788] SA1: Row_group=1, Input_chunk=31 done, accumulated
+[Cycle 3789] COP: Loaded SA1 weights for row_group=1, input_chunk=32
+[Cycle 3790] SA1: Row_group=1, Input_chunk=32/48, Elements[512:527]
+[Cycle 3823] SA1: Row_group=1, Input_chunk=32 done, accumulated
+[Cycle 3824] COP: Loaded SA1 weights for row_group=1, input_chunk=33
+[Cycle 3825] SA1: Row_group=1, Input_chunk=33/48, Elements[528:543]
+[Cycle 3858] SA1: Row_group=1, Input_chunk=33 done, accumulated
+[Cycle 3859] COP: Loaded SA1 weights for row_group=1, input_chunk=34
+[Cycle 3860] SA1: Row_group=1, Input_chunk=34/48, Elements[544:559]
+[Cycle 3893] SA1: Row_group=1, Input_chunk=34 done, accumulated
+[Cycle 3894] COP: Loaded SA1 weights for row_group=1, input_chunk=35
+[Cycle 3895] SA1: Row_group=1, Input_chunk=35/48, Elements[560:575]
+[Cycle 3928] SA1: Row_group=1, Input_chunk=35 done, accumulated
+[Cycle 3929] COP: Loaded SA1 weights for row_group=1, input_chunk=36
+[Cycle 3930] SA1: Row_group=1, Input_chunk=36/48, Elements[576:591]
+[Cycle 3963] SA1: Row_group=1, Input_chunk=36 done, accumulated
+[Cycle 3964] COP: Loaded SA1 weights for row_group=1, input_chunk=37
+[Cycle 3965] SA1: Row_group=1, Input_chunk=37/48, Elements[592:607]
+[Cycle 3998] SA1: Row_group=1, Input_chunk=37 done, accumulated
+[Cycle 3999] COP: Loaded SA1 weights for row_group=1, input_chunk=38
+[Cycle 4000] SA1: Row_group=1, Input_chunk=38/48, Elements[608:623]
+[Cycle 4033] SA1: Row_group=1, Input_chunk=38 done, accumulated
+[Cycle 4034] COP: Loaded SA1 weights for row_group=1, input_chunk=39
+[Cycle 4035] SA1: Row_group=1, Input_chunk=39/48, Elements[624:639]
+[Cycle 4068] SA1: Row_group=1, Input_chunk=39 done, accumulated
+[Cycle 4069] COP: Loaded SA1 weights for row_group=1, input_chunk=40
+[Cycle 4070] SA1: Row_group=1, Input_chunk=40/48, Elements[640:655]
+[Cycle 4103] SA1: Row_group=1, Input_chunk=40 done, accumulated
+[Cycle 4104] COP: Loaded SA1 weights for row_group=1, input_chunk=41
+[Cycle 4105] SA1: Row_group=1, Input_chunk=41/48, Elements[656:671]
+[Cycle 4138] SA1: Row_group=1, Input_chunk=41 done, accumulated
+[Cycle 4139] COP: Loaded SA1 weights for row_group=1, input_chunk=42
+[Cycle 4140] SA1: Row_group=1, Input_chunk=42/48, Elements[672:687]
+[Cycle 4173] SA1: Row_group=1, Input_chunk=42 done, accumulated
+[Cycle 4174] COP: Loaded SA1 weights for row_group=1, input_chunk=43
+[Cycle 4175] SA1: Row_group=1, Input_chunk=43/48, Elements[688:703]
+[Cycle 4208] SA1: Row_group=1, Input_chunk=43 done, accumulated
+[Cycle 4209] COP: Loaded SA1 weights for row_group=1, input_chunk=44
+[Cycle 4210] SA1: Row_group=1, Input_chunk=44/48, Elements[704:719]
+[Cycle 4243] SA1: Row_group=1, Input_chunk=44 done, accumulated
+[Cycle 4244] COP: Loaded SA1 weights for row_group=1, input_chunk=45
+[Cycle 4245] SA1: Row_group=1, Input_chunk=45/48, Elements[720:735]
+[Cycle 4278] SA1: Row_group=1, Input_chunk=45 done, accumulated
+[Cycle 4279] COP: Loaded SA1 weights for row_group=1, input_chunk=46
+[Cycle 4280] SA1: Row_group=1, Input_chunk=46/48, Elements[736:751]
+[Cycle 4313] SA1: Row_group=1, Input_chunk=46 done, accumulated
+[Cycle 4314] COP: Loaded SA1 weights for row_group=1, input_chunk=47
+[Cycle 4314] TB: *** SA1 Row group 1 COMPLETE *** (loaded 96/576 weight matrices)
+[Cycle 4315] SA1: Row_group=1, Input_chunk=47/48, Elements[752:767]
+[Cycle 4348] SA1: Row_group=1, Input_chunk=47 done, accumulated
+[Cycle 4348] SA1: Row_group=1 COMPLETE (all 48 chunks accumulated)
+[Cycle 4349] SA1: Stored row_group=1 outputs [16:31]
+[Cycle 4350] COP: Loaded SA1 weights for row_group=2, input_chunk=0
+[Cycle 4350] TB: SA1 Starting row_group=2 (weights 96-143)
+[Cycle 4351] SA1: Row_group=2, Input_chunk=0/48, Elements[0:15]
+[Cycle 4384] SA1: Row_group=2, Input_chunk=0 done, accumulated
+[Cycle 4385] COP: Loaded SA1 weights for row_group=2, input_chunk=1
+[Cycle 4386] SA1: Row_group=2, Input_chunk=1/48, Elements[16:31]
+[Cycle 4419] SA1: Row_group=2, Input_chunk=1 done, accumulated
+[Cycle 4420] COP: Loaded SA1 weights for row_group=2, input_chunk=2
+[Cycle 4421] SA1: Row_group=2, Input_chunk=2/48, Elements[32:47]
+[Cycle 4454] SA1: Row_group=2, Input_chunk=2 done, accumulated
+[Cycle 4455] COP: Loaded SA1 weights for row_group=2, input_chunk=3
+[Cycle 4456] SA1: Row_group=2, Input_chunk=3/48, Elements[48:63]
+[Cycle 4489] SA1: Row_group=2, Input_chunk=3 done, accumulated
+[Cycle 4490] COP: Loaded SA1 weights for row_group=2, input_chunk=4
+[Cycle 4491] SA1: Row_group=2, Input_chunk=4/48, Elements[64:79]
+[Cycle 4524] SA1: Row_group=2, Input_chunk=4 done, accumulated
+[Cycle 4525] COP: Loaded SA1 weights for row_group=2, input_chunk=5
+[Cycle 4526] SA1: Row_group=2, Input_chunk=5/48, Elements[80:95]
+[Cycle 4559] SA1: Row_group=2, Input_chunk=5 done, accumulated
+[Cycle 4560] COP: Loaded SA1 weights for row_group=2, input_chunk=6
+[Cycle 4561] SA1: Row_group=2, Input_chunk=6/48, Elements[96:111]
+[Cycle 4594] SA1: Row_group=2, Input_chunk=6 done, accumulated
+[Cycle 4595] COP: Loaded SA1 weights for row_group=2, input_chunk=7
+[Cycle 4596] SA1: Row_group=2, Input_chunk=7/48, Elements[112:127]
+[Cycle 4629] SA1: Row_group=2, Input_chunk=7 done, accumulated
+[Cycle 4630] COP: Loaded SA1 weights for row_group=2, input_chunk=8
+[Cycle 4631] SA1: Row_group=2, Input_chunk=8/48, Elements[128:143]
+[Cycle 4664] SA1: Row_group=2, Input_chunk=8 done, accumulated
+[Cycle 4665] COP: Loaded SA1 weights for row_group=2, input_chunk=9
+[Cycle 4666] SA1: Row_group=2, Input_chunk=9/48, Elements[144:159]
+[Cycle 4699] SA1: Row_group=2, Input_chunk=9 done, accumulated
+[Cycle 4700] COP: Loaded SA1 weights for row_group=2, input_chunk=10
+[Cycle 4701] SA1: Row_group=2, Input_chunk=10/48, Elements[160:175]
+[Cycle 4734] SA1: Row_group=2, Input_chunk=10 done, accumulated
+[Cycle 4735] COP: Loaded SA1 weights for row_group=2, input_chunk=11
+[Cycle 4736] SA1: Row_group=2, Input_chunk=11/48, Elements[176:191]
+[Cycle 4769] SA1: Row_group=2, Input_chunk=11 done, accumulated
+[Cycle 4770] COP: Loaded SA1 weights for row_group=2, input_chunk=12
+[Cycle 4771] SA1: Row_group=2, Input_chunk=12/48, Elements[192:207]
+[Cycle 4804] SA1: Row_group=2, Input_chunk=12 done, accumulated
+[Cycle 4805] COP: Loaded SA1 weights for row_group=2, input_chunk=13
+[Cycle 4806] SA1: Row_group=2, Input_chunk=13/48, Elements[208:223]
+[Cycle 4839] SA1: Row_group=2, Input_chunk=13 done, accumulated
+[Cycle 4840] COP: Loaded SA1 weights for row_group=2, input_chunk=14
+[Cycle 4841] SA1: Row_group=2, Input_chunk=14/48, Elements[224:239]
+[Cycle 4874] SA1: Row_group=2, Input_chunk=14 done, accumulated
+[Cycle 4875] COP: Loaded SA1 weights for row_group=2, input_chunk=15
+[Cycle 4876] SA1: Row_group=2, Input_chunk=15/48, Elements[240:255]
+[Cycle 4909] SA1: Row_group=2, Input_chunk=15 done, accumulated
+[Cycle 4910] COP: Loaded SA1 weights for row_group=2, input_chunk=16
+[Cycle 4911] SA1: Row_group=2, Input_chunk=16/48, Elements[256:271]
+[Cycle 4944] SA1: Row_group=2, Input_chunk=16 done, accumulated
+[Cycle 4945] COP: Loaded SA1 weights for row_group=2, input_chunk=17
+[Cycle 4946] SA1: Row_group=2, Input_chunk=17/48, Elements[272:287]
+[Cycle 4979] SA1: Row_group=2, Input_chunk=17 done, accumulated
+[Cycle 4980] COP: Loaded SA1 weights for row_group=2, input_chunk=18
+[Cycle 4981] SA1: Row_group=2, Input_chunk=18/48, Elements[288:303]
+[Cycle 5014] SA1: Row_group=2, Input_chunk=18 done, accumulated
+[Cycle 5015] COP: Loaded SA1 weights for row_group=2, input_chunk=19
+[Cycle 5016] SA1: Row_group=2, Input_chunk=19/48, Elements[304:319]
+[Cycle 5049] SA1: Row_group=2, Input_chunk=19 done, accumulated
+[Cycle 5050] COP: Loaded SA1 weights for row_group=2, input_chunk=20
+[Cycle 5051] SA1: Row_group=2, Input_chunk=20/48, Elements[320:335]
+[Cycle 5084] SA1: Row_group=2, Input_chunk=20 done, accumulated
+[Cycle 5085] COP: Loaded SA1 weights for row_group=2, input_chunk=21
+[Cycle 5086] SA1: Row_group=2, Input_chunk=21/48, Elements[336:351]
+[Cycle 5119] SA1: Row_group=2, Input_chunk=21 done, accumulated
+[Cycle 5120] COP: Loaded SA1 weights for row_group=2, input_chunk=22
+[Cycle 5121] SA1: Row_group=2, Input_chunk=22/48, Elements[352:367]
+[Cycle 5154] SA1: Row_group=2, Input_chunk=22 done, accumulated
+[Cycle 5155] COP: Loaded SA1 weights for row_group=2, input_chunk=23
+[Cycle 5156] SA1: Row_group=2, Input_chunk=23/48, Elements[368:383]
+[Cycle 5189] SA1: Row_group=2, Input_chunk=23 done, accumulated
+[Cycle 5190] COP: Loaded SA1 weights for row_group=2, input_chunk=24
+[Cycle 5191] SA1: Row_group=2, Input_chunk=24/48, Elements[384:399]
+[Cycle 5224] SA1: Row_group=2, Input_chunk=24 done, accumulated
+[Cycle 5225] COP: Loaded SA1 weights for row_group=2, input_chunk=25
+[Cycle 5226] SA1: Row_group=2, Input_chunk=25/48, Elements[400:415]
+[Cycle 5259] SA1: Row_group=2, Input_chunk=25 done, accumulated
+[Cycle 5260] COP: Loaded SA1 weights for row_group=2, input_chunk=26
+[Cycle 5261] SA1: Row_group=2, Input_chunk=26/48, Elements[416:431]
+[Cycle 5294] SA1: Row_group=2, Input_chunk=26 done, accumulated
+[Cycle 5295] COP: Loaded SA1 weights for row_group=2, input_chunk=27
+[Cycle 5296] SA1: Row_group=2, Input_chunk=27/48, Elements[432:447]
+[Cycle 5329] SA1: Row_group=2, Input_chunk=27 done, accumulated
+[Cycle 5330] COP: Loaded SA1 weights for row_group=2, input_chunk=28
+[Cycle 5331] SA1: Row_group=2, Input_chunk=28/48, Elements[448:463]
+[Cycle 5364] SA1: Row_group=2, Input_chunk=28 done, accumulated
+[Cycle 5365] COP: Loaded SA1 weights for row_group=2, input_chunk=29
+[Cycle 5366] SA1: Row_group=2, Input_chunk=29/48, Elements[464:479]
+[Cycle 5399] SA1: Row_group=2, Input_chunk=29 done, accumulated
+[Cycle 5400] COP: Loaded SA1 weights for row_group=2, input_chunk=30
+[Cycle 5401] SA1: Row_group=2, Input_chunk=30/48, Elements[480:495]
+[Cycle 5434] SA1: Row_group=2, Input_chunk=30 done, accumulated
+[Cycle 5435] COP: Loaded SA1 weights for row_group=2, input_chunk=31
+[Cycle 5436] SA1: Row_group=2, Input_chunk=31/48, Elements[496:511]
+[Cycle 5469] SA1: Row_group=2, Input_chunk=31 done, accumulated
+[Cycle 5470] COP: Loaded SA1 weights for row_group=2, input_chunk=32
+[Cycle 5471] SA1: Row_group=2, Input_chunk=32/48, Elements[512:527]
+[Cycle 5504] SA1: Row_group=2, Input_chunk=32 done, accumulated
+[Cycle 5505] COP: Loaded SA1 weights for row_group=2, input_chunk=33
+[Cycle 5506] SA1: Row_group=2, Input_chunk=33/48, Elements[528:543]
+[Cycle 5539] SA1: Row_group=2, Input_chunk=33 done, accumulated
+[Cycle 5540] COP: Loaded SA1 weights for row_group=2, input_chunk=34
+[Cycle 5541] SA1: Row_group=2, Input_chunk=34/48, Elements[544:559]
+[Cycle 5574] SA1: Row_group=2, Input_chunk=34 done, accumulated
+[Cycle 5575] COP: Loaded SA1 weights for row_group=2, input_chunk=35
+[Cycle 5576] SA1: Row_group=2, Input_chunk=35/48, Elements[560:575]
+[Cycle 5609] SA1: Row_group=2, Input_chunk=35 done, accumulated
+[Cycle 5610] COP: Loaded SA1 weights for row_group=2, input_chunk=36
+[Cycle 5611] SA1: Row_group=2, Input_chunk=36/48, Elements[576:591]
+[Cycle 5644] SA1: Row_group=2, Input_chunk=36 done, accumulated
+[Cycle 5645] COP: Loaded SA1 weights for row_group=2, input_chunk=37
+[Cycle 5646] SA1: Row_group=2, Input_chunk=37/48, Elements[592:607]
+[Cycle 5679] SA1: Row_group=2, Input_chunk=37 done, accumulated
+[Cycle 5680] COP: Loaded SA1 weights for row_group=2, input_chunk=38
+[Cycle 5681] SA1: Row_group=2, Input_chunk=38/48, Elements[608:623]
+[Cycle 5714] SA1: Row_group=2, Input_chunk=38 done, accumulated
+[Cycle 5715] COP: Loaded SA1 weights for row_group=2, input_chunk=39
+[Cycle 5716] SA1: Row_group=2, Input_chunk=39/48, Elements[624:639]
+[Cycle 5749] SA1: Row_group=2, Input_chunk=39 done, accumulated
+[Cycle 5750] COP: Loaded SA1 weights for row_group=2, input_chunk=40
+[Cycle 5751] SA1: Row_group=2, Input_chunk=40/48, Elements[640:655]
+[Cycle 5784] SA1: Row_group=2, Input_chunk=40 done, accumulated
+[Cycle 5785] COP: Loaded SA1 weights for row_group=2, input_chunk=41
+[Cycle 5786] SA1: Row_group=2, Input_chunk=41/48, Elements[656:671]
+[Cycle 5819] SA1: Row_group=2, Input_chunk=41 done, accumulated
+[Cycle 5820] COP: Loaded SA1 weights for row_group=2, input_chunk=42
+[Cycle 5821] SA1: Row_group=2, Input_chunk=42/48, Elements[672:687]
+[Cycle 5854] SA1: Row_group=2, Input_chunk=42 done, accumulated
+[Cycle 5855] COP: Loaded SA1 weights for row_group=2, input_chunk=43
+[Cycle 5856] SA1: Row_group=2, Input_chunk=43/48, Elements[688:703]
+[Cycle 5889] SA1: Row_group=2, Input_chunk=43 done, accumulated
+[Cycle 5890] COP: Loaded SA1 weights for row_group=2, input_chunk=44
+[Cycle 5891] SA1: Row_group=2, Input_chunk=44/48, Elements[704:719]
+[Cycle 5924] SA1: Row_group=2, Input_chunk=44 done, accumulated
+[Cycle 5925] COP: Loaded SA1 weights for row_group=2, input_chunk=45
+[Cycle 5926] SA1: Row_group=2, Input_chunk=45/48, Elements[720:735]
+[Cycle 5959] SA1: Row_group=2, Input_chunk=45 done, accumulated
+[Cycle 5960] COP: Loaded SA1 weights for row_group=2, input_chunk=46
+[Cycle 5961] SA1: Row_group=2, Input_chunk=46/48, Elements[736:751]
+[Cycle 5994] SA1: Row_group=2, Input_chunk=46 done, accumulated
+[Cycle 5995] COP: Loaded SA1 weights for row_group=2, input_chunk=47
+[Cycle 5995] TB: *** SA1 Row group 2 COMPLETE *** (loaded 144/576 weight matrices)
+[Cycle 5996] SA1: Row_group=2, Input_chunk=47/48, Elements[752:767]
+[Cycle 6029] SA1: Row_group=2, Input_chunk=47 done, accumulated
+[Cycle 6029] SA1: Row_group=2 COMPLETE (all 48 chunks accumulated)
+[Cycle 6030] SA1: Stored row_group=2 outputs [32:47]
+[Cycle 6031] COP: Loaded SA1 weights for row_group=3, input_chunk=0
+[Cycle 6031] TB: SA1 Starting row_group=3 (weights 144-191)
+[Cycle 6032] SA1: Row_group=3, Input_chunk=0/48, Elements[0:15]
+[Cycle 6065] SA1: Row_group=3, Input_chunk=0 done, accumulated
+[Cycle 6066] COP: Loaded SA1 weights for row_group=3, input_chunk=1
+[Cycle 6067] SA1: Row_group=3, Input_chunk=1/48, Elements[16:31]
+[Cycle 6100] SA1: Row_group=3, Input_chunk=1 done, accumulated
+[Cycle 6101] COP: Loaded SA1 weights for row_group=3, input_chunk=2
+[Cycle 6102] SA1: Row_group=3, Input_chunk=2/48, Elements[32:47]
+[Cycle 6135] SA1: Row_group=3, Input_chunk=2 done, accumulated
+[Cycle 6136] COP: Loaded SA1 weights for row_group=3, input_chunk=3
+[Cycle 6137] SA1: Row_group=3, Input_chunk=3/48, Elements[48:63]
+[Cycle 6170] SA1: Row_group=3, Input_chunk=3 done, accumulated
+[Cycle 6171] COP: Loaded SA1 weights for row_group=3, input_chunk=4
+[Cycle 6172] SA1: Row_group=3, Input_chunk=4/48, Elements[64:79]
+[Cycle 6205] SA1: Row_group=3, Input_chunk=4 done, accumulated
+[Cycle 6206] COP: Loaded SA1 weights for row_group=3, input_chunk=5
+[Cycle 6207] SA1: Row_group=3, Input_chunk=5/48, Elements[80:95]
+[Cycle 6240] SA1: Row_group=3, Input_chunk=5 done, accumulated
+[Cycle 6241] COP: Loaded SA1 weights for row_group=3, input_chunk=6
+[Cycle 6242] SA1: Row_group=3, Input_chunk=6/48, Elements[96:111]
+[Cycle 6275] SA1: Row_group=3, Input_chunk=6 done, accumulated
+[Cycle 6276] COP: Loaded SA1 weights for row_group=3, input_chunk=7
+[Cycle 6277] SA1: Row_group=3, Input_chunk=7/48, Elements[112:127]
+[Cycle 6310] SA1: Row_group=3, Input_chunk=7 done, accumulated
+[Cycle 6311] COP: Loaded SA1 weights for row_group=3, input_chunk=8
+[Cycle 6312] SA1: Row_group=3, Input_chunk=8/48, Elements[128:143]
+[Cycle 6345] SA1: Row_group=3, Input_chunk=8 done, accumulated
+[Cycle 6346] COP: Loaded SA1 weights for row_group=3, input_chunk=9
+[Cycle 6347] SA1: Row_group=3, Input_chunk=9/48, Elements[144:159]
+[Cycle 6380] SA1: Row_group=3, Input_chunk=9 done, accumulated
+[Cycle 6381] COP: Loaded SA1 weights for row_group=3, input_chunk=10
+[Cycle 6382] SA1: Row_group=3, Input_chunk=10/48, Elements[160:175]
+[Cycle 6415] SA1: Row_group=3, Input_chunk=10 done, accumulated
+[Cycle 6416] COP: Loaded SA1 weights for row_group=3, input_chunk=11
+[Cycle 6417] SA1: Row_group=3, Input_chunk=11/48, Elements[176:191]
+[Cycle 6450] SA1: Row_group=3, Input_chunk=11 done, accumulated
+[Cycle 6451] COP: Loaded SA1 weights for row_group=3, input_chunk=12
+[Cycle 6452] SA1: Row_group=3, Input_chunk=12/48, Elements[192:207]
+[Cycle 6485] SA1: Row_group=3, Input_chunk=12 done, accumulated
+[Cycle 6486] COP: Loaded SA1 weights for row_group=3, input_chunk=13
+[Cycle 6487] SA1: Row_group=3, Input_chunk=13/48, Elements[208:223]
+[Cycle 6520] SA1: Row_group=3, Input_chunk=13 done, accumulated
+[Cycle 6521] COP: Loaded SA1 weights for row_group=3, input_chunk=14
+[Cycle 6522] SA1: Row_group=3, Input_chunk=14/48, Elements[224:239]
+[Cycle 6555] SA1: Row_group=3, Input_chunk=14 done, accumulated
+[Cycle 6556] COP: Loaded SA1 weights for row_group=3, input_chunk=15
+[Cycle 6557] SA1: Row_group=3, Input_chunk=15/48, Elements[240:255]
+[Cycle 6590] SA1: Row_group=3, Input_chunk=15 done, accumulated
+[Cycle 6591] COP: Loaded SA1 weights for row_group=3, input_chunk=16
+[Cycle 6592] SA1: Row_group=3, Input_chunk=16/48, Elements[256:271]
+[Cycle 6625] SA1: Row_group=3, Input_chunk=16 done, accumulated
+[Cycle 6626] COP: Loaded SA1 weights for row_group=3, input_chunk=17
+[Cycle 6627] SA1: Row_group=3, Input_chunk=17/48, Elements[272:287]
+[Cycle 6660] SA1: Row_group=3, Input_chunk=17 done, accumulated
+[Cycle 6661] COP: Loaded SA1 weights for row_group=3, input_chunk=18
+[Cycle 6662] SA1: Row_group=3, Input_chunk=18/48, Elements[288:303]
+[Cycle 6695] SA1: Row_group=3, Input_chunk=18 done, accumulated
+[Cycle 6696] COP: Loaded SA1 weights for row_group=3, input_chunk=19
+[Cycle 6697] SA1: Row_group=3, Input_chunk=19/48, Elements[304:319]
+[Cycle 6730] SA1: Row_group=3, Input_chunk=19 done, accumulated
+[Cycle 6731] COP: Loaded SA1 weights for row_group=3, input_chunk=20
+[Cycle 6732] SA1: Row_group=3, Input_chunk=20/48, Elements[320:335]
+[Cycle 6765] SA1: Row_group=3, Input_chunk=20 done, accumulated
+[Cycle 6766] COP: Loaded SA1 weights for row_group=3, input_chunk=21
+[Cycle 6767] SA1: Row_group=3, Input_chunk=21/48, Elements[336:351]
+[Cycle 6800] SA1: Row_group=3, Input_chunk=21 done, accumulated
+[Cycle 6801] COP: Loaded SA1 weights for row_group=3, input_chunk=22
+[Cycle 6802] SA1: Row_group=3, Input_chunk=22/48, Elements[352:367]
+[Cycle 6835] SA1: Row_group=3, Input_chunk=22 done, accumulated
+[Cycle 6836] COP: Loaded SA1 weights for row_group=3, input_chunk=23
+[Cycle 6837] SA1: Row_group=3, Input_chunk=23/48, Elements[368:383]
+[Cycle 6870] SA1: Row_group=3, Input_chunk=23 done, accumulated
+[Cycle 6871] COP: Loaded SA1 weights for row_group=3, input_chunk=24
+[Cycle 6872] SA1: Row_group=3, Input_chunk=24/48, Elements[384:399]
+[Cycle 6905] SA1: Row_group=3, Input_chunk=24 done, accumulated
+[Cycle 6906] COP: Loaded SA1 weights for row_group=3, input_chunk=25
+[Cycle 6907] SA1: Row_group=3, Input_chunk=25/48, Elements[400:415]
+[Cycle 6940] SA1: Row_group=3, Input_chunk=25 done, accumulated
+[Cycle 6941] COP: Loaded SA1 weights for row_group=3, input_chunk=26
+[Cycle 6942] SA1: Row_group=3, Input_chunk=26/48, Elements[416:431]
+[Cycle 6975] SA1: Row_group=3, Input_chunk=26 done, accumulated
+[Cycle 6976] COP: Loaded SA1 weights for row_group=3, input_chunk=27
+[Cycle 6977] SA1: Row_group=3, Input_chunk=27/48, Elements[432:447]
+[Cycle 7010] SA1: Row_group=3, Input_chunk=27 done, accumulated
+[Cycle 7011] COP: Loaded SA1 weights for row_group=3, input_chunk=28
+[Cycle 7012] SA1: Row_group=3, Input_chunk=28/48, Elements[448:463]
+[Cycle 7045] SA1: Row_group=3, Input_chunk=28 done, accumulated
+[Cycle 7046] COP: Loaded SA1 weights for row_group=3, input_chunk=29
+[Cycle 7047] SA1: Row_group=3, Input_chunk=29/48, Elements[464:479]
+[Cycle 7080] SA1: Row_group=3, Input_chunk=29 done, accumulated
+[Cycle 7081] COP: Loaded SA1 weights for row_group=3, input_chunk=30
+[Cycle 7082] SA1: Row_group=3, Input_chunk=30/48, Elements[480:495]
+[Cycle 7115] SA1: Row_group=3, Input_chunk=30 done, accumulated
+[Cycle 7116] COP: Loaded SA1 weights for row_group=3, input_chunk=31
+[Cycle 7117] SA1: Row_group=3, Input_chunk=31/48, Elements[496:511]
+[Cycle 7150] SA1: Row_group=3, Input_chunk=31 done, accumulated
+[Cycle 7151] COP: Loaded SA1 weights for row_group=3, input_chunk=32
+[Cycle 7152] SA1: Row_group=3, Input_chunk=32/48, Elements[512:527]
+[Cycle 7185] SA1: Row_group=3, Input_chunk=32 done, accumulated
+[Cycle 7186] COP: Loaded SA1 weights for row_group=3, input_chunk=33
+[Cycle 7187] SA1: Row_group=3, Input_chunk=33/48, Elements[528:543]
+[Cycle 7220] SA1: Row_group=3, Input_chunk=33 done, accumulated
+[Cycle 7221] COP: Loaded SA1 weights for row_group=3, input_chunk=34
+[Cycle 7222] SA1: Row_group=3, Input_chunk=34/48, Elements[544:559]
+[Cycle 7255] SA1: Row_group=3, Input_chunk=34 done, accumulated
+[Cycle 7256] COP: Loaded SA1 weights for row_group=3, input_chunk=35
+[Cycle 7257] SA1: Row_group=3, Input_chunk=35/48, Elements[560:575]
+[Cycle 7290] SA1: Row_group=3, Input_chunk=35 done, accumulated
+[Cycle 7291] COP: Loaded SA1 weights for row_group=3, input_chunk=36
+[Cycle 7292] SA1: Row_group=3, Input_chunk=36/48, Elements[576:591]
+[Cycle 7325] SA1: Row_group=3, Input_chunk=36 done, accumulated
+[Cycle 7326] COP: Loaded SA1 weights for row_group=3, input_chunk=37
+[Cycle 7327] SA1: Row_group=3, Input_chunk=37/48, Elements[592:607]
+[Cycle 7360] SA1: Row_group=3, Input_chunk=37 done, accumulated
+[Cycle 7361] COP: Loaded SA1 weights for row_group=3, input_chunk=38
+[Cycle 7362] SA1: Row_group=3, Input_chunk=38/48, Elements[608:623]
+[Cycle 7395] SA1: Row_group=3, Input_chunk=38 done, accumulated
+[Cycle 7396] COP: Loaded SA1 weights for row_group=3, input_chunk=39
+[Cycle 7397] SA1: Row_group=3, Input_chunk=39/48, Elements[624:639]
+[Cycle 7430] SA1: Row_group=3, Input_chunk=39 done, accumulated
+[Cycle 7431] COP: Loaded SA1 weights for row_group=3, input_chunk=40
+[Cycle 7432] SA1: Row_group=3, Input_chunk=40/48, Elements[640:655]
+[Cycle 7465] SA1: Row_group=3, Input_chunk=40 done, accumulated
+[Cycle 7466] COP: Loaded SA1 weights for row_group=3, input_chunk=41
+[Cycle 7467] SA1: Row_group=3, Input_chunk=41/48, Elements[656:671]
+[Cycle 7500] SA1: Row_group=3, Input_chunk=41 done, accumulated
+[Cycle 7501] COP: Loaded SA1 weights for row_group=3, input_chunk=42
+[Cycle 7502] SA1: Row_group=3, Input_chunk=42/48, Elements[672:687]
+[Cycle 7535] SA1: Row_group=3, Input_chunk=42 done, accumulated
+[Cycle 7536] COP: Loaded SA1 weights for row_group=3, input_chunk=43
+[Cycle 7537] SA1: Row_group=3, Input_chunk=43/48, Elements[688:703]
+[Cycle 7570] SA1: Row_group=3, Input_chunk=43 done, accumulated
+[Cycle 7571] COP: Loaded SA1 weights for row_group=3, input_chunk=44
+[Cycle 7572] SA1: Row_group=3, Input_chunk=44/48, Elements[704:719]
+[Cycle 7605] SA1: Row_group=3, Input_chunk=44 done, accumulated
+[Cycle 7606] COP: Loaded SA1 weights for row_group=3, input_chunk=45
+[Cycle 7607] SA1: Row_group=3, Input_chunk=45/48, Elements[720:735]
+[Cycle 7640] SA1: Row_group=3, Input_chunk=45 done, accumulated
+[Cycle 7641] COP: Loaded SA1 weights for row_group=3, input_chunk=46
+[Cycle 7642] SA1: Row_group=3, Input_chunk=46/48, Elements[736:751]
+[Cycle 7675] SA1: Row_group=3, Input_chunk=46 done, accumulated
+[Cycle 7676] COP: Loaded SA1 weights for row_group=3, input_chunk=47
+[Cycle 7676] TB: *** SA1 Row group 3 COMPLETE *** (loaded 192/576 weight matrices)
+[Cycle 7677] SA1: Row_group=3, Input_chunk=47/48, Elements[752:767]
+[Cycle 7710] SA1: Row_group=3, Input_chunk=47 done, accumulated
+[Cycle 7710] SA1: Row_group=3 COMPLETE (all 48 chunks accumulated)
+[Cycle 7711] SA1: Stored row_group=3 outputs [48:63]
+[Cycle 7712] COP: Loaded SA1 weights for row_group=4, input_chunk=0
+[Cycle 7712] TB: SA1 Starting row_group=4 (weights 192-239)
+[Cycle 7713] SA1: Row_group=4, Input_chunk=0/48, Elements[0:15]
+[Cycle 7746] SA1: Row_group=4, Input_chunk=0 done, accumulated
+[Cycle 7747] COP: Loaded SA1 weights for row_group=4, input_chunk=1
+[Cycle 7748] SA1: Row_group=4, Input_chunk=1/48, Elements[16:31]
+[Cycle 7781] SA1: Row_group=4, Input_chunk=1 done, accumulated
+[Cycle 7782] COP: Loaded SA1 weights for row_group=4, input_chunk=2
+[Cycle 7783] SA1: Row_group=4, Input_chunk=2/48, Elements[32:47]
+[Cycle 7816] SA1: Row_group=4, Input_chunk=2 done, accumulated
+[Cycle 7817] COP: Loaded SA1 weights for row_group=4, input_chunk=3
+[Cycle 7818] SA1: Row_group=4, Input_chunk=3/48, Elements[48:63]
+[Cycle 7851] SA1: Row_group=4, Input_chunk=3 done, accumulated
+[Cycle 7852] COP: Loaded SA1 weights for row_group=4, input_chunk=4
+[Cycle 7853] SA1: Row_group=4, Input_chunk=4/48, Elements[64:79]
+[Cycle 7886] SA1: Row_group=4, Input_chunk=4 done, accumulated
+[Cycle 7887] COP: Loaded SA1 weights for row_group=4, input_chunk=5
+[Cycle 7888] SA1: Row_group=4, Input_chunk=5/48, Elements[80:95]
+[Cycle 7921] SA1: Row_group=4, Input_chunk=5 done, accumulated
+[Cycle 7922] COP: Loaded SA1 weights for row_group=4, input_chunk=6
+[Cycle 7923] SA1: Row_group=4, Input_chunk=6/48, Elements[96:111]
+[Cycle 7956] SA1: Row_group=4, Input_chunk=6 done, accumulated
+[Cycle 7957] COP: Loaded SA1 weights for row_group=4, input_chunk=7
+[Cycle 7958] SA1: Row_group=4, Input_chunk=7/48, Elements[112:127]
+[Cycle 7991] SA1: Row_group=4, Input_chunk=7 done, accumulated
+[Cycle 7992] COP: Loaded SA1 weights for row_group=4, input_chunk=8
+[Cycle 7993] SA1: Row_group=4, Input_chunk=8/48, Elements[128:143]
+[Cycle 8026] SA1: Row_group=4, Input_chunk=8 done, accumulated
+[Cycle 8027] COP: Loaded SA1 weights for row_group=4, input_chunk=9
+[Cycle 8028] SA1: Row_group=4, Input_chunk=9/48, Elements[144:159]
+[Cycle 8061] SA1: Row_group=4, Input_chunk=9 done, accumulated
+[Cycle 8062] COP: Loaded SA1 weights for row_group=4, input_chunk=10
+[Cycle 8063] SA1: Row_group=4, Input_chunk=10/48, Elements[160:175]
+[Cycle 8096] SA1: Row_group=4, Input_chunk=10 done, accumulated
+[Cycle 8097] COP: Loaded SA1 weights for row_group=4, input_chunk=11
+[Cycle 8098] SA1: Row_group=4, Input_chunk=11/48, Elements[176:191]
+[Cycle 8131] SA1: Row_group=4, Input_chunk=11 done, accumulated
+[Cycle 8132] COP: Loaded SA1 weights for row_group=4, input_chunk=12
+[Cycle 8133] SA1: Row_group=4, Input_chunk=12/48, Elements[192:207]
+[Cycle 8166] SA1: Row_group=4, Input_chunk=12 done, accumulated
+[Cycle 8167] COP: Loaded SA1 weights for row_group=4, input_chunk=13
+[Cycle 8168] SA1: Row_group=4, Input_chunk=13/48, Elements[208:223]
+[Cycle 8201] SA1: Row_group=4, Input_chunk=13 done, accumulated
+[Cycle 8202] COP: Loaded SA1 weights for row_group=4, input_chunk=14
+[Cycle 8203] SA1: Row_group=4, Input_chunk=14/48, Elements[224:239]
+[Cycle 8236] SA1: Row_group=4, Input_chunk=14 done, accumulated
+[Cycle 8237] COP: Loaded SA1 weights for row_group=4, input_chunk=15
+[Cycle 8238] SA1: Row_group=4, Input_chunk=15/48, Elements[240:255]
+[Cycle 8271] SA1: Row_group=4, Input_chunk=15 done, accumulated
+[Cycle 8272] COP: Loaded SA1 weights for row_group=4, input_chunk=16
+[Cycle 8273] SA1: Row_group=4, Input_chunk=16/48, Elements[256:271]
+[Cycle 8306] SA1: Row_group=4, Input_chunk=16 done, accumulated
+[Cycle 8307] COP: Loaded SA1 weights for row_group=4, input_chunk=17
+[Cycle 8308] SA1: Row_group=4, Input_chunk=17/48, Elements[272:287]
+[Cycle 8341] SA1: Row_group=4, Input_chunk=17 done, accumulated
+[Cycle 8342] COP: Loaded SA1 weights for row_group=4, input_chunk=18
+[Cycle 8343] SA1: Row_group=4, Input_chunk=18/48, Elements[288:303]
+[Cycle 8376] SA1: Row_group=4, Input_chunk=18 done, accumulated
+[Cycle 8377] COP: Loaded SA1 weights for row_group=4, input_chunk=19
+[Cycle 8378] SA1: Row_group=4, Input_chunk=19/48, Elements[304:319]
+[Cycle 8411] SA1: Row_group=4, Input_chunk=19 done, accumulated
+[Cycle 8412] COP: Loaded SA1 weights for row_group=4, input_chunk=20
+[Cycle 8413] SA1: Row_group=4, Input_chunk=20/48, Elements[320:335]
+[Cycle 8446] SA1: Row_group=4, Input_chunk=20 done, accumulated
+[Cycle 8447] COP: Loaded SA1 weights for row_group=4, input_chunk=21
+[Cycle 8448] SA1: Row_group=4, Input_chunk=21/48, Elements[336:351]
+[Cycle 8481] SA1: Row_group=4, Input_chunk=21 done, accumulated
+[Cycle 8482] COP: Loaded SA1 weights for row_group=4, input_chunk=22
+[Cycle 8483] SA1: Row_group=4, Input_chunk=22/48, Elements[352:367]
+[Cycle 8516] SA1: Row_group=4, Input_chunk=22 done, accumulated
+[Cycle 8517] COP: Loaded SA1 weights for row_group=4, input_chunk=23
+[Cycle 8518] SA1: Row_group=4, Input_chunk=23/48, Elements[368:383]
+[Cycle 8551] SA1: Row_group=4, Input_chunk=23 done, accumulated
+[Cycle 8552] COP: Loaded SA1 weights for row_group=4, input_chunk=24
+[Cycle 8553] SA1: Row_group=4, Input_chunk=24/48, Elements[384:399]
+[Cycle 8586] SA1: Row_group=4, Input_chunk=24 done, accumulated
+[Cycle 8587] COP: Loaded SA1 weights for row_group=4, input_chunk=25
+[Cycle 8588] SA1: Row_group=4, Input_chunk=25/48, Elements[400:415]
+[Cycle 8621] SA1: Row_group=4, Input_chunk=25 done, accumulated
+[Cycle 8622] COP: Loaded SA1 weights for row_group=4, input_chunk=26
+[Cycle 8623] SA1: Row_group=4, Input_chunk=26/48, Elements[416:431]
+[Cycle 8656] SA1: Row_group=4, Input_chunk=26 done, accumulated
+[Cycle 8657] COP: Loaded SA1 weights for row_group=4, input_chunk=27
+[Cycle 8658] SA1: Row_group=4, Input_chunk=27/48, Elements[432:447]
+[Cycle 8691] SA1: Row_group=4, Input_chunk=27 done, accumulated
+[Cycle 8692] COP: Loaded SA1 weights for row_group=4, input_chunk=28
+[Cycle 8693] SA1: Row_group=4, Input_chunk=28/48, Elements[448:463]
+[Cycle 8726] SA1: Row_group=4, Input_chunk=28 done, accumulated
+[Cycle 8727] COP: Loaded SA1 weights for row_group=4, input_chunk=29
+[Cycle 8728] SA1: Row_group=4, Input_chunk=29/48, Elements[464:479]
+[Cycle 8761] SA1: Row_group=4, Input_chunk=29 done, accumulated
+[Cycle 8762] COP: Loaded SA1 weights for row_group=4, input_chunk=30
+[Cycle 8763] SA1: Row_group=4, Input_chunk=30/48, Elements[480:495]
+[Cycle 8796] SA1: Row_group=4, Input_chunk=30 done, accumulated
+[Cycle 8797] COP: Loaded SA1 weights for row_group=4, input_chunk=31
+[Cycle 8798] SA1: Row_group=4, Input_chunk=31/48, Elements[496:511]
+[Cycle 8831] SA1: Row_group=4, Input_chunk=31 done, accumulated
+[Cycle 8832] COP: Loaded SA1 weights for row_group=4, input_chunk=32
+[Cycle 8833] SA1: Row_group=4, Input_chunk=32/48, Elements[512:527]
+[Cycle 8866] SA1: Row_group=4, Input_chunk=32 done, accumulated
+[Cycle 8867] COP: Loaded SA1 weights for row_group=4, input_chunk=33
+[Cycle 8868] SA1: Row_group=4, Input_chunk=33/48, Elements[528:543]
+[Cycle 8901] SA1: Row_group=4, Input_chunk=33 done, accumulated
+[Cycle 8902] COP: Loaded SA1 weights for row_group=4, input_chunk=34
+[Cycle 8903] SA1: Row_group=4, Input_chunk=34/48, Elements[544:559]
+[Cycle 8936] SA1: Row_group=4, Input_chunk=34 done, accumulated
+[Cycle 8937] COP: Loaded SA1 weights for row_group=4, input_chunk=35
+[Cycle 8938] SA1: Row_group=4, Input_chunk=35/48, Elements[560:575]
+[Cycle 8971] SA1: Row_group=4, Input_chunk=35 done, accumulated
+[Cycle 8972] COP: Loaded SA1 weights for row_group=4, input_chunk=36
+[Cycle 8973] SA1: Row_group=4, Input_chunk=36/48, Elements[576:591]
+[Cycle 9006] SA1: Row_group=4, Input_chunk=36 done, accumulated
+[Cycle 9007] COP: Loaded SA1 weights for row_group=4, input_chunk=37
+[Cycle 9008] SA1: Row_group=4, Input_chunk=37/48, Elements[592:607]
+[Cycle 9041] SA1: Row_group=4, Input_chunk=37 done, accumulated
+[Cycle 9042] COP: Loaded SA1 weights for row_group=4, input_chunk=38
+[Cycle 9043] SA1: Row_group=4, Input_chunk=38/48, Elements[608:623]
+[Cycle 9076] SA1: Row_group=4, Input_chunk=38 done, accumulated
+[Cycle 9077] COP: Loaded SA1 weights for row_group=4, input_chunk=39
+[Cycle 9078] SA1: Row_group=4, Input_chunk=39/48, Elements[624:639]
+[Cycle 9111] SA1: Row_group=4, Input_chunk=39 done, accumulated
+[Cycle 9112] COP: Loaded SA1 weights for row_group=4, input_chunk=40
+[Cycle 9113] SA1: Row_group=4, Input_chunk=40/48, Elements[640:655]
+[Cycle 9146] SA1: Row_group=4, Input_chunk=40 done, accumulated
+[Cycle 9147] COP: Loaded SA1 weights for row_group=4, input_chunk=41
+[Cycle 9148] SA1: Row_group=4, Input_chunk=41/48, Elements[656:671]
+[Cycle 9181] SA1: Row_group=4, Input_chunk=41 done, accumulated
+[Cycle 9182] COP: Loaded SA1 weights for row_group=4, input_chunk=42
+[Cycle 9183] SA1: Row_group=4, Input_chunk=42/48, Elements[672:687]
+[Cycle 9216] SA1: Row_group=4, Input_chunk=42 done, accumulated
+[Cycle 9217] COP: Loaded SA1 weights for row_group=4, input_chunk=43
+[Cycle 9218] SA1: Row_group=4, Input_chunk=43/48, Elements[688:703]
+[Cycle 9251] SA1: Row_group=4, Input_chunk=43 done, accumulated
+[Cycle 9252] COP: Loaded SA1 weights for row_group=4, input_chunk=44
+[Cycle 9253] SA1: Row_group=4, Input_chunk=44/48, Elements[704:719]
+[Cycle 9286] SA1: Row_group=4, Input_chunk=44 done, accumulated
+[Cycle 9287] COP: Loaded SA1 weights for row_group=4, input_chunk=45
+[Cycle 9288] SA1: Row_group=4, Input_chunk=45/48, Elements[720:735]
+[Cycle 9321] SA1: Row_group=4, Input_chunk=45 done, accumulated
+[Cycle 9322] COP: Loaded SA1 weights for row_group=4, input_chunk=46
+[Cycle 9323] SA1: Row_group=4, Input_chunk=46/48, Elements[736:751]
+[Cycle 9356] SA1: Row_group=4, Input_chunk=46 done, accumulated
+[Cycle 9357] COP: Loaded SA1 weights for row_group=4, input_chunk=47
+[Cycle 9357] TB: *** SA1 Row group 4 COMPLETE *** (loaded 240/576 weight matrices)
+[Cycle 9358] SA1: Row_group=4, Input_chunk=47/48, Elements[752:767]
+[Cycle 9391] SA1: Row_group=4, Input_chunk=47 done, accumulated
+[Cycle 9391] SA1: Row_group=4 COMPLETE (all 48 chunks accumulated)
+[Cycle 9392] SA1: Stored row_group=4 outputs [64:79]
+[Cycle 9393] COP: Loaded SA1 weights for row_group=5, input_chunk=0
+[Cycle 9393] TB: SA1 Starting row_group=5 (weights 240-287)
+[Cycle 9394] SA1: Row_group=5, Input_chunk=0/48, Elements[0:15]
+[Cycle 9427] SA1: Row_group=5, Input_chunk=0 done, accumulated
+[Cycle 9428] COP: Loaded SA1 weights for row_group=5, input_chunk=1
+[Cycle 9429] SA1: Row_group=5, Input_chunk=1/48, Elements[16:31]
+[Cycle 9462] SA1: Row_group=5, Input_chunk=1 done, accumulated
+[Cycle 9463] COP: Loaded SA1 weights for row_group=5, input_chunk=2
+[Cycle 9464] SA1: Row_group=5, Input_chunk=2/48, Elements[32:47]
+[Cycle 9497] SA1: Row_group=5, Input_chunk=2 done, accumulated
+[Cycle 9498] COP: Loaded SA1 weights for row_group=5, input_chunk=3
+[Cycle 9499] SA1: Row_group=5, Input_chunk=3/48, Elements[48:63]
+[Cycle 9532] SA1: Row_group=5, Input_chunk=3 done, accumulated
+[Cycle 9533] COP: Loaded SA1 weights for row_group=5, input_chunk=4
+[Cycle 9534] SA1: Row_group=5, Input_chunk=4/48, Elements[64:79]
+[Cycle 9567] SA1: Row_group=5, Input_chunk=4 done, accumulated
+[Cycle 9568] COP: Loaded SA1 weights for row_group=5, input_chunk=5
+[Cycle 9569] SA1: Row_group=5, Input_chunk=5/48, Elements[80:95]
+[Cycle 9602] SA1: Row_group=5, Input_chunk=5 done, accumulated
+[Cycle 9603] COP: Loaded SA1 weights for row_group=5, input_chunk=6
+[Cycle 9604] SA1: Row_group=5, Input_chunk=6/48, Elements[96:111]
+[Cycle 9637] SA1: Row_group=5, Input_chunk=6 done, accumulated
+[Cycle 9638] COP: Loaded SA1 weights for row_group=5, input_chunk=7
+[Cycle 9639] SA1: Row_group=5, Input_chunk=7/48, Elements[112:127]
+[Cycle 9672] SA1: Row_group=5, Input_chunk=7 done, accumulated
+[Cycle 9673] COP: Loaded SA1 weights for row_group=5, input_chunk=8
+[Cycle 9674] SA1: Row_group=5, Input_chunk=8/48, Elements[128:143]
+[Cycle 9707] SA1: Row_group=5, Input_chunk=8 done, accumulated
+[Cycle 9708] COP: Loaded SA1 weights for row_group=5, input_chunk=9
+[Cycle 9709] SA1: Row_group=5, Input_chunk=9/48, Elements[144:159]
+[Cycle 9742] SA1: Row_group=5, Input_chunk=9 done, accumulated
+[Cycle 9743] COP: Loaded SA1 weights for row_group=5, input_chunk=10
+[Cycle 9744] SA1: Row_group=5, Input_chunk=10/48, Elements[160:175]
+[Cycle 9777] SA1: Row_group=5, Input_chunk=10 done, accumulated
+[Cycle 9778] COP: Loaded SA1 weights for row_group=5, input_chunk=11
+[Cycle 9779] SA1: Row_group=5, Input_chunk=11/48, Elements[176:191]
+[Cycle 9812] SA1: Row_group=5, Input_chunk=11 done, accumulated
+[Cycle 9813] COP: Loaded SA1 weights for row_group=5, input_chunk=12
+[Cycle 9814] SA1: Row_group=5, Input_chunk=12/48, Elements[192:207]
+[Cycle 9847] SA1: Row_group=5, Input_chunk=12 done, accumulated
+[Cycle 9848] COP: Loaded SA1 weights for row_group=5, input_chunk=13
+[Cycle 9849] SA1: Row_group=5, Input_chunk=13/48, Elements[208:223]
+[Cycle 9882] SA1: Row_group=5, Input_chunk=13 done, accumulated
+[Cycle 9883] COP: Loaded SA1 weights for row_group=5, input_chunk=14
+[Cycle 9884] SA1: Row_group=5, Input_chunk=14/48, Elements[224:239]
+[Cycle 9917] SA1: Row_group=5, Input_chunk=14 done, accumulated
+[Cycle 9918] COP: Loaded SA1 weights for row_group=5, input_chunk=15
+[Cycle 9919] SA1: Row_group=5, Input_chunk=15/48, Elements[240:255]
+[Cycle 9952] SA1: Row_group=5, Input_chunk=15 done, accumulated
+[Cycle 9953] COP: Loaded SA1 weights for row_group=5, input_chunk=16
+[Cycle 9954] SA1: Row_group=5, Input_chunk=16/48, Elements[256:271]
+[Cycle 9987] SA1: Row_group=5, Input_chunk=16 done, accumulated
+[Cycle 9988] COP: Loaded SA1 weights for row_group=5, input_chunk=17
+[Cycle 9989] SA1: Row_group=5, Input_chunk=17/48, Elements[272:287]
+[Cycle 10022] SA1: Row_group=5, Input_chunk=17 done, accumulated
+[Cycle 10023] COP: Loaded SA1 weights for row_group=5, input_chunk=18
+[Cycle 10024] SA1: Row_group=5, Input_chunk=18/48, Elements[288:303]
+[Cycle 10057] SA1: Row_group=5, Input_chunk=18 done, accumulated
+[Cycle 10058] COP: Loaded SA1 weights for row_group=5, input_chunk=19
+[Cycle 10059] SA1: Row_group=5, Input_chunk=19/48, Elements[304:319]
+[Cycle 10092] SA1: Row_group=5, Input_chunk=19 done, accumulated
+[Cycle 10093] COP: Loaded SA1 weights for row_group=5, input_chunk=20
+[Cycle 10094] SA1: Row_group=5, Input_chunk=20/48, Elements[320:335]
+[Cycle 10127] SA1: Row_group=5, Input_chunk=20 done, accumulated
+[Cycle 10128] COP: Loaded SA1 weights for row_group=5, input_chunk=21
+[Cycle 10129] SA1: Row_group=5, Input_chunk=21/48, Elements[336:351]
+[Cycle 10162] SA1: Row_group=5, Input_chunk=21 done, accumulated
+[Cycle 10163] COP: Loaded SA1 weights for row_group=5, input_chunk=22
+[Cycle 10164] SA1: Row_group=5, Input_chunk=22/48, Elements[352:367]
+[Cycle 10197] SA1: Row_group=5, Input_chunk=22 done, accumulated
+[Cycle 10198] COP: Loaded SA1 weights for row_group=5, input_chunk=23
+[Cycle 10199] SA1: Row_group=5, Input_chunk=23/48, Elements[368:383]
+[Cycle 10232] SA1: Row_group=5, Input_chunk=23 done, accumulated
+[Cycle 10233] COP: Loaded SA1 weights for row_group=5, input_chunk=24
+[Cycle 10234] SA1: Row_group=5, Input_chunk=24/48, Elements[384:399]
+[Cycle 10267] SA1: Row_group=5, Input_chunk=24 done, accumulated
+[Cycle 10268] COP: Loaded SA1 weights for row_group=5, input_chunk=25
+[Cycle 10269] SA1: Row_group=5, Input_chunk=25/48, Elements[400:415]
+[Cycle 10302] SA1: Row_group=5, Input_chunk=25 done, accumulated
+[Cycle 10303] COP: Loaded SA1 weights for row_group=5, input_chunk=26
+[Cycle 10304] SA1: Row_group=5, Input_chunk=26/48, Elements[416:431]
+[Cycle 10337] SA1: Row_group=5, Input_chunk=26 done, accumulated
+[Cycle 10338] COP: Loaded SA1 weights for row_group=5, input_chunk=27
+[Cycle 10339] SA1: Row_group=5, Input_chunk=27/48, Elements[432:447]
+[Cycle 10372] SA1: Row_group=5, Input_chunk=27 done, accumulated
+[Cycle 10373] COP: Loaded SA1 weights for row_group=5, input_chunk=28
+[Cycle 10374] SA1: Row_group=5, Input_chunk=28/48, Elements[448:463]
+[Cycle 10407] SA1: Row_group=5, Input_chunk=28 done, accumulated
+[Cycle 10408] COP: Loaded SA1 weights for row_group=5, input_chunk=29
+[Cycle 10409] SA1: Row_group=5, Input_chunk=29/48, Elements[464:479]
+[Cycle 10442] SA1: Row_group=5, Input_chunk=29 done, accumulated
+[Cycle 10443] COP: Loaded SA1 weights for row_group=5, input_chunk=30
+[Cycle 10444] SA1: Row_group=5, Input_chunk=30/48, Elements[480:495]
+[Cycle 10477] SA1: Row_group=5, Input_chunk=30 done, accumulated
+[Cycle 10478] COP: Loaded SA1 weights for row_group=5, input_chunk=31
+[Cycle 10479] SA1: Row_group=5, Input_chunk=31/48, Elements[496:511]
+[Cycle 10512] SA1: Row_group=5, Input_chunk=31 done, accumulated
+[Cycle 10513] COP: Loaded SA1 weights for row_group=5, input_chunk=32
+[Cycle 10514] SA1: Row_group=5, Input_chunk=32/48, Elements[512:527]
+[Cycle 10547] SA1: Row_group=5, Input_chunk=32 done, accumulated
+[Cycle 10548] COP: Loaded SA1 weights for row_group=5, input_chunk=33
+[Cycle 10549] SA1: Row_group=5, Input_chunk=33/48, Elements[528:543]
+[Cycle 10582] SA1: Row_group=5, Input_chunk=33 done, accumulated
+[Cycle 10583] COP: Loaded SA1 weights for row_group=5, input_chunk=34
+[Cycle 10584] SA1: Row_group=5, Input_chunk=34/48, Elements[544:559]
+[Cycle 10617] SA1: Row_group=5, Input_chunk=34 done, accumulated
+[Cycle 10618] COP: Loaded SA1 weights for row_group=5, input_chunk=35
+[Cycle 10619] SA1: Row_group=5, Input_chunk=35/48, Elements[560:575]
+[Cycle 10652] SA1: Row_group=5, Input_chunk=35 done, accumulated
+[Cycle 10653] COP: Loaded SA1 weights for row_group=5, input_chunk=36
+[Cycle 10654] SA1: Row_group=5, Input_chunk=36/48, Elements[576:591]
+[Cycle 10687] SA1: Row_group=5, Input_chunk=36 done, accumulated
+[Cycle 10688] COP: Loaded SA1 weights for row_group=5, input_chunk=37
+[Cycle 10689] SA1: Row_group=5, Input_chunk=37/48, Elements[592:607]
+[Cycle 10722] SA1: Row_group=5, Input_chunk=37 done, accumulated
+[Cycle 10723] COP: Loaded SA1 weights for row_group=5, input_chunk=38
+[Cycle 10724] SA1: Row_group=5, Input_chunk=38/48, Elements[608:623]
+[Cycle 10757] SA1: Row_group=5, Input_chunk=38 done, accumulated
+[Cycle 10758] COP: Loaded SA1 weights for row_group=5, input_chunk=39
+[Cycle 10759] SA1: Row_group=5, Input_chunk=39/48, Elements[624:639]
+[Cycle 10792] SA1: Row_group=5, Input_chunk=39 done, accumulated
+[Cycle 10793] COP: Loaded SA1 weights for row_group=5, input_chunk=40
+[Cycle 10794] SA1: Row_group=5, Input_chunk=40/48, Elements[640:655]
+[Cycle 10827] SA1: Row_group=5, Input_chunk=40 done, accumulated
+[Cycle 10828] COP: Loaded SA1 weights for row_group=5, input_chunk=41
+[Cycle 10829] SA1: Row_group=5, Input_chunk=41/48, Elements[656:671]
+[Cycle 10862] SA1: Row_group=5, Input_chunk=41 done, accumulated
+[Cycle 10863] COP: Loaded SA1 weights for row_group=5, input_chunk=42
+[Cycle 10864] SA1: Row_group=5, Input_chunk=42/48, Elements[672:687]
+[Cycle 10897] SA1: Row_group=5, Input_chunk=42 done, accumulated
+[Cycle 10898] COP: Loaded SA1 weights for row_group=5, input_chunk=43
+[Cycle 10899] SA1: Row_group=5, Input_chunk=43/48, Elements[688:703]
+[Cycle 10932] SA1: Row_group=5, Input_chunk=43 done, accumulated
+[Cycle 10933] COP: Loaded SA1 weights for row_group=5, input_chunk=44
+[Cycle 10934] SA1: Row_group=5, Input_chunk=44/48, Elements[704:719]
+[Cycle 10967] SA1: Row_group=5, Input_chunk=44 done, accumulated
+[Cycle 10968] COP: Loaded SA1 weights for row_group=5, input_chunk=45
+[Cycle 10969] SA1: Row_group=5, Input_chunk=45/48, Elements[720:735]
+[Cycle 11002] SA1: Row_group=5, Input_chunk=45 done, accumulated
+[Cycle 11003] COP: Loaded SA1 weights for row_group=5, input_chunk=46
+[Cycle 11004] SA1: Row_group=5, Input_chunk=46/48, Elements[736:751]
+[Cycle 11037] SA1: Row_group=5, Input_chunk=46 done, accumulated
+[Cycle 11038] COP: Loaded SA1 weights for row_group=5, input_chunk=47
+[Cycle 11038] TB: *** SA1 Row group 5 COMPLETE *** (loaded 288/576 weight matrices)
+[Cycle 11039] SA1: Row_group=5, Input_chunk=47/48, Elements[752:767]
+[Cycle 11072] SA1: Row_group=5, Input_chunk=47 done, accumulated
+[Cycle 11072] SA1: Row_group=5 COMPLETE (all 48 chunks accumulated)
+[Cycle 11073] SA1: Stored row_group=5 outputs [80:95]
+[Cycle 11074] COP: Loaded SA1 weights for row_group=6, input_chunk=0
+[Cycle 11074] TB: SA1 Starting row_group=6 (weights 288-335)
+[Cycle 11075] SA1: Row_group=6, Input_chunk=0/48, Elements[0:15]
+[Cycle 11108] SA1: Row_group=6, Input_chunk=0 done, accumulated
+[Cycle 11109] COP: Loaded SA1 weights for row_group=6, input_chunk=1
+[Cycle 11110] SA1: Row_group=6, Input_chunk=1/48, Elements[16:31]
+[Cycle 11143] SA1: Row_group=6, Input_chunk=1 done, accumulated
+[Cycle 11144] COP: Loaded SA1 weights for row_group=6, input_chunk=2
+[Cycle 11145] SA1: Row_group=6, Input_chunk=2/48, Elements[32:47]
+[Cycle 11178] SA1: Row_group=6, Input_chunk=2 done, accumulated
+[Cycle 11179] COP: Loaded SA1 weights for row_group=6, input_chunk=3
+[Cycle 11180] SA1: Row_group=6, Input_chunk=3/48, Elements[48:63]
+[Cycle 11213] SA1: Row_group=6, Input_chunk=3 done, accumulated
+[Cycle 11214] COP: Loaded SA1 weights for row_group=6, input_chunk=4
+[Cycle 11215] SA1: Row_group=6, Input_chunk=4/48, Elements[64:79]
+[Cycle 11248] SA1: Row_group=6, Input_chunk=4 done, accumulated
+[Cycle 11249] COP: Loaded SA1 weights for row_group=6, input_chunk=5
+[Cycle 11250] SA1: Row_group=6, Input_chunk=5/48, Elements[80:95]
+[Cycle 11283] SA1: Row_group=6, Input_chunk=5 done, accumulated
+[Cycle 11284] COP: Loaded SA1 weights for row_group=6, input_chunk=6
+[Cycle 11285] SA1: Row_group=6, Input_chunk=6/48, Elements[96:111]
+[Cycle 11318] SA1: Row_group=6, Input_chunk=6 done, accumulated
+[Cycle 11319] COP: Loaded SA1 weights for row_group=6, input_chunk=7
+[Cycle 11320] SA1: Row_group=6, Input_chunk=7/48, Elements[112:127]
+[Cycle 11353] SA1: Row_group=6, Input_chunk=7 done, accumulated
+[Cycle 11354] COP: Loaded SA1 weights for row_group=6, input_chunk=8
+[Cycle 11355] SA1: Row_group=6, Input_chunk=8/48, Elements[128:143]
+[Cycle 11388] SA1: Row_group=6, Input_chunk=8 done, accumulated
+[Cycle 11389] COP: Loaded SA1 weights for row_group=6, input_chunk=9
+[Cycle 11390] SA1: Row_group=6, Input_chunk=9/48, Elements[144:159]
+[Cycle 11423] SA1: Row_group=6, Input_chunk=9 done, accumulated
+[Cycle 11424] COP: Loaded SA1 weights for row_group=6, input_chunk=10
+[Cycle 11425] SA1: Row_group=6, Input_chunk=10/48, Elements[160:175]
+[Cycle 11458] SA1: Row_group=6, Input_chunk=10 done, accumulated
+[Cycle 11459] COP: Loaded SA1 weights for row_group=6, input_chunk=11
+[Cycle 11460] SA1: Row_group=6, Input_chunk=11/48, Elements[176:191]
+[Cycle 11493] SA1: Row_group=6, Input_chunk=11 done, accumulated
+[Cycle 11494] COP: Loaded SA1 weights for row_group=6, input_chunk=12
+[Cycle 11495] SA1: Row_group=6, Input_chunk=12/48, Elements[192:207]
+[Cycle 11528] SA1: Row_group=6, Input_chunk=12 done, accumulated
+[Cycle 11529] COP: Loaded SA1 weights for row_group=6, input_chunk=13
+[Cycle 11530] SA1: Row_group=6, Input_chunk=13/48, Elements[208:223]
+[Cycle 11563] SA1: Row_group=6, Input_chunk=13 done, accumulated
+[Cycle 11564] COP: Loaded SA1 weights for row_group=6, input_chunk=14
+[Cycle 11565] SA1: Row_group=6, Input_chunk=14/48, Elements[224:239]
+[Cycle 11598] SA1: Row_group=6, Input_chunk=14 done, accumulated
+[Cycle 11599] COP: Loaded SA1 weights for row_group=6, input_chunk=15
+[Cycle 11600] SA1: Row_group=6, Input_chunk=15/48, Elements[240:255]
+[Cycle 11633] SA1: Row_group=6, Input_chunk=15 done, accumulated
+[Cycle 11634] COP: Loaded SA1 weights for row_group=6, input_chunk=16
+[Cycle 11635] SA1: Row_group=6, Input_chunk=16/48, Elements[256:271]
+[Cycle 11668] SA1: Row_group=6, Input_chunk=16 done, accumulated
+[Cycle 11669] COP: Loaded SA1 weights for row_group=6, input_chunk=17
+[Cycle 11670] SA1: Row_group=6, Input_chunk=17/48, Elements[272:287]
+[Cycle 11703] SA1: Row_group=6, Input_chunk=17 done, accumulated
+[Cycle 11704] COP: Loaded SA1 weights for row_group=6, input_chunk=18
+[Cycle 11705] SA1: Row_group=6, Input_chunk=18/48, Elements[288:303]
+[Cycle 11738] SA1: Row_group=6, Input_chunk=18 done, accumulated
+[Cycle 11739] COP: Loaded SA1 weights for row_group=6, input_chunk=19
+[Cycle 11740] SA1: Row_group=6, Input_chunk=19/48, Elements[304:319]
+[Cycle 11773] SA1: Row_group=6, Input_chunk=19 done, accumulated
+[Cycle 11774] COP: Loaded SA1 weights for row_group=6, input_chunk=20
+[Cycle 11775] SA1: Row_group=6, Input_chunk=20/48, Elements[320:335]
+[Cycle 11808] SA1: Row_group=6, Input_chunk=20 done, accumulated
+[Cycle 11809] COP: Loaded SA1 weights for row_group=6, input_chunk=21
+[Cycle 11810] SA1: Row_group=6, Input_chunk=21/48, Elements[336:351]
+[Cycle 11843] SA1: Row_group=6, Input_chunk=21 done, accumulated
+[Cycle 11844] COP: Loaded SA1 weights for row_group=6, input_chunk=22
+[Cycle 11845] SA1: Row_group=6, Input_chunk=22/48, Elements[352:367]
+[Cycle 11878] SA1: Row_group=6, Input_chunk=22 done, accumulated
+[Cycle 11879] COP: Loaded SA1 weights for row_group=6, input_chunk=23
+[Cycle 11880] SA1: Row_group=6, Input_chunk=23/48, Elements[368:383]
+[Cycle 11913] SA1: Row_group=6, Input_chunk=23 done, accumulated
+[Cycle 11914] COP: Loaded SA1 weights for row_group=6, input_chunk=24
+[Cycle 11915] SA1: Row_group=6, Input_chunk=24/48, Elements[384:399]
+[Cycle 11948] SA1: Row_group=6, Input_chunk=24 done, accumulated
+[Cycle 11949] COP: Loaded SA1 weights for row_group=6, input_chunk=25
+[Cycle 11950] SA1: Row_group=6, Input_chunk=25/48, Elements[400:415]
+[Cycle 11983] SA1: Row_group=6, Input_chunk=25 done, accumulated
+[Cycle 11984] COP: Loaded SA1 weights for row_group=6, input_chunk=26
+[Cycle 11985] SA1: Row_group=6, Input_chunk=26/48, Elements[416:431]
+[Cycle 12018] SA1: Row_group=6, Input_chunk=26 done, accumulated
+[Cycle 12019] COP: Loaded SA1 weights for row_group=6, input_chunk=27
+[Cycle 12020] SA1: Row_group=6, Input_chunk=27/48, Elements[432:447]
+[Cycle 12053] SA1: Row_group=6, Input_chunk=27 done, accumulated
+[Cycle 12054] COP: Loaded SA1 weights for row_group=6, input_chunk=28
+[Cycle 12055] SA1: Row_group=6, Input_chunk=28/48, Elements[448:463]
+[Cycle 12088] SA1: Row_group=6, Input_chunk=28 done, accumulated
+[Cycle 12089] COP: Loaded SA1 weights for row_group=6, input_chunk=29
+[Cycle 12090] SA1: Row_group=6, Input_chunk=29/48, Elements[464:479]
+[Cycle 12123] SA1: Row_group=6, Input_chunk=29 done, accumulated
+[Cycle 12124] COP: Loaded SA1 weights for row_group=6, input_chunk=30
+[Cycle 12125] SA1: Row_group=6, Input_chunk=30/48, Elements[480:495]
+[Cycle 12158] SA1: Row_group=6, Input_chunk=30 done, accumulated
+[Cycle 12159] COP: Loaded SA1 weights for row_group=6, input_chunk=31
+[Cycle 12160] SA1: Row_group=6, Input_chunk=31/48, Elements[496:511]
+[Cycle 12193] SA1: Row_group=6, Input_chunk=31 done, accumulated
+[Cycle 12194] COP: Loaded SA1 weights for row_group=6, input_chunk=32
+[Cycle 12195] SA1: Row_group=6, Input_chunk=32/48, Elements[512:527]
+[Cycle 12228] SA1: Row_group=6, Input_chunk=32 done, accumulated
+[Cycle 12229] COP: Loaded SA1 weights for row_group=6, input_chunk=33
+[Cycle 12230] SA1: Row_group=6, Input_chunk=33/48, Elements[528:543]
+[Cycle 12263] SA1: Row_group=6, Input_chunk=33 done, accumulated
+[Cycle 12264] COP: Loaded SA1 weights for row_group=6, input_chunk=34
+[Cycle 12265] SA1: Row_group=6, Input_chunk=34/48, Elements[544:559]
+[Cycle 12298] SA1: Row_group=6, Input_chunk=34 done, accumulated
+[Cycle 12299] COP: Loaded SA1 weights for row_group=6, input_chunk=35
+[Cycle 12300] SA1: Row_group=6, Input_chunk=35/48, Elements[560:575]
+[Cycle 12333] SA1: Row_group=6, Input_chunk=35 done, accumulated
+[Cycle 12334] COP: Loaded SA1 weights for row_group=6, input_chunk=36
+[Cycle 12335] SA1: Row_group=6, Input_chunk=36/48, Elements[576:591]
+[Cycle 12368] SA1: Row_group=6, Input_chunk=36 done, accumulated
+[Cycle 12369] COP: Loaded SA1 weights for row_group=6, input_chunk=37
+[Cycle 12370] SA1: Row_group=6, Input_chunk=37/48, Elements[592:607]
+[Cycle 12403] SA1: Row_group=6, Input_chunk=37 done, accumulated
+[Cycle 12404] COP: Loaded SA1 weights for row_group=6, input_chunk=38
+[Cycle 12405] SA1: Row_group=6, Input_chunk=38/48, Elements[608:623]
+[Cycle 12438] SA1: Row_group=6, Input_chunk=38 done, accumulated
+[Cycle 12439] COP: Loaded SA1 weights for row_group=6, input_chunk=39
+[Cycle 12440] SA1: Row_group=6, Input_chunk=39/48, Elements[624:639]
+[Cycle 12473] SA1: Row_group=6, Input_chunk=39 done, accumulated
+[Cycle 12474] COP: Loaded SA1 weights for row_group=6, input_chunk=40
+[Cycle 12475] SA1: Row_group=6, Input_chunk=40/48, Elements[640:655]
+[Cycle 12508] SA1: Row_group=6, Input_chunk=40 done, accumulated
+[Cycle 12509] COP: Loaded SA1 weights for row_group=6, input_chunk=41
+[Cycle 12510] SA1: Row_group=6, Input_chunk=41/48, Elements[656:671]
+[Cycle 12543] SA1: Row_group=6, Input_chunk=41 done, accumulated
+[Cycle 12544] COP: Loaded SA1 weights for row_group=6, input_chunk=42
+[Cycle 12545] SA1: Row_group=6, Input_chunk=42/48, Elements[672:687]
+[Cycle 12578] SA1: Row_group=6, Input_chunk=42 done, accumulated
+[Cycle 12579] COP: Loaded SA1 weights for row_group=6, input_chunk=43
+[Cycle 12580] SA1: Row_group=6, Input_chunk=43/48, Elements[688:703]
+[Cycle 12613] SA1: Row_group=6, Input_chunk=43 done, accumulated
+[Cycle 12614] COP: Loaded SA1 weights for row_group=6, input_chunk=44
+[Cycle 12615] SA1: Row_group=6, Input_chunk=44/48, Elements[704:719]
+[Cycle 12648] SA1: Row_group=6, Input_chunk=44 done, accumulated
+[Cycle 12649] COP: Loaded SA1 weights for row_group=6, input_chunk=45
+[Cycle 12650] SA1: Row_group=6, Input_chunk=45/48, Elements[720:735]
+[Cycle 12683] SA1: Row_group=6, Input_chunk=45 done, accumulated
+[Cycle 12684] COP: Loaded SA1 weights for row_group=6, input_chunk=46
+[Cycle 12685] SA1: Row_group=6, Input_chunk=46/48, Elements[736:751]
+[Cycle 12718] SA1: Row_group=6, Input_chunk=46 done, accumulated
+[Cycle 12719] COP: Loaded SA1 weights for row_group=6, input_chunk=47
+[Cycle 12719] TB: *** SA1 Row group 6 COMPLETE *** (loaded 336/576 weight matrices)
+[Cycle 12720] SA1: Row_group=6, Input_chunk=47/48, Elements[752:767]
+[Cycle 12753] SA1: Row_group=6, Input_chunk=47 done, accumulated
+[Cycle 12753] SA1: Row_group=6 COMPLETE (all 48 chunks accumulated)
+[Cycle 12754] SA1: Stored row_group=6 outputs [96:111]
+[Cycle 12755] COP: Loaded SA1 weights for row_group=7, input_chunk=0
+[Cycle 12755] TB: SA1 Starting row_group=7 (weights 336-383)
+[Cycle 12756] SA1: Row_group=7, Input_chunk=0/48, Elements[0:15]
+[Cycle 12789] SA1: Row_group=7, Input_chunk=0 done, accumulated
+[Cycle 12790] COP: Loaded SA1 weights for row_group=7, input_chunk=1
+[Cycle 12791] SA1: Row_group=7, Input_chunk=1/48, Elements[16:31]
+[Cycle 12824] SA1: Row_group=7, Input_chunk=1 done, accumulated
+[Cycle 12825] COP: Loaded SA1 weights for row_group=7, input_chunk=2
+[Cycle 12826] SA1: Row_group=7, Input_chunk=2/48, Elements[32:47]
+[Cycle 12859] SA1: Row_group=7, Input_chunk=2 done, accumulated
+[Cycle 12860] COP: Loaded SA1 weights for row_group=7, input_chunk=3
+[Cycle 12861] SA1: Row_group=7, Input_chunk=3/48, Elements[48:63]
+[Cycle 12894] SA1: Row_group=7, Input_chunk=3 done, accumulated
+[Cycle 12895] COP: Loaded SA1 weights for row_group=7, input_chunk=4
+[Cycle 12896] SA1: Row_group=7, Input_chunk=4/48, Elements[64:79]
+[Cycle 12929] SA1: Row_group=7, Input_chunk=4 done, accumulated
+[Cycle 12930] COP: Loaded SA1 weights for row_group=7, input_chunk=5
+[Cycle 12931] SA1: Row_group=7, Input_chunk=5/48, Elements[80:95]
+[Cycle 12964] SA1: Row_group=7, Input_chunk=5 done, accumulated
+[Cycle 12965] COP: Loaded SA1 weights for row_group=7, input_chunk=6
+[Cycle 12966] SA1: Row_group=7, Input_chunk=6/48, Elements[96:111]
+[Cycle 12999] SA1: Row_group=7, Input_chunk=6 done, accumulated
+[Cycle 13000] COP: Loaded SA1 weights for row_group=7, input_chunk=7
+[Cycle 13001] SA1: Row_group=7, Input_chunk=7/48, Elements[112:127]
+[Cycle 13034] SA1: Row_group=7, Input_chunk=7 done, accumulated
+[Cycle 13035] COP: Loaded SA1 weights for row_group=7, input_chunk=8
+[Cycle 13036] SA1: Row_group=7, Input_chunk=8/48, Elements[128:143]
+[Cycle 13069] SA1: Row_group=7, Input_chunk=8 done, accumulated
+[Cycle 13070] COP: Loaded SA1 weights for row_group=7, input_chunk=9
+[Cycle 13071] SA1: Row_group=7, Input_chunk=9/48, Elements[144:159]
+[Cycle 13104] SA1: Row_group=7, Input_chunk=9 done, accumulated
+[Cycle 13105] COP: Loaded SA1 weights for row_group=7, input_chunk=10
+[Cycle 13106] SA1: Row_group=7, Input_chunk=10/48, Elements[160:175]
+[Cycle 13139] SA1: Row_group=7, Input_chunk=10 done, accumulated
+[Cycle 13140] COP: Loaded SA1 weights for row_group=7, input_chunk=11
+[Cycle 13141] SA1: Row_group=7, Input_chunk=11/48, Elements[176:191]
+[Cycle 13174] SA1: Row_group=7, Input_chunk=11 done, accumulated
+[Cycle 13175] COP: Loaded SA1 weights for row_group=7, input_chunk=12
+[Cycle 13176] SA1: Row_group=7, Input_chunk=12/48, Elements[192:207]
+[Cycle 13209] SA1: Row_group=7, Input_chunk=12 done, accumulated
+[Cycle 13210] COP: Loaded SA1 weights for row_group=7, input_chunk=13
+[Cycle 13211] SA1: Row_group=7, Input_chunk=13/48, Elements[208:223]
+[Cycle 13244] SA1: Row_group=7, Input_chunk=13 done, accumulated
+[Cycle 13245] COP: Loaded SA1 weights for row_group=7, input_chunk=14
+[Cycle 13246] SA1: Row_group=7, Input_chunk=14/48, Elements[224:239]
+[Cycle 13279] SA1: Row_group=7, Input_chunk=14 done, accumulated
+[Cycle 13280] COP: Loaded SA1 weights for row_group=7, input_chunk=15
+[Cycle 13281] SA1: Row_group=7, Input_chunk=15/48, Elements[240:255]
+[Cycle 13314] SA1: Row_group=7, Input_chunk=15 done, accumulated
+[Cycle 13315] COP: Loaded SA1 weights for row_group=7, input_chunk=16
+[Cycle 13316] SA1: Row_group=7, Input_chunk=16/48, Elements[256:271]
+[Cycle 13349] SA1: Row_group=7, Input_chunk=16 done, accumulated
+[Cycle 13350] COP: Loaded SA1 weights for row_group=7, input_chunk=17
+[Cycle 13351] SA1: Row_group=7, Input_chunk=17/48, Elements[272:287]
+[Cycle 13384] SA1: Row_group=7, Input_chunk=17 done, accumulated
+[Cycle 13385] COP: Loaded SA1 weights for row_group=7, input_chunk=18
+[Cycle 13386] SA1: Row_group=7, Input_chunk=18/48, Elements[288:303]
+[Cycle 13419] SA1: Row_group=7, Input_chunk=18 done, accumulated
+[Cycle 13420] COP: Loaded SA1 weights for row_group=7, input_chunk=19
+[Cycle 13421] SA1: Row_group=7, Input_chunk=19/48, Elements[304:319]
+[Cycle 13454] SA1: Row_group=7, Input_chunk=19 done, accumulated
+[Cycle 13455] COP: Loaded SA1 weights for row_group=7, input_chunk=20
+[Cycle 13456] SA1: Row_group=7, Input_chunk=20/48, Elements[320:335]
+[Cycle 13489] SA1: Row_group=7, Input_chunk=20 done, accumulated
+[Cycle 13490] COP: Loaded SA1 weights for row_group=7, input_chunk=21
+[Cycle 13491] SA1: Row_group=7, Input_chunk=21/48, Elements[336:351]
+[Cycle 13524] SA1: Row_group=7, Input_chunk=21 done, accumulated
+[Cycle 13525] COP: Loaded SA1 weights for row_group=7, input_chunk=22
+[Cycle 13526] SA1: Row_group=7, Input_chunk=22/48, Elements[352:367]
+[Cycle 13559] SA1: Row_group=7, Input_chunk=22 done, accumulated
+[Cycle 13560] COP: Loaded SA1 weights for row_group=7, input_chunk=23
+[Cycle 13561] SA1: Row_group=7, Input_chunk=23/48, Elements[368:383]
+[Cycle 13594] SA1: Row_group=7, Input_chunk=23 done, accumulated
+[Cycle 13595] COP: Loaded SA1 weights for row_group=7, input_chunk=24
+[Cycle 13596] SA1: Row_group=7, Input_chunk=24/48, Elements[384:399]
+[Cycle 13629] SA1: Row_group=7, Input_chunk=24 done, accumulated
+[Cycle 13630] COP: Loaded SA1 weights for row_group=7, input_chunk=25
+[Cycle 13631] SA1: Row_group=7, Input_chunk=25/48, Elements[400:415]
+[Cycle 13664] SA1: Row_group=7, Input_chunk=25 done, accumulated
+[Cycle 13665] COP: Loaded SA1 weights for row_group=7, input_chunk=26
+[Cycle 13666] SA1: Row_group=7, Input_chunk=26/48, Elements[416:431]
+[Cycle 13699] SA1: Row_group=7, Input_chunk=26 done, accumulated
+[Cycle 13700] COP: Loaded SA1 weights for row_group=7, input_chunk=27
+[Cycle 13701] SA1: Row_group=7, Input_chunk=27/48, Elements[432:447]
+[Cycle 13734] SA1: Row_group=7, Input_chunk=27 done, accumulated
+[Cycle 13735] COP: Loaded SA1 weights for row_group=7, input_chunk=28
+[Cycle 13736] SA1: Row_group=7, Input_chunk=28/48, Elements[448:463]
+[Cycle 13769] SA1: Row_group=7, Input_chunk=28 done, accumulated
+[Cycle 13770] COP: Loaded SA1 weights for row_group=7, input_chunk=29
+[Cycle 13771] SA1: Row_group=7, Input_chunk=29/48, Elements[464:479]
+[Cycle 13804] SA1: Row_group=7, Input_chunk=29 done, accumulated
+[Cycle 13805] COP: Loaded SA1 weights for row_group=7, input_chunk=30
+[Cycle 13806] SA1: Row_group=7, Input_chunk=30/48, Elements[480:495]
+[Cycle 13839] SA1: Row_group=7, Input_chunk=30 done, accumulated
+[Cycle 13840] COP: Loaded SA1 weights for row_group=7, input_chunk=31
+[Cycle 13841] SA1: Row_group=7, Input_chunk=31/48, Elements[496:511]
+[Cycle 13874] SA1: Row_group=7, Input_chunk=31 done, accumulated
+[Cycle 13875] COP: Loaded SA1 weights for row_group=7, input_chunk=32
+[Cycle 13876] SA1: Row_group=7, Input_chunk=32/48, Elements[512:527]
+[Cycle 13909] SA1: Row_group=7, Input_chunk=32 done, accumulated
+[Cycle 13910] COP: Loaded SA1 weights for row_group=7, input_chunk=33
+[Cycle 13911] SA1: Row_group=7, Input_chunk=33/48, Elements[528:543]
+[Cycle 13944] SA1: Row_group=7, Input_chunk=33 done, accumulated
+[Cycle 13945] COP: Loaded SA1 weights for row_group=7, input_chunk=34
+[Cycle 13946] SA1: Row_group=7, Input_chunk=34/48, Elements[544:559]
+[Cycle 13979] SA1: Row_group=7, Input_chunk=34 done, accumulated
+[Cycle 13980] COP: Loaded SA1 weights for row_group=7, input_chunk=35
+[Cycle 13981] SA1: Row_group=7, Input_chunk=35/48, Elements[560:575]
+[Cycle 14014] SA1: Row_group=7, Input_chunk=35 done, accumulated
+[Cycle 14015] COP: Loaded SA1 weights for row_group=7, input_chunk=36
+[Cycle 14016] SA1: Row_group=7, Input_chunk=36/48, Elements[576:591]
+[Cycle 14049] SA1: Row_group=7, Input_chunk=36 done, accumulated
+[Cycle 14050] COP: Loaded SA1 weights for row_group=7, input_chunk=37
+[Cycle 14051] SA1: Row_group=7, Input_chunk=37/48, Elements[592:607]
+[Cycle 14084] SA1: Row_group=7, Input_chunk=37 done, accumulated
+[Cycle 14085] COP: Loaded SA1 weights for row_group=7, input_chunk=38
+[Cycle 14086] SA1: Row_group=7, Input_chunk=38/48, Elements[608:623]
+[Cycle 14119] SA1: Row_group=7, Input_chunk=38 done, accumulated
+[Cycle 14120] COP: Loaded SA1 weights for row_group=7, input_chunk=39
+[Cycle 14121] SA1: Row_group=7, Input_chunk=39/48, Elements[624:639]
+[Cycle 14154] SA1: Row_group=7, Input_chunk=39 done, accumulated
+[Cycle 14155] COP: Loaded SA1 weights for row_group=7, input_chunk=40
+[Cycle 14156] SA1: Row_group=7, Input_chunk=40/48, Elements[640:655]
+[Cycle 14189] SA1: Row_group=7, Input_chunk=40 done, accumulated
+[Cycle 14190] COP: Loaded SA1 weights for row_group=7, input_chunk=41
+[Cycle 14191] SA1: Row_group=7, Input_chunk=41/48, Elements[656:671]
+[Cycle 14224] SA1: Row_group=7, Input_chunk=41 done, accumulated
+[Cycle 14225] COP: Loaded SA1 weights for row_group=7, input_chunk=42
+[Cycle 14226] SA1: Row_group=7, Input_chunk=42/48, Elements[672:687]
+[Cycle 14259] SA1: Row_group=7, Input_chunk=42 done, accumulated
+[Cycle 14260] COP: Loaded SA1 weights for row_group=7, input_chunk=43
+[Cycle 14261] SA1: Row_group=7, Input_chunk=43/48, Elements[688:703]
+[Cycle 14294] SA1: Row_group=7, Input_chunk=43 done, accumulated
+[Cycle 14295] COP: Loaded SA1 weights for row_group=7, input_chunk=44
+[Cycle 14296] SA1: Row_group=7, Input_chunk=44/48, Elements[704:719]
+[Cycle 14329] SA1: Row_group=7, Input_chunk=44 done, accumulated
+[Cycle 14330] COP: Loaded SA1 weights for row_group=7, input_chunk=45
+[Cycle 14331] SA1: Row_group=7, Input_chunk=45/48, Elements[720:735]
+[Cycle 14364] SA1: Row_group=7, Input_chunk=45 done, accumulated
+[Cycle 14365] COP: Loaded SA1 weights for row_group=7, input_chunk=46
+[Cycle 14366] SA1: Row_group=7, Input_chunk=46/48, Elements[736:751]
+[Cycle 14399] SA1: Row_group=7, Input_chunk=46 done, accumulated
+[Cycle 14400] COP: Loaded SA1 weights for row_group=7, input_chunk=47
+[Cycle 14400] TB: *** SA1 Row group 7 COMPLETE *** (loaded 384/576 weight matrices)
+[Cycle 14401] SA1: Row_group=7, Input_chunk=47/48, Elements[752:767]
+[Cycle 14434] SA1: Row_group=7, Input_chunk=47 done, accumulated
+[Cycle 14434] SA1: Row_group=7 COMPLETE (all 48 chunks accumulated)
+[Cycle 14435] SA1: Stored row_group=7 outputs [112:127]
+[Cycle 14436] COP: Loaded SA1 weights for row_group=8, input_chunk=0
+[Cycle 14436] TB: SA1 Starting row_group=8 (weights 384-431)
+[Cycle 14437] SA1: Row_group=8, Input_chunk=0/48, Elements[0:15]
+[Cycle 14470] SA1: Row_group=8, Input_chunk=0 done, accumulated
+[Cycle 14471] COP: Loaded SA1 weights for row_group=8, input_chunk=1
+[Cycle 14472] SA1: Row_group=8, Input_chunk=1/48, Elements[16:31]
+[Cycle 14505] SA1: Row_group=8, Input_chunk=1 done, accumulated
+[Cycle 14506] COP: Loaded SA1 weights for row_group=8, input_chunk=2
+[Cycle 14507] SA1: Row_group=8, Input_chunk=2/48, Elements[32:47]
+[Cycle 14540] SA1: Row_group=8, Input_chunk=2 done, accumulated
+[Cycle 14541] COP: Loaded SA1 weights for row_group=8, input_chunk=3
+[Cycle 14542] SA1: Row_group=8, Input_chunk=3/48, Elements[48:63]
+[Cycle 14575] SA1: Row_group=8, Input_chunk=3 done, accumulated
+[Cycle 14576] COP: Loaded SA1 weights for row_group=8, input_chunk=4
+[Cycle 14577] SA1: Row_group=8, Input_chunk=4/48, Elements[64:79]
+[Cycle 14610] SA1: Row_group=8, Input_chunk=4 done, accumulated
+[Cycle 14611] COP: Loaded SA1 weights for row_group=8, input_chunk=5
+[Cycle 14612] SA1: Row_group=8, Input_chunk=5/48, Elements[80:95]
+[Cycle 14645] SA1: Row_group=8, Input_chunk=5 done, accumulated
+[Cycle 14646] COP: Loaded SA1 weights for row_group=8, input_chunk=6
+[Cycle 14647] SA1: Row_group=8, Input_chunk=6/48, Elements[96:111]
+[Cycle 14680] SA1: Row_group=8, Input_chunk=6 done, accumulated
+[Cycle 14681] COP: Loaded SA1 weights for row_group=8, input_chunk=7
+[Cycle 14682] SA1: Row_group=8, Input_chunk=7/48, Elements[112:127]
+[Cycle 14715] SA1: Row_group=8, Input_chunk=7 done, accumulated
+[Cycle 14716] COP: Loaded SA1 weights for row_group=8, input_chunk=8
+[Cycle 14717] SA1: Row_group=8, Input_chunk=8/48, Elements[128:143]
+[Cycle 14750] SA1: Row_group=8, Input_chunk=8 done, accumulated
+[Cycle 14751] COP: Loaded SA1 weights for row_group=8, input_chunk=9
+[Cycle 14752] SA1: Row_group=8, Input_chunk=9/48, Elements[144:159]
+[Cycle 14785] SA1: Row_group=8, Input_chunk=9 done, accumulated
+[Cycle 14786] COP: Loaded SA1 weights for row_group=8, input_chunk=10
+[Cycle 14787] SA1: Row_group=8, Input_chunk=10/48, Elements[160:175]
+[Cycle 14820] SA1: Row_group=8, Input_chunk=10 done, accumulated
+[Cycle 14821] COP: Loaded SA1 weights for row_group=8, input_chunk=11
+[Cycle 14822] SA1: Row_group=8, Input_chunk=11/48, Elements[176:191]
+[Cycle 14855] SA1: Row_group=8, Input_chunk=11 done, accumulated
+[Cycle 14856] COP: Loaded SA1 weights for row_group=8, input_chunk=12
+[Cycle 14857] SA1: Row_group=8, Input_chunk=12/48, Elements[192:207]
+[Cycle 14890] SA1: Row_group=8, Input_chunk=12 done, accumulated
+[Cycle 14891] COP: Loaded SA1 weights for row_group=8, input_chunk=13
+[Cycle 14892] SA1: Row_group=8, Input_chunk=13/48, Elements[208:223]
+[Cycle 14925] SA1: Row_group=8, Input_chunk=13 done, accumulated
+[Cycle 14926] COP: Loaded SA1 weights for row_group=8, input_chunk=14
+[Cycle 14927] SA1: Row_group=8, Input_chunk=14/48, Elements[224:239]
+[Cycle 14960] SA1: Row_group=8, Input_chunk=14 done, accumulated
+[Cycle 14961] COP: Loaded SA1 weights for row_group=8, input_chunk=15
+[Cycle 14962] SA1: Row_group=8, Input_chunk=15/48, Elements[240:255]
+[Cycle 14995] SA1: Row_group=8, Input_chunk=15 done, accumulated
+[Cycle 14996] COP: Loaded SA1 weights for row_group=8, input_chunk=16
+[Cycle 14997] SA1: Row_group=8, Input_chunk=16/48, Elements[256:271]
+[Cycle 15030] SA1: Row_group=8, Input_chunk=16 done, accumulated
+[Cycle 15031] COP: Loaded SA1 weights for row_group=8, input_chunk=17
+[Cycle 15032] SA1: Row_group=8, Input_chunk=17/48, Elements[272:287]
+[Cycle 15065] SA1: Row_group=8, Input_chunk=17 done, accumulated
+[Cycle 15066] COP: Loaded SA1 weights for row_group=8, input_chunk=18
+[Cycle 15067] SA1: Row_group=8, Input_chunk=18/48, Elements[288:303]
+[Cycle 15100] SA1: Row_group=8, Input_chunk=18 done, accumulated
+[Cycle 15101] COP: Loaded SA1 weights for row_group=8, input_chunk=19
+[Cycle 15102] SA1: Row_group=8, Input_chunk=19/48, Elements[304:319]
+[Cycle 15135] SA1: Row_group=8, Input_chunk=19 done, accumulated
+[Cycle 15136] COP: Loaded SA1 weights for row_group=8, input_chunk=20
+[Cycle 15137] SA1: Row_group=8, Input_chunk=20/48, Elements[320:335]
+[Cycle 15170] SA1: Row_group=8, Input_chunk=20 done, accumulated
+[Cycle 15171] COP: Loaded SA1 weights for row_group=8, input_chunk=21
+[Cycle 15172] SA1: Row_group=8, Input_chunk=21/48, Elements[336:351]
+[Cycle 15205] SA1: Row_group=8, Input_chunk=21 done, accumulated
+[Cycle 15206] COP: Loaded SA1 weights for row_group=8, input_chunk=22
+[Cycle 15207] SA1: Row_group=8, Input_chunk=22/48, Elements[352:367]
+[Cycle 15240] SA1: Row_group=8, Input_chunk=22 done, accumulated
+[Cycle 15241] COP: Loaded SA1 weights for row_group=8, input_chunk=23
+[Cycle 15242] SA1: Row_group=8, Input_chunk=23/48, Elements[368:383]
+[Cycle 15275] SA1: Row_group=8, Input_chunk=23 done, accumulated
+[Cycle 15276] COP: Loaded SA1 weights for row_group=8, input_chunk=24
+[Cycle 15277] SA1: Row_group=8, Input_chunk=24/48, Elements[384:399]
+[Cycle 15310] SA1: Row_group=8, Input_chunk=24 done, accumulated
+[Cycle 15311] COP: Loaded SA1 weights for row_group=8, input_chunk=25
+[Cycle 15312] SA1: Row_group=8, Input_chunk=25/48, Elements[400:415]
+[Cycle 15345] SA1: Row_group=8, Input_chunk=25 done, accumulated
+[Cycle 15346] COP: Loaded SA1 weights for row_group=8, input_chunk=26
+[Cycle 15347] SA1: Row_group=8, Input_chunk=26/48, Elements[416:431]
+[Cycle 15380] SA1: Row_group=8, Input_chunk=26 done, accumulated
+[Cycle 15381] COP: Loaded SA1 weights for row_group=8, input_chunk=27
+[Cycle 15382] SA1: Row_group=8, Input_chunk=27/48, Elements[432:447]
+[Cycle 15415] SA1: Row_group=8, Input_chunk=27 done, accumulated
+[Cycle 15416] COP: Loaded SA1 weights for row_group=8, input_chunk=28
+[Cycle 15417] SA1: Row_group=8, Input_chunk=28/48, Elements[448:463]
+[Cycle 15450] SA1: Row_group=8, Input_chunk=28 done, accumulated
+[Cycle 15451] COP: Loaded SA1 weights for row_group=8, input_chunk=29
+[Cycle 15452] SA1: Row_group=8, Input_chunk=29/48, Elements[464:479]
+[Cycle 15485] SA1: Row_group=8, Input_chunk=29 done, accumulated
+[Cycle 15486] COP: Loaded SA1 weights for row_group=8, input_chunk=30
+[Cycle 15487] SA1: Row_group=8, Input_chunk=30/48, Elements[480:495]
+[Cycle 15520] SA1: Row_group=8, Input_chunk=30 done, accumulated
+[Cycle 15521] COP: Loaded SA1 weights for row_group=8, input_chunk=31
+[Cycle 15522] SA1: Row_group=8, Input_chunk=31/48, Elements[496:511]
+[Cycle 15555] SA1: Row_group=8, Input_chunk=31 done, accumulated
+[Cycle 15556] COP: Loaded SA1 weights for row_group=8, input_chunk=32
+[Cycle 15557] SA1: Row_group=8, Input_chunk=32/48, Elements[512:527]
+[Cycle 15590] SA1: Row_group=8, Input_chunk=32 done, accumulated
+[Cycle 15591] COP: Loaded SA1 weights for row_group=8, input_chunk=33
+[Cycle 15592] SA1: Row_group=8, Input_chunk=33/48, Elements[528:543]
+[Cycle 15625] SA1: Row_group=8, Input_chunk=33 done, accumulated
+[Cycle 15626] COP: Loaded SA1 weights for row_group=8, input_chunk=34
+[Cycle 15627] SA1: Row_group=8, Input_chunk=34/48, Elements[544:559]
+[Cycle 15660] SA1: Row_group=8, Input_chunk=34 done, accumulated
+[Cycle 15661] COP: Loaded SA1 weights for row_group=8, input_chunk=35
+[Cycle 15662] SA1: Row_group=8, Input_chunk=35/48, Elements[560:575]
+[Cycle 15695] SA1: Row_group=8, Input_chunk=35 done, accumulated
+[Cycle 15696] COP: Loaded SA1 weights for row_group=8, input_chunk=36
+[Cycle 15697] SA1: Row_group=8, Input_chunk=36/48, Elements[576:591]
+[Cycle 15730] SA1: Row_group=8, Input_chunk=36 done, accumulated
+[Cycle 15731] COP: Loaded SA1 weights for row_group=8, input_chunk=37
+[Cycle 15732] SA1: Row_group=8, Input_chunk=37/48, Elements[592:607]
+[Cycle 15765] SA1: Row_group=8, Input_chunk=37 done, accumulated
+[Cycle 15766] COP: Loaded SA1 weights for row_group=8, input_chunk=38
+[Cycle 15767] SA1: Row_group=8, Input_chunk=38/48, Elements[608:623]
+[Cycle 15800] SA1: Row_group=8, Input_chunk=38 done, accumulated
+[Cycle 15801] COP: Loaded SA1 weights for row_group=8, input_chunk=39
+[Cycle 15802] SA1: Row_group=8, Input_chunk=39/48, Elements[624:639]
+[Cycle 15835] SA1: Row_group=8, Input_chunk=39 done, accumulated
+[Cycle 15836] COP: Loaded SA1 weights for row_group=8, input_chunk=40
+[Cycle 15837] SA1: Row_group=8, Input_chunk=40/48, Elements[640:655]
+[Cycle 15870] SA1: Row_group=8, Input_chunk=40 done, accumulated
+[Cycle 15871] COP: Loaded SA1 weights for row_group=8, input_chunk=41
+[Cycle 15872] SA1: Row_group=8, Input_chunk=41/48, Elements[656:671]
+[Cycle 15905] SA1: Row_group=8, Input_chunk=41 done, accumulated
+[Cycle 15906] COP: Loaded SA1 weights for row_group=8, input_chunk=42
+[Cycle 15907] SA1: Row_group=8, Input_chunk=42/48, Elements[672:687]
+[Cycle 15940] SA1: Row_group=8, Input_chunk=42 done, accumulated
+[Cycle 15941] COP: Loaded SA1 weights for row_group=8, input_chunk=43
+[Cycle 15942] SA1: Row_group=8, Input_chunk=43/48, Elements[688:703]
+[Cycle 15975] SA1: Row_group=8, Input_chunk=43 done, accumulated
+[Cycle 15976] COP: Loaded SA1 weights for row_group=8, input_chunk=44
+[Cycle 15977] SA1: Row_group=8, Input_chunk=44/48, Elements[704:719]
+[Cycle 16010] SA1: Row_group=8, Input_chunk=44 done, accumulated
+[Cycle 16011] COP: Loaded SA1 weights for row_group=8, input_chunk=45
+[Cycle 16012] SA1: Row_group=8, Input_chunk=45/48, Elements[720:735]
+[Cycle 16045] SA1: Row_group=8, Input_chunk=45 done, accumulated
+[Cycle 16046] COP: Loaded SA1 weights for row_group=8, input_chunk=46
+[Cycle 16047] SA1: Row_group=8, Input_chunk=46/48, Elements[736:751]
+[Cycle 16080] SA1: Row_group=8, Input_chunk=46 done, accumulated
+[Cycle 16081] COP: Loaded SA1 weights for row_group=8, input_chunk=47
+[Cycle 16081] TB: *** SA1 Row group 8 COMPLETE *** (loaded 432/576 weight matrices)
+[Cycle 16082] SA1: Row_group=8, Input_chunk=47/48, Elements[752:767]
+[Cycle 16115] SA1: Row_group=8, Input_chunk=47 done, accumulated
+[Cycle 16115] SA1: Row_group=8 COMPLETE (all 48 chunks accumulated)
+[Cycle 16116] SA1: Stored row_group=8 outputs [128:143]
+[Cycle 16117] COP: Loaded SA1 weights for row_group=9, input_chunk=0
+[Cycle 16117] TB: SA1 Starting row_group=9 (weights 432-479)
+[Cycle 16118] SA1: Row_group=9, Input_chunk=0/48, Elements[0:15]
+[Cycle 16151] SA1: Row_group=9, Input_chunk=0 done, accumulated
+[Cycle 16152] COP: Loaded SA1 weights for row_group=9, input_chunk=1
+[Cycle 16153] SA1: Row_group=9, Input_chunk=1/48, Elements[16:31]
+[Cycle 16186] SA1: Row_group=9, Input_chunk=1 done, accumulated
+[Cycle 16187] COP: Loaded SA1 weights for row_group=9, input_chunk=2
+[Cycle 16188] SA1: Row_group=9, Input_chunk=2/48, Elements[32:47]
+[Cycle 16221] SA1: Row_group=9, Input_chunk=2 done, accumulated
+[Cycle 16222] COP: Loaded SA1 weights for row_group=9, input_chunk=3
+[Cycle 16223] SA1: Row_group=9, Input_chunk=3/48, Elements[48:63]
+[Cycle 16256] SA1: Row_group=9, Input_chunk=3 done, accumulated
+[Cycle 16257] COP: Loaded SA1 weights for row_group=9, input_chunk=4
+[Cycle 16258] SA1: Row_group=9, Input_chunk=4/48, Elements[64:79]
+[Cycle 16291] SA1: Row_group=9, Input_chunk=4 done, accumulated
+[Cycle 16292] COP: Loaded SA1 weights for row_group=9, input_chunk=5
+[Cycle 16293] SA1: Row_group=9, Input_chunk=5/48, Elements[80:95]
+[Cycle 16326] SA1: Row_group=9, Input_chunk=5 done, accumulated
+[Cycle 16327] COP: Loaded SA1 weights for row_group=9, input_chunk=6
+[Cycle 16328] SA1: Row_group=9, Input_chunk=6/48, Elements[96:111]
+[Cycle 16361] SA1: Row_group=9, Input_chunk=6 done, accumulated
+[Cycle 16362] COP: Loaded SA1 weights for row_group=9, input_chunk=7
+[Cycle 16363] SA1: Row_group=9, Input_chunk=7/48, Elements[112:127]
+[Cycle 16396] SA1: Row_group=9, Input_chunk=7 done, accumulated
+[Cycle 16397] COP: Loaded SA1 weights for row_group=9, input_chunk=8
+[Cycle 16398] SA1: Row_group=9, Input_chunk=8/48, Elements[128:143]
+[Cycle 16431] SA1: Row_group=9, Input_chunk=8 done, accumulated
+[Cycle 16432] COP: Loaded SA1 weights for row_group=9, input_chunk=9
+[Cycle 16433] SA1: Row_group=9, Input_chunk=9/48, Elements[144:159]
+[Cycle 16466] SA1: Row_group=9, Input_chunk=9 done, accumulated
+[Cycle 16467] COP: Loaded SA1 weights for row_group=9, input_chunk=10
+[Cycle 16468] SA1: Row_group=9, Input_chunk=10/48, Elements[160:175]
+[Cycle 16501] SA1: Row_group=9, Input_chunk=10 done, accumulated
+[Cycle 16502] COP: Loaded SA1 weights for row_group=9, input_chunk=11
+[Cycle 16503] SA1: Row_group=9, Input_chunk=11/48, Elements[176:191]
+[Cycle 16536] SA1: Row_group=9, Input_chunk=11 done, accumulated
+[Cycle 16537] COP: Loaded SA1 weights for row_group=9, input_chunk=12
+[Cycle 16538] SA1: Row_group=9, Input_chunk=12/48, Elements[192:207]
+[Cycle 16571] SA1: Row_group=9, Input_chunk=12 done, accumulated
+[Cycle 16572] COP: Loaded SA1 weights for row_group=9, input_chunk=13
+[Cycle 16573] SA1: Row_group=9, Input_chunk=13/48, Elements[208:223]
+[Cycle 16606] SA1: Row_group=9, Input_chunk=13 done, accumulated
+[Cycle 16607] COP: Loaded SA1 weights for row_group=9, input_chunk=14
+[Cycle 16608] SA1: Row_group=9, Input_chunk=14/48, Elements[224:239]
+[Cycle 16641] SA1: Row_group=9, Input_chunk=14 done, accumulated
+[Cycle 16642] COP: Loaded SA1 weights for row_group=9, input_chunk=15
+[Cycle 16643] SA1: Row_group=9, Input_chunk=15/48, Elements[240:255]
+[Cycle 16676] SA1: Row_group=9, Input_chunk=15 done, accumulated
+[Cycle 16677] COP: Loaded SA1 weights for row_group=9, input_chunk=16
+[Cycle 16678] SA1: Row_group=9, Input_chunk=16/48, Elements[256:271]
+[Cycle 16711] SA1: Row_group=9, Input_chunk=16 done, accumulated
+[Cycle 16712] COP: Loaded SA1 weights for row_group=9, input_chunk=17
+[Cycle 16713] SA1: Row_group=9, Input_chunk=17/48, Elements[272:287]
+[Cycle 16746] SA1: Row_group=9, Input_chunk=17 done, accumulated
+[Cycle 16747] COP: Loaded SA1 weights for row_group=9, input_chunk=18
+[Cycle 16748] SA1: Row_group=9, Input_chunk=18/48, Elements[288:303]
+[Cycle 16781] SA1: Row_group=9, Input_chunk=18 done, accumulated
+[Cycle 16782] COP: Loaded SA1 weights for row_group=9, input_chunk=19
+[Cycle 16783] SA1: Row_group=9, Input_chunk=19/48, Elements[304:319]
+[Cycle 16816] SA1: Row_group=9, Input_chunk=19 done, accumulated
+[Cycle 16817] COP: Loaded SA1 weights for row_group=9, input_chunk=20
+[Cycle 16818] SA1: Row_group=9, Input_chunk=20/48, Elements[320:335]
+[Cycle 16851] SA1: Row_group=9, Input_chunk=20 done, accumulated
+[Cycle 16852] COP: Loaded SA1 weights for row_group=9, input_chunk=21
+[Cycle 16853] SA1: Row_group=9, Input_chunk=21/48, Elements[336:351]
+[Cycle 16886] SA1: Row_group=9, Input_chunk=21 done, accumulated
+[Cycle 16887] COP: Loaded SA1 weights for row_group=9, input_chunk=22
+[Cycle 16888] SA1: Row_group=9, Input_chunk=22/48, Elements[352:367]
+[Cycle 16921] SA1: Row_group=9, Input_chunk=22 done, accumulated
+[Cycle 16922] COP: Loaded SA1 weights for row_group=9, input_chunk=23
+[Cycle 16923] SA1: Row_group=9, Input_chunk=23/48, Elements[368:383]
+[Cycle 16956] SA1: Row_group=9, Input_chunk=23 done, accumulated
+[Cycle 16957] COP: Loaded SA1 weights for row_group=9, input_chunk=24
+[Cycle 16958] SA1: Row_group=9, Input_chunk=24/48, Elements[384:399]
+[Cycle 16991] SA1: Row_group=9, Input_chunk=24 done, accumulated
+[Cycle 16992] COP: Loaded SA1 weights for row_group=9, input_chunk=25
+[Cycle 16993] SA1: Row_group=9, Input_chunk=25/48, Elements[400:415]
+[Cycle 17026] SA1: Row_group=9, Input_chunk=25 done, accumulated
+[Cycle 17027] COP: Loaded SA1 weights for row_group=9, input_chunk=26
+[Cycle 17028] SA1: Row_group=9, Input_chunk=26/48, Elements[416:431]
+[Cycle 17061] SA1: Row_group=9, Input_chunk=26 done, accumulated
+[Cycle 17062] COP: Loaded SA1 weights for row_group=9, input_chunk=27
+[Cycle 17063] SA1: Row_group=9, Input_chunk=27/48, Elements[432:447]
+[Cycle 17096] SA1: Row_group=9, Input_chunk=27 done, accumulated
+[Cycle 17097] COP: Loaded SA1 weights for row_group=9, input_chunk=28
+[Cycle 17098] SA1: Row_group=9, Input_chunk=28/48, Elements[448:463]
+[Cycle 17131] SA1: Row_group=9, Input_chunk=28 done, accumulated
+[Cycle 17132] COP: Loaded SA1 weights for row_group=9, input_chunk=29
+[Cycle 17133] SA1: Row_group=9, Input_chunk=29/48, Elements[464:479]
+[Cycle 17166] SA1: Row_group=9, Input_chunk=29 done, accumulated
+[Cycle 17167] COP: Loaded SA1 weights for row_group=9, input_chunk=30
+[Cycle 17168] SA1: Row_group=9, Input_chunk=30/48, Elements[480:495]
+[Cycle 17201] SA1: Row_group=9, Input_chunk=30 done, accumulated
+[Cycle 17202] COP: Loaded SA1 weights for row_group=9, input_chunk=31
+[Cycle 17203] SA1: Row_group=9, Input_chunk=31/48, Elements[496:511]
+[Cycle 17236] SA1: Row_group=9, Input_chunk=31 done, accumulated
+[Cycle 17237] COP: Loaded SA1 weights for row_group=9, input_chunk=32
+[Cycle 17238] SA1: Row_group=9, Input_chunk=32/48, Elements[512:527]
+[Cycle 17271] SA1: Row_group=9, Input_chunk=32 done, accumulated
+[Cycle 17272] COP: Loaded SA1 weights for row_group=9, input_chunk=33
+[Cycle 17273] SA1: Row_group=9, Input_chunk=33/48, Elements[528:543]
+[Cycle 17306] SA1: Row_group=9, Input_chunk=33 done, accumulated
+[Cycle 17307] COP: Loaded SA1 weights for row_group=9, input_chunk=34
+[Cycle 17308] SA1: Row_group=9, Input_chunk=34/48, Elements[544:559]
+[Cycle 17341] SA1: Row_group=9, Input_chunk=34 done, accumulated
+[Cycle 17342] COP: Loaded SA1 weights for row_group=9, input_chunk=35
+[Cycle 17343] SA1: Row_group=9, Input_chunk=35/48, Elements[560:575]
+[Cycle 17376] SA1: Row_group=9, Input_chunk=35 done, accumulated
+[Cycle 17377] COP: Loaded SA1 weights for row_group=9, input_chunk=36
+[Cycle 17378] SA1: Row_group=9, Input_chunk=36/48, Elements[576:591]
+[Cycle 17411] SA1: Row_group=9, Input_chunk=36 done, accumulated
+[Cycle 17412] COP: Loaded SA1 weights for row_group=9, input_chunk=37
+[Cycle 17413] SA1: Row_group=9, Input_chunk=37/48, Elements[592:607]
+[Cycle 17446] SA1: Row_group=9, Input_chunk=37 done, accumulated
+[Cycle 17447] COP: Loaded SA1 weights for row_group=9, input_chunk=38
+[Cycle 17448] SA1: Row_group=9, Input_chunk=38/48, Elements[608:623]
+[Cycle 17481] SA1: Row_group=9, Input_chunk=38 done, accumulated
+[Cycle 17482] COP: Loaded SA1 weights for row_group=9, input_chunk=39
+[Cycle 17483] SA1: Row_group=9, Input_chunk=39/48, Elements[624:639]
+[Cycle 17516] SA1: Row_group=9, Input_chunk=39 done, accumulated
+[Cycle 17517] COP: Loaded SA1 weights for row_group=9, input_chunk=40
+[Cycle 17518] SA1: Row_group=9, Input_chunk=40/48, Elements[640:655]
+[Cycle 17551] SA1: Row_group=9, Input_chunk=40 done, accumulated
+[Cycle 17552] COP: Loaded SA1 weights for row_group=9, input_chunk=41
+[Cycle 17553] SA1: Row_group=9, Input_chunk=41/48, Elements[656:671]
+[Cycle 17586] SA1: Row_group=9, Input_chunk=41 done, accumulated
+[Cycle 17587] COP: Loaded SA1 weights for row_group=9, input_chunk=42
+[Cycle 17588] SA1: Row_group=9, Input_chunk=42/48, Elements[672:687]
+[Cycle 17621] SA1: Row_group=9, Input_chunk=42 done, accumulated
+[Cycle 17622] COP: Loaded SA1 weights for row_group=9, input_chunk=43
+[Cycle 17623] SA1: Row_group=9, Input_chunk=43/48, Elements[688:703]
+[Cycle 17656] SA1: Row_group=9, Input_chunk=43 done, accumulated
+[Cycle 17657] COP: Loaded SA1 weights for row_group=9, input_chunk=44
+[Cycle 17658] SA1: Row_group=9, Input_chunk=44/48, Elements[704:719]
+[Cycle 17691] SA1: Row_group=9, Input_chunk=44 done, accumulated
+[Cycle 17692] COP: Loaded SA1 weights for row_group=9, input_chunk=45
+[Cycle 17693] SA1: Row_group=9, Input_chunk=45/48, Elements[720:735]
+[Cycle 17726] SA1: Row_group=9, Input_chunk=45 done, accumulated
+[Cycle 17727] COP: Loaded SA1 weights for row_group=9, input_chunk=46
+[Cycle 17728] SA1: Row_group=9, Input_chunk=46/48, Elements[736:751]
+[Cycle 17761] SA1: Row_group=9, Input_chunk=46 done, accumulated
+[Cycle 17762] COP: Loaded SA1 weights for row_group=9, input_chunk=47
+[Cycle 17762] TB: *** SA1 Row group 9 COMPLETE *** (loaded 480/576 weight matrices)
+[Cycle 17763] SA1: Row_group=9, Input_chunk=47/48, Elements[752:767]
+[Cycle 17796] SA1: Row_group=9, Input_chunk=47 done, accumulated
+[Cycle 17796] SA1: Row_group=9 COMPLETE (all 48 chunks accumulated)
+[Cycle 17797] SA1: Stored row_group=9 outputs [144:159]
+[Cycle 17798] COP: Loaded SA1 weights for row_group=10, input_chunk=0
+[Cycle 17798] TB: SA1 Starting row_group=10 (weights 480-527)
+[Cycle 17799] SA1: Row_group=10, Input_chunk=0/48, Elements[0:15]
+[Cycle 17832] SA1: Row_group=10, Input_chunk=0 done, accumulated
+[Cycle 17833] COP: Loaded SA1 weights for row_group=10, input_chunk=1
+[Cycle 17834] SA1: Row_group=10, Input_chunk=1/48, Elements[16:31]
+[Cycle 17867] SA1: Row_group=10, Input_chunk=1 done, accumulated
+[Cycle 17868] COP: Loaded SA1 weights for row_group=10, input_chunk=2
+[Cycle 17869] SA1: Row_group=10, Input_chunk=2/48, Elements[32:47]
+[Cycle 17902] SA1: Row_group=10, Input_chunk=2 done, accumulated
+[Cycle 17903] COP: Loaded SA1 weights for row_group=10, input_chunk=3
+[Cycle 17904] SA1: Row_group=10, Input_chunk=3/48, Elements[48:63]
+[Cycle 17937] SA1: Row_group=10, Input_chunk=3 done, accumulated
+[Cycle 17938] COP: Loaded SA1 weights for row_group=10, input_chunk=4
+[Cycle 17939] SA1: Row_group=10, Input_chunk=4/48, Elements[64:79]
+[Cycle 17972] SA1: Row_group=10, Input_chunk=4 done, accumulated
+[Cycle 17973] COP: Loaded SA1 weights for row_group=10, input_chunk=5
+[Cycle 17974] SA1: Row_group=10, Input_chunk=5/48, Elements[80:95]
+[Cycle 18007] SA1: Row_group=10, Input_chunk=5 done, accumulated
+[Cycle 18008] COP: Loaded SA1 weights for row_group=10, input_chunk=6
+[Cycle 18009] SA1: Row_group=10, Input_chunk=6/48, Elements[96:111]
+[Cycle 18042] SA1: Row_group=10, Input_chunk=6 done, accumulated
+[Cycle 18043] COP: Loaded SA1 weights for row_group=10, input_chunk=7
+[Cycle 18044] SA1: Row_group=10, Input_chunk=7/48, Elements[112:127]
+[Cycle 18077] SA1: Row_group=10, Input_chunk=7 done, accumulated
+[Cycle 18078] COP: Loaded SA1 weights for row_group=10, input_chunk=8
+[Cycle 18079] SA1: Row_group=10, Input_chunk=8/48, Elements[128:143]
+[Cycle 18112] SA1: Row_group=10, Input_chunk=8 done, accumulated
+[Cycle 18113] COP: Loaded SA1 weights for row_group=10, input_chunk=9
+[Cycle 18114] SA1: Row_group=10, Input_chunk=9/48, Elements[144:159]
+[Cycle 18147] SA1: Row_group=10, Input_chunk=9 done, accumulated
+[Cycle 18148] COP: Loaded SA1 weights for row_group=10, input_chunk=10
+[Cycle 18149] SA1: Row_group=10, Input_chunk=10/48, Elements[160:175]
+[Cycle 18182] SA1: Row_group=10, Input_chunk=10 done, accumulated
+[Cycle 18183] COP: Loaded SA1 weights for row_group=10, input_chunk=11
+[Cycle 18184] SA1: Row_group=10, Input_chunk=11/48, Elements[176:191]
+[Cycle 18217] SA1: Row_group=10, Input_chunk=11 done, accumulated
+[Cycle 18218] COP: Loaded SA1 weights for row_group=10, input_chunk=12
+[Cycle 18219] SA1: Row_group=10, Input_chunk=12/48, Elements[192:207]
+[Cycle 18252] SA1: Row_group=10, Input_chunk=12 done, accumulated
+[Cycle 18253] COP: Loaded SA1 weights for row_group=10, input_chunk=13
+[Cycle 18254] SA1: Row_group=10, Input_chunk=13/48, Elements[208:223]
+[Cycle 18287] SA1: Row_group=10, Input_chunk=13 done, accumulated
+[Cycle 18288] COP: Loaded SA1 weights for row_group=10, input_chunk=14
+[Cycle 18289] SA1: Row_group=10, Input_chunk=14/48, Elements[224:239]
+[Cycle 18322] SA1: Row_group=10, Input_chunk=14 done, accumulated
+[Cycle 18323] COP: Loaded SA1 weights for row_group=10, input_chunk=15
+[Cycle 18324] SA1: Row_group=10, Input_chunk=15/48, Elements[240:255]
+[Cycle 18357] SA1: Row_group=10, Input_chunk=15 done, accumulated
+[Cycle 18358] COP: Loaded SA1 weights for row_group=10, input_chunk=16
+[Cycle 18359] SA1: Row_group=10, Input_chunk=16/48, Elements[256:271]
+[Cycle 18392] SA1: Row_group=10, Input_chunk=16 done, accumulated
+[Cycle 18393] COP: Loaded SA1 weights for row_group=10, input_chunk=17
+[Cycle 18394] SA1: Row_group=10, Input_chunk=17/48, Elements[272:287]
+[Cycle 18427] SA1: Row_group=10, Input_chunk=17 done, accumulated
+[Cycle 18428] COP: Loaded SA1 weights for row_group=10, input_chunk=18
+[Cycle 18429] SA1: Row_group=10, Input_chunk=18/48, Elements[288:303]
+[Cycle 18462] SA1: Row_group=10, Input_chunk=18 done, accumulated
+[Cycle 18463] COP: Loaded SA1 weights for row_group=10, input_chunk=19
+[Cycle 18464] SA1: Row_group=10, Input_chunk=19/48, Elements[304:319]
+[Cycle 18497] SA1: Row_group=10, Input_chunk=19 done, accumulated
+[Cycle 18498] COP: Loaded SA1 weights for row_group=10, input_chunk=20
+[Cycle 18499] SA1: Row_group=10, Input_chunk=20/48, Elements[320:335]
+[Cycle 18532] SA1: Row_group=10, Input_chunk=20 done, accumulated
+[Cycle 18533] COP: Loaded SA1 weights for row_group=10, input_chunk=21
+[Cycle 18534] SA1: Row_group=10, Input_chunk=21/48, Elements[336:351]
+[Cycle 18567] SA1: Row_group=10, Input_chunk=21 done, accumulated
+[Cycle 18568] COP: Loaded SA1 weights for row_group=10, input_chunk=22
+[Cycle 18569] SA1: Row_group=10, Input_chunk=22/48, Elements[352:367]
+[Cycle 18602] SA1: Row_group=10, Input_chunk=22 done, accumulated
+[Cycle 18603] COP: Loaded SA1 weights for row_group=10, input_chunk=23
+[Cycle 18604] SA1: Row_group=10, Input_chunk=23/48, Elements[368:383]
+[Cycle 18637] SA1: Row_group=10, Input_chunk=23 done, accumulated
+[Cycle 18638] COP: Loaded SA1 weights for row_group=10, input_chunk=24
+[Cycle 18639] SA1: Row_group=10, Input_chunk=24/48, Elements[384:399]
+[Cycle 18672] SA1: Row_group=10, Input_chunk=24 done, accumulated
+[Cycle 18673] COP: Loaded SA1 weights for row_group=10, input_chunk=25
+[Cycle 18674] SA1: Row_group=10, Input_chunk=25/48, Elements[400:415]
+[Cycle 18707] SA1: Row_group=10, Input_chunk=25 done, accumulated
+[Cycle 18708] COP: Loaded SA1 weights for row_group=10, input_chunk=26
+[Cycle 18709] SA1: Row_group=10, Input_chunk=26/48, Elements[416:431]
+[Cycle 18742] SA1: Row_group=10, Input_chunk=26 done, accumulated
+[Cycle 18743] COP: Loaded SA1 weights for row_group=10, input_chunk=27
+[Cycle 18744] SA1: Row_group=10, Input_chunk=27/48, Elements[432:447]
+[Cycle 18777] SA1: Row_group=10, Input_chunk=27 done, accumulated
+[Cycle 18778] COP: Loaded SA1 weights for row_group=10, input_chunk=28
+[Cycle 18779] SA1: Row_group=10, Input_chunk=28/48, Elements[448:463]
+[Cycle 18812] SA1: Row_group=10, Input_chunk=28 done, accumulated
+[Cycle 18813] COP: Loaded SA1 weights for row_group=10, input_chunk=29
+[Cycle 18814] SA1: Row_group=10, Input_chunk=29/48, Elements[464:479]
+[Cycle 18847] SA1: Row_group=10, Input_chunk=29 done, accumulated
+[Cycle 18848] COP: Loaded SA1 weights for row_group=10, input_chunk=30
+[Cycle 18849] SA1: Row_group=10, Input_chunk=30/48, Elements[480:495]
+[Cycle 18882] SA1: Row_group=10, Input_chunk=30 done, accumulated
+[Cycle 18883] COP: Loaded SA1 weights for row_group=10, input_chunk=31
+[Cycle 18884] SA1: Row_group=10, Input_chunk=31/48, Elements[496:511]
+[Cycle 18917] SA1: Row_group=10, Input_chunk=31 done, accumulated
+[Cycle 18918] COP: Loaded SA1 weights for row_group=10, input_chunk=32
+[Cycle 18919] SA1: Row_group=10, Input_chunk=32/48, Elements[512:527]
+[Cycle 18952] SA1: Row_group=10, Input_chunk=32 done, accumulated
+[Cycle 18953] COP: Loaded SA1 weights for row_group=10, input_chunk=33
+[Cycle 18954] SA1: Row_group=10, Input_chunk=33/48, Elements[528:543]
+[Cycle 18987] SA1: Row_group=10, Input_chunk=33 done, accumulated
+[Cycle 18988] COP: Loaded SA1 weights for row_group=10, input_chunk=34
+[Cycle 18989] SA1: Row_group=10, Input_chunk=34/48, Elements[544:559]
+[Cycle 19022] SA1: Row_group=10, Input_chunk=34 done, accumulated
+[Cycle 19023] COP: Loaded SA1 weights for row_group=10, input_chunk=35
+[Cycle 19024] SA1: Row_group=10, Input_chunk=35/48, Elements[560:575]
+[Cycle 19057] SA1: Row_group=10, Input_chunk=35 done, accumulated
+[Cycle 19058] COP: Loaded SA1 weights for row_group=10, input_chunk=36
+[Cycle 19059] SA1: Row_group=10, Input_chunk=36/48, Elements[576:591]
+[Cycle 19092] SA1: Row_group=10, Input_chunk=36 done, accumulated
+[Cycle 19093] COP: Loaded SA1 weights for row_group=10, input_chunk=37
+[Cycle 19094] SA1: Row_group=10, Input_chunk=37/48, Elements[592:607]
+[Cycle 19127] SA1: Row_group=10, Input_chunk=37 done, accumulated
+[Cycle 19128] COP: Loaded SA1 weights for row_group=10, input_chunk=38
+[Cycle 19129] SA1: Row_group=10, Input_chunk=38/48, Elements[608:623]
+[Cycle 19162] SA1: Row_group=10, Input_chunk=38 done, accumulated
+[Cycle 19163] COP: Loaded SA1 weights for row_group=10, input_chunk=39
+[Cycle 19164] SA1: Row_group=10, Input_chunk=39/48, Elements[624:639]
+[Cycle 19197] SA1: Row_group=10, Input_chunk=39 done, accumulated
+[Cycle 19198] COP: Loaded SA1 weights for row_group=10, input_chunk=40
+[Cycle 19199] SA1: Row_group=10, Input_chunk=40/48, Elements[640:655]
+[Cycle 19232] SA1: Row_group=10, Input_chunk=40 done, accumulated
+[Cycle 19233] COP: Loaded SA1 weights for row_group=10, input_chunk=41
+[Cycle 19234] SA1: Row_group=10, Input_chunk=41/48, Elements[656:671]
+[Cycle 19267] SA1: Row_group=10, Input_chunk=41 done, accumulated
+[Cycle 19268] COP: Loaded SA1 weights for row_group=10, input_chunk=42
+[Cycle 19269] SA1: Row_group=10, Input_chunk=42/48, Elements[672:687]
+[Cycle 19302] SA1: Row_group=10, Input_chunk=42 done, accumulated
+[Cycle 19303] COP: Loaded SA1 weights for row_group=10, input_chunk=43
+[Cycle 19304] SA1: Row_group=10, Input_chunk=43/48, Elements[688:703]
+[Cycle 19337] SA1: Row_group=10, Input_chunk=43 done, accumulated
+[Cycle 19338] COP: Loaded SA1 weights for row_group=10, input_chunk=44
+[Cycle 19339] SA1: Row_group=10, Input_chunk=44/48, Elements[704:719]
+[Cycle 19372] SA1: Row_group=10, Input_chunk=44 done, accumulated
+[Cycle 19373] COP: Loaded SA1 weights for row_group=10, input_chunk=45
+[Cycle 19374] SA1: Row_group=10, Input_chunk=45/48, Elements[720:735]
+[Cycle 19407] SA1: Row_group=10, Input_chunk=45 done, accumulated
+[Cycle 19408] COP: Loaded SA1 weights for row_group=10, input_chunk=46
+[Cycle 19409] SA1: Row_group=10, Input_chunk=46/48, Elements[736:751]
+[Cycle 19442] SA1: Row_group=10, Input_chunk=46 done, accumulated
+[Cycle 19443] COP: Loaded SA1 weights for row_group=10, input_chunk=47
+[Cycle 19443] TB: *** SA1 Row group 10 COMPLETE *** (loaded 528/576 weight matrices)
+[Cycle 19444] SA1: Row_group=10, Input_chunk=47/48, Elements[752:767]
+[Cycle 19477] SA1: Row_group=10, Input_chunk=47 done, accumulated
+[Cycle 19477] SA1: Row_group=10 COMPLETE (all 48 chunks accumulated)
+[Cycle 19478] SA1: Stored row_group=10 outputs [160:175]
+[Cycle 19479] COP: Loaded SA1 weights for row_group=11, input_chunk=0
+[Cycle 19479] TB: SA1 Starting row_group=11 (weights 528-575)
+[Cycle 19480] SA1: Row_group=11, Input_chunk=0/48, Elements[0:15]
+[Cycle 19513] SA1: Row_group=11, Input_chunk=0 done, accumulated
+[Cycle 19514] COP: Loaded SA1 weights for row_group=11, input_chunk=1
+[Cycle 19515] SA1: Row_group=11, Input_chunk=1/48, Elements[16:31]
+[Cycle 19548] SA1: Row_group=11, Input_chunk=1 done, accumulated
+[Cycle 19549] COP: Loaded SA1 weights for row_group=11, input_chunk=2
+[Cycle 19550] SA1: Row_group=11, Input_chunk=2/48, Elements[32:47]
+[Cycle 19583] SA1: Row_group=11, Input_chunk=2 done, accumulated
+[Cycle 19584] COP: Loaded SA1 weights for row_group=11, input_chunk=3
+[Cycle 19585] SA1: Row_group=11, Input_chunk=3/48, Elements[48:63]
+[Cycle 19618] SA1: Row_group=11, Input_chunk=3 done, accumulated
+[Cycle 19619] COP: Loaded SA1 weights for row_group=11, input_chunk=4
+[Cycle 19620] SA1: Row_group=11, Input_chunk=4/48, Elements[64:79]
+[Cycle 19653] SA1: Row_group=11, Input_chunk=4 done, accumulated
+[Cycle 19654] COP: Loaded SA1 weights for row_group=11, input_chunk=5
+[Cycle 19655] SA1: Row_group=11, Input_chunk=5/48, Elements[80:95]
+[Cycle 19688] SA1: Row_group=11, Input_chunk=5 done, accumulated
+[Cycle 19689] COP: Loaded SA1 weights for row_group=11, input_chunk=6
+[Cycle 19690] SA1: Row_group=11, Input_chunk=6/48, Elements[96:111]
+[Cycle 19723] SA1: Row_group=11, Input_chunk=6 done, accumulated
+[Cycle 19724] COP: Loaded SA1 weights for row_group=11, input_chunk=7
+[Cycle 19725] SA1: Row_group=11, Input_chunk=7/48, Elements[112:127]
+[Cycle 19758] SA1: Row_group=11, Input_chunk=7 done, accumulated
+[Cycle 19759] COP: Loaded SA1 weights for row_group=11, input_chunk=8
+[Cycle 19760] SA1: Row_group=11, Input_chunk=8/48, Elements[128:143]
+[Cycle 19793] SA1: Row_group=11, Input_chunk=8 done, accumulated
+[Cycle 19794] COP: Loaded SA1 weights for row_group=11, input_chunk=9
+[Cycle 19795] SA1: Row_group=11, Input_chunk=9/48, Elements[144:159]
+[Cycle 19828] SA1: Row_group=11, Input_chunk=9 done, accumulated
+[Cycle 19829] COP: Loaded SA1 weights for row_group=11, input_chunk=10
+[Cycle 19830] SA1: Row_group=11, Input_chunk=10/48, Elements[160:175]
+[Cycle 19863] SA1: Row_group=11, Input_chunk=10 done, accumulated
+[Cycle 19864] COP: Loaded SA1 weights for row_group=11, input_chunk=11
+[Cycle 19865] SA1: Row_group=11, Input_chunk=11/48, Elements[176:191]
+[Cycle 19898] SA1: Row_group=11, Input_chunk=11 done, accumulated
+[Cycle 19899] COP: Loaded SA1 weights for row_group=11, input_chunk=12
+[Cycle 19900] SA1: Row_group=11, Input_chunk=12/48, Elements[192:207]
+[Cycle 19933] SA1: Row_group=11, Input_chunk=12 done, accumulated
+[Cycle 19934] COP: Loaded SA1 weights for row_group=11, input_chunk=13
+[Cycle 19935] SA1: Row_group=11, Input_chunk=13/48, Elements[208:223]
+[Cycle 19968] SA1: Row_group=11, Input_chunk=13 done, accumulated
+[Cycle 19969] COP: Loaded SA1 weights for row_group=11, input_chunk=14
+[Cycle 19970] SA1: Row_group=11, Input_chunk=14/48, Elements[224:239]
+[Cycle 20003] SA1: Row_group=11, Input_chunk=14 done, accumulated
+[Cycle 20004] COP: Loaded SA1 weights for row_group=11, input_chunk=15
+[Cycle 20005] SA1: Row_group=11, Input_chunk=15/48, Elements[240:255]
+[Cycle 20038] SA1: Row_group=11, Input_chunk=15 done, accumulated
+[Cycle 20039] COP: Loaded SA1 weights for row_group=11, input_chunk=16
+[Cycle 20040] SA1: Row_group=11, Input_chunk=16/48, Elements[256:271]
+[Cycle 20073] SA1: Row_group=11, Input_chunk=16 done, accumulated
+[Cycle 20074] COP: Loaded SA1 weights for row_group=11, input_chunk=17
+[Cycle 20075] SA1: Row_group=11, Input_chunk=17/48, Elements[272:287]
+[Cycle 20108] SA1: Row_group=11, Input_chunk=17 done, accumulated
+[Cycle 20109] COP: Loaded SA1 weights for row_group=11, input_chunk=18
+[Cycle 20110] SA1: Row_group=11, Input_chunk=18/48, Elements[288:303]
+[Cycle 20143] SA1: Row_group=11, Input_chunk=18 done, accumulated
+[Cycle 20144] COP: Loaded SA1 weights for row_group=11, input_chunk=19
+[Cycle 20145] SA1: Row_group=11, Input_chunk=19/48, Elements[304:319]
+[Cycle 20178] SA1: Row_group=11, Input_chunk=19 done, accumulated
+[Cycle 20179] COP: Loaded SA1 weights for row_group=11, input_chunk=20
+[Cycle 20180] SA1: Row_group=11, Input_chunk=20/48, Elements[320:335]
+[Cycle 20213] SA1: Row_group=11, Input_chunk=20 done, accumulated
+[Cycle 20214] COP: Loaded SA1 weights for row_group=11, input_chunk=21
+[Cycle 20215] SA1: Row_group=11, Input_chunk=21/48, Elements[336:351]
+[Cycle 20248] SA1: Row_group=11, Input_chunk=21 done, accumulated
+[Cycle 20249] COP: Loaded SA1 weights for row_group=11, input_chunk=22
+[Cycle 20250] SA1: Row_group=11, Input_chunk=22/48, Elements[352:367]
+[Cycle 20283] SA1: Row_group=11, Input_chunk=22 done, accumulated
+[Cycle 20284] COP: Loaded SA1 weights for row_group=11, input_chunk=23
+[Cycle 20285] SA1: Row_group=11, Input_chunk=23/48, Elements[368:383]
+[Cycle 20318] SA1: Row_group=11, Input_chunk=23 done, accumulated
+[Cycle 20319] COP: Loaded SA1 weights for row_group=11, input_chunk=24
+[Cycle 20320] SA1: Row_group=11, Input_chunk=24/48, Elements[384:399]
+[Cycle 20353] SA1: Row_group=11, Input_chunk=24 done, accumulated
+[Cycle 20354] COP: Loaded SA1 weights for row_group=11, input_chunk=25
+[Cycle 20355] SA1: Row_group=11, Input_chunk=25/48, Elements[400:415]
+[Cycle 20388] SA1: Row_group=11, Input_chunk=25 done, accumulated
+[Cycle 20389] COP: Loaded SA1 weights for row_group=11, input_chunk=26
+[Cycle 20390] SA1: Row_group=11, Input_chunk=26/48, Elements[416:431]
+[Cycle 20423] SA1: Row_group=11, Input_chunk=26 done, accumulated
+[Cycle 20424] COP: Loaded SA1 weights for row_group=11, input_chunk=27
+[Cycle 20425] SA1: Row_group=11, Input_chunk=27/48, Elements[432:447]
+[Cycle 20458] SA1: Row_group=11, Input_chunk=27 done, accumulated
+[Cycle 20459] COP: Loaded SA1 weights for row_group=11, input_chunk=28
+[Cycle 20460] SA1: Row_group=11, Input_chunk=28/48, Elements[448:463]
+[Cycle 20493] SA1: Row_group=11, Input_chunk=28 done, accumulated
+[Cycle 20494] COP: Loaded SA1 weights for row_group=11, input_chunk=29
+[Cycle 20495] SA1: Row_group=11, Input_chunk=29/48, Elements[464:479]
+[Cycle 20528] SA1: Row_group=11, Input_chunk=29 done, accumulated
+[Cycle 20529] COP: Loaded SA1 weights for row_group=11, input_chunk=30
+[Cycle 20530] SA1: Row_group=11, Input_chunk=30/48, Elements[480:495]
+[Cycle 20563] SA1: Row_group=11, Input_chunk=30 done, accumulated
+[Cycle 20564] COP: Loaded SA1 weights for row_group=11, input_chunk=31
+[Cycle 20565] SA1: Row_group=11, Input_chunk=31/48, Elements[496:511]
+[Cycle 20598] SA1: Row_group=11, Input_chunk=31 done, accumulated
+[Cycle 20599] COP: Loaded SA1 weights for row_group=11, input_chunk=32
+[Cycle 20600] SA1: Row_group=11, Input_chunk=32/48, Elements[512:527]
+[Cycle 20633] SA1: Row_group=11, Input_chunk=32 done, accumulated
+[Cycle 20634] COP: Loaded SA1 weights for row_group=11, input_chunk=33
+[Cycle 20635] SA1: Row_group=11, Input_chunk=33/48, Elements[528:543]
+[Cycle 20668] SA1: Row_group=11, Input_chunk=33 done, accumulated
+[Cycle 20669] COP: Loaded SA1 weights for row_group=11, input_chunk=34
+[Cycle 20670] SA1: Row_group=11, Input_chunk=34/48, Elements[544:559]
+[Cycle 20703] SA1: Row_group=11, Input_chunk=34 done, accumulated
+[Cycle 20704] COP: Loaded SA1 weights for row_group=11, input_chunk=35
+[Cycle 20705] SA1: Row_group=11, Input_chunk=35/48, Elements[560:575]
+[Cycle 20738] SA1: Row_group=11, Input_chunk=35 done, accumulated
+[Cycle 20739] COP: Loaded SA1 weights for row_group=11, input_chunk=36
+[Cycle 20740] SA1: Row_group=11, Input_chunk=36/48, Elements[576:591]
+[Cycle 20773] SA1: Row_group=11, Input_chunk=36 done, accumulated
+[Cycle 20774] COP: Loaded SA1 weights for row_group=11, input_chunk=37
+[Cycle 20775] SA1: Row_group=11, Input_chunk=37/48, Elements[592:607]
+[Cycle 20808] SA1: Row_group=11, Input_chunk=37 done, accumulated
+[Cycle 20809] COP: Loaded SA1 weights for row_group=11, input_chunk=38
+[Cycle 20810] SA1: Row_group=11, Input_chunk=38/48, Elements[608:623]
+[Cycle 20843] SA1: Row_group=11, Input_chunk=38 done, accumulated
+[Cycle 20844] COP: Loaded SA1 weights for row_group=11, input_chunk=39
+[Cycle 20845] SA1: Row_group=11, Input_chunk=39/48, Elements[624:639]
+[Cycle 20878] SA1: Row_group=11, Input_chunk=39 done, accumulated
+[Cycle 20879] COP: Loaded SA1 weights for row_group=11, input_chunk=40
+[Cycle 20880] SA1: Row_group=11, Input_chunk=40/48, Elements[640:655]
+[Cycle 20913] SA1: Row_group=11, Input_chunk=40 done, accumulated
+[Cycle 20914] COP: Loaded SA1 weights for row_group=11, input_chunk=41
+[Cycle 20915] SA1: Row_group=11, Input_chunk=41/48, Elements[656:671]
+[Cycle 20948] SA1: Row_group=11, Input_chunk=41 done, accumulated
+[Cycle 20949] COP: Loaded SA1 weights for row_group=11, input_chunk=42
+[Cycle 20950] SA1: Row_group=11, Input_chunk=42/48, Elements[672:687]
+[Cycle 20983] SA1: Row_group=11, Input_chunk=42 done, accumulated
+[Cycle 20984] COP: Loaded SA1 weights for row_group=11, input_chunk=43
+[Cycle 20985] SA1: Row_group=11, Input_chunk=43/48, Elements[688:703]
+[Cycle 21018] SA1: Row_group=11, Input_chunk=43 done, accumulated
+[Cycle 21019] COP: Loaded SA1 weights for row_group=11, input_chunk=44
+[Cycle 21020] SA1: Row_group=11, Input_chunk=44/48, Elements[704:719]
+[Cycle 21053] SA1: Row_group=11, Input_chunk=44 done, accumulated
+[Cycle 21054] COP: Loaded SA1 weights for row_group=11, input_chunk=45
+[Cycle 21055] SA1: Row_group=11, Input_chunk=45/48, Elements[720:735]
+[Cycle 21088] SA1: Row_group=11, Input_chunk=45 done, accumulated
+[Cycle 21089] COP: Loaded SA1 weights for row_group=11, input_chunk=46
+[Cycle 21090] SA1: Row_group=11, Input_chunk=46/48, Elements[736:751]
+[Cycle 21123] SA1: Row_group=11, Input_chunk=46 done, accumulated
+[Cycle 21124] COP: Loaded SA1 weights for row_group=11, input_chunk=47
+[Cycle 21124] TB: *** SA1 Row group 11 COMPLETE *** (loaded 576/576 weight matrices)
+[Cycle 21124] TB: FIRST SA COMPLETE - All 576 weight matrices loaded
+[Cycle 21124] TB: Now waiting for second SA to start...
+[Cycle 21125] SA1: Row_group=11, Input_chunk=47/48, Elements[752:767]
+[Cycle 21158] SA1: Row_group=11, Input_chunk=47 done, accumulated
+[Cycle 21158] SA1: Row_group=11 COMPLETE (all 48 chunks accumulated)
+[Cycle 21159] SA1: Stored row_group=11 outputs [176:191]
+[Cycle 21159] SA1: ALL 192 OUTPUTS COMPLETE!
+
+[Cycle 21161] ========== COMPUTATION COMPLETE ==========
+
+=== K Results (First 10) ===
+result_k[0] = 0x4939
+result_k[1] = 0x49a2
+result_k[2] = 0x4982
+result_k[3] = 0x4806
+result_k[4] = 0x4943
+result_k[5] = 0x46dd
+result_k[6] = 0x46fa
+result_k[7] = 0x4961
+result_k[8] = 0x48a2
+result_k[9] = 0x49c5
+
+=== K Results (Last 10) ===
+result_k[758] = 0x499d
+result_k[759] = 0x48bb
+result_k[760] = 0x496f
+result_k[761] = 0x4859
+result_k[762] = 0x48e6
+result_k[763] = 0x4993
+result_k[764] = 0x470a
+result_k[765] = 0x489d
+result_k[766] = 0x48f0
+result_k[767] = 0x4928
+
+[Cycle 21161] Testbench: Finishing simulation
