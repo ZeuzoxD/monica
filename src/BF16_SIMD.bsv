@@ -11,7 +11,6 @@ interface IfcBF16_SIMD;
    method Bool computation_done();
 endinterface
 
-
 typedef struct {
    Bit#(7) index;
    Bit#(16) mult1_result;  // Changed to Bit#(16) to avoid conversion overhead
@@ -28,7 +27,6 @@ module mkBF16_SIMD(IfcBF16_SIMD);
    // ONE adder for sequential addition
    BF16AdderIFC adder <- mkBF16Adder();
    
-
    // Input storage
    Reg#(Vector#(64, BF16)) reg_a <- mkRegU();
    Reg#(Vector#(64, BF16)) reg_b <- mkRegU();
@@ -38,7 +36,6 @@ module mkBF16_SIMD(IfcBF16_SIMD);
    // Output storage
    Vector#(64, Reg#(BF16)) result_regs <- replicateM(mkRegU());
    
-
    // Pipeline control
    Reg#(Bool) active <- mkReg(False);
    Reg#(Bit#(7)) issue_index <- mkReg(0);
@@ -46,7 +43,6 @@ module mkBF16_SIMD(IfcBF16_SIMD);
    
    // Pipeline registers between multiply and add stages (instead of FIFO)
    Reg#(Maybe#(PipelineStage)) pipeline_stage <- mkReg(tagged Invalid);
-
 
    // COMBINED RULE: Issues next multiply AND performs current addition in SAME CYCLE
    rule pipeline_process if (active);
@@ -58,10 +54,8 @@ module mkBF16_SIMD(IfcBF16_SIMD);
          
          // Check if all computations are done
          if (complete_count + 1 == 64) begin
-
             active <= False;
          end
-
       end
       
       // STAGE 1: Issue next multiplication (PARALLEL: both mult1 and mult2)
@@ -69,12 +63,10 @@ module mkBF16_SIMD(IfcBF16_SIMD);
          let result1 = mult1.multiply(fromBF16(reg_a[issue_index]), 
                                       fromBF16(reg_b[issue_index]));
          let result2 = mult2.multiply(fromBF16(reg_c[issue_index]), 
-
                                       fromBF16(reg_d[issue_index]));
          
          pipeline_stage <= tagged Valid (PipelineStage {
             index: issue_index,
-
             mult1_result: result1,
             mult2_result: result2
          });
@@ -91,7 +83,6 @@ module mkBF16_SIMD(IfcBF16_SIMD);
       reg_b <= b;
       reg_c <= c;
       reg_d <= d;
-
       
       // Reset pipeline state
       issue_index <= 0;
@@ -106,6 +97,5 @@ module mkBF16_SIMD(IfcBF16_SIMD);
    method Bool computation_done() = (!active && complete_count == 64);
 
 endmodule
-
 
 endpackage

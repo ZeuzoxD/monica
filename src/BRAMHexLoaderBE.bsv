@@ -26,9 +26,9 @@ module mkBRAMLoader (BRAMLoader#(data_sz, n))
    Reg#(Bit#(10)) initDelay <- mkReg(0);
    
    // Simple initialization delay
-   rule doInit (!isReady && initDelay < 5);
+   rule doInit (!isReady && initDelay < 2);
       initDelay <= initDelay + 1;
-      if (initDelay == 4) isReady <= True;
+      if (initDelay == 1) isReady <= True;
    endrule
    
    // Request read from BRAM Port A
@@ -57,5 +57,3 @@ module mkBRAMLoader (BRAMLoader#(data_sz, n))
 endmodule
 
 endpackage
-
-

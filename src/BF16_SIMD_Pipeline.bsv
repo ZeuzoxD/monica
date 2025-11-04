@@ -1,17 +1,13 @@
 package BF16_SIMD_Pipeline;
-
 import BF16::*;
 import BF16_SIMD::*;
-
 import Vector::*;
 import GetPut::*;
 import ClientServer::*;
 
 interface IfcBF16_SIMD_Pipeline;
-
    method Action start_computation(Vector#(256, BF16) a, Vector#(256, BF16) b, 
                                    Vector#(256, BF16) c, Vector#(256, BF16) d);
-
    method Vector#(256, BF16) get_result();
    method Bool computation_done();
 endinterface
@@ -28,7 +24,6 @@ module mkBF16_SIMD_Pipeline(IfcBF16_SIMD_Pipeline);
    
    // Storage for input chunks (to enable parallel dispatch)
    Reg#(Vector#(64, BF16)) chunk0_a <- mkRegU();
-
    Reg#(Vector#(64, BF16)) chunk0_b <- mkRegU();
    Reg#(Vector#(64, BF16)) chunk0_c <- mkRegU();
    Reg#(Vector#(64, BF16)) chunk0_d <- mkRegU();
@@ -36,7 +31,6 @@ module mkBF16_SIMD_Pipeline(IfcBF16_SIMD_Pipeline);
    Reg#(Vector#(64, BF16)) chunk1_a <- mkRegU();
    Reg#(Vector#(64, BF16)) chunk1_b <- mkRegU();
    Reg#(Vector#(64, BF16)) chunk1_c <- mkRegU();
-
    Reg#(Vector#(64, BF16)) chunk1_d <- mkRegU();
    
    Reg#(Vector#(64, BF16)) chunk2_a <- mkRegU();
@@ -51,13 +45,11 @@ module mkBF16_SIMD_Pipeline(IfcBF16_SIMD_Pipeline);
    
    // Storage for final result
    Reg#(Vector#(256, BF16)) result_vector <- mkRegU();
-
    
    // State management - use a state machine for explicit control
    
    Reg#(State) state <- mkReg(Idle);
    
-
    // Cycle counter for debugging
    Reg#(Bit#(32)) cycle_count <- mkReg(0);
    Reg#(Bit#(32)) start_cycle <- mkReg(0);
@@ -67,7 +59,6 @@ module mkBF16_SIMD_Pipeline(IfcBF16_SIMD_Pipeline);
    endrule
 
    // PARALLEL DISPATCH: All 4 SIMD modules start in SAME cycle
-
    rule dispatch_parallel (state == ChunksReady);
       simd0.start_computation(chunk0_a, chunk0_b, chunk0_c, chunk0_d);
       simd1.start_computation(chunk1_a, chunk1_b, chunk1_c, chunk1_d);
@@ -78,11 +69,9 @@ module mkBF16_SIMD_Pipeline(IfcBF16_SIMD_Pipeline);
       $display("[Cycle %0d] All 4 SIMD lanes dispatched in PARALLEL", cycle_count);
    endrule
 
-
    // Wait for all SIMD modules to complete
    rule check_completion (state == Computing);
       Bool all_done = simd0.computation_done() && simd1.computation_done() && 
-
                       simd2.computation_done() && simd3.computation_done();
       
       if (all_done) begin
@@ -90,7 +79,6 @@ module mkBF16_SIMD_Pipeline(IfcBF16_SIMD_Pipeline);
          Vector#(64, BF16) res0 = simd0.get_result();
          Vector#(64, BF16) res1 = simd1.get_result();
          Vector#(64, BF16) res2 = simd2.get_result();
-
          Vector#(64, BF16) res3 = simd3.get_result();
          
          // Build result vector by concatenating all results
@@ -100,10 +88,8 @@ module mkBF16_SIMD_Pipeline(IfcBF16_SIMD_Pipeline);
          
          result_vector <= final_result;
          state <= ResultReady;
-
          
          $display("[Cycle %0d] All SIMD modules completed. Total computation cycles: %0d", 
-
                   cycle_count, cycle_count - start_cycle);
       end
    endrule
@@ -131,7 +117,6 @@ module mkBF16_SIMD_Pipeline(IfcBF16_SIMD_Pipeline);
       
       // Extract and store all chunks
       chunk0_a <= extract_chunk(a, 0);
-
       chunk0_b <= extract_chunk(b, 0);
       chunk0_c <= extract_chunk(c, 0);
       chunk0_d <= extract_chunk(d, 0);
@@ -142,11 +127,8 @@ module mkBF16_SIMD_Pipeline(IfcBF16_SIMD_Pipeline);
       chunk1_d <= extract_chunk(d, 64);
       
       chunk2_a <= extract_chunk(a, 128);
-
       chunk2_b <= extract_chunk(b, 128);
-
       chunk2_c <= extract_chunk(c, 128);
-
       chunk2_d <= extract_chunk(d, 128);
       
       chunk3_a <= extract_chunk(a, 192);
@@ -162,7 +144,6 @@ module mkBF16_SIMD_Pipeline(IfcBF16_SIMD_Pipeline);
    endmethod
 
    method Bool computation_done() = (state == ResultReady);
-
 
 endmodule
 
