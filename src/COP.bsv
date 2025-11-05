@@ -2,6 +2,7 @@ package COP;
 
 import Vector::*;
 import BF16::*;
+import MSE::*;
 import BRAMCore::*;
 import BF16_WS_16x16SA::*;
 import BF16_SIMD_Pipeline::*;
@@ -27,6 +28,10 @@ typedef enum {
   LoadR0, WaitR0Load, ProcessR0, WaitR0Done, 
   LoadR1, WaitR1Load, ProcessR1, WaitR1Done, 
   LoadR2, WaitR2Load, ProcessR2, WaitR2Done,
+  // WW operation
+  ProcessWW0, WaitWW0, 
+  ProcessWW1, WaitWW1, 
+  ProcessWW2, WaitWW2, 
   Done
 } State deriving (Bits, Eq);
 
@@ -37,6 +42,17 @@ typedef enum {
 typedef enum {
   SA_Idle, SA_WaitWeights, SA_LoadAct, SA_Compute, SA_RowDone, SA_AllDone
 } SA_State deriving (Bits, Eq);
+
+typedef enum {
+  TSC_Idle,
+  TSC_LoadData, // load pp, time_first from BRAM
+  TSC_WaitDataLoad,
+  TSC_ComputeWW, // start ww calculation via SIMD
+  TSC_WaitWWDone,
+  TSC_FeedMSE,
+  TSC_WaitMSEDone,
+  TSC_Done
+} TSC_State deriving (Bits, Eq);
 
 (* synthesize *)
 module mkCOP(COP_Ifc);
@@ -50,12 +66,17 @@ module mkCOP(COP_Ifc);
   BRAM_PORT#(Bit#(10), Bit#(16)) bram_d           <- mkBRAMCore1Load(768, False, "simd.hex", False);
   BRAM_PORT#(Bit#(10), Bit#(16)) bram_e           <- mkBRAMCore1Load(768, False, "simd.hex", False);
   BRAM_PORT#(Bit#(10), Bit#(16)) bram_f           <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_aa          <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_bb          <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_pp          <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_time_first  <- mkBRAMCore1Load(768, False, "simd.hex", False);
 
   // ========== Modules Instantiation
   IfcBF16_SIMD_Pipeline pipeline <- mkBF16_SIMD_Pipeline();
   BRAMWeightLoaderIfc weight_loader <- mkBRAMWeightLoader();
   BF16_SA_IFC sa <- mkBF16_16x16SA();
   BF16AdderIFC bf16_add <- mkBF16Adder();
+  MSEIfc mse <- mkMSE();
 
   // ========== SIMD Regs
   Vector#(256, Reg#(BF16)) vec_a <- replicateM(mkReg(toBF16(16'h0000)));  // Reused for: x chunks
@@ -116,6 +137,25 @@ module mkCOP(COP_Ifc);
   Reg#(Bool) sa2_weights_ready <- mkReg(False);
   Reg#(Bool) sa2_processing_complete <- mkReg(False);
   Reg#(Bool) sa2_started <- mkReg(False);
+
+  // ========== TSC Regs   
+  Reg#(TSC_State) tsc_state <- mkReg(TSC_Idle);
+  Reg#(Vector#(768, BF16)) tsc_pp <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_time_first <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_ww <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_kk <- mkReg(unpack(0));  // Store K result for WW computation
+  Reg#(Bool) tsc_data_loaded <- mkReg(False);
+  Reg#(Bool) tsc_ww_computed <- mkReg(False);
+  Reg#(Bit#(10)) tsc_load_addr <- mkReg(0);
+  Reg#(Bit#(6)) tsc_mse_chunk_fed <- mkReg(0);  // 0-23 for 24 chunks of 32 elements
+
+  // MSE module and results
+  Reg#(Vector#(768, BF16)) tsc_e1 <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_e2 <- mkReg(unpack(0));
+  Reg#(Bit#(7)) tsc_e1_collected <- mkReg(0);  // 0-95 for 96 chunks of 8 elements
+  Reg#(Bit#(7)) tsc_e2_collected <- mkReg(0);
+  Reg#(Bool) tsc_mse_started <- mkReg(False);
+
 
   // BRAM initialization delay - wait for BRAMs to load from hex files
   Reg#(Bit#(8)) init_counter <- mkReg(0);
@@ -327,7 +367,6 @@ module mkCOP(COP_Ifc);
     $display("[Cycle %0d] SIMD: K operation complete, moving to V", cycle_count);
     $display("[Cycle %0d] SIMD: Starting SA 1", cycle_count);
   endrule
-
 
   // ========== V SIMD
   // V OPERATION CHUNK 0
@@ -672,8 +711,90 @@ module mkCOP(COP_Ifc);
     $display("[Cycle %0d] SIMD: ALL SIMD COMPUTATION DONE", cycle_count);
   endrule
 
+  // ========== WW SIMD (for TSC)
+  rule compute_ww0 (state == ProcessWW0 && !pipeline.computation_done());
+    Vector#(256, BF16) ones = replicate(toBF16(16'h3f80)); // 1.0
+    Vector#(256, BF16) kk_chunk0 = newVector();
+    Vector#(256, BF16) tf_chunk0 = newVector();
+  
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      kk_chunk0[i] = tsc_kk[i];
+      tf_chunk0[i] = tsc_time_first[i];
+    end
+  
+    pipeline.start_computation(ones, kk_chunk0, ones, tf_chunk0); // 1*kk + 1*tf
+    state <= WaitWW0;
+    $display("[Cycle %0d] SIMD: WW Computing chunk 0 (ww = kk + time_first)", cycle_count);
+  endrule
+
+  rule wait_ww0 (state == WaitWW0 && pipeline.computation_done());
+    let ww_chunk = pipeline.get_result();
+    writeVec(result_chunk0, ww_chunk);
+    state <= ProcessWW1;
+    $display("[Cycle %0d] SIMD: WW Chunk 0 complete", cycle_count);
+  endrule
+
+  rule compute_ww1 (state == ProcessWW1 && !pipeline.computation_done());
+    Vector#(256, BF16) ones = replicate(toBF16(16'h3f80));
+    Vector#(256, BF16) kk_chunk1 = newVector();
+    Vector#(256, BF16) tf_chunk1 = newVector();
+  
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      kk_chunk1[i] = tsc_kk[256 + i];
+      tf_chunk1[i] = tsc_time_first[256 + i];
+    end
+  
+    pipeline.start_computation(ones, kk_chunk1, ones, tf_chunk1);
+    state <= WaitWW1;
+    $display("[Cycle %0d] SIMD: WW Computing chunk 1", cycle_count);
+  endrule
+
+  rule wait_ww1 (state == WaitWW1 && pipeline.computation_done());
+    let ww_chunk = pipeline.get_result();
+    writeVec(result_chunk1, ww_chunk);
+    state <= ProcessWW2;
+    $display("[Cycle %0d] SIMD: WW Chunk 1 complete", cycle_count);
+  endrule
+
+  rule compute_ww2 (state == ProcessWW2 && !pipeline.computation_done());
+    Vector#(256, BF16) ones = replicate(toBF16(16'h3f80));
+    Vector#(256, BF16) kk_chunk2 = newVector();
+    Vector#(256, BF16) tf_chunk2 = newVector();
+  
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      kk_chunk2[i] = tsc_kk[512 + i];
+      tf_chunk2[i] = tsc_time_first[512 + i];
+    end
+  
+    pipeline.start_computation(ones, kk_chunk2, ones, tf_chunk2);
+    state <= WaitWW2;
+    $display("[Cycle %0d] SIMD: WW Computing chunk 2", cycle_count);
+  endrule
+
+  rule wait_ww2 (state == WaitWW2 && pipeline.computation_done());
+    let ww_chunk = pipeline.get_result();
+    writeVec(result_chunk2, ww_chunk);
+  
+    // Assemble full WW vector
+    Vector#(512, BF16) ww_part01 = append(readVec(result_chunk0), readVec(result_chunk1));
+    Vector#(768, BF16) ww_final = append(ww_part01, ww_chunk);
+    tsc_ww <= ww_final;
+    tsc_ww_computed <= True;
+    tsc_state <= TSC_FeedMSE;  // Signal TSC to start MSE
+  
+    $display("[Cycle %0d] SIMD: WW All chunks complete. WW ready", cycle_count);
+  endrule
+
   // ========== SA1
-  rule sa1_prefetch_weights(sa1_state == SA_WaitWeights && !sa1_weights_ready);
+  // Prefetch weights DURING computation
+  rule sa1_prefetch_weights_overlap (sa1_state == SA_Compute && !sa1_weight_batch_requested && sa1_input_chunk_idx < 47);
+    weight_loader.start();
+    sa1_weight_batch_requested <= True;
+    $display("[Cycle %0d] SA1: [OVERLAP] Prefetching weight batch %0d for NEXT chunk DURING computation", cycle_count, weight_batch_counter);
+  endrule
+
+  // Prefetch weights when waiting (for current chunk)
+  rule sa1_prefetch_weights_wait(sa1_state == SA_WaitWeights && !sa1_weights_ready && !sa1_weight_batch_requested);
     weight_loader.start();
     sa1_weight_batch_requested <= True;
     $display("[Cycle %0d] SA1: Prefetching weight batch %0d", cycle_count, weight_batch_counter);
@@ -739,7 +860,6 @@ module mkCOP(COP_Ifc);
                 cycle_count, sa1_output_row_idx);
     end else begin
       sa1_input_chunk_idx <= sa1_input_chunk_idx + 1;
-      sa1_weight_batch_requested <= False;
       sa1_weight_batch_ready <= False;
       sa1_weights_ready <= False;
       sa1_started <= False;
@@ -763,6 +883,8 @@ module mkCOP(COP_Ifc);
     sa1_input_chunk_idx <= 0;
     sa1_accumulator <= unpack(0);
     sa1_weights_ready <= False;
+    sa1_weight_batch_requested <= False;
+    sa1_weight_batch_ready <= False;
     sa1_started <= False;
 
     if (sa1_output_row_idx == 11) begin
@@ -788,7 +910,14 @@ module mkCOP(COP_Ifc);
   endrule
 
   // ========== SA2
-  rule sa2_prefetch_weights (sa2_state == SA_WaitWeights && !sa2_weights_ready);
+  rule sa2_prefetch_weights_overlap (sa2_state == SA_Compute && !sa2_weight_batch_requested && sa2_input_chunk_idx < 11);
+    weight_loader.start();
+    sa2_weight_batch_requested <= True;
+    $display("[Cycle %0d] SA2: [OVERLAP] Prefetching weight batch %0d for NEXT chunk DURING computation", cycle_count, weight_batch_counter);
+  endrule
+
+  // Prefetch weights when waiting (for current chunk)
+  rule sa2_prefetch_weights_wait(sa2_state == SA_WaitWeights && !sa2_weights_ready && !sa2_weight_batch_requested);
     weight_loader.start();
     sa2_weight_batch_requested <= True;
     $display("[Cycle %0d] SA2: Prefetching weight batch %0d", cycle_count, weight_batch_counter);
@@ -855,7 +984,6 @@ module mkCOP(COP_Ifc);
                 cycle_count, sa2_output_row_idx);
     end else begin
       sa2_input_chunk_idx <= sa2_input_chunk_idx + 1;
-      sa2_weight_batch_requested <= False;
       sa2_weight_batch_ready <= False;
       sa2_weights_ready <= False;
       sa2_started <= False;
@@ -877,6 +1005,8 @@ module mkCOP(COP_Ifc);
     sa2_input_chunk_idx <= 0;
     sa2_accumulator <= unpack(0);
     sa2_weights_ready <= False;
+    sa2_weight_batch_requested <= False;
+    sa2_weight_batch_ready <= False;
     sa2_started <= False;
 
     if (sa2_output_row_idx == 47) begin
@@ -904,7 +1034,10 @@ module mkCOP(COP_Ifc);
         sa1_started <= False;
         sa1_accumulator <= unpack(0);
         current_sa_operation <= SA_Operation_V;
-        $display("[Cycle %0d] COP: K SA complete. Starting SA for V", cycle_count);
+        tsc_kk <= sa2_final_output;
+        tsc_state <= TSC_LoadData;
+        tsc_load_addr <= 0;
+        $display("[Cycle %0d] COP: K SA complete. Starting SA for V and TSC for current time step", cycle_count);
       end
 
       SA_Operation_V: begin
@@ -934,6 +1067,72 @@ module mkCOP(COP_Ifc);
     endcase
   endrule
 
+
+  // ========== TSC RULES
+  rule tsc_load_data (tsc_state == TSC_LoadData && !tsc_data_loaded);
+    bram_pp.put(False, 0, ?);
+    bram_time_first.put(False, 0, ?);
+    tsc_load_addr <= 1;
+    tsc_state <= TSC_WaitDataLoad;
+    $display("[Cycle %0d] TSC: Loading pp and time_first from BRAM");
+  endrule
+
+  rule tsc_wait_data_load (tsc_state == TSC_WaitDataLoad && tsc_load_addr < 768);
+    let idx = tsc_load_addr - 1;
+
+    Vector#(768, BF16) temp_pp = tsc_pp;
+    Vector#(768, BF16) temp_tf = tsc_time_first;
+    temp_pp[idx] = toBF16(bram_pp.read());
+    temp_tf[idx] = toBF16(bram_time_first.read());
+    tsc_pp <= temp_pp;
+    tsc_time_first <= temp_tf;
+
+    if (tsc_load_addr < 768) begin
+      bram_pp.put(False, tsc_load_addr, ?);
+      bram_time_first.put(False, tsc_load_addr, ?);
+    end
+    
+    tsc_load_addr <= tsc_load_addr + 1;
+  endrule
+
+  rule tsc_data_load_done (tsc_state == TSC_WaitDataLoad && tsc_load_addr == 768);
+    Vector#(768, BF16) temp_pp = tsc_pp;
+    Vector#(768, BF16) temp_tf = tsc_time_first;
+    temp_pp[767] = toBF16(bram_pp.read());
+    temp_tf[767] = toBF16(bram_time_first.read());
+    tsc_pp <= temp_pp;
+    tsc_time_first <= temp_tf;
+
+    tsc_data_loaded <= True;
+    tsc_state <= TSC_ComputeWW;
+    state <= ProcessWW0;
+    base_addr <= 0;
+    $display("[Cycle %0d] TSC: Data loaded. Starting WW computation", cycle_count);
+  endrule
+
+  rule tsc_start_mse (tsc_state == TSC_FeedMSE && !tsc_mse_started);
+    mse.start(False);  // Don't need p output
+    tsc_mse_started <= True;
+    tsc_mse_chunk_fed <= 0;
+    $display("[Cycle %0d] TSC: Starting MSE processing", cycle_count);
+  endrule
+
+  rule tsc_feed_mse (tsc_state == TSC_FeedMSE && tsc_mse_started && mse.input_ready() && tsc_mse_chunk_fed < 24);
+    Bit#(10) start_idx = zeroExtend(tsc_mse_chunk_fed) << 5; // *32
+    Vector#(32, BF16) pp_chunk = newVector();
+    Vector#(32, BF16) ww_chunk = newVector();
+
+    for (Integer i = 0; i < 32; i = i + 1) begin
+      pp_chunk[i] = tsc_pp[start_idx + fromInteger(i)];
+      ww_chunk[i] = tsc_ww[start_idx + fromInteger(i)];
+    end
+    mse.feed_input(pp_chunk, ww_chunk);
+    tsc_mse_chunk_fed <= tsc_mse_chunk_fed + 1;
+    if (tsc_mse_chunk_fed == 23) begin
+      tsc_state <= TSC_WaitMSEDone;
+      $display("[Cycle %0d] TSC-MSE: All 24 input chunks fed", cycle_count);
+    end
+  endrule
 
   // ========== INTERFACE METHODS
   method Action start_computation() if (state == Idle || state == Done);
