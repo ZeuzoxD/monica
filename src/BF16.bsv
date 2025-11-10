@@ -1,15 +1,17 @@
 package BF16;
 
 import Vector::*;
-
 typedef struct {
   Bit#(1) sign;
   Bit#(8) exp;
   Bit#(7) mantissa;
 } BF16 deriving (Bits, Eq);
 
+typedef Vector#(768, BF16) BF16Vec768;
+typedef Vector#(32, BF16) BF16Vec32;
 typedef Vector#(8, BF16) BF16Vec8;
 
+// Convert 16-bit raw to BF16 struct
 function BF16 toBF16(Bit#(16) val);
   return BF16 {
     sign: val[15],
@@ -18,6 +20,7 @@ function BF16 toBF16(Bit#(16) val);
   };
 endfunction
 
+// Convert BF16 struct to 16-bit raw
 function Bit#(16) fromBF16(BF16 val);
   return {val.sign, val.exp, val.mantissa};
 endfunction

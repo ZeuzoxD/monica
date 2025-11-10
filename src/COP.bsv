@@ -28,10 +28,30 @@ typedef enum {
   LoadR0, WaitR0Load, ProcessR0, WaitR0Done, 
   LoadR1, WaitR1Load, ProcessR1, WaitR1Done, 
   LoadR2, WaitR2Load, ProcessR2, WaitR2Done,
-  // WW operation
-  ProcessWW0, WaitWW0, 
-  ProcessWW1, WaitWW1, 
-  ProcessWW2, WaitWW2, 
+  // CTS WW operation
+  Process_CTS_WW0, Wait_CTS_WW0, 
+  Process_CTS_WW1, Wait_CTS_WW1, 
+  Process_CTS_WW2, Wait_CTS_WW2,
+  // B operation
+  Process_CTS_B0, Wait_CTS_B0, 
+  Process_CTS_B1, Wait_CTS_B1, 
+  Process_CTS_B2, Wait_CTS_B2, 
+  // NTS WW operation
+  Process_NTS_WW0, Wait_NTS_WW0, 
+  Process_NTS_WW1, Wait_NTS_WW1, 
+  Process_NTS_WW2, Wait_NTS_WW2,
+  // NTS S3 operation
+  Process_NTS_S30, Wait_NTS_S30, 
+  Process_NTS_S31, Wait_NTS_S31, 
+  Process_NTS_S32, Wait_NTS_S32, 
+  // A operation
+  Process_CTS_A0, Wait_CTS_A0, 
+  Process_CTS_A1, Wait_CTS_A1, 
+  Process_CTS_A2, Wait_CTS_A2, 
+  // A operation
+  Process_NTS_S20, Wait_NTS_S20, 
+  Process_NTS_S21, Wait_NTS_S21, 
+  Process_NTS_S22, Wait_NTS_S22, 
   Done
 } State deriving (Bits, Eq);
 
@@ -45,12 +65,22 @@ typedef enum {
 
 typedef enum {
   TSC_Idle,
-  TSC_LoadData, // load pp, time_first from BRAM
+  TSC_LoadData,
   TSC_WaitDataLoad,
-  TSC_ComputeWW, // start ww calculation via SIMD
-  TSC_WaitWWDone,
-  TSC_FeedMSE,
-  TSC_WaitMSEDone,
+  
+  // CTS
+  TSC_CTS_ComputeWW, TSC_CTS_Wait_CTS_WWDone,
+  TSC_CTS_FeedMSE, TSC_CTS_WaitMSEDone,
+  TSC_CTS_ComputeB, TSC_CTS_WaitBDone,
+  
+  // NTS
+  TSC_NTS_ComputeWW, TSC_NTS_Wait_CTS_WWDone,
+  TSC_NTS_FeedMSE, TSC_NTS_WaitMSEDone,
+  TSC_NTS_ComputeS3, TSC_NTS_WaitS3Done,
+
+  TSC_WaitVV,
+  TSC_CTS_ComputeA, TSC_CTS_WaitADone,
+  TSC_NTS_ComputeS2, TSC_NTS_WaitS2Done,
   TSC_Done
 } TSC_State deriving (Bits, Eq);
 
@@ -70,6 +100,7 @@ module mkCOP(COP_Ifc);
   BRAM_PORT#(Bit#(10), Bit#(16)) bram_bb          <- mkBRAMCore1Load(768, False, "simd.hex", False);
   BRAM_PORT#(Bit#(10), Bit#(16)) bram_pp          <- mkBRAMCore1Load(768, False, "simd.hex", False);
   BRAM_PORT#(Bit#(10), Bit#(16)) bram_time_first  <- mkBRAMCore1Load(768, False, "simd.hex", False);
+  BRAM_PORT#(Bit#(10), Bit#(16)) bram_time_decay  <- mkBRAMCore1Load(768, False, "simd.hex", False);
 
   // ========== Modules Instantiation
   IfcBF16_SIMD_Pipeline pipeline <- mkBF16_SIMD_Pipeline();
@@ -77,6 +108,9 @@ module mkCOP(COP_Ifc);
   BF16_SA_IFC sa <- mkBF16_16x16SA();
   BF16AdderIFC bf16_add <- mkBF16Adder();
   MSEIfc mse <- mkMSE();
+
+  // ========== Constants
+  Vector#(256, BF16) ones = replicate(toBF16(16'h3f80)); // 1.0
 
   // ========== SIMD Regs
   Vector#(256, Reg#(BF16)) vec_a <- replicateM(mkReg(toBF16(16'h0000)));  // Reused for: x chunks
@@ -138,24 +172,44 @@ module mkCOP(COP_Ifc);
   Reg#(Bool) sa2_processing_complete <- mkReg(False);
   Reg#(Bool) sa2_started <- mkReg(False);
 
-  // ========== TSC Regs   
+  // ========== TSC Regs 
   Reg#(TSC_State) tsc_state <- mkReg(TSC_Idle);
-  Reg#(Vector#(768, BF16)) tsc_pp <- mkReg(unpack(0));
   Reg#(Vector#(768, BF16)) tsc_time_first <- mkReg(unpack(0));
-  Reg#(Vector#(768, BF16)) tsc_ww <- mkReg(unpack(0));
-  Reg#(Vector#(768, BF16)) tsc_kk <- mkReg(unpack(0));  // Store K result for WW computation
-  Reg#(Bool) tsc_data_loaded <- mkReg(False);
-  Reg#(Bool) tsc_ww_computed <- mkReg(False);
+  Reg#(Vector#(768, BF16)) tsc_time_decay <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_pp <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_aa <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_bb <- mkReg(unpack(0));
+
   Reg#(Bit#(10)) tsc_load_addr <- mkReg(0);
-  Reg#(Bit#(6)) tsc_mse_chunk_fed <- mkReg(0);  // 0-23 for 24 chunks of 32 elements
+  Reg#(Bit#(3)) tsc_feed_cooldown <- mkReg(0);
+  Reg#(Bool) tsc_data_loaded <- mkReg(False);
+  Reg#(Bool) tsc_vv_ready <- mkReg(False);
 
-  // MSE module and results
-  Reg#(Vector#(768, BF16)) tsc_e1 <- mkReg(unpack(0));
-  Reg#(Vector#(768, BF16)) tsc_e2 <- mkReg(unpack(0));
-  Reg#(Bit#(7)) tsc_e1_collected <- mkReg(0);  // 0-95 for 96 chunks of 8 elements
-  Reg#(Bit#(7)) tsc_e2_collected <- mkReg(0);
-  Reg#(Bool) tsc_mse_started <- mkReg(False);
+  // CURRENT TIME STEP
+  Reg#(Vector#(768, BF16)) tsc_cts_ww <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_cts_e1 <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_cts_e2 <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_cts_b <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_cts_a <- mkReg(unpack(0));
 
+  Reg#(Bit#(7)) tsc_cts_e1_collected <- mkReg(0);
+  Reg#(Bit#(7)) tsc_cts_e2_collected <- mkReg(0);
+  Reg#(Bit#(6)) tsc_cts_mse_chunk_fed <- mkReg(0);
+  Reg#(Bool) tsc_cts_mse_started <- mkReg(False);
+
+  // NEXT TIME STEP
+  Reg#(Vector#(768, BF16)) tsc_nts_ww <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_nts_e1 <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_nts_e2 <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_nts_p <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_nts_s2 <- mkReg(unpack(0));
+  Reg#(Vector#(768, BF16)) tsc_nts_s3 <- mkReg(unpack(0));
+
+  Reg#(Bit#(7)) tsc_nts_e1_collected <- mkReg(0);
+  Reg#(Bit#(7)) tsc_nts_e2_collected <- mkReg(0);
+  Reg#(Bit#(7)) tsc_nts_p_collected <- mkReg(0);
+  Reg#(Bit#(6)) tsc_nts_mse_chunk_fed <- mkReg(0);
+  Reg#(Bool) tsc_nts_mse_started <- mkReg(False);
 
   // BRAM initialization delay - wait for BRAMs to load from hex files
   Reg#(Bit#(8)) init_counter <- mkReg(0);
@@ -711,79 +765,7 @@ module mkCOP(COP_Ifc);
     $display("[Cycle %0d] SIMD: ALL SIMD COMPUTATION DONE", cycle_count);
   endrule
 
-  // ========== WW SIMD (for TSC)
-  rule compute_ww0 (state == ProcessWW0 && !pipeline.computation_done());
-    Vector#(256, BF16) ones = replicate(toBF16(16'h3f80)); // 1.0
-    Vector#(256, BF16) kk_chunk0 = newVector();
-    Vector#(256, BF16) tf_chunk0 = newVector();
-  
-    for (Integer i = 0; i < 256; i = i + 1) begin
-      kk_chunk0[i] = tsc_kk[i];
-      tf_chunk0[i] = tsc_time_first[i];
-    end
-  
-    pipeline.start_computation(ones, kk_chunk0, ones, tf_chunk0); // 1*kk + 1*tf
-    state <= WaitWW0;
-    $display("[Cycle %0d] SIMD: WW Computing chunk 0 (ww = kk + time_first)", cycle_count);
-  endrule
 
-  rule wait_ww0 (state == WaitWW0 && pipeline.computation_done());
-    let ww_chunk = pipeline.get_result();
-    writeVec(result_chunk0, ww_chunk);
-    state <= ProcessWW1;
-    $display("[Cycle %0d] SIMD: WW Chunk 0 complete", cycle_count);
-  endrule
-
-  rule compute_ww1 (state == ProcessWW1 && !pipeline.computation_done());
-    Vector#(256, BF16) ones = replicate(toBF16(16'h3f80));
-    Vector#(256, BF16) kk_chunk1 = newVector();
-    Vector#(256, BF16) tf_chunk1 = newVector();
-  
-    for (Integer i = 0; i < 256; i = i + 1) begin
-      kk_chunk1[i] = tsc_kk[256 + i];
-      tf_chunk1[i] = tsc_time_first[256 + i];
-    end
-  
-    pipeline.start_computation(ones, kk_chunk1, ones, tf_chunk1);
-    state <= WaitWW1;
-    $display("[Cycle %0d] SIMD: WW Computing chunk 1", cycle_count);
-  endrule
-
-  rule wait_ww1 (state == WaitWW1 && pipeline.computation_done());
-    let ww_chunk = pipeline.get_result();
-    writeVec(result_chunk1, ww_chunk);
-    state <= ProcessWW2;
-    $display("[Cycle %0d] SIMD: WW Chunk 1 complete", cycle_count);
-  endrule
-
-  rule compute_ww2 (state == ProcessWW2 && !pipeline.computation_done());
-    Vector#(256, BF16) ones = replicate(toBF16(16'h3f80));
-    Vector#(256, BF16) kk_chunk2 = newVector();
-    Vector#(256, BF16) tf_chunk2 = newVector();
-  
-    for (Integer i = 0; i < 256; i = i + 1) begin
-      kk_chunk2[i] = tsc_kk[512 + i];
-      tf_chunk2[i] = tsc_time_first[512 + i];
-    end
-  
-    pipeline.start_computation(ones, kk_chunk2, ones, tf_chunk2);
-    state <= WaitWW2;
-    $display("[Cycle %0d] SIMD: WW Computing chunk 2", cycle_count);
-  endrule
-
-  rule wait_ww2 (state == WaitWW2 && pipeline.computation_done());
-    let ww_chunk = pipeline.get_result();
-    writeVec(result_chunk2, ww_chunk);
-  
-    // Assemble full WW vector
-    Vector#(512, BF16) ww_part01 = append(readVec(result_chunk0), readVec(result_chunk1));
-    Vector#(768, BF16) ww_final = append(ww_part01, ww_chunk);
-    tsc_ww <= ww_final;
-    tsc_ww_computed <= True;
-    tsc_state <= TSC_FeedMSE;  // Signal TSC to start MSE
-  
-    $display("[Cycle %0d] SIMD: WW All chunks complete. WW ready", cycle_count);
-  endrule
 
   // ========== SA1
   // Prefetch weights DURING computation
@@ -1034,7 +1016,6 @@ module mkCOP(COP_Ifc);
         sa1_started <= False;
         sa1_accumulator <= unpack(0);
         current_sa_operation <= SA_Operation_V;
-        tsc_kk <= sa2_final_output;
         tsc_state <= TSC_LoadData;
         tsc_load_addr <= 0;
         $display("[Cycle %0d] COP: K SA complete. Starting SA for V and TSC for current time step", cycle_count);
@@ -1050,6 +1031,7 @@ module mkCOP(COP_Ifc);
         sa1_weights_ready <= False;
         sa1_started <= False;
         sa1_accumulator <= unpack(0);
+        tsc_vv_ready <= True;
         current_sa_operation <= SA_Operation_R;
         $display("[Cycle %0d] COP: V SA complete. Starting SA for R", cycle_count);
       end
@@ -1071,25 +1053,42 @@ module mkCOP(COP_Ifc);
   // ========== TSC RULES
   rule tsc_load_data (tsc_state == TSC_LoadData && !tsc_data_loaded);
     bram_pp.put(False, 0, ?);
+    bram_aa.put(False, 0, ?);
+    bram_bb.put(False, 0, ?);
     bram_time_first.put(False, 0, ?);
+    bram_time_decay.put(False, 0, ?);
     tsc_load_addr <= 1;
     tsc_state <= TSC_WaitDataLoad;
-    $display("[Cycle %0d] TSC: Loading pp and time_first from BRAM");
+    $display("[Cycle %0d] TSC: Loading pp, aa, bb, time_first, time_decay from BRAM", cycle_count);
   endrule
 
   rule tsc_wait_data_load (tsc_state == TSC_WaitDataLoad && tsc_load_addr < 768);
     let idx = tsc_load_addr - 1;
 
     Vector#(768, BF16) temp_pp = tsc_pp;
+    Vector#(768, BF16) temp_aa = tsc_aa;
+    Vector#(768, BF16) temp_bb = tsc_bb;
     Vector#(768, BF16) temp_tf = tsc_time_first;
+    Vector#(768, BF16) temp_td = tsc_time_decay;
+
     temp_pp[idx] = toBF16(bram_pp.read());
+    temp_aa[idx] = toBF16(bram_aa.read());
+    temp_bb[idx] = toBF16(bram_bb.read());
     temp_tf[idx] = toBF16(bram_time_first.read());
+    temp_td[idx] = toBF16(bram_time_decay.read());
+
     tsc_pp <= temp_pp;
+    tsc_aa <= temp_aa;
+    tsc_bb <= temp_bb;
     tsc_time_first <= temp_tf;
+    tsc_time_decay <= temp_td;
 
     if (tsc_load_addr < 768) begin
       bram_pp.put(False, tsc_load_addr, ?);
+      bram_aa.put(False, tsc_load_addr, ?);
+      bram_bb.put(False, tsc_load_addr, ?);
       bram_time_first.put(False, tsc_load_addr, ?);
+      bram_time_decay.put(False, tsc_load_addr, ?);
     end
     
     tsc_load_addr <= tsc_load_addr + 1;
@@ -1097,42 +1096,633 @@ module mkCOP(COP_Ifc);
 
   rule tsc_data_load_done (tsc_state == TSC_WaitDataLoad && tsc_load_addr == 768);
     Vector#(768, BF16) temp_pp = tsc_pp;
+    Vector#(768, BF16) temp_aa = tsc_aa;
+    Vector#(768, BF16) temp_bb = tsc_bb;
     Vector#(768, BF16) temp_tf = tsc_time_first;
+    Vector#(768, BF16) temp_td = tsc_time_decay;
+
     temp_pp[767] = toBF16(bram_pp.read());
+    temp_aa[767] = toBF16(bram_aa.read());
+    temp_bb[767] = toBF16(bram_bb.read());
     temp_tf[767] = toBF16(bram_time_first.read());
+    temp_td[767] = toBF16(bram_time_decay.read());
+    
     tsc_pp <= temp_pp;
+    tsc_aa <= temp_aa;
+    tsc_bb <= temp_bb;
     tsc_time_first <= temp_tf;
+    tsc_time_decay <= temp_td;
 
     tsc_data_loaded <= True;
-    tsc_state <= TSC_ComputeWW;
-    state <= ProcessWW0;
+    tsc_state <= TSC_CTS_ComputeWW;
+    state <= Process_CTS_WW0;
     base_addr <= 0;
-    $display("[Cycle %0d] TSC: Data loaded. Starting WW computation", cycle_count);
+    $display("[Cycle %0d] TSC: ALL REQUIRED DATA LOADED FROM BRAM.", cycle_count);
   endrule
 
-  rule tsc_start_mse (tsc_state == TSC_FeedMSE && !tsc_mse_started);
-    mse.start(False);  // Don't need p output
-    tsc_mse_started <= True;
-    tsc_mse_chunk_fed <= 0;
-    $display("[Cycle %0d] TSC: Starting MSE processing", cycle_count);
+   // ========== TSC CTS 
+  // CTS: ww = time_first + kk using SIMD
+  rule tsc_cts_compute_ww (tsc_state == TSC_CTS_ComputeWW && state == Process_CTS_WW0 && !pipeline.computation_done());
+    Vector#(256, BF16) kk_chunk0 = newVector();
+    Vector#(256, BF16) tf_chunk0 = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      kk_chunk0[i] = sa_result_k[i];
+      tf_chunk0[i] = tsc_time_first[i];
+    end
+
+    pipeline.start_computation(ones, kk_chunk0, ones, tf_chunk0); // 1*kk + 1*tf
+    state <= Wait_CTS_WW0;
+    $display("[Cycle %0d] TSC-CTS SIMD: WW Computing chunk 0 (ww = kk + time_first)", cycle_count);
   endrule
 
-  rule tsc_feed_mse (tsc_state == TSC_FeedMSE && tsc_mse_started && mse.input_ready() && tsc_mse_chunk_fed < 24);
-    Bit#(10) start_idx = zeroExtend(tsc_mse_chunk_fed) << 5; // *32
-    Vector#(32, BF16) pp_chunk = newVector();
-    Vector#(32, BF16) ww_chunk = newVector();
+  rule tsc_cts_wait_ww0 (state == Wait_CTS_WW0 && pipeline.computation_done());
+    let ww_chunk = pipeline.get_result();
+    writeVec(result_chunk0, ww_chunk);
+    state <= Process_CTS_WW1;
+    $display("[Cycle %0d] TSC-CTS SIMD: WW Chunk 0 complete", cycle_count);
+  endrule
 
+  rule tsc_cts_compute_ww1 (state == Process_CTS_WW1 && !pipeline.computation_done());
+    Vector#(256, BF16) kk_chunk1 = newVector();
+    Vector#(256, BF16) tf_chunk1 = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      kk_chunk1[i] = sa_result_k[256 + i];
+      tf_chunk1[i] = tsc_time_first[256 + i];
+    end
+
+    pipeline.start_computation(ones, kk_chunk1, ones, tf_chunk1);
+    state <= Wait_CTS_WW1;
+    $display("[Cycle %0d] TSC-CTS SIMD: WW Computing chunk 1", cycle_count);
+  endrule
+
+  rule tsc_cts_wait_ww1 (state == Wait_CTS_WW1 && pipeline.computation_done());
+    let ww_chunk = pipeline.get_result();
+    writeVec(result_chunk1, ww_chunk);
+    state <= Process_CTS_WW2;
+    $display("[Cycle %0d] TSC-CTS SIMD: WW Chunk 1 complete", cycle_count);
+  endrule
+
+  rule tsc_cts_compute_ww2 (state == Process_CTS_WW2 && !pipeline.computation_done());
+    Vector#(256, BF16) kk_chunk2 = newVector();
+    Vector#(256, BF16) tf_chunk2 = newVector();
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      kk_chunk2[i] = sa_result_k[512 + i];
+      tf_chunk2[i] = tsc_time_first[512 + i];
+    end
+    pipeline.start_computation(ones, kk_chunk2, ones, tf_chunk2);
+    state <= Wait_CTS_WW2;
+    $display("[Cycle %0d] TSC-CTS SIMD: WW Computing chunk 2", cycle_count);
+  endrule
+
+  rule tsc_cts_wait_ww2 (state == Wait_CTS_WW2 && pipeline.computation_done());
+    let ww_chunk = pipeline.get_result();
+    writeVec(result_chunk2, ww_chunk);
+    // Assemble full WW vector
+    Vector#(512, BF16) ww_part01 = append(readVec(result_chunk0), readVec(result_chunk1));
+    Vector#(768, BF16) ww_final = append(ww_part01, ww_chunk);
+    tsc_cts_ww <= ww_final;
+    tsc_state <= TSC_CTS_FeedMSE;
+    state <= Process_CTS_B0;
+    $display("[Cycle %0d] TSC-CTS: WW All chunks complete. Starting MSE", cycle_count);
+  endrule
+
+  // CTS: Feed MSE for e1, e2 computation
+  rule tsc_cts_start_mse (tsc_state == TSC_CTS_FeedMSE && !tsc_cts_mse_started);
+    tsc_cts_mse_started <= True;
+    tsc_cts_mse_chunk_fed <= 0;
+    $display("[Cycle %0d] TSC-CTS: Starting MSE (pp, ww -> e1, e2)", cycle_count);
+  endrule
+
+  rule tsc_cts_feed_mse (tsc_state == TSC_CTS_FeedMSE && tsc_cts_mse_started && tsc_cts_mse_chunk_fed < 24);
+    if (tsc_feed_cooldown == 0) begin
+      Bit#(10) start_idx = zeroExtend(tsc_cts_mse_chunk_fed) << 5;
+      Vector#(32, BF16) pp_chunk = newVector();
+      Vector#(32, BF16) ww_chunk = newVector();
+
+      for (Integer i = 0; i < 32; i = i + 1) begin
+        pp_chunk[i] = tsc_pp[start_idx + fromInteger(i)];
+        ww_chunk[i] = tsc_cts_ww[start_idx + fromInteger(i)];
+      end
+
+      mse.feed_input(pp_chunk, ww_chunk);
+      tsc_cts_mse_chunk_fed <= tsc_cts_mse_chunk_fed + 1;
+      tsc_feed_cooldown <= 3;
+      $display("[Cycle %0d] MSE: MSE input chunk %0d fed", cycle_count, tsc_cts_mse_chunk_fed);
+
+      if (tsc_cts_mse_chunk_fed == 23) begin
+        tsc_state <= TSC_CTS_WaitMSEDone;
+        $display("[Cycle %0d] MSE: ALL 24 MSE INPUT CHUNKS FED", cycle_count);
+      end
+    end else begin
+      tsc_feed_cooldown <= tsc_feed_cooldown - 1;
+    end
+  endrule
+
+  rule tsc_cts_collect_e1_e2 ((tsc_state == TSC_CTS_WaitMSEDone || tsc_state == TSC_CTS_FeedMSE)  && mse.e_ready() && tsc_cts_e1_collected < 96 && tsc_cts_e2_collected < 96);
+    let e1_8 <- mse.get_e1();
+    let e2_8 <- mse.get_e2();
+    
+    Vector#(768, BF16) temp_e1 = tsc_cts_e1;
+    Vector#(768, BF16) temp_e2 = tsc_cts_e2;
+    Bit#(10) base = zeroExtend(tsc_cts_e1_collected) << 3;
+
+    for (Integer i = 0; i < 8; i = i + 1) begin
+      temp_e1[base + fromInteger(i)] = e1_8[i];
+      temp_e2[base + fromInteger(i)] = e2_8[i];
+    end
+
+    tsc_cts_e1 <= temp_e1;
+    tsc_cts_e2 <= temp_e2;
+    tsc_cts_e1_collected <= tsc_cts_e1_collected + 1;
+    tsc_cts_e2_collected <= tsc_cts_e2_collected + 1;
+
+    $display("[Cycle %0d] MSE : E1/E2 Chunk %0d collected", cycle_count, tsc_cts_e1_collected);
+    if(tsc_cts_e1_collected == 95) begin
+      $display("[Cycle %0d] MSE : ALL E1/E2 COLLECTED (96 chunks)", cycle_count);
+      $display("[Cycle %0d] TSC_CTS : MSE DONE", cycle_count);
+      tsc_state <= TSC_CTS_ComputeB;
+    end
+  endrule
+
+  //CTS Compute B = e1 * bb + e2 using SIMD
+  rule tsc_cts_compute_b0 (tsc_state == TSC_CTS_ComputeB && state == Process_CTS_B0 && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) bb_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_cts_e1[i];
+      bb_chunk[i] = tsc_bb[i];
+      e2_chunk[i] = tsc_cts_e2[i];
+    end
+
+    pipeline.start_computation(e1_chunk, bb_chunk, e2_chunk, ones); // e1*bb + e2*1
+    state <= Wait_CTS_B0;
+    $display("[Cycle %0d] TSC-CTS SIMD: Computing B chunk 0 (b = e1*bb + e2)", cycle_count);
+  endrule
+
+  rule tsc_cts_wait_b0 (state == Wait_CTS_B0 && pipeline.computation_done());
+    let b_chunk = pipeline.get_result();
+    writeVec(result_chunk0, b_chunk);
+    state <= Process_CTS_B1;
+    $display("[Cycle %0d] TSC-CTS SIMD: B chunk 0 complete", cycle_count);
+  endrule
+
+  rule tsc_cts_compute_b1 (state == Process_CTS_B1 && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) bb_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_cts_e1[256 + i];
+      bb_chunk[i] = tsc_bb[256 + i];
+      e2_chunk[i] = tsc_cts_e2[256 + i];
+    end
+
+    pipeline.start_computation(e1_chunk, bb_chunk, e2_chunk, ones);
+    state <= Wait_CTS_B1;
+    $display("[Cycle %0d] TSC-CTS SIMD: Computing B chunk 1", cycle_count);
+  endrule
+
+  rule tsc_cts_wait_b1 (state == Wait_CTS_B1 && pipeline.computation_done());
+    let b_chunk = pipeline.get_result();
+    writeVec(result_chunk1, b_chunk);
+    state <= Process_CTS_B2;
+    $display("[Cycle %0d] TSC-CTS SIMD: B chunk 1 complete", cycle_count);
+  endrule
+
+  rule tsc_cts_compute_b2 (state == Process_CTS_B2 && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) bb_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_cts_e1[512 + i];
+      bb_chunk[i] = tsc_bb[512 + i];
+      e2_chunk[i] = tsc_cts_e2[512 + i];
+    end
+
+    pipeline.start_computation(e1_chunk, bb_chunk, e2_chunk, ones);
+    state <= Wait_CTS_B2;
+    $display("[Cycle %0d] TSC-CTS SIMD: Computing B chunk 2", cycle_count);
+  endrule
+
+  rule tsc_cts_wait_b2 (state == Wait_CTS_B2 && pipeline.computation_done());
+    let b_chunk = pipeline.get_result();
+    writeVec(result_chunk2, b_chunk);
+
+    // Assemble full B vector
+    Vector#(512, BF16) b_part01 = append(readVec(result_chunk0), readVec(result_chunk1));
+    Vector#(768, BF16) b_final = append(b_part01, b_chunk);
+    tsc_cts_b <= b_final;
+    tsc_state <= TSC_NTS_ComputeWW;
+    state <= Process_NTS_WW0;
+    $display("[Cycle %0d] TSC-CTS SIMD: B computation complete", cycle_count);
+    $display("[Cycle %0d] TSC-CTS: B DONE. Starting NTS", cycle_count);
+  endrule
+
+  // ========== TSC NTS Computation ==========
+  // NTS: Compute WW = pp + time_decay
+  rule tsc_nts_compute_ww0 (tsc_state == TSC_NTS_ComputeWW && state == Process_NTS_WW0 && !pipeline.computation_done());
+    Vector#(256, BF16) pp_chunk = newVector();
+    Vector#(256, BF16) td_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      pp_chunk[i] = tsc_pp[i];
+      td_chunk[i] = tsc_time_decay[i];
+    end
+
+    pipeline.start_computation(ones, pp_chunk, ones, td_chunk); // 1*pp + 1*td
+    state <= Wait_NTS_WW0;
+    $display("[Cycle %0d] TSC-NTS SIMD: Computing WW chunk 0 (ww = pp + time_decay)", cycle_count);
+  endrule
+
+  rule tsc_nts_wait_ww0 (state == Wait_NTS_WW0 && pipeline.computation_done());
+    let ww_chunk = pipeline.get_result();
+    writeVec(result_chunk0, ww_chunk);
+    state <= Process_NTS_WW1;
+    $display("[Cycle %0d] TSC-NTS SIMD: WW chunk 0 complete", cycle_count);
+  endrule
+
+  rule tsc_nts_compute_ww1 (state == Process_NTS_WW1 && !pipeline.computation_done());
+    Vector#(256, BF16) pp_chunk = newVector();
+    Vector#(256, BF16) td_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      pp_chunk[i] = tsc_pp[256 + i];
+      td_chunk[i] = tsc_time_decay[256 + i];
+    end
+
+    pipeline.start_computation(ones, pp_chunk, ones, td_chunk);
+    state <= Wait_NTS_WW1;
+    $display("[Cycle %0d] TSC-NTS SIMD: Computing WW chunk 1", cycle_count);
+  endrule
+
+  rule tsc_nts_wait_ww1 (state == Wait_NTS_WW1 && pipeline.computation_done());
+    let ww_chunk = pipeline.get_result();
+    writeVec(result_chunk1, ww_chunk);
+    state <= Process_NTS_WW2;
+    $display("[Cycle %0d] TSC-NTS: WW chunk 1 complete", cycle_count);
+  endrule
+
+  rule tsc_nts_compute_ww2 (state == Process_NTS_WW2 && !pipeline.computation_done());
+    Vector#(256, BF16) pp_chunk = newVector();
+    Vector#(256, BF16) td_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      pp_chunk[i] = tsc_pp[512 + i];
+      td_chunk[i] = tsc_time_decay[512 + i];
+    end
+
+    pipeline.start_computation(ones, pp_chunk, ones, td_chunk);
+    state <= Wait_NTS_WW2;
+    $display("[Cycle %0d] TSC-NTS SIMD: Computing WW chunk 2", cycle_count);
+  endrule
+
+  rule tsc_nts_wait_ww2 (state == Wait_NTS_WW2 && pipeline.computation_done());
+    let ww_chunk = pipeline.get_result();
+    writeVec(result_chunk2, ww_chunk);
+
+    Vector#(512, BF16) ww_part01 = append(readVec(result_chunk0), readVec(result_chunk1));
+    Vector#(768, BF16) ww_final = append(ww_part01, ww_chunk);
+    tsc_nts_ww <= ww_final;
+    tsc_state <= TSC_NTS_FeedMSE;
+    state <= Process_NTS_S30;  // Prepare for S3 computation
+    $display("[Cycle %0d] TSC-NTS: WW computation complete. Starting MSE", cycle_count);
+  endrule
+
+  // NTS: Feed MSE for e1, e2, p computation
+  rule tsc_nts_start_mse (tsc_state == TSC_NTS_FeedMSE && !tsc_nts_mse_started);
+    tsc_nts_mse_started <= True;
+    tsc_nts_mse_chunk_fed <= 0;
+    $display("[Cycle %0d] TSC-NTS: Starting MSE with p storage (ww, kk -> e1, e2, p)", cycle_count);
+  endrule
+
+  rule tsc_nts_feed_mse ((tsc_state == TSC_NTS_FeedMSE) && tsc_nts_mse_started && tsc_nts_mse_chunk_fed < 24);
+    if (tsc_feed_cooldown == 0) begin
+      Bit#(10) start_idx = zeroExtend(tsc_nts_mse_chunk_fed) << 5;
+      Vector#(32, BF16) ww_chunk = newVector();
+      Vector#(32, BF16) kk_chunk = newVector();
+
+      for (Integer i = 0; i < 32; i = i + 1) begin
+        ww_chunk[i] = tsc_nts_ww[start_idx + fromInteger(i)];
+        kk_chunk[i] = sa_result_k[start_idx + fromInteger(i)];
+      end
+
+      mse.feed_input(ww_chunk, kk_chunk);
+      tsc_nts_mse_chunk_fed <= tsc_nts_mse_chunk_fed + 1;
+      tsc_feed_cooldown <= 3;
+      $display("[Cycle %0d] MSE: MSE input chunk %0d fed", cycle_count, tsc_nts_mse_chunk_fed);
+
+      if (tsc_nts_mse_chunk_fed == 23) begin
+        tsc_state <= TSC_NTS_WaitMSEDone;
+        $display("[Cycle %0d] MSE: ALL 24 MSE INPUT CHUNKS FED", cycle_count);
+      end
+    end else begin
+      tsc_feed_cooldown <= tsc_feed_cooldown - 1;
+    end
+  endrule
+
+  rule tsc_nts_collect_e1_e2 ((tsc_state == TSC_NTS_WaitMSEDone || tsc_state == TSC_NTS_FeedMSE) && mse.e_ready() && tsc_nts_e1_collected < 96 && tsc_nts_e2_collected < 96);
+    let e1_8 <- mse.get_e1();
+    let e2_8 <- mse.get_e2();
+
+    Vector#(768, BF16) temp_e1 = tsc_nts_e1;
+    Vector#(768, BF16) temp_e2 = tsc_nts_e2;
+    Bit#(10) base = zeroExtend(tsc_nts_e1_collected) << 3;
+
+    for (Integer i = 0; i < 8; i = i + 1) begin
+      temp_e1[base + fromInteger(i)] = e1_8[i];
+      temp_e2[base + fromInteger(i)] = e2_8[i];
+    end
+
+    tsc_nts_e1 <= temp_e1;
+    tsc_nts_e2 <= temp_e2;
+    tsc_nts_e1_collected <= tsc_nts_e1_collected + 1;
+    tsc_nts_e2_collected <= tsc_nts_e2_collected + 1;
+
+    $display("[Cycle %0d] MSE : E1/E2 Chunk %0d collected", cycle_count, tsc_nts_e1_collected);
+    if(tsc_nts_e1_collected == 95) begin
+      $display("[Cycle %0d] MSE : ALL E1/E2 COLLECTED (96 chunks)", cycle_count);
+      $display("[Cycle %0d] TSC_NTS : MSE DONE", cycle_count);
+    end
+  endrule
+
+  rule tsc_nts_collect_p ((tsc_state == TSC_NTS_WaitMSEDone || tsc_state == TSC_NTS_FeedMSE) && mse.p_ready() && tsc_nts_p_collected < 24);
+    let p32 <- mse.get_p();
+    Vector#(768, BF16) temp = tsc_nts_p;
+    Bit#(10) base = zeroExtend(tsc_nts_p_collected) << 5;
     for (Integer i = 0; i < 32; i = i + 1) begin
-      pp_chunk[i] = tsc_pp[start_idx + fromInteger(i)];
-      ww_chunk[i] = tsc_ww[start_idx + fromInteger(i)];
+      temp[base + fromInteger(i)] = p32[i];
     end
-    mse.feed_input(pp_chunk, ww_chunk);
-    tsc_mse_chunk_fed <= tsc_mse_chunk_fed + 1;
-    if (tsc_mse_chunk_fed == 23) begin
-      tsc_state <= TSC_WaitMSEDone;
-      $display("[Cycle %0d] TSC-MSE: All 24 input chunks fed", cycle_count);
+    tsc_nts_p <= temp;
+    tsc_nts_p_collected <= tsc_nts_p_collected + 1;
+    $display("[Cycle %0d] MSE : p Chunk %0d collected", cycle_count, tsc_nts_p_collected);
+    if (tsc_nts_p_collected == 23) begin
+      $display("[Cycle %0d] MSE: ALL P COLLECTED (24 chunks)", cycle_count);
     end
   endrule
+
+  rule tsc_nts_mse_done (tsc_state == TSC_NTS_WaitMSEDone && tsc_nts_e1_collected == 96 && tsc_nts_e2_collected == 96);
+    tsc_state <= TSC_NTS_ComputeS3;
+    $display("[Cycle %0d] TSC_NTS : Transitioning to S3 computation", cycle_count);
+  endrule
+
+  //NTS Compute S3 = e1 * bb + e2 using SIMD
+  rule tsc_nts_compute_s30 (tsc_state == TSC_NTS_ComputeS3 && state == Process_NTS_S30 && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) bb_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_nts_e1[i];
+      bb_chunk[i] = tsc_bb[i];
+      e2_chunk[i] = tsc_nts_e2[i];
+    end
+
+    pipeline.start_computation(e1_chunk, bb_chunk, e2_chunk, ones); // e1*bb + e2*1
+    state <= Wait_NTS_S30;
+    $display("[Cycle %0d] TSC-NTS SIMD: Computing S3 chunk 0", cycle_count);
+  endrule
+
+  rule tsc_nts_wait_s30 (state == Wait_NTS_S30 && pipeline.computation_done());
+    let b_chunk = pipeline.get_result();
+    writeVec(result_chunk0, b_chunk);
+    state <= Process_NTS_S31;
+    $display("[Cycle %0d] TSC-NTS SIMD: S3 chunk 0 complete", cycle_count);
+  endrule
+
+  rule tsc_nts_compute_s31 (state == Process_NTS_S31 && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) bb_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_nts_e1[256 + i];
+      bb_chunk[i] = tsc_bb[256 + i];
+      e2_chunk[i] = tsc_nts_e2[256 + i];
+    end
+
+    pipeline.start_computation(e1_chunk, bb_chunk, e2_chunk, ones);
+    state <= Wait_NTS_S31;
+    $display("[Cycle %0d] TSC-NTS SIMD: Computing S3 chunk 1", cycle_count);
+  endrule
+
+  rule tsc_nts_wait_s31 (state == Wait_NTS_S31 && pipeline.computation_done());
+    let b_chunk = pipeline.get_result();
+    writeVec(result_chunk1, b_chunk);
+    state <= Process_NTS_S32;
+    $display("[Cycle %0d] TSC-NTS SIMD: S3 chunk 1 complete", cycle_count);
+  endrule
+
+  rule tsc_nts_compute_s32 (state == Process_NTS_S32 && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) bb_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_nts_e1[512 + i];
+      bb_chunk[i] = tsc_bb[512 + i];
+      e2_chunk[i] = tsc_nts_e2[512 + i];
+    end
+
+    pipeline.start_computation(e1_chunk, bb_chunk, e2_chunk, ones);
+    state <= Wait_NTS_S32;
+    $display("[Cycle %0d] TSC-NTS SIMD: Computing S3 chunk 2", cycle_count);
+  endrule
+
+  rule tsc_nts_wait_s32 (state == Wait_NTS_S32 && pipeline.computation_done());
+    let b_chunk = pipeline.get_result();
+    writeVec(result_chunk2, b_chunk);
+
+    // Assemble full B vector
+    Vector#(512, BF16) b_part01 = append(readVec(result_chunk0), readVec(result_chunk1));
+    Vector#(768, BF16) b_final = append(b_part01, b_chunk);
+    tsc_nts_s3 <= b_final;
+    tsc_state <= TSC_WaitVV;
+    state <= Idle;
+    $display("[Cycle %0d] TSC-NTS SIMD: S3 computation complete", cycle_count);
+    $display("[Cycle %0d] TSC-NTS: S3 DONE. Waiting for V", cycle_count);
+  endrule
+
+  rule tsc_wait_vv (tsc_state == TSC_WaitVV && tsc_vv_ready);
+    state <= Process_CTS_A0;
+    tsc_state <= TSC_CTS_ComputeA;
+    $display("[Cycle %0d] TSC-NTS: V Ready. Transitioning to compute A SIMD");
+  endrule
+
+  // CTS Compute a = e1 * aa + e2 * vv
+  rule tsc_cts_compute_a0 (tsc_state == TSC_CTS_ComputeA && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) aa_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+    Vector#(256, BF16) vv_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_cts_e1[i];
+      aa_chunk[i] = tsc_aa[i];
+      e2_chunk[i] = tsc_cts_e2[i];
+      vv_chunk[i] = sa_result_v[i];
+    end
+
+    pipeline.start_computation(e1_chunk, aa_chunk, e2_chunk, vv_chunk);
+    state <= Wait_CTS_A0;
+    tsc_state <= TSC_CTS_WaitADone;
+    $display("[Cycle %0d] TSC-CTS SIMD: Computing A chunk 0", cycle_count);
+  endrule
+
+  rule tsc_cts_wait_a0(state == Wait_CTS_A0 && pipeline.computation_done());
+    let a_chunk = pipeline.get_result();
+    writeVec(result_chunk0, a_chunk);
+    state <= Process_CTS_A1;
+    $display("[Cycle %0d] TSC-CTS SIMD: A chunk 0 complete", cycle_count);
+  endrule
+
+  rule tsc_cts_compute_a1 (state == Process_CTS_A1 && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) aa_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+    Vector#(256, BF16) vv_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_cts_e1[256 + i];
+      aa_chunk[i] = tsc_aa[256 + i];
+      e2_chunk[i] = tsc_cts_e2[256 + i];
+      vv_chunk[i] = sa_result_v[256 + i];
+    end
+
+    pipeline.start_computation(e1_chunk, aa_chunk, e2_chunk, vv_chunk);
+    state <= Wait_CTS_A1;
+    $display("[Cycle %0d] TSC-CTS SIMD: Computing A chunk 1", cycle_count);
+  endrule
+
+  rule tsc_cts_wait_a1 (state == Wait_CTS_A1 && pipeline.computation_done());
+    let a_chunk = pipeline.get_result();
+    writeVec(result_chunk1, a_chunk);
+    state <= Process_CTS_A2;
+    $display("[Cycle %0d] TSC-CTS SIMD: A chunk 1 complete", cycle_count);
+  endrule
+
+  rule tsc_cts_compute_a2 (state == Process_CTS_A2 && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) aa_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+    Vector#(256, BF16) vv_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_cts_e1[512 + i];
+      aa_chunk[i] = tsc_aa[512 + i];
+      e2_chunk[i] = tsc_cts_e2[512 + i];
+      vv_chunk[i] = sa_result_v[512 + i];
+    end
+
+    pipeline.start_computation(e1_chunk, aa_chunk, e2_chunk, vv_chunk);
+    state <= Wait_CTS_A2;
+    $display("[Cycle %0d] TSC-CTS SIMD: Computing A chunk 2", cycle_count);
+  endrule
+
+  rule tsc_cts_wait_a2 (state == Wait_CTS_A2 && pipeline.computation_done());
+    let a_chunk = pipeline.get_result();
+    writeVec(result_chunk2, a_chunk);
+
+    Vector#(512, BF16) a_part01 = append(readVec(result_chunk0), readVec(result_chunk1));
+    Vector#(768, BF16) a_final = append(a_part01, a_chunk);
+    tsc_cts_a <= a_final;
+    tsc_state <= TSC_NTS_ComputeS2;
+    state <= Process_NTS_S20;
+    $display("[Cycle %0d] TSC-CTS SIMD: A computation complete", cycle_count);
+    $display("[Cycle %0d] TSC-CTS: A DONE. Moving to S2", cycle_count);
+  endrule
+
+  // NTS Compute e1 * aa + e2 * vv
+  rule tsc_nts_compute_s20 (tsc_state == TSC_NTS_ComputeS2 && state == Process_NTS_S20 && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) aa_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+    Vector#(256, BF16) vv_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_nts_e1[i];
+      aa_chunk[i] = tsc_aa[i];
+      e2_chunk[i] = tsc_nts_e2[i];
+      vv_chunk[i] = sa_result_v[i];
+    end
+
+    pipeline.start_computation(e1_chunk, aa_chunk, e2_chunk, vv_chunk);
+    state <= Wait_NTS_S20;
+    tsc_state <= TSC_NTS_WaitS2Done;
+    $display("[Cycle %0d] TSC-NTS SIMD: Computing S2 chunk 0", cycle_count);
+  endrule
+
+  rule tsc_nts_wait_s20(state == Wait_NTS_S20 && pipeline.computation_done());
+    let s2_chunk = pipeline.get_result();
+    writeVec(result_chunk0, s2_chunk);
+    state <= Process_NTS_S21;
+    $display("[Cycle %0d] TSC-CTS SIMD: S2 chunk 0 complete", cycle_count);
+  endrule
+
+  rule tsc_nts_compute_s21 (state == Process_NTS_S21 && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) aa_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+    Vector#(256, BF16) vv_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_nts_e1[256 + i];
+      aa_chunk[i] = tsc_aa[256 + i];
+      e2_chunk[i] = tsc_nts_e2[256 + i];
+      vv_chunk[i] = sa_result_v[256 + i];
+    end
+
+    pipeline.start_computation(e1_chunk, aa_chunk, e2_chunk, vv_chunk);
+    state <= Wait_NTS_S21;
+    $display("[Cycle %0d] TSC-NTS SIMD: Computing S2 chunk 1", cycle_count);
+  endrule
+  
+  rule tsc_nts_wait_s21(state == Wait_NTS_S21 && pipeline.computation_done());
+    let s2_chunk = pipeline.get_result();
+    writeVec(result_chunk0, s2_chunk);
+    state <= Process_NTS_S22;
+    $display("[Cycle %0d] TSC-CTS SIMD: S2 chunk 1 complete", cycle_count);
+  endrule
+
+  rule tsc_nts_compute_s22 (state == Process_NTS_S22 && !pipeline.computation_done());
+    Vector#(256, BF16) e1_chunk = newVector();
+    Vector#(256, BF16) aa_chunk = newVector();
+    Vector#(256, BF16) e2_chunk = newVector();
+    Vector#(256, BF16) vv_chunk = newVector();
+
+    for (Integer i = 0; i < 256; i = i + 1) begin
+      e1_chunk[i] = tsc_nts_e1[512 + i];
+      aa_chunk[i] = tsc_aa[512 + i];
+      e2_chunk[i] = tsc_nts_e2[512 + i];
+      vv_chunk[i] = sa_result_v[512 + i];
+    end
+
+    pipeline.start_computation(e1_chunk, aa_chunk, e2_chunk, vv_chunk);
+    state <= Wait_NTS_S22;
+    $display("[Cycle %0d] TSC-NTS SIMD: Computing S2 chunk 2", cycle_count);
+  endrule
+
+  rule tsc_nts_wait_s22 (state == Wait_NTS_S22 && pipeline.computation_done());
+    let s2_chunk = pipeline.get_result();
+    writeVec(result_chunk2, s2_chunk);
+
+    Vector#(512, BF16) s2_part01 = append(readVec(result_chunk0), readVec(result_chunk1));
+    Vector#(768, BF16) s2_final = append(s2_part01, s2_chunk);
+    tsc_nts_s2 <= s2_final;
+    tsc_state <= TSC_Done;
+    state <= Idle;
+    $display("[Cycle %0d] TSC-NTS SIMD: S2 computation complete", cycle_count);
+  endrule
+
+  rule tsc_done (tsc_state == TSC_Done);
+    $display("[Cycle %0d] TSC DONE: CTS + NTS + STATE VEC", cycle_count);
+    tsc_state <= TSC_Idle;
+  endrule
+
 
   // ========== INTERFACE METHODS
   method Action start_computation() if (state == Idle || state == Done);
