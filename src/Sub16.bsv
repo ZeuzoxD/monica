@@ -3,7 +3,6 @@ package Sub16;
 import Vector::*;
 import BF16::*;
 
-
 interface Sub16Ifc;
   method ActionValue#(Tuple2#(BF16Vec8, BF16Vec8)) compute(BF16Vec8 pp_8, BF16Vec8 ww_8, BF16Vec8 p_8);
 endinterface
