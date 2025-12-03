@@ -16,6 +16,9 @@ interface COP_Ifc;
   method Vector#(768, BF16) get_result_k();
   method Vector#(16, Vector#(48, Bool)) get_output();
   method Bool computation_done();
+
+  method Action write_bram(Bit#(4) bram_id, Vector#(256, BF16) data, Bit#(10) base_addr);
+  method Bool ready_for_write();
 endinterface
 
 typedef enum {
@@ -96,6 +99,24 @@ typedef enum {
   ProcessLIF, WaitLIF, DoneLIF,
   TSC_Done
 } TSC_State deriving (Bits, Eq);
+
+typedef enum {
+  WB_Idle, 
+  WB_Write_X,
+  WB_Write_TMK,
+  WB_Write_TMV,
+  WB_Write_TMR,
+  WB_Write_STATE,
+  WB_Write_D,
+  WB_Write_E,
+  WB_Write_F,
+  WB_Write_AA,
+  WB_Write_BB,
+  WB_Write_PP,
+  WB_Write_TF,
+  WB_Write_TD,
+  WB_WaitAfterWrite
+} WB_State deriving (Bits, Eq);
 
 (* synthesize *)
 module mkCOP(COP_Ifc);
@@ -242,6 +263,27 @@ module mkCOP(COP_Ifc);
   // LIF
   Reg#(Bit#(10)) lif_chunk_fed <- mkReg(0);
   Reg#(Bool) lif_done <- mkReg(False);
+
+  // ========== BRAM WRITE CONTROL
+  Reg#(WB_State) wb_state <- mkReg(WB_Idle);
+  Reg#(Bool) write_ready <- mkReg(False);
+  Reg#(Bit#(10)) write_addr <- mkReg(0);
+  Reg#(Bit#(5)) write_wait_counter <- mkReg(0);
+  Reg#(Vector#(256, BF16)) write_buffer <- mkReg(replicate(toBF16(16'h0000)));
+  Reg#(Bit#(10)) write_base_addr <- mkReg(0);
+
+  // NEW: Read-back verification registers
+  Reg#(Bool) readback_started <- mkReg(False);
+  Reg#(Bit#(4)) readback_bram_id <- mkReg(0);
+  Reg#(Bit#(2)) readback_chunk_id <- mkReg(0);
+  Reg#(Bit#(3)) readback_addr_offset <- mkReg(0);
+  Reg#(Bool) readback_issued <- mkReg(False);
+  
+  // Storage for read-back values: 13 BRAMs × 3 chunks × 5 values = 195 values
+  Reg#(Vector#(195, BF16)) readback_values <- mkReg(replicate(toBF16(16'h0000)));
+  Reg#(Bit#(8)) readback_collected <- mkReg(0);
+  Reg#(Bool) readback_complete <- mkReg(False);
+
 
   // BRAM initialization delay - wait for BRAMs to load from hex files
   Reg#(Bit#(8)) init_counter <- mkReg(0);
@@ -917,7 +959,20 @@ module mkCOP(COP_Ifc);
     sa2_started <= False;
     sa2_accumulator <= unpack(0);
     sa2_processing_complete <= False;
-    $display("[Cycle %0d] COP: Starting SA 2", cycle_count);
+
+    // NEW: Start read-back when SA2 begins (only for SA_Operation_O)
+    if (current_sa_operation == SA_Operation_O) begin
+      readback_started <= True;
+      readback_bram_id <= 0;
+      readback_chunk_id <= 0;
+      readback_addr_offset <= 0;
+      readback_issued <= False;
+      readback_collected <= 0;
+      $display("[Cycle %0d] COP: Starting SA 2 for O operation", cycle_count);
+      $display("[Cycle %0d] READ-BACK: Starting verification reads", cycle_count);
+    end else begin
+      $display("[Cycle %0d] COP: Starting SA 2", cycle_count);
+    end
   endrule
 
   // ========== SA2
@@ -1848,7 +1903,7 @@ module mkCOP(COP_Ifc);
     $display("[Cycle %0d] RWKV SIMD: Computing chunk 2", cycle_count);
   endrule
 
-  rule tsc_wait_rwvk2 (state == Wait_RWKV2 && pipeline.computation_done());
+  rule tsc_wait_rwkv2 (state == Wait_RWKV2 && pipeline.computation_done());
     let rwkv_chunk = pipeline.get_result();
     writeVec(result_chunk2, rwkv_chunk);
 
@@ -1867,7 +1922,9 @@ module mkCOP(COP_Ifc);
     current_sa_operation <= SA_Operation_O;
 
     state <= Idle;
+    write_ready <= True;
     $display("[Cycle %0d] RWKV SIMD: RWKV Computation Done. Starting SA for O", cycle_count);
+    $display("[Cycle %0d] BRAM WRITE: Ready to accept writes from TB", cycle_count);
   endrule
 
   rule tsc_done (tsc_state == TSC_Done);
@@ -1897,7 +1954,241 @@ module mkCOP(COP_Ifc);
     if (lif.is_done() == True) begin
       lif_done <= lif.is_done();
       tsc_state <= DoneLIF; 
-      $display("[Cycle %0d] COP: All computation complete GG Bois", cycle_count);
+      $display("[Cycle %0d] COP: All computation complete", cycle_count);
+    end
+  endrule
+
+  // ========== BRAM WRITE RULES
+  rule wb_execute_write_x (wb_state == WB_Write_X && write_addr < 256);
+    bram_x.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: X chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_tmk (wb_state == WB_Write_TMK && write_addr < 256);
+    bram_time_mix_k.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: TMK chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_tmv (wb_state == WB_Write_TMV && write_addr < 256);
+    bram_time_mix_v.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: TMV chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_tmr (wb_state == WB_Write_TMR && write_addr < 256);
+    bram_time_mix_r.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: TMR chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_state (wb_state == WB_Write_STATE && write_addr < 256);
+    bram_state.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: TMR chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_d (wb_state == WB_Write_D && write_addr < 256);
+    bram_d.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: D chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_e (wb_state == WB_Write_E && write_addr < 256);
+    bram_e.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: E chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_f (wb_state == WB_Write_F && write_addr < 256);
+    bram_f.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: F chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_aa (wb_state == WB_Write_AA && write_addr < 256);
+    bram_aa.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: AA chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_bb (wb_state == WB_Write_BB && write_addr < 256);
+    bram_bb.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: BB chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_pp (wb_state == WB_Write_PP && write_addr < 256);
+    bram_pp.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: PP chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_tf (wb_state == WB_Write_TF && write_addr < 256);
+    bram_time_first.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: TF chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_execute_write_td (wb_state == WB_Write_TD && write_addr < 256);
+    bram_time_decay.put(True, write_base_addr + write_addr, fromBF16(write_buffer[write_addr]));
+    write_addr <= write_addr + 1;
+    if (write_addr == 255) begin
+      wb_state <= WB_WaitAfterWrite;
+      write_wait_counter <= 0;
+      $display("[Cycle %0d] BRAM WRITE: TD chunk with base_addr %0d write complete", cycle_count, write_base_addr);
+    end
+  endrule
+
+  rule wb_wait_after_write (wb_state == WB_WaitAfterWrite);
+    if (write_wait_counter == 9) begin
+      wb_state <= WB_Idle;
+      write_ready <= True;
+      $display("[Cycle %0d] BRAM WRITE: Wait Complete, Ready For Next Write", cycle_count);
+    end else begin
+      write_wait_counter <= write_wait_counter + 1;
+    end
+  endrule
+
+  // ========== READ-BACK VERIFICATION RULES ==========
+  // Issue read requests
+  rule readback_issue_read (readback_started && !readback_issued && !readback_complete);
+    Bit#(10) base_addr;
+    case (readback_chunk_id)
+      0: base_addr = 0;
+      1: base_addr = 256;
+      2: base_addr = 512;
+      default: base_addr = 0;
+    endcase
+    
+    Bit#(10) read_addr = base_addr + zeroExtend(readback_addr_offset);
+    
+    // Issue read to appropriate BRAM
+    case (readback_bram_id)
+      0: bram_x.put(False, read_addr, ?);
+      1: bram_time_mix_k.put(False, read_addr, ?);
+      2: bram_time_mix_v.put(False, read_addr, ?);
+      3: bram_time_mix_r.put(False, read_addr, ?);
+      4: bram_state.put(False, read_addr, ?);
+      5: bram_d.put(False, read_addr, ?);
+      6: bram_e.put(False, read_addr, ?);
+      7: bram_f.put(False, read_addr, ?);
+      8: bram_aa.put(False, read_addr, ?);
+      9: bram_bb.put(False, read_addr, ?);
+      10: bram_pp.put(False, read_addr, ?);
+      11: bram_time_first.put(False, read_addr, ?);
+      12: bram_time_decay.put(False, read_addr, ?);
+      default: $display("[Cycle %0d] ERROR: Invalid BRAM ID for readback", cycle_count);
+    endcase
+    
+    readback_issued <= True;
+    $display("[Cycle %0d] READ-BACK: Issued read BRAM=%0d, chunk=%0d, offset=%0d, addr=%0d", 
+             cycle_count, readback_bram_id, readback_chunk_id, readback_addr_offset, read_addr);
+  endrule
+  
+  // Collect read results
+  rule readback_collect (readback_started && readback_issued && !readback_complete);
+    BF16 read_value = toBF16(16'h0000);
+    
+    // Collect from appropriate BRAM
+    case (readback_bram_id)
+      0: read_value = toBF16(bram_x.read());
+      1: read_value = toBF16(bram_time_mix_k.read());
+      2: read_value = toBF16(bram_time_mix_v.read());
+      3: read_value = toBF16(bram_time_mix_r.read());
+      4: read_value = toBF16(bram_state.read());
+      5: read_value = toBF16(bram_d.read());
+      6: read_value = toBF16(bram_e.read());
+      7: read_value = toBF16(bram_f.read());
+      8: read_value = toBF16(bram_aa.read());
+      9: read_value = toBF16(bram_bb.read());
+      10: read_value = toBF16(bram_pp.read());
+      11: read_value = toBF16(bram_time_first.read());
+      12: read_value = toBF16(bram_time_decay.read());
+      default: read_value = toBF16(16'h0000);
+    endcase
+    
+    // Store in readback_values
+    Vector#(195, BF16) temp = readback_values;
+    temp[readback_collected] = read_value;
+    readback_values <= temp;
+    
+    $display("[Cycle %0d] READ-BACK: Collected BRAM=%0d, chunk=%0d, offset=%0d, value=%h", 
+             cycle_count, readback_bram_id, readback_chunk_id, readback_addr_offset, read_value);
+    
+    readback_collected <= readback_collected + 1;
+    readback_issued <= False;
+    
+    // Move to next read
+    if (readback_addr_offset == 4) begin
+      // Move to next chunk
+      readback_addr_offset <= 0;
+      if (readback_chunk_id == 2) begin
+        // Move to next BRAM
+        readback_chunk_id <= 0;
+        if (readback_bram_id == 12) begin
+          // All done
+          readback_complete <= True;
+          readback_started <= False;
+          $display("[Cycle %0d] READ-BACK: All verification reads complete! Collected %0d values", 
+                   cycle_count, readback_collected + 1);
+        end else begin
+          readback_bram_id <= readback_bram_id + 1;
+        end
+      end else begin
+        readback_chunk_id <= readback_chunk_id + 1;
+      end
+    end else begin
+      readback_addr_offset <= readback_addr_offset + 1;
     end
   endrule
 
@@ -1905,7 +2196,129 @@ module mkCOP(COP_Ifc);
     $display();
     $display();
     $display("============================================");
-    $display("----------- GG BOIS MONICA WORKS -----------");
+    $display("            COMPUTATION COMPLETE            ");
+    $display("============================================");
+    $display("  Total Cycles Taken: %0d", cycle_count);
+    $display();
+    $display("--------------------------------------------");
+    $display("            SAMPLE OUTPUT VALUES            ");
+    $display("--------------------------------------------");
+    $display("  K[0]   = %h    K[767]   = %h", simd_result_k[0], simd_result_k[767]);
+    $display("  V[0]   = %h    V[767]   = %h", simd_result_v[0], simd_result_v[767]);
+    $display("  R[0]   = %h    R[767]   = %h", simd_result_r[0], simd_result_r[767]);
+    $display("  WKV[0] = %h    WKV[767] = %h", div_result_wkv[0], div_result_wkv[767]);
+    $display("  RWKV[0]= %h    RWKV[767]= %h", tsc_rwkv[0], tsc_rwkv[767]);
+    $display("  O[0]   = %h    O[767]   = %h", sa_result_o[0], sa_result_o[767]);
+    $display();
+    $display("--------------------------------------------");
+    $display("            LIF SPIKE OUTPUT                ");
+    $display("--------------------------------------------");
+    Vector#(16, Vector#(48, Bool)) spikes = lif.get_all_spikes();
+    for (Integer neuron = 0; neuron < 16; neuron = neuron + 1) begin
+      $write("  Neuron %02d: ", neuron);
+      for (Integer t = 0; t < 48; t = t + 1) begin
+        $write(spikes[neuron][t] ? "1" : "0");
+          if ((t + 1) % 8 == 0 && t != 47) $write(" ");
+        end
+      $display();
+    end
+    $display();
+    // NEW: Display read-back verification results
+    if (readback_complete) begin
+      $display("============================================");
+      $display("        BRAM WRITE VERIFICATION             ");
+      $display("============================================");
+      $display();
+      
+      // BRAM names for display
+      String bram_names[13] = {
+        "X      ", "TMK    ", "TMV    ", "TMR    ", "STATE  ",
+        "D      ", "E      ", "F      ", "AA     ", "BB     ",
+        "PP     ", "TF     ", "TD     "
+      };
+      
+      // Expected values for each chunk
+      Bit#(16) expected_chunk0[13] = {
+        16'h3f80, 16'h4000, 16'h4040, 16'h4080, 16'h40a0,
+        16'h4100, 16'h4110, 16'h4120, 16'h4130, 16'h4140,
+        16'h4150, 16'h40a0, 16'h40c0
+      };
+      
+      Bit#(16) expected_chunk1[13] = {
+        16'h4160, 16'h4180, 16'h4190, 16'h41a0, 16'h4210,
+        16'h4220, 16'h4230, 16'h4240, 16'h4250, 16'h4260,
+        16'h4270, 16'h41b0, 16'h4200
+      };
+      
+      Bit#(16) expected_chunk2[13] = {
+        16'h4218, 16'h4228, 16'h4238, 16'h4248, 16'h4288,
+        16'h4298, 16'h42a0, 16'h42a8, 16'h42b0, 16'h42b8,
+        16'h42c0, 16'h4260, 16'h4268
+      };
+      
+      Bool all_pass = True;
+      
+      for (Integer bram = 0; bram < 13; bram = bram + 1) begin
+        $display("--- BRAM %0d (%s) ---", bram, bram_names[bram]);
+        
+        // Chunk 0
+        $write("  Chunk 0 [Addr 0-4]:   ");
+        Bool chunk0_pass = True;
+        for (Integer i = 0; i < 5; i = i + 1) begin
+          Bit#(8) idx = fromInteger(bram * 15 + i);
+          $write("%h ", readback_values[idx]);
+          if (fromBF16(readback_values[idx]) != expected_chunk0[bram]) begin
+            chunk0_pass = False;
+            all_pass = False;
+          end
+        end
+        $display(chunk0_pass ? "PASS" : "FAIL (Expected: %h)", expected_chunk0[bram]);
+        
+        // Chunk 1
+        $write("  Chunk 1 [Addr 256-260]: ");
+        Bool chunk1_pass = True;
+        for (Integer i = 0; i < 5; i = i + 1) begin
+          Bit#(8) idx = fromInteger(bram * 15 + 5 + i);
+          $write("%h ", readback_values[idx]);
+          if (fromBF16(readback_values[idx]) != expected_chunk1[bram]) begin
+            chunk1_pass = False;
+            all_pass = False;
+          end
+        end
+        $display(chunk1_pass ? "PASS" : "FAIL (Expected: %h)", expected_chunk1[bram]);
+        
+        // Chunk 2
+        $write("  Chunk 2 [Addr 512-516]: ");
+        Bool chunk2_pass = True;
+        for (Integer i = 0; i < 5; i = i + 1) begin
+          Bit#(8) idx = fromInteger(bram * 15 + 10 + i);
+          $write("%h ", readback_values[idx]);
+          if (fromBF16(readback_values[idx]) != expected_chunk2[bram]) begin
+            chunk2_pass = False;
+            all_pass = False;
+          end
+        end
+        $display(chunk2_pass ? "PASS" : "FAIL (Expected: %h)", expected_chunk2[bram]);
+        $display();
+      end
+      
+      $display("============================================");
+      if (all_pass) begin
+        $display("     ALL BRAM WRITES VERIFIED       ");
+      end else begin
+        $display("     SOME BRAM WRITES FAILED        ");
+      end
+      $display("============================================");
+      $display();
+    end else begin
+      $display("============================================");
+      $display("  WARNING: Read-back verification not run  ");
+      $display("============================================");
+      $display();
+    end
+    $display();
+    $display("============================================");
+    $display("          MONICA PIPELINE COMPLETE          ");
     $display("============================================");
     $display();
     state <= Done;
@@ -1929,5 +2342,33 @@ module mkCOP(COP_Ifc);
   method Vector#(16, Vector#(48, Bool)) get_output() if (state == Done);
     return lif.get_all_spikes();
   endmethod
+
+  method Action write_bram(Bit#(4) bram_id, Vector#(256, BF16) data, Bit#(10) base_addr) if (wb_state == WB_Idle && write_ready);
+    write_buffer <= data;
+    write_base_addr <= base_addr;
+    write_addr <= 0;
+    write_ready <= False;
+
+    case (bram_id)
+      0: wb_state <= WB_Write_X;
+      1: wb_state <= WB_Write_TMK;
+      2: wb_state <= WB_Write_TMV;
+      3: wb_state <= WB_Write_TMR;
+      4: wb_state <= WB_Write_STATE;
+      5: wb_state <= WB_Write_D;
+      6: wb_state <= WB_Write_E;
+      7: wb_state <= WB_Write_F;
+      8: wb_state <= WB_Write_AA;
+      9: wb_state <= WB_Write_BB;
+      10: wb_state <= WB_Write_PP;
+      11: wb_state <= WB_Write_TF;
+      12: wb_state <= WB_Write_TD;
+      default: $display("[Cycle %0d] ERROR: Invalid BRAM ID %0d", cycle_count, bram_id);
+    endcase
+
+    $display("[Cycle %0d] BRAM WRITE: Started write to BRAM %0d, base_addr=%0d", cycle_count, bram_id, base_addr);
+  endmethod
+
+  method Bool ready_for_write() = write_ready;
 endmodule
 endpackage
