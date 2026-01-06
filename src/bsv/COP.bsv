@@ -138,7 +138,8 @@ module mkCOP(COP_Ifc);
 
   // ========== Modules Instantiation
   IfcBF16_SIMD_Pipeline pipeline <- mkBF16_SIMD_Pipeline();
-  BRAMWeightLoaderIfc weight_loader <- mkBRAMWeightLoader();
+  BRAMWeightLoaderIfc weight_loader_sa1 <- mkBRAMWeightLoader();
+  BRAMWeightLoaderIfc weight_loader_sa2 <- mkBRAMWeightLoader();
   BF16VectorDividerIFC divider <- mkBF16VectorDivider();
   SigmoidVector768Ifc sigmoid <- mkBF16SigmoidVector768();
   LIFLayerIFC lif <- mkLIFLayer(); 
@@ -841,21 +842,21 @@ module mkCOP(COP_Ifc);
   // ========== SA1
   // Prefetch weights DURING computation
   rule sa1_prefetch_weights_overlap (sa1_state == SA_Compute && !sa1_weight_batch_requested && sa1_input_chunk_idx < 47);
-    weight_loader.start();
+    weight_loader_sa1.start();
     sa1_weight_batch_requested <= True;
     $display("[Cycle %0d] SA1: [OVERLAP] Prefetching weight batch %0d for NEXT chunk DURING computation", cycle_count, weight_batch_counter);
   endrule
 
   // Prefetch weights when waiting (for current chunk)
   rule sa1_prefetch_weights_wait(sa1_state == SA_WaitWeights && !sa1_weights_ready && !sa1_weight_batch_requested);
-    weight_loader.start();
+    weight_loader_sa1.start();
     sa1_weight_batch_requested <= True;
     $display("[Cycle %0d] SA1: Prefetching weight batch %0d", cycle_count, weight_batch_counter);
   endrule
 
   rule sa1_collect_weight_batch (sa1_weight_batch_requested && !sa1_weight_batch_ready);
-    let batch = weight_loader.get_res();
-    weight_loader.done_ack();
+    let batch = weight_loader_sa1.get_res();
+    weight_loader_sa1.done_ack();
     weight_buffer <= batch;
     sa1_weight_batch_ready <= True;
     sa1_weight_batch_requested <= False;
@@ -977,21 +978,21 @@ module mkCOP(COP_Ifc);
 
   // ========== SA2
   rule sa2_prefetch_weights_overlap (sa2_state == SA_Compute && !sa2_weight_batch_requested && sa2_input_chunk_idx < 11);
-    weight_loader.start();
+    weight_loader_sa2.start();
     sa2_weight_batch_requested <= True;
     $display("[Cycle %0d] SA2: [OVERLAP] Prefetching weight batch %0d for NEXT chunk DURING computation", cycle_count, weight_batch_counter);
   endrule
 
   // Prefetch weights when waiting (for current chunk)
   rule sa2_prefetch_weights_wait(sa2_state == SA_WaitWeights && !sa2_weights_ready && !sa2_weight_batch_requested);
-    weight_loader.start();
+    weight_loader_sa2.start();
     sa2_weight_batch_requested <= True;
     $display("[Cycle %0d] SA2: Prefetching weight batch %0d", cycle_count, weight_batch_counter);
   endrule
 
   rule sa2_collect_weight_batch (sa2_weight_batch_requested && !sa2_weight_batch_ready);
-    let batch = weight_loader.get_res();
-    weight_loader.done_ack();
+    let batch = weight_loader_sa2.get_res();
+    weight_loader_sa2.done_ack();
     weight_buffer <= batch;
     sa2_weight_batch_ready <= True;
     sa2_weight_batch_requested <= False;
