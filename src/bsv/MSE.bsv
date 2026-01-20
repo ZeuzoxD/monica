@@ -134,7 +134,7 @@ module mkMSE(MSEIfc);
   endmethod
 endmodule
 
-(* synthesize *)
+
 module mkMSETB(Empty);
   MSEIfc dut <- mkMSE();
   

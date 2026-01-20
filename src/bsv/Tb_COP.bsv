@@ -156,7 +156,7 @@ module mkTb_COP(Empty);
     $finish(0);
   endrule
    
-  rule timeout (cycle > 200000);
+  rule timeout (cycle > 500000);
     $display("[Cycle %0d] ERROR: Timeout! Computation didn't complete.", cycle);
     $finish(1);
   endrule

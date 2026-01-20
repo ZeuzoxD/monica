@@ -1,0 +1,5013 @@
+// Verilated -*- C++ -*-
+// DESCRIPTION: Verilator output: Design implementation internals
+// See VmkTb_COP.h for the primary calling header
+
+#include "VmkTb_COP__pch.h"
+#include "VmkTb_COP___024root.h"
+
+VL_INLINE_OPT void VmkTb_COP___024root___nba_sequent__TOP__41(VmkTb_COP___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    VmkTb_COP___024root___nba_sequent__TOP__41\n"); );
+    VmkTb_COP__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25732 
+        = ((0xc8U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25733 
+        = ((0xc7U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25734 
+        = ((0xc6U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25736 
+        = ((0xc5U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25737 
+        = ((0xc4U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25738 
+        = ((0xc3U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25739 
+        = ((0xc2U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25740 
+        = ((0xc1U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25741 
+        = ((0xc0U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25742 
+        = ((0xbfU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25743 
+        = ((0xbeU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25744 
+        = ((0xbdU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25745 
+        = ((0xbcU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25747 
+        = ((0xbbU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25748 
+        = ((0xbaU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25749 
+        = ((0xb9U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25750 
+        = ((0xb8U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25751 
+        = ((0xb7U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25752 
+        = ((0xb6U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25753 
+        = ((0xb5U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25754 
+        = ((0xb4U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25755 
+        = ((0xb3U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25756 
+        = ((0xb2U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25758 
+        = ((0xb1U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25759 
+        = ((0xb0U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25760 
+        = ((0xafU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25761 
+        = ((0xaeU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25762 
+        = ((0xadU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25763 
+        = ((0xacU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25764 
+        = ((0xabU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25765 
+        = ((0xaaU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25766 
+        = ((0xa9U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25767 
+        = ((0xa8U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25769 
+        = ((0xa7U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25770 
+        = ((0xa6U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25771 
+        = ((0xa5U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25772 
+        = ((0xa4U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25773 
+        = ((0xa3U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25774 
+        = ((0xa2U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25775 
+        = ((0xa1U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25776 
+        = ((0xa0U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25777 
+        = ((0x9fU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25778 
+        = ((0x9eU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25780 
+        = ((0x9dU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25781 
+        = ((0x9cU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25782 
+        = ((0x9bU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25783 
+        = ((0x9aU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25784 
+        = ((0x99U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25785 
+        = ((0x98U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25786 
+        = ((0x97U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25787 
+        = ((0x96U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25788 
+        = ((0x95U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25789 
+        = ((0x94U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25791 
+        = ((0x93U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25792 
+        = ((0x92U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25793 
+        = ((0x91U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25794 
+        = ((0x90U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25795 
+        = ((0x8fU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25796 
+        = ((0x8eU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25797 
+        = ((0x8dU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25798 
+        = ((0x8cU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25799 
+        = ((0x8bU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25800 
+        = ((0x8aU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25802 
+        = ((0x89U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25803 
+        = ((0x88U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25804 
+        = ((0x87U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25805 
+        = ((0x86U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25806 
+        = ((0x85U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25807 
+        = ((0x84U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25808 
+        = ((0x83U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25809 
+        = ((0x82U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25810 
+        = ((0x81U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25811 
+        = ((0x80U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25813 
+        = ((0x7fU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25814 
+        = ((0x7eU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25815 
+        = ((0x7dU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25816 
+        = ((0x7cU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25817 
+        = ((0x7bU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25818 
+        = ((0x7aU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25819 
+        = ((0x79U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25820 
+        = ((0x78U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25821 
+        = ((0x77U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25822 
+        = ((0x76U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25824 
+        = ((0x75U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25825 
+        = ((0x74U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25826 
+        = ((0x73U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25827 
+        = ((0x72U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25828 
+        = ((0x71U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25829 
+        = ((0x70U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25830 
+        = ((0x6fU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25831 
+        = ((0x6eU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25832 
+        = ((0x6dU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25833 
+        = ((0x6cU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25835 
+        = ((0x6bU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25836 
+        = ((0x6aU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25837 
+        = ((0x69U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25838 
+        = ((0x68U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25839 
+        = ((0x67U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25840 
+        = ((0x66U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25841 
+        = ((0x65U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25842 
+        = ((0x64U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25843 
+        = ((0x63U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25844 
+        = ((0x62U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25846 
+        = ((0x61U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25847 
+        = ((0x60U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25848 
+        = ((0x5fU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25849 
+        = ((0x5eU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25850 
+        = ((0x5dU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25851 
+        = ((0x5cU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25852 
+        = ((0x5bU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25853 
+        = ((0x5aU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25854 
+        = ((0x59U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25855 
+        = ((0x58U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25857 
+        = ((0x57U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25858 
+        = ((0x56U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25859 
+        = ((0x55U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25860 
+        = ((0x54U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25861 
+        = ((0x53U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25862 
+        = ((0x52U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25863 
+        = ((0x51U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25864 
+        = ((0x50U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25865 
+        = ((0x4fU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25866 
+        = ((0x4eU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25868 
+        = ((0x4dU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25869 
+        = ((0x4cU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25870 
+        = ((0x4bU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25871 
+        = ((0x4aU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25872 
+        = ((0x49U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25873 
+        = ((0x48U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25874 
+        = ((0x47U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25875 
+        = ((0x46U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25876 
+        = ((0x45U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25877 
+        = ((0x44U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25879 
+        = ((0x43U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25880 
+        = ((0x42U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25881 
+        = ((0x41U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25882 
+        = ((0x40U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25883 
+        = ((0x3fU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25884 
+        = ((0x3eU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25885 
+        = ((0x3dU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25886 
+        = ((0x3cU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25887 
+        = ((0x3bU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25888 
+        = ((0x3aU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25890 
+        = ((0x39U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25891 
+        = ((0x38U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25892 
+        = ((0x37U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25893 
+        = ((0x36U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25894 
+        = ((0x35U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25895 
+        = ((0x34U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25896 
+        = ((0x33U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25897 
+        = ((0x32U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25898 
+        = ((0x31U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25899 
+        = ((0x30U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25901 
+        = ((0x2fU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25902 
+        = ((0x2eU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25903 
+        = ((0x2dU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25904 
+        = ((0x2cU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25905 
+        = ((0x2bU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25906 
+        = ((0x2aU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25907 
+        = ((0x29U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25908 
+        = ((0x28U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25909 
+        = ((0x27U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25910 
+        = ((0x26U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25912 
+        = ((0x25U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25913 
+        = ((0x24U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25914 
+        = ((0x23U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25915 
+        = ((0x22U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25916 
+        = ((0x21U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25917 
+        = ((0x20U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25918 
+        = ((0x1fU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25919 
+        = ((0x1eU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25920 
+        = ((0x1dU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25921 
+        = ((0x1cU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25923 
+        = ((0x1bU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25924 
+        = ((0x1aU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25925 
+        = ((0x19U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25926 
+        = ((0x18U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25927 
+        = ((0x17U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25928 
+        = ((0x16U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25929 
+        = ((0x15U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25930 
+        = ((0x14U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25931 
+        = ((0x13U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25932 
+        = ((0x12U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25934 
+        = ((0x11U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25935 
+        = ((0x10U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25936 
+        = ((0xfU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25937 
+        = ((0xeU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25938 
+        = ((0xdU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25939 
+        = ((0xcU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25940 
+        = ((0xbU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25941 
+        = ((0xaU == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25942 
+        = ((9U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25943 
+        = ((8U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25945 
+        = ((7U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25946 
+        = ((6U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25947 
+        = ((5U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25948 
+        = ((4U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25949 
+        = ((3U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25950 
+        = ((2U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25951 
+        = ((1U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25952 
+        = ((0U == (0xffU & ((IData)(0x38U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x38U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25954 
+        = ((0xffU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25955 
+        = ((0xfeU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25956 
+        = ((0xfdU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25958 
+        = ((0xfcU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25959 
+        = ((0xfbU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25960 
+        = ((0xfaU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25961 
+        = ((0xf9U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25962 
+        = ((0xf8U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25963 
+        = ((0xf7U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25964 
+        = ((0xf6U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25965 
+        = ((0xf5U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25966 
+        = ((0xf4U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25967 
+        = ((0xf3U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25969 
+        = ((0xf2U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25970 
+        = ((0xf1U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25971 
+        = ((0xf0U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25972 
+        = ((0xefU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25973 
+        = ((0xeeU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25974 
+        = ((0xedU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25975 
+        = ((0xecU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25976 
+        = ((0xebU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25977 
+        = ((0xeaU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25978 
+        = ((0xe9U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25980 
+        = ((0xe8U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25981 
+        = ((0xe7U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25982 
+        = ((0xe6U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25983 
+        = ((0xe5U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25984 
+        = ((0xe4U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25985 
+        = ((0xe3U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25986 
+        = ((0xe2U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25987 
+        = ((0xe1U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25988 
+        = ((0xe0U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25989 
+        = ((0xdfU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25991 
+        = ((0xdeU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25992 
+        = ((0xddU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25993 
+        = ((0xdcU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25994 
+        = ((0xdbU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25995 
+        = ((0xdaU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25996 
+        = ((0xd9U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25997 
+        = ((0xd8U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25998 
+        = ((0xd7U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_25999 
+        = ((0xd6U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26000 
+        = ((0xd5U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26002 
+        = ((0xd4U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26003 
+        = ((0xd3U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26004 
+        = ((0xd2U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26005 
+        = ((0xd1U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26006 
+        = ((0xd0U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26007 
+        = ((0xcfU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26008 
+        = ((0xceU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26009 
+        = ((0xcdU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26010 
+        = ((0xccU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26011 
+        = ((0xcbU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26013 
+        = ((0xcaU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26014 
+        = ((0xc9U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26015 
+        = ((0xc8U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26016 
+        = ((0xc7U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26017 
+        = ((0xc6U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26018 
+        = ((0xc5U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26019 
+        = ((0xc4U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26020 
+        = ((0xc3U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26021 
+        = ((0xc2U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26022 
+        = ((0xc1U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26024 
+        = ((0xc0U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26025 
+        = ((0xbfU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26026 
+        = ((0xbeU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26027 
+        = ((0xbdU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26028 
+        = ((0xbcU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26029 
+        = ((0xbbU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26030 
+        = ((0xbaU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26031 
+        = ((0xb9U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26032 
+        = ((0xb8U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26033 
+        = ((0xb7U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26035 
+        = ((0xb6U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26036 
+        = ((0xb5U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26037 
+        = ((0xb4U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26038 
+        = ((0xb3U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26039 
+        = ((0xb2U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26040 
+        = ((0xb1U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26041 
+        = ((0xb0U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26042 
+        = ((0xafU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26043 
+        = ((0xaeU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26044 
+        = ((0xadU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26046 
+        = ((0xacU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26047 
+        = ((0xabU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26048 
+        = ((0xaaU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26049 
+        = ((0xa9U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26050 
+        = ((0xa8U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26051 
+        = ((0xa7U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26052 
+        = ((0xa6U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26053 
+        = ((0xa5U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26054 
+        = ((0xa4U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26055 
+        = ((0xa3U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26057 
+        = ((0xa2U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26058 
+        = ((0xa1U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26059 
+        = ((0xa0U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26060 
+        = ((0x9fU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26061 
+        = ((0x9eU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26062 
+        = ((0x9dU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26063 
+        = ((0x9cU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26064 
+        = ((0x9bU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26065 
+        = ((0x9aU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26066 
+        = ((0x99U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26068 
+        = ((0x98U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26069 
+        = ((0x97U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26070 
+        = ((0x96U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26071 
+        = ((0x95U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26072 
+        = ((0x94U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26073 
+        = ((0x93U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26074 
+        = ((0x92U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26075 
+        = ((0x91U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26076 
+        = ((0x90U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26077 
+        = ((0x8fU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26079 
+        = ((0x8eU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26080 
+        = ((0x8dU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26081 
+        = ((0x8cU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26082 
+        = ((0x8bU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26083 
+        = ((0x8aU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26084 
+        = ((0x89U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26085 
+        = ((0x88U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26086 
+        = ((0x87U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26087 
+        = ((0x86U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26088 
+        = ((0x85U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26090 
+        = ((0x84U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26091 
+        = ((0x83U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26092 
+        = ((0x82U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26093 
+        = ((0x81U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26094 
+        = ((0x80U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26095 
+        = ((0x7fU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26096 
+        = ((0x7eU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26097 
+        = ((0x7dU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26098 
+        = ((0x7cU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26099 
+        = ((0x7bU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26101 
+        = ((0x7aU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26102 
+        = ((0x79U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26103 
+        = ((0x78U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26104 
+        = ((0x77U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26105 
+        = ((0x76U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26106 
+        = ((0x75U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26107 
+        = ((0x74U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26108 
+        = ((0x73U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26109 
+        = ((0x72U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26110 
+        = ((0x71U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26112 
+        = ((0x70U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26113 
+        = ((0x6fU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26114 
+        = ((0x6eU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26115 
+        = ((0x6dU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26116 
+        = ((0x6cU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26117 
+        = ((0x6bU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26118 
+        = ((0x6aU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26119 
+        = ((0x69U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26120 
+        = ((0x68U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26121 
+        = ((0x67U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26123 
+        = ((0x66U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26124 
+        = ((0x65U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26125 
+        = ((0x64U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26126 
+        = ((0x63U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26127 
+        = ((0x62U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26128 
+        = ((0x61U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26129 
+        = ((0x60U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26130 
+        = ((0x5fU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26131 
+        = ((0x5eU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26132 
+        = ((0x5dU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26134 
+        = ((0x5cU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26135 
+        = ((0x5bU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26136 
+        = ((0x5aU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26137 
+        = ((0x59U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26138 
+        = ((0x58U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26140 
+        = ((0x57U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26141 
+        = ((0x56U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26142 
+        = ((0x55U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26143 
+        = ((0x54U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26144 
+        = ((0x53U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26146 
+        = ((0x52U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26147 
+        = ((0x51U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26148 
+        = ((0x50U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26149 
+        = ((0x4fU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26150 
+        = ((0x4eU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26151 
+        = ((0x4dU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26152 
+        = ((0x4cU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26153 
+        = ((0x4bU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26154 
+        = ((0x4aU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26155 
+        = ((0x49U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26157 
+        = ((0x48U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26158 
+        = ((0x47U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26159 
+        = ((0x46U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26160 
+        = ((0x45U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26161 
+        = ((0x44U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26162 
+        = ((0x43U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26163 
+        = ((0x42U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26164 
+        = ((0x41U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26165 
+        = ((0x40U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26166 
+        = ((0x3fU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26168 
+        = ((0x3eU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26169 
+        = ((0x3dU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26170 
+        = ((0x3cU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26171 
+        = ((0x3bU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26172 
+        = ((0x3aU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26173 
+        = ((0x39U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26174 
+        = ((0x38U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26175 
+        = ((0x37U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26176 
+        = ((0x36U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26177 
+        = ((0x35U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26179 
+        = ((0x34U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26180 
+        = ((0x33U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26181 
+        = ((0x32U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26182 
+        = ((0x31U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26183 
+        = ((0x30U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26184 
+        = ((0x2fU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26185 
+        = ((0x2eU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26186 
+        = ((0x2dU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26187 
+        = ((0x2cU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26188 
+        = ((0x2bU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26190 
+        = ((0x2aU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26191 
+        = ((0x29U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26192 
+        = ((0x28U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26193 
+        = ((0x27U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26194 
+        = ((0x26U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26195 
+        = ((0x25U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26196 
+        = ((0x24U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26197 
+        = ((0x23U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26198 
+        = ((0x22U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26199 
+        = ((0x21U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26201 
+        = ((0x20U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26202 
+        = ((0x1fU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26203 
+        = ((0x1eU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26204 
+        = ((0x1dU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26205 
+        = ((0x1cU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26206 
+        = ((0x1bU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26207 
+        = ((0x1aU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26208 
+        = ((0x19U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26209 
+        = ((0x18U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26210 
+        = ((0x17U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26212 
+        = ((0x16U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26213 
+        = ((0x15U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26214 
+        = ((0x14U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26215 
+        = ((0x13U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26216 
+        = ((0x12U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26217 
+        = ((0x11U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26218 
+        = ((0x10U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26219 
+        = ((0xfU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26220 
+        = ((0xeU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26221 
+        = ((0xdU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26223 
+        = ((0xcU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26224 
+        = ((0xbU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26225 
+        = ((0xaU == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26226 
+        = ((9U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26227 
+        = ((8U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26228 
+        = ((7U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26229 
+        = ((6U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26230 
+        = ((5U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26231 
+        = ((4U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26232 
+        = ((3U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26234 
+        = ((2U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26235 
+        = ((1U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26236 
+        = ((0U == (0xffU & ((IData)(0xa0U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0xa0U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26238 
+        = ((0xffU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26239 
+        = ((0xfeU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26240 
+        = ((0xfdU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26241 
+        = ((0xfcU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26242 
+        = ((0xfbU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26243 
+        = ((0xfaU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26245 
+        = ((0xf9U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26246 
+        = ((0xf8U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26247 
+        = ((0xf7U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26248 
+        = ((0xf6U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26249 
+        = ((0xf5U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26250 
+        = ((0xf4U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26251 
+        = ((0xf3U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26252 
+        = ((0xf2U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26253 
+        = ((0xf1U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26254 
+        = ((0xf0U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26256 
+        = ((0xefU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26257 
+        = ((0xeeU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26258 
+        = ((0xedU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26259 
+        = ((0xecU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26260 
+        = ((0xebU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26261 
+        = ((0xeaU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26262 
+        = ((0xe9U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26263 
+        = ((0xe8U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26264 
+        = ((0xe7U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26265 
+        = ((0xe6U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26267 
+        = ((0xe5U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26268 
+        = ((0xe4U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26269 
+        = ((0xe3U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26270 
+        = ((0xe2U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26271 
+        = ((0xe1U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26272 
+        = ((0xe0U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26273 
+        = ((0xdfU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26274 
+        = ((0xdeU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26275 
+        = ((0xddU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26276 
+        = ((0xdcU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26278 
+        = ((0xdbU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26279 
+        = ((0xdaU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26280 
+        = ((0xd9U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26281 
+        = ((0xd8U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26282 
+        = ((0xd7U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26283 
+        = ((0xd6U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26284 
+        = ((0xd5U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26285 
+        = ((0xd4U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26286 
+        = ((0xd3U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26287 
+        = ((0xd2U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26289 
+        = ((0xd1U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26290 
+        = ((0xd0U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26291 
+        = ((0xcfU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26292 
+        = ((0xceU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26293 
+        = ((0xcdU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26294 
+        = ((0xccU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26295 
+        = ((0xcbU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26296 
+        = ((0xcaU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26297 
+        = ((0xc9U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26298 
+        = ((0xc8U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26300 
+        = ((0xc7U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26301 
+        = ((0xc6U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26302 
+        = ((0xc5U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26303 
+        = ((0xc4U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26304 
+        = ((0xc3U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26305 
+        = ((0xc2U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26306 
+        = ((0xc1U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26307 
+        = ((0xc0U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26308 
+        = ((0xbfU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26309 
+        = ((0xbeU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26311 
+        = ((0xbdU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26312 
+        = ((0xbcU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26313 
+        = ((0xbbU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26314 
+        = ((0xbaU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26315 
+        = ((0xb9U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26316 
+        = ((0xb8U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26317 
+        = ((0xb7U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26318 
+        = ((0xb6U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26319 
+        = ((0xb5U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26320 
+        = ((0xb4U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26322 
+        = ((0xb3U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26323 
+        = ((0xb2U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26324 
+        = ((0xb1U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26325 
+        = ((0xb0U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26326 
+        = ((0xafU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26327 
+        = ((0xaeU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26328 
+        = ((0xadU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26329 
+        = ((0xacU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26330 
+        = ((0xabU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26331 
+        = ((0xaaU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26333 
+        = ((0xa9U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26334 
+        = ((0xa8U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26335 
+        = ((0xa7U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26336 
+        = ((0xa6U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26337 
+        = ((0xa5U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26338 
+        = ((0xa4U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26339 
+        = ((0xa3U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26340 
+        = ((0xa2U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26341 
+        = ((0xa1U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26342 
+        = ((0xa0U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26344 
+        = ((0x9fU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26345 
+        = ((0x9eU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26346 
+        = ((0x9dU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26347 
+        = ((0x9cU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26348 
+        = ((0x9bU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26349 
+        = ((0x9aU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26350 
+        = ((0x99U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26351 
+        = ((0x98U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26352 
+        = ((0x97U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26353 
+        = ((0x96U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26355 
+        = ((0x95U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26356 
+        = ((0x94U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26357 
+        = ((0x93U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26358 
+        = ((0x92U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26359 
+        = ((0x91U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26360 
+        = ((0x90U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26361 
+        = ((0x8fU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26362 
+        = ((0x8eU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26363 
+        = ((0x8dU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26364 
+        = ((0x8cU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26366 
+        = ((0x8bU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26367 
+        = ((0x8aU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26368 
+        = ((0x89U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26369 
+        = ((0x88U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26370 
+        = ((0x87U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26371 
+        = ((0x86U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26372 
+        = ((0x85U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26373 
+        = ((0x84U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26374 
+        = ((0x83U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26375 
+        = ((0x82U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26377 
+        = ((0x81U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26378 
+        = ((0x80U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26379 
+        = ((0x7fU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26380 
+        = ((0x7eU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26381 
+        = ((0x7dU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26382 
+        = ((0x7cU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26383 
+        = ((0x7bU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26384 
+        = ((0x7aU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26385 
+        = ((0x79U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26386 
+        = ((0x78U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26388 
+        = ((0x77U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26389 
+        = ((0x76U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26390 
+        = ((0x75U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26391 
+        = ((0x74U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26392 
+        = ((0x73U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26393 
+        = ((0x72U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26394 
+        = ((0x71U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26395 
+        = ((0x70U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26396 
+        = ((0x6fU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26397 
+        = ((0x6eU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26399 
+        = ((0x6dU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26400 
+        = ((0x6cU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26401 
+        = ((0x6bU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26402 
+        = ((0x6aU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26403 
+        = ((0x69U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26404 
+        = ((0x68U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26405 
+        = ((0x67U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26406 
+        = ((0x66U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26407 
+        = ((0x65U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26408 
+        = ((0x64U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26410 
+        = ((0x63U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26411 
+        = ((0x62U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26412 
+        = ((0x61U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26413 
+        = ((0x60U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26414 
+        = ((0x5fU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26415 
+        = ((0x5eU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26416 
+        = ((0x5dU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26417 
+        = ((0x5cU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26418 
+        = ((0x5bU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26419 
+        = ((0x5aU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26421 
+        = ((0x59U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26422 
+        = ((0x58U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26423 
+        = ((0x57U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26424 
+        = ((0x56U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26425 
+        = ((0x55U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26426 
+        = ((0x54U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26427 
+        = ((0x53U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26428 
+        = ((0x52U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26429 
+        = ((0x51U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26430 
+        = ((0x50U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26432 
+        = ((0x4fU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26433 
+        = ((0x4eU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26434 
+        = ((0x4dU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26435 
+        = ((0x4cU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26436 
+        = ((0x4bU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26437 
+        = ((0x4aU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26438 
+        = ((0x49U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26439 
+        = ((0x48U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26440 
+        = ((0x47U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26441 
+        = ((0x46U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26443 
+        = ((0x45U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26444 
+        = ((0x44U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26445 
+        = ((0x43U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26446 
+        = ((0x42U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26447 
+        = ((0x41U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26448 
+        = ((0x40U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26449 
+        = ((0x3fU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26450 
+        = ((0x3eU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26451 
+        = ((0x3dU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26452 
+        = ((0x3cU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26454 
+        = ((0x3bU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26455 
+        = ((0x3aU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26456 
+        = ((0x39U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26457 
+        = ((0x38U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26458 
+        = ((0x37U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26459 
+        = ((0x36U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26460 
+        = ((0x35U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26461 
+        = ((0x34U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26462 
+        = ((0x33U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26463 
+        = ((0x32U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26465 
+        = ((0x31U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26466 
+        = ((0x30U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26467 
+        = ((0x2fU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26468 
+        = ((0x2eU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26469 
+        = ((0x2dU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26470 
+        = ((0x2cU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26471 
+        = ((0x2bU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26472 
+        = ((0x2aU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26473 
+        = ((0x29U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26474 
+        = ((0x28U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26476 
+        = ((0x27U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26477 
+        = ((0x26U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26478 
+        = ((0x25U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26479 
+        = ((0x24U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26480 
+        = ((0x23U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26481 
+        = ((0x22U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26482 
+        = ((0x21U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26483 
+        = ((0x20U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26484 
+        = ((0x1fU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26485 
+        = ((0x1eU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26487 
+        = ((0x1dU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26488 
+        = ((0x1cU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26489 
+        = ((0x1bU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26490 
+        = ((0x1aU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26491 
+        = ((0x19U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26492 
+        = ((0x18U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26493 
+        = ((0x17U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26494 
+        = ((0x16U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26495 
+        = ((0x15U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26496 
+        = ((0x14U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26498 
+        = ((0x13U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26499 
+        = ((0x12U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26500 
+        = ((0x11U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26501 
+        = ((0x10U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26502 
+        = ((0xfU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26503 
+        = ((0xeU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26504 
+        = ((0xdU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26505 
+        = ((0xcU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26506 
+        = ((0xbU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26507 
+        = ((0xaU == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26509 
+        = ((9U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26510 
+        = ((8U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26511 
+        = ((7U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26512 
+        = ((6U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26513 
+        = ((5U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26514 
+        = ((4U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26515 
+        = ((3U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26516 
+        = ((2U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26517 
+        = ((1U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26518 
+        = ((0U == (0xffU & ((IData)(0x37U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x37U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26520 
+        = ((0xffU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26522 
+        = ((0xfeU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26523 
+        = ((0xfdU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26524 
+        = ((0xfcU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26525 
+        = ((0xfbU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26526 
+        = ((0xfaU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26527 
+        = ((0xf9U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26528 
+        = ((0xf8U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26529 
+        = ((0xf7U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26530 
+        = ((0xf6U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26531 
+        = ((0xf5U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26533 
+        = ((0xf4U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26534 
+        = ((0xf3U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26535 
+        = ((0xf2U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26536 
+        = ((0xf1U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26537 
+        = ((0xf0U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26538 
+        = ((0xefU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26539 
+        = ((0xeeU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26540 
+        = ((0xedU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26541 
+        = ((0xecU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26542 
+        = ((0xebU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26544 
+        = ((0xeaU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26545 
+        = ((0xe9U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26546 
+        = ((0xe8U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26547 
+        = ((0xe7U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26548 
+        = ((0xe6U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26549 
+        = ((0xe5U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26550 
+        = ((0xe4U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26551 
+        = ((0xe3U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26552 
+        = ((0xe2U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26553 
+        = ((0xe1U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26555 
+        = ((0xe0U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26556 
+        = ((0xdfU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26557 
+        = ((0xdeU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26558 
+        = ((0xddU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26559 
+        = ((0xdcU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26560 
+        = ((0xdbU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26561 
+        = ((0xdaU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26562 
+        = ((0xd9U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26563 
+        = ((0xd8U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26564 
+        = ((0xd7U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26566 
+        = ((0xd6U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26567 
+        = ((0xd5U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26568 
+        = ((0xd4U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26569 
+        = ((0xd3U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26570 
+        = ((0xd2U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26571 
+        = ((0xd1U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26572 
+        = ((0xd0U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26573 
+        = ((0xcfU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26574 
+        = ((0xceU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26575 
+        = ((0xcdU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26577 
+        = ((0xccU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26578 
+        = ((0xcbU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26579 
+        = ((0xcaU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26580 
+        = ((0xc9U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26581 
+        = ((0xc8U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26582 
+        = ((0xc7U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26583 
+        = ((0xc6U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26584 
+        = ((0xc5U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26585 
+        = ((0xc4U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26586 
+        = ((0xc3U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26588 
+        = ((0xc2U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26589 
+        = ((0xc1U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26590 
+        = ((0xc0U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26591 
+        = ((0xbfU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26592 
+        = ((0xbeU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26593 
+        = ((0xbdU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26594 
+        = ((0xbcU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26595 
+        = ((0xbbU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26596 
+        = ((0xbaU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26597 
+        = ((0xb9U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26599 
+        = ((0xb8U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26600 
+        = ((0xb7U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26601 
+        = ((0xb6U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26602 
+        = ((0xb5U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26603 
+        = ((0xb4U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26604 
+        = ((0xb3U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26605 
+        = ((0xb2U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26606 
+        = ((0xb1U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26607 
+        = ((0xb0U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26608 
+        = ((0xafU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26610 
+        = ((0xaeU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26611 
+        = ((0xadU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26612 
+        = ((0xacU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26613 
+        = ((0xabU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26614 
+        = ((0xaaU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26615 
+        = ((0xa9U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26616 
+        = ((0xa8U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26617 
+        = ((0xa7U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26618 
+        = ((0xa6U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26619 
+        = ((0xa5U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26621 
+        = ((0xa4U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26622 
+        = ((0xa3U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26623 
+        = ((0xa2U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26624 
+        = ((0xa1U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26625 
+        = ((0xa0U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26626 
+        = ((0x9fU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26627 
+        = ((0x9eU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26628 
+        = ((0x9dU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26629 
+        = ((0x9cU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26630 
+        = ((0x9bU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26632 
+        = ((0x9aU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26633 
+        = ((0x99U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26634 
+        = ((0x98U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26635 
+        = ((0x97U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26636 
+        = ((0x96U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26637 
+        = ((0x95U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26638 
+        = ((0x94U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26639 
+        = ((0x93U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26640 
+        = ((0x92U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26641 
+        = ((0x91U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26643 
+        = ((0x90U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26644 
+        = ((0x8fU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26645 
+        = ((0x8eU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26646 
+        = ((0x8dU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26647 
+        = ((0x8cU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26648 
+        = ((0x8bU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26649 
+        = ((0x8aU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26650 
+        = ((0x89U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26651 
+        = ((0x88U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26652 
+        = ((0x87U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26654 
+        = ((0x86U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26655 
+        = ((0x85U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26656 
+        = ((0x84U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26657 
+        = ((0x83U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26658 
+        = ((0x82U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26659 
+        = ((0x81U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26660 
+        = ((0x80U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26661 
+        = ((0x7fU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26662 
+        = ((0x7eU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26663 
+        = ((0x7dU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26665 
+        = ((0x7cU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26666 
+        = ((0x7bU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26667 
+        = ((0x7aU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26668 
+        = ((0x79U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26669 
+        = ((0x78U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26670 
+        = ((0x77U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26671 
+        = ((0x76U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26672 
+        = ((0x75U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26673 
+        = ((0x74U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26674 
+        = ((0x73U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26676 
+        = ((0x72U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26677 
+        = ((0x71U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26678 
+        = ((0x70U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26679 
+        = ((0x6fU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26680 
+        = ((0x6eU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26681 
+        = ((0x6dU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26682 
+        = ((0x6cU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26683 
+        = ((0x6bU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26684 
+        = ((0x6aU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26685 
+        = ((0x69U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26687 
+        = ((0x68U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26688 
+        = ((0x67U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26689 
+        = ((0x66U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26690 
+        = ((0x65U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26691 
+        = ((0x64U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26692 
+        = ((0x63U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26693 
+        = ((0x62U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26694 
+        = ((0x61U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26695 
+        = ((0x60U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26696 
+        = ((0x5fU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26698 
+        = ((0x5eU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26699 
+        = ((0x5dU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26700 
+        = ((0x5cU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26701 
+        = ((0x5bU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26702 
+        = ((0x5aU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26703 
+        = ((0x59U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26704 
+        = ((0x58U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26705 
+        = ((0x57U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26706 
+        = ((0x56U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26707 
+        = ((0x55U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26709 
+        = ((0x54U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26710 
+        = ((0x53U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26711 
+        = ((0x52U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26712 
+        = ((0x51U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26713 
+        = ((0x50U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26714 
+        = ((0x4fU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26715 
+        = ((0x4eU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26716 
+        = ((0x4dU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26717 
+        = ((0x4cU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26718 
+        = ((0x4bU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26720 
+        = ((0x4aU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26721 
+        = ((0x49U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26722 
+        = ((0x48U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26723 
+        = ((0x47U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26724 
+        = ((0x46U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26725 
+        = ((0x45U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26726 
+        = ((0x44U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26727 
+        = ((0x43U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26728 
+        = ((0x42U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26729 
+        = ((0x41U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26731 
+        = ((0x40U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26732 
+        = ((0x3fU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26733 
+        = ((0x3eU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26734 
+        = ((0x3dU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26735 
+        = ((0x3cU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26736 
+        = ((0x3bU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26737 
+        = ((0x3aU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26738 
+        = ((0x39U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26739 
+        = ((0x38U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26740 
+        = ((0x37U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26742 
+        = ((0x36U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26743 
+        = ((0x35U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26744 
+        = ((0x34U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26745 
+        = ((0x33U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26746 
+        = ((0x32U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26747 
+        = ((0x31U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26748 
+        = ((0x30U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26749 
+        = ((0x2fU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26750 
+        = ((0x2eU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26751 
+        = ((0x2dU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26753 
+        = ((0x2cU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26754 
+        = ((0x2bU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26755 
+        = ((0x2aU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26756 
+        = ((0x29U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26757 
+        = ((0x28U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26758 
+        = ((0x27U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26759 
+        = ((0x26U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26760 
+        = ((0x25U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26761 
+        = ((0x24U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26762 
+        = ((0x23U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26764 
+        = ((0x22U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26765 
+        = ((0x21U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26766 
+        = ((0x20U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26767 
+        = ((0x1fU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26768 
+        = ((0x1eU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26769 
+        = ((0x1dU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26770 
+        = ((0x1cU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26771 
+        = ((0x1bU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26772 
+        = ((0x1aU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26773 
+        = ((0x19U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26775 
+        = ((0x18U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26776 
+        = ((0x17U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26777 
+        = ((0x16U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26778 
+        = ((0x15U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26779 
+        = ((0x14U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26780 
+        = ((0x13U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26781 
+        = ((0x12U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26782 
+        = ((0x11U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26783 
+        = ((0x10U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26784 
+        = ((0xfU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26786 
+        = ((0xeU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26787 
+        = ((0xdU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26788 
+        = ((0xcU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26789 
+        = ((0xbU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26790 
+        = ((0xaU == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26791 
+        = ((9U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26792 
+        = ((8U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26793 
+        = ((7U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26794 
+        = ((6U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26795 
+        = ((5U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26797 
+        = ((4U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26798 
+        = ((3U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26799 
+        = ((2U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26800 
+        = ((1U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26801 
+        = ((0U == (0xffU & ((IData)(0x9fU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9fU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26803 
+        = ((0xffU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26804 
+        = ((0xfeU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26805 
+        = ((0xfdU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26806 
+        = ((0xfcU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26807 
+        = ((0xfbU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26808 
+        = ((0xfaU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26809 
+        = ((0xf9U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26810 
+        = ((0xf8U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26811 
+        = ((0xf7U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26814 
+        = ((0xf6U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26815 
+        = ((0xf5U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26816 
+        = ((0xf4U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26817 
+        = ((0xf3U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26818 
+        = ((0xf2U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26819 
+        = ((0xf1U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26820 
+        = ((0xf0U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26821 
+        = ((0xefU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26822 
+        = ((0xeeU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26823 
+        = ((0xedU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26825 
+        = ((0xecU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26826 
+        = ((0xebU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26827 
+        = ((0xeaU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26828 
+        = ((0xe9U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26829 
+        = ((0xe8U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26830 
+        = ((0xe7U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26831 
+        = ((0xe6U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26832 
+        = ((0xe5U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26833 
+        = ((0xe4U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26834 
+        = ((0xe3U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26836 
+        = ((0xe2U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26837 
+        = ((0xe1U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26838 
+        = ((0xe0U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26839 
+        = ((0xdfU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26840 
+        = ((0xdeU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26841 
+        = ((0xddU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26842 
+        = ((0xdcU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26843 
+        = ((0xdbU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26844 
+        = ((0xdaU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26845 
+        = ((0xd9U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26847 
+        = ((0xd8U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26848 
+        = ((0xd7U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26849 
+        = ((0xd6U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26850 
+        = ((0xd5U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26851 
+        = ((0xd4U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26852 
+        = ((0xd3U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26853 
+        = ((0xd2U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26854 
+        = ((0xd1U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26855 
+        = ((0xd0U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26856 
+        = ((0xcfU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26859 
+        = ((0xceU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26860 
+        = ((0xcdU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26861 
+        = ((0xccU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26862 
+        = ((0xcbU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26863 
+        = ((0xcaU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26864 
+        = ((0xc9U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26865 
+        = ((0xc8U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26866 
+        = ((0xc7U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26867 
+        = ((0xc6U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26868 
+        = ((0xc5U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26870 
+        = ((0xc4U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26871 
+        = ((0xc3U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26872 
+        = ((0xc2U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26873 
+        = ((0xc1U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26874 
+        = ((0xc0U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26875 
+        = ((0xbfU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26876 
+        = ((0xbeU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26877 
+        = ((0xbdU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26878 
+        = ((0xbcU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26879 
+        = ((0xbbU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26881 
+        = ((0xbaU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26882 
+        = ((0xb9U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26883 
+        = ((0xb8U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26884 
+        = ((0xb7U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26885 
+        = ((0xb6U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26886 
+        = ((0xb5U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26887 
+        = ((0xb4U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26888 
+        = ((0xb3U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26889 
+        = ((0xb2U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26890 
+        = ((0xb1U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26892 
+        = ((0xb0U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26893 
+        = ((0xafU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26894 
+        = ((0xaeU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26895 
+        = ((0xadU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26896 
+        = ((0xacU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26897 
+        = ((0xabU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26898 
+        = ((0xaaU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26899 
+        = ((0xa9U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26900 
+        = ((0xa8U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26901 
+        = ((0xa7U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26903 
+        = ((0xa6U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26904 
+        = ((0xa5U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26905 
+        = ((0xa4U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26906 
+        = ((0xa3U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26907 
+        = ((0xa2U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26908 
+        = ((0xa1U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26909 
+        = ((0xa0U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26910 
+        = ((0x9fU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26911 
+        = ((0x9eU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26912 
+        = ((0x9dU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26914 
+        = ((0x9cU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26915 
+        = ((0x9bU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26916 
+        = ((0x9aU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26917 
+        = ((0x99U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26918 
+        = ((0x98U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26919 
+        = ((0x97U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26920 
+        = ((0x96U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26921 
+        = ((0x95U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26922 
+        = ((0x94U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26923 
+        = ((0x93U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26925 
+        = ((0x92U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26926 
+        = ((0x91U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26927 
+        = ((0x90U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26928 
+        = ((0x8fU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26929 
+        = ((0x8eU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26930 
+        = ((0x8dU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26931 
+        = ((0x8cU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26932 
+        = ((0x8bU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26933 
+        = ((0x8aU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26934 
+        = ((0x89U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26936 
+        = ((0x88U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26937 
+        = ((0x87U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26938 
+        = ((0x86U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26939 
+        = ((0x85U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26940 
+        = ((0x84U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26941 
+        = ((0x83U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26942 
+        = ((0x82U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26943 
+        = ((0x81U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26944 
+        = ((0x80U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26945 
+        = ((0x7fU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26947 
+        = ((0x7eU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26948 
+        = ((0x7dU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26949 
+        = ((0x7cU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26950 
+        = ((0x7bU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26951 
+        = ((0x7aU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26952 
+        = ((0x79U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26953 
+        = ((0x78U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26954 
+        = ((0x77U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26955 
+        = ((0x76U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26956 
+        = ((0x75U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26958 
+        = ((0x74U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26959 
+        = ((0x73U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26960 
+        = ((0x72U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26961 
+        = ((0x71U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26962 
+        = ((0x70U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26963 
+        = ((0x6fU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26964 
+        = ((0x6eU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26965 
+        = ((0x6dU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26966 
+        = ((0x6cU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26967 
+        = ((0x6bU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26970 
+        = ((0x6aU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26971 
+        = ((0x69U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26972 
+        = ((0x68U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26973 
+        = ((0x67U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26974 
+        = ((0x66U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26975 
+        = ((0x65U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26976 
+        = ((0x64U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26977 
+        = ((0x63U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26978 
+        = ((0x62U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26979 
+        = ((0x61U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26981 
+        = ((0x60U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26982 
+        = ((0x5fU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26983 
+        = ((0x5eU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26984 
+        = ((0x5dU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26985 
+        = ((0x5cU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26986 
+        = ((0x5bU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26987 
+        = ((0x5aU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26988 
+        = ((0x59U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26989 
+        = ((0x58U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26990 
+        = ((0x57U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26992 
+        = ((0x56U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26993 
+        = ((0x55U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26994 
+        = ((0x54U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26995 
+        = ((0x53U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26996 
+        = ((0x52U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26997 
+        = ((0x51U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26998 
+        = ((0x50U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_26999 
+        = ((0x4fU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27000 
+        = ((0x4eU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27001 
+        = ((0x4dU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27003 
+        = ((0x4cU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27004 
+        = ((0x4bU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27005 
+        = ((0x4aU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27006 
+        = ((0x49U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27007 
+        = ((0x48U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27008 
+        = ((0x47U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27009 
+        = ((0x46U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27010 
+        = ((0x45U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27011 
+        = ((0x44U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27012 
+        = ((0x43U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27014 
+        = ((0x42U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27015 
+        = ((0x41U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27016 
+        = ((0x40U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27017 
+        = ((0x3fU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27018 
+        = ((0x3eU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27019 
+        = ((0x3dU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27020 
+        = ((0x3cU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27021 
+        = ((0x3bU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27022 
+        = ((0x3aU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27023 
+        = ((0x39U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27025 
+        = ((0x38U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27026 
+        = ((0x37U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27027 
+        = ((0x36U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27028 
+        = ((0x35U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27029 
+        = ((0x34U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27030 
+        = ((0x33U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27031 
+        = ((0x32U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27032 
+        = ((0x31U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27033 
+        = ((0x30U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27034 
+        = ((0x2fU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27036 
+        = ((0x2eU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27037 
+        = ((0x2dU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27038 
+        = ((0x2cU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27039 
+        = ((0x2bU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27040 
+        = ((0x2aU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27041 
+        = ((0x29U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27042 
+        = ((0x28U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27043 
+        = ((0x27U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27044 
+        = ((0x26U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27045 
+        = ((0x25U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27047 
+        = ((0x24U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27048 
+        = ((0x23U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27049 
+        = ((0x22U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27050 
+        = ((0x21U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27051 
+        = ((0x20U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27052 
+        = ((0x1fU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27053 
+        = ((0x1eU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27054 
+        = ((0x1dU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27055 
+        = ((0x1cU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27056 
+        = ((0x1bU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27058 
+        = ((0x1aU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27059 
+        = ((0x19U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27060 
+        = ((0x18U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27061 
+        = ((0x17U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27062 
+        = ((0x16U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27063 
+        = ((0x15U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27064 
+        = ((0x14U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27065 
+        = ((0x13U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27066 
+        = ((0x12U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27067 
+        = ((0x11U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27069 
+        = ((0x10U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27070 
+        = ((0xfU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27071 
+        = ((0xeU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27072 
+        = ((0xdU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27073 
+        = ((0xcU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27074 
+        = ((0xbU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27075 
+        = ((0xaU == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27076 
+        = ((9U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27077 
+        = ((8U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27078 
+        = ((7U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27082 
+        = ((6U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27083 
+        = ((5U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27084 
+        = ((4U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27085 
+        = ((3U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27086 
+        = ((2U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27087 
+        = ((1U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27088 
+        = ((0U == (0xffU & ((IData)(0x36U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x36U) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27090 
+        = ((0xffU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27091 
+        = ((0xfeU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27092 
+        = ((0xfdU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27093 
+        = ((0xfcU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27095 
+        = ((0xfbU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27096 
+        = ((0xfaU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27097 
+        = ((0xf9U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27098 
+        = ((0xf8U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27099 
+        = ((0xf7U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27100 
+        = ((0xf6U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27101 
+        = ((0xf5U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27102 
+        = ((0xf4U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27103 
+        = ((0xf3U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27104 
+        = ((0xf2U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27106 
+        = ((0xf1U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27107 
+        = ((0xf0U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27108 
+        = ((0xefU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27109 
+        = ((0xeeU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27110 
+        = ((0xedU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27111 
+        = ((0xecU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27112 
+        = ((0xebU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27113 
+        = ((0xeaU == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27114 
+        = ((0xe9U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27115 
+        = ((0xe8U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT____VdfgRegularize_h15687b7c_0_27117 
+        = ((0xe7U == (0xffU & ((IData)(0x9eU) + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))) 
+           & (0x32fffU >= (0x3ffffU & ((IData)(0x9eU) 
+                                       + vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__baseElement___05Fh49095))));
+}
