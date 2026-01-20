@@ -20,7 +20,7 @@ module mkBRAMLoader (BRAMLoader#(data_sz, n))
             Mul#(chunk_sz, n, data_sz));
    
    // Load BRAM from data.hex - HARDCODED - DUAL PORT
-   BRAM_DUAL_PORT_BE#(Bit#(12), Bit#(data_sz), n) bram <- mkBRAMCore2BELoad(2240, False, "data.hex", False);
+   BRAM_DUAL_PORT_BE#(Bit#(12), Bit#(data_sz), n) bram <- mkBRAMCore2BELoad(2000, False, "data.hex", False);
    
    Reg#(Bool) isReady <- mkReg(False);
    Reg#(Bit#(10)) initDelay <- mkReg(0);

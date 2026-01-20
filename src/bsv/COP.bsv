@@ -138,7 +138,8 @@ module mkCOP(COP_Ifc);
 
   // ========== Modules Instantiation
   IfcBF16_SIMD_Pipeline pipeline <- mkBF16_SIMD_Pipeline();
-  BRAMWeightLoaderIfc weight_loader <- mkBRAMWeightLoader();
+  BRAMWeightLoaderIfc weight_loader_sa1 <- mkBRAMWeightLoader();
+  BRAMWeightLoaderIfc weight_loader_sa2 <- mkBRAMWeightLoader();
   BF16VectorDividerIFC divider <- mkBF16VectorDivider();
   SigmoidVector768Ifc sigmoid <- mkBF16SigmoidVector768();
   LIFLayerIFC lif <- mkLIFLayer(); 
@@ -180,13 +181,13 @@ module mkCOP(COP_Ifc);
 
   // ========== SA1 Regs
   Reg#(Vector#(768, BF16)) sa1_first_input <- mkReg(unpack(0));
-  Reg#(Vector#(192, BF16)) sa1_final_output <- mkReg(unpack(0));
+  Reg#(Vector#(272, BF16)) sa1_final_output <- mkReg(unpack(0));
   Reg#(Vector#(16, BF16)) sa1_accumulator <- mkReg(unpack(0));
   Reg#(Bit#(6)) sa1_input_chunk_idx <- mkReg(0); // 48 input chunks
-  Reg#(Bit#(4)) sa1_output_row_idx <- mkReg(0); // 12 output rows
+  Reg#(Bit#(6)) sa1_output_row_idx <- mkReg(0); // 17 output rows
 
-  Reg#(Bit#(4)) sa1_weight_matrix_idx <- mkReg(0); // 0-15 for rows
-  Reg#(Bit#(4)) sa1_weight_col_idx <- mkReg(0);
+  Reg#(Bit#(6)) sa1_weight_matrix_idx <- mkReg(0); // 0-15 for rows
+  Reg#(Bit#(6)) sa1_weight_col_idx <- mkReg(0);
   Reg#(Bool) sa1_weight_batch_requested <- mkReg(False);
   Reg#(Bool) sa1_weight_batch_ready <- mkReg(False);
 
@@ -198,11 +199,11 @@ module mkCOP(COP_Ifc);
   // ========== SA2 Regs
   Reg#(Vector#(768, BF16)) sa2_final_output <- mkReg(unpack(0));
   Reg#(Vector#(16, BF16)) sa2_accumulator <- mkReg(unpack(0));
-  Reg#(Bit#(4)) sa2_input_chunk_idx <- mkReg(0); // 12 input chunks
+  Reg#(Bit#(6)) sa2_input_chunk_idx <- mkReg(0); // 17 input chunks
   Reg#(Bit#(6)) sa2_output_row_idx <- mkReg(0); // 48 output rows
 
-  Reg#(Bit#(4)) sa2_weight_matrix_idx <- mkReg(0);
-  Reg#(Bit#(4)) sa2_weight_col_idx <- mkReg(0);
+  Reg#(Bit#(6)) sa2_weight_matrix_idx <- mkReg(0);
+  Reg#(Bit#(6)) sa2_weight_col_idx <- mkReg(0);
   Reg#(Bool) sa2_weight_batch_requested <- mkReg(False);
   Reg#(Bool) sa2_weight_batch_ready <- mkReg(False);
 
@@ -841,21 +842,21 @@ module mkCOP(COP_Ifc);
   // ========== SA1
   // Prefetch weights DURING computation
   rule sa1_prefetch_weights_overlap (sa1_state == SA_Compute && !sa1_weight_batch_requested && sa1_input_chunk_idx < 47);
-    weight_loader.start();
+    weight_loader_sa1.start();
     sa1_weight_batch_requested <= True;
     $display("[Cycle %0d] SA1: [OVERLAP] Prefetching weight batch %0d for NEXT chunk DURING computation", cycle_count, weight_batch_counter);
   endrule
 
   // Prefetch weights when waiting (for current chunk)
   rule sa1_prefetch_weights_wait(sa1_state == SA_WaitWeights && !sa1_weights_ready && !sa1_weight_batch_requested);
-    weight_loader.start();
+    weight_loader_sa1.start();
     sa1_weight_batch_requested <= True;
     $display("[Cycle %0d] SA1: Prefetching weight batch %0d", cycle_count, weight_batch_counter);
   endrule
 
   rule sa1_collect_weight_batch (sa1_weight_batch_requested && !sa1_weight_batch_ready);
-    let batch = weight_loader.get_res();
-    weight_loader.done_ack();
+    let batch = weight_loader_sa1.get_res();
+    weight_loader_sa1.done_ack();
     weight_buffer <= batch;
     sa1_weight_batch_ready <= True;
     sa1_weight_batch_requested <= False;
@@ -921,7 +922,7 @@ module mkCOP(COP_Ifc);
   endrule
 
   rule sa1_row_done (sa1_state == SA_RowDone);
-    Vector#(192, BF16) temp_output = sa1_final_output;
+    Vector#(272, BF16) temp_output = sa1_final_output;
     Bit#(8) output_start_idx = zeroExtend(sa1_output_row_idx) << 4;
 
     for (Integer i = 0; i < 16; i = i + 1) begin
@@ -940,10 +941,10 @@ module mkCOP(COP_Ifc);
     sa1_weight_batch_ready <= False;
     sa1_started <= False;
 
-    if (sa1_output_row_idx == 11) begin
+    if (sa1_output_row_idx == 16) begin
       sa1_state <= SA_AllDone;
       sa1_processing_complete <= True;
-      $display("[Cycle %0d] SA1: ALL 192 OUTPUTS COMPLETE!", cycle_count);
+      $display("[Cycle %0d] SA1: ALL 272 OUTPUTS COMPLETE!", cycle_count);
     end else begin
       sa1_state <= SA_WaitWeights;
     end
@@ -977,21 +978,21 @@ module mkCOP(COP_Ifc);
 
   // ========== SA2
   rule sa2_prefetch_weights_overlap (sa2_state == SA_Compute && !sa2_weight_batch_requested && sa2_input_chunk_idx < 11);
-    weight_loader.start();
+    weight_loader_sa2.start();
     sa2_weight_batch_requested <= True;
     $display("[Cycle %0d] SA2: [OVERLAP] Prefetching weight batch %0d for NEXT chunk DURING computation", cycle_count, weight_batch_counter);
   endrule
 
   // Prefetch weights when waiting (for current chunk)
   rule sa2_prefetch_weights_wait(sa2_state == SA_WaitWeights && !sa2_weights_ready && !sa2_weight_batch_requested);
-    weight_loader.start();
+    weight_loader_sa2.start();
     sa2_weight_batch_requested <= True;
     $display("[Cycle %0d] SA2: Prefetching weight batch %0d", cycle_count, weight_batch_counter);
   endrule
 
   rule sa2_collect_weight_batch (sa2_weight_batch_requested && !sa2_weight_batch_ready);
-    let batch = weight_loader.get_res();
-    weight_loader.done_ack();
+    let batch = weight_loader_sa2.get_res();
+    weight_loader_sa2.done_ack();
     weight_buffer <= batch;
     sa2_weight_batch_ready <= True;
     sa2_weight_batch_requested <= False;
@@ -1027,7 +1028,7 @@ module mkCOP(COP_Ifc);
     sa.start();
     sa2_started <= True;
     sa2_state <= SA_Compute;
-    $display("[Cycle %0d] SA2: Row_group=%0d, Input_chunk=%0d/12, Elements[%0d:%0d]", 
+    $display("[Cycle %0d] SA2: Row_group=%0d, Input_chunk=%0d/17, Elements[%0d:%0d]", 
                cycle_count, sa2_output_row_idx, sa2_input_chunk_idx, start_idx, start_idx + 15);
   endrule
 
@@ -1044,9 +1045,9 @@ module mkCOP(COP_Ifc);
     $display("[Cycle %0d] SA2: Row_group=%0d, Input_chunk=%0d done, accumulated", 
               cycle_count, sa2_output_row_idx, sa2_input_chunk_idx);
 
-    if (sa2_input_chunk_idx == 11) begin
+    if (sa2_input_chunk_idx == 16) begin
       sa2_state <= SA_RowDone;
-      $display("[Cycle %0d] SA2: Row_group=%0d COMPLETE (all 12 chunks accumulated)", 
+      $display("[Cycle %0d] SA2: Row_group=%0d COMPLETE (all 17 chunks accumulated)", 
                 cycle_count, sa2_output_row_idx);
     end else begin
       sa2_input_chunk_idx <= sa2_input_chunk_idx + 1;
