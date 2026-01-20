@@ -9,7 +9,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_2(VmkTb_COP___024root* vlSelf, Verilat
     VmkTb_COP__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init
-    uint32_t* const oldp VL_ATTR_UNUSED = bufp->oldp(vlSymsp->__Vm_baseCode + 565105);
+    uint32_t* const oldp VL_ATTR_UNUSED = bufp->oldp(vlSymsp->__Vm_baseCode + 565104);
     VlWide<220>/*7039:0*/ __Vtemp_1;
     VlWide<221>/*7071:0*/ __Vtemp_2;
     VlWide<222>/*7103:0*/ __Vtemp_3;

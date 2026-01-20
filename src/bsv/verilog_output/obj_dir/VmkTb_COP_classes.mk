@@ -148,6 +148,14 @@ VM_CLASSES_FAST += \
 	VmkTb_COP___024root__DepSet_h08093c46__118 \
 	VmkTb_COP___024root__DepSet_h08093c46__119 \
 	VmkTb_COP___024root__DepSet_h08093c46__120 \
+	VmkTb_COP___024root__DepSet_h08093c46__121 \
+	VmkTb_COP___024root__DepSet_h08093c46__122 \
+	VmkTb_COP___024root__DepSet_h08093c46__123 \
+	VmkTb_COP___024root__DepSet_h08093c46__124 \
+	VmkTb_COP___024root__DepSet_h08093c46__125 \
+	VmkTb_COP___024root__DepSet_h08093c46__126 \
+	VmkTb_COP___024root__DepSet_h08093c46__127 \
+	VmkTb_COP___024root__DepSet_h08093c46__128 \
 
 # Generated module classes, non-fast-path, compile with low/medium optimization
 VM_CLASSES_SLOW += \
@@ -270,6 +278,14 @@ VM_CLASSES_SLOW += \
 	VmkTb_COP___024root__DepSet_h08093c46__113__Slow \
 	VmkTb_COP___024root__DepSet_h08093c46__114__Slow \
 	VmkTb_COP___024root__DepSet_h08093c46__115__Slow \
+	VmkTb_COP___024root__DepSet_h08093c46__116__Slow \
+	VmkTb_COP___024root__DepSet_h08093c46__117__Slow \
+	VmkTb_COP___024root__DepSet_h08093c46__118__Slow \
+	VmkTb_COP___024root__DepSet_h08093c46__119__Slow \
+	VmkTb_COP___024root__DepSet_h08093c46__120__Slow \
+	VmkTb_COP___024root__DepSet_h08093c46__121__Slow \
+	VmkTb_COP___024root__DepSet_h08093c46__122__Slow \
+	VmkTb_COP___024root__DepSet_h08093c46__123__Slow \
 
 # Generated support classes, fast-path, compile with highest optimization
 VM_SUPPORT_FAST += \
@@ -301,6 +317,8 @@ VM_SUPPORT_FAST += \
 	VmkTb_COP__Trace__25 \
 	VmkTb_COP__Trace__26 \
 	VmkTb_COP__Trace__27 \
+	VmkTb_COP__Trace__28 \
+	VmkTb_COP__Trace__29 \
 
 # Generated support classes, non-fast-path, compile with low/medium optimization
 VM_SUPPORT_SLOW += \
@@ -337,6 +355,8 @@ VM_SUPPORT_SLOW += \
 	VmkTb_COP__Trace__28__Slow \
 	VmkTb_COP__Trace__29__Slow \
 	VmkTb_COP__Trace__30__Slow \
+	VmkTb_COP__Trace__31__Slow \
+	VmkTb_COP__Trace__32__Slow \
 
 # Global classes, need linked once per executable, fast-path, compile with highest optimization
 VM_GLOBAL_FAST += \

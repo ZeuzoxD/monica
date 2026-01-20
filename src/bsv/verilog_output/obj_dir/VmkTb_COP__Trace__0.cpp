@@ -32,6 +32,8 @@ void VmkTb_COP___024root__trace_chg_0_sub_24(VmkTb_COP___024root* vlSelf, Verila
 void VmkTb_COP___024root__trace_chg_0_sub_25(VmkTb_COP___024root* vlSelf, VerilatedVcd::Buffer* bufp);
 void VmkTb_COP___024root__trace_chg_0_sub_26(VmkTb_COP___024root* vlSelf, VerilatedVcd::Buffer* bufp);
 void VmkTb_COP___024root__trace_chg_0_sub_27(VmkTb_COP___024root* vlSelf, VerilatedVcd::Buffer* bufp);
+void VmkTb_COP___024root__trace_chg_0_sub_28(VmkTb_COP___024root* vlSelf, VerilatedVcd::Buffer* bufp);
+void VmkTb_COP___024root__trace_chg_0_sub_29(VmkTb_COP___024root* vlSelf, VerilatedVcd::Buffer* bufp);
 
 void VmkTb_COP___024root__trace_chg_0(void* voidSelf, VerilatedVcd::Buffer* bufp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    VmkTb_COP___024root__trace_chg_0\n"); );
@@ -68,6 +70,8 @@ void VmkTb_COP___024root__trace_chg_0(void* voidSelf, VerilatedVcd::Buffer* bufp
     VmkTb_COP___024root__trace_chg_0_sub_25((&vlSymsp->TOP), bufp);
     VmkTb_COP___024root__trace_chg_0_sub_26((&vlSymsp->TOP), bufp);
     VmkTb_COP___024root__trace_chg_0_sub_27((&vlSymsp->TOP), bufp);
+    VmkTb_COP___024root__trace_chg_0_sub_28((&vlSymsp->TOP), bufp);
+    VmkTb_COP___024root__trace_chg_0_sub_29((&vlSymsp->TOP), bufp);
 }
 
 extern const VlWide<8>/*255:0*/ VmkTb_COP__ConstPool__CONST_h9e67c271_0;
@@ -1669,7 +1673,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         bufp->chgCData(oldp+1755,(vlSelfRef.mkTb_COP__DOT__cop__DOT__readback_chunk_id),2);
         bufp->chgCData(oldp+1756,(vlSelfRef.mkTb_COP__DOT__cop__DOT__readback_chunk_id__024D_IN),2);
         bufp->chgBit(oldp+1757,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__readback_started__024D_IN) 
-                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_71))));
+                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_73))));
         bufp->chgCData(oldp+1758,(vlSelfRef.mkTb_COP__DOT__cop__DOT__readback_collected),8);
         bufp->chgCData(oldp+1759,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__readback_started__024D_IN)
                                     ? 0U : (0xffU & 
@@ -2972,7 +2976,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_32[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[5U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_11)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_637)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_638)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[5U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[5U] 
                                                   >> 0x10U))
@@ -3000,21 +3004,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5578828) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_371)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1878)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1879)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1880)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1881)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1882)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1883)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1884)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1885)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1886)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1887)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1888)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1889)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1890)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1891)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -3026,22 +3030,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_371)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1878)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1879)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1880)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1881)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1882)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1883)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1884)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1885)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1886)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1887)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1888)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1889)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1890)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1891)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -3077,7 +3081,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[5U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_10)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_630)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_631)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[5U]
                                                      : 
@@ -3110,21 +3114,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5579695) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_371)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_372)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1892)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1893)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1894)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1895)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1896)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1897)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1898)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1899)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1900)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1901)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1902)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1903)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1904)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1905)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -3136,22 +3140,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_371)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_372)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1892)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1893)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1894)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1895)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1896)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1897)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1898)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1899)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1900)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1901)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1902)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1903)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1904)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1905)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -3188,7 +3192,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U])))
                                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_15)
                                                        : 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_665)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_666)
                                                         ? 
                                                        ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U] 
                                                          << 0x10U) 
@@ -3224,21 +3228,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                            ((0x7f80U 
                                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5575360) 
                                                                  - 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_366)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1822)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1823)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1824)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1825)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1826)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1827)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1828)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1829)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1830)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1831)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1832)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1833)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1834)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1835)
                                                                           ? 8U
                                                                           : 7U)
                                                                          : 6U)
@@ -3250,22 +3254,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                    : 0U)) 
                                                                 << 7U)) 
                                                             | (0x7fU 
-                                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_366)
+                                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
                                                                    ? 
                                                                   (0x1feU 
-                                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1822)
+                                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1823)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1824)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1825)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1826)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1827)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1828)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1829)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1830)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1831)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1832)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1833)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1834)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1835)
                                                                               ? 0U
                                                                               : 
                                                                              (0xc0U 
@@ -3303,7 +3307,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U])))
                                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_14)
                                                            : 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_658)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_659)
                                                             ? 
                                                            vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U]
                                                             : 
@@ -3336,21 +3340,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                ((0x7f80U 
                                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5576227) 
                                                                      - 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1836)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1837)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1838)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1839)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1840)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1841)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1842)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1843)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1844)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1845)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1846)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1847)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1848)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1849)
                                                                               ? 8U
                                                                               : 7U)
                                                                              : 6U)
@@ -3362,22 +3366,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                        : 0U)) 
                                                                     << 7U)) 
                                                                 | (0x7fU 
-                                                                   & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
+                                                                   & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
                                                                        ? 
                                                                       (0x1feU 
-                                                                       & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1836)
+                                                                       & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1837)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1838)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1839)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1840)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1841)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1842)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1843)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1844)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1845)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1846)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1847)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1848)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1849)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -3414,7 +3418,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U])))
                                                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_13)
                                                                    : 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_651)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_652)
                                                                     ? 
                                                                    ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U] 
                                                                      << 0x10U) 
@@ -3450,21 +3454,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                        ((0x7f80U 
                                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5577094) 
                                                                              - 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1850)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1851)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1852)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1853)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1854)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1855)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1856)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1857)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1858)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1859)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1860)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1861)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1862)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1863)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -3476,22 +3480,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                : 0U)) 
                                                                             << 7U)) 
                                                                         | (0x7fU 
-                                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
+                                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
                                                                                ? 
                                                                               (0x1feU 
-                                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1850)
+                                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1851)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1852)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1853)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1854)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1855)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1856)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1857)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1858)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1859)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1860)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1861)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1862)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1863)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -3529,7 +3533,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U])))
                                                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_12)
                                                                        : 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_644)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_645)
                                                                         ? 
                                                                        vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U]
                                                                         : 
@@ -3562,21 +3566,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                            ((0x7f80U 
                                                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5577961) 
                                                                                 - 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1864)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1865)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1866)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1867)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1868)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1869)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1870)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1871)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1872)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1873)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1874)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1875)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1876)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1877)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -3588,22 +3592,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                  : 0U)) 
                                                                                 << 7U)) 
                                                                             | (0x7fU 
-                                                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
+                                                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
                                                                                  ? 
                                                                                 (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1864)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1865)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1866)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1867)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1868)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1869)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1870)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1871)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1872)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1873)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1874)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1875)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1876)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1877)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -3640,7 +3644,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                  & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U])))
                                                         ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_15)
                                                         : 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_665)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_666)
                                                          ? 
                                                         ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U] 
                                                           << 0x10U) 
@@ -3676,21 +3680,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                             ((0x7f80U 
                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5575360) 
                                                                   - 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_366)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1822)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1823)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1824)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1825)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1826)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1827)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1828)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1829)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1830)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1831)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1832)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1833)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1834)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1835)
                                                                            ? 8U
                                                                            : 7U)
                                                                           : 6U)
@@ -3702,22 +3706,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                     : 0U)) 
                                                                  << 7U)) 
                                                              | (0x7fU 
-                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_366)
+                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
                                                                     ? 
                                                                    (0x1feU 
-                                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1822)
+                                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1823)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1824)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1825)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1826)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1827)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1828)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1829)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1830)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1831)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1832)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1833)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1834)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1835)
                                                                                ? 0U
                                                                                : 
                                                                               (0xc0U 
@@ -3755,7 +3759,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                      & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U])))
                                                             ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_14)
                                                             : 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_658)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_659)
                                                              ? 
                                                             vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U]
                                                              : 
@@ -3788,21 +3792,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 ((0x7f80U 
                                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5576227) 
                                                                       - 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1836)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1837)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1838)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1839)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1840)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1841)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1842)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1843)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1844)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1845)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1846)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1847)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1848)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1849)
                                                                                ? 8U
                                                                                : 7U)
                                                                               : 6U)
@@ -3814,22 +3818,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                         : 0U)) 
                                                                      << 7U)) 
                                                                  | (0x7fU 
-                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
+                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
                                                                         ? 
                                                                        (0x1feU 
-                                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1836)
+                                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1837)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1838)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1839)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1840)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1841)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1842)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1843)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1844)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1845)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1846)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1847)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1848)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1849)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -3866,7 +3870,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U])))
                                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_13)
                                                                     : 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_651)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_652)
                                                                      ? 
                                                                     ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U] 
                                                                       << 0x10U) 
@@ -3902,21 +3906,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                         ((0x7f80U 
                                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5577094) 
                                                                               - 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1850)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1851)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1852)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1853)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1854)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1855)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1856)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1857)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1858)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1859)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1860)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1861)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1862)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1863)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -3928,22 +3932,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 : 0U)) 
                                                                              << 7U)) 
                                                                          | (0x7fU 
-                                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
+                                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
                                                                                 ? 
                                                                                (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1850)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1851)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1852)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1853)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1854)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1855)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1856)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1857)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1858)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1859)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1860)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1861)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1862)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1863)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -3981,7 +3985,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U])))
                                                                         ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_12)
                                                                         : 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_644)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_645)
                                                                          ? 
                                                                         vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U]
                                                                          : 
@@ -4014,21 +4018,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                             ((0x7f80U 
                                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5577961) 
                                                                                 - 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1864)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1865)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1866)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1867)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1868)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1869)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1870)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1871)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1872)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1873)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1874)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1875)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1876)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1877)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -4040,22 +4044,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                  : 0U)) 
                                                                                 << 7U)) 
                                                                              | (0x7fU 
-                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
+                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
                                                                                  ? 
                                                                                 (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1864)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1865)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1866)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1867)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1868)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1869)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1870)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1871)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1872)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1873)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1874)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1875)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1876)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1877)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -4088,7 +4092,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_33[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[4U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_9)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_623)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_624)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[4U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[4U] 
                                                   >> 0x10U))
@@ -4116,21 +4120,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5580562) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_372)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_373)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1906)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1907)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1908)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1909)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1910)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1911)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1912)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1913)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1914)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1915)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1916)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1917)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1918)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1919)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -4142,22 +4146,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_372)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_373)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1906)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1907)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1908)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1909)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1910)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1911)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1912)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1913)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1914)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1915)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1916)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1917)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1918)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1919)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -4193,7 +4197,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[4U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_8)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_610)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_611)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[4U]
                                                      : 
@@ -4226,21 +4230,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5581429) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_373)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_374)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1920)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1921)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1922)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1923)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1924)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1925)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1926)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1927)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1928)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1929)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1930)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1931)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1932)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1933)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -4252,22 +4256,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_373)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_374)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1920)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1921)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1922)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1923)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1924)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1925)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1926)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1927)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1928)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1929)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1930)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1931)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1932)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1933)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -4299,7 +4303,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_34[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[3U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_7)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_603)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_604)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[3U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[3U] 
                                                   >> 0x10U))
@@ -4327,21 +4331,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5582296) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_374)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_375)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1934)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1935)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1936)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1937)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1938)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1939)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1940)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1941)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1942)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1943)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1944)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1945)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1946)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1947)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -4353,22 +4357,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_374)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_375)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1934)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1935)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1936)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1937)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1938)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1939)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1940)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1941)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1942)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1943)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1944)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1945)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1946)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1947)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -4404,7 +4408,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[3U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_6)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_596)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_597)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[3U]
                                                      : 
@@ -4437,21 +4441,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5583163) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_375)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_376)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1948)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1949)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1950)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1951)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1952)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1953)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1954)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1955)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1956)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1957)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1958)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1959)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1960)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1961)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -4463,22 +4467,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_375)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_376)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1948)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1949)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1950)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1951)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1952)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1953)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1954)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1955)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1956)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1957)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1958)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1959)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1960)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1961)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -4510,7 +4514,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_35[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[2U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_5)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_699)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_700)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[2U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[2U] 
                                                   >> 0x10U))
@@ -4538,21 +4542,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5584030) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_376)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_377)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1962)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1963)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1964)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1965)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1966)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1967)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1968)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1969)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1970)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1971)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1972)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1973)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1974)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1975)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -4564,22 +4568,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_376)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_377)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1962)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1963)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1964)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1965)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1966)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1967)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1968)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1969)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1970)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1971)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1972)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1973)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1974)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1975)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -4615,7 +4619,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[2U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_4)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_692)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_693)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[2U]
                                                      : 
@@ -4648,21 +4652,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5584897) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_377)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_378)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1976)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1977)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1978)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1979)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1980)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1981)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1982)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1983)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1984)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1985)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1986)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1987)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1988)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1989)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -4674,22 +4678,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_377)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_378)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1976)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1977)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1978)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1979)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1980)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1981)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1982)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1983)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1984)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1985)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1986)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1987)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1988)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1989)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -4721,7 +4725,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_36[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[1U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_3)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_685)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_686)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[1U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[1U] 
                                                   >> 0x10U))
@@ -4749,21 +4753,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5585764) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_378)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_379)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1990)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1991)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1992)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1993)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1994)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1995)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1996)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1997)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1998)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1999)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2000)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2001)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2002)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2003)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -4775,22 +4779,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_378)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_379)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1990)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1991)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1992)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1993)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1994)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1995)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1996)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1997)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1998)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1999)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2000)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2001)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2002)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2003)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -4826,7 +4830,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[1U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_2)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_678)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_679)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[1U]
                                                      : 
@@ -4859,21 +4863,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5586631) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_379)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_380)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2004)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2005)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2006)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2007)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2008)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2009)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2010)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2011)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2012)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2013)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2014)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2015)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2016)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2017)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -4885,22 +4889,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_379)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_380)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2004)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2005)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2006)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2007)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2008)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2009)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2010)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2011)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2012)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2013)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2014)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2015)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2016)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2017)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -4932,7 +4936,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_37[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[0U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_1)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_672)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_673)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[0U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[0U] 
                                                   >> 0x10U))
@@ -4960,21 +4964,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5587498) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_380)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_381)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2018)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2019)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2020)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2021)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2022)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2023)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2024)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2025)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2026)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2027)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2028)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2029)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2030)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2031)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -4986,22 +4990,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_380)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_381)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2018)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2019)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2020)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2021)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2022)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2023)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2024)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2025)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2026)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2027)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2028)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2029)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2030)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2031)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -5037,7 +5041,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[0U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_0)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_617)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_618)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[0U]
                                                      : 
@@ -5070,21 +5074,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5588365) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_381)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2032)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2033)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2034)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2035)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2036)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2037)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2038)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2039)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2040)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2041)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2042)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2043)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2044)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2045)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -5096,22 +5100,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_381)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2032)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2033)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2034)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2035)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2036)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2037)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2038)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2039)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2040)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2041)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2042)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2043)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2044)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2045)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -5140,7 +5144,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                      : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tmp___05Fh5588288)) 
                                                                    << 1U))
                                                                 : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tmp___05Fh5588288))))))))));
-        if (vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_343) {
+        if (vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_344) {
             __Vtemp_38[0U] = VmkTb_COP__ConstPool__CONST_h9e67c271_0[0U];
             __Vtemp_38[1U] = VmkTb_COP__ConstPool__CONST_h9e67c271_0[1U];
             __Vtemp_38[2U] = VmkTb_COP__ConstPool__CONST_h9e67c271_0[2U];
@@ -5160,8 +5164,8 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
             __Vtemp_38[7U] = __Vtemp_32[2U];
         }
         bufp->chgWData(oldp+3003,(__Vtemp_38),256);
-        bufp->chgBit(oldp+3011,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_344) 
-                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2405))));
+        bufp->chgBit(oldp+3011,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_345) 
+                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2406))));
         bufp->chgWData(oldp+3012,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_final_output),3072);
         bufp->chgWData(oldp+3108,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_final_output__024D_IN),3072);
         bufp->chgBit(oldp+3204,((4U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_state))));
@@ -5171,13 +5175,13 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                  | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_rwkv__024EN) 
                                     | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__simd_result_k__024EN)))));
         bufp->chgCData(oldp+3974,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_input_chunk_idx),6);
-        bufp->chgCData(oldp+3975,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_343)
+        bufp->chgCData(oldp+3975,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_344)
                                     ? 0U : (0x3fU & 
                                             ((IData)(1U) 
                                              + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_input_chunk_idx))))),6);
         bufp->chgBit(oldp+3976,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_input_chunk_idx__024EN));
         bufp->chgCData(oldp+3977,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_output_row_idx),4);
-        bufp->chgCData(oldp+3978,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_342)
+        bufp->chgCData(oldp+3978,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_343)
                                     ? 0U : (0xfU & 
                                             ((IData)(1U) 
                                              + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_output_row_idx))))),4);
@@ -5211,7 +5215,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_39[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[5U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_11)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_637)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_638)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[5U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[5U] 
                                                   >> 0x10U))
@@ -5239,21 +5243,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5718958) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_387)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2102)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2103)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2104)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2105)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2106)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2107)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2108)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2109)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2110)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2111)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2112)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2113)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2114)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2115)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -5265,22 +5269,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_387)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2102)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2103)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2104)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2105)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2106)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2107)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2108)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2109)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2110)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2111)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2112)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2113)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2114)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2115)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -5316,7 +5320,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[5U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_10)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_630)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_631)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[5U]
                                                      : 
@@ -5349,21 +5353,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5719825) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_387)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_388)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2116)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2117)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2118)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2119)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2120)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2121)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2122)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2123)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2124)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2125)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2126)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2127)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2128)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2129)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -5375,22 +5379,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_387)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_388)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2116)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2117)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2118)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2119)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2120)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2121)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2122)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2123)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2124)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2125)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2126)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2127)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2128)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2129)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -5427,7 +5431,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U])))
                                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_15)
                                                        : 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_665)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_666)
                                                         ? 
                                                        ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U] 
                                                          << 0x10U) 
@@ -5463,21 +5467,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                            ((0x7f80U 
                                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5715490) 
                                                                  - 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2046)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2047)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2048)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2049)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2050)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2051)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2052)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2053)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2054)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2055)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2056)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2057)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2058)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2059)
                                                                           ? 8U
                                                                           : 7U)
                                                                          : 6U)
@@ -5489,22 +5493,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                    : 0U)) 
                                                                 << 7U)) 
                                                             | (0x7fU 
-                                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
+                                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
                                                                    ? 
                                                                   (0x1feU 
-                                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2046)
+                                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2047)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2048)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2049)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2050)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2051)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2052)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2053)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2054)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2055)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2056)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2057)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2058)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2059)
                                                                               ? 0U
                                                                               : 
                                                                              (0xc0U 
@@ -5542,7 +5546,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U])))
                                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_14)
                                                            : 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_658)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_659)
                                                             ? 
                                                            vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U]
                                                             : 
@@ -5575,21 +5579,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                ((0x7f80U 
                                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5716357) 
                                                                      - 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2060)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2061)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2062)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2063)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2064)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2065)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2066)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2067)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2068)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2069)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2070)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2071)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2072)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2073)
                                                                               ? 8U
                                                                               : 7U)
                                                                              : 6U)
@@ -5601,22 +5605,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                        : 0U)) 
                                                                     << 7U)) 
                                                                 | (0x7fU 
-                                                                   & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
+                                                                   & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
                                                                        ? 
                                                                       (0x1feU 
-                                                                       & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2060)
+                                                                       & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2061)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2062)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2063)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2064)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2065)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2066)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2067)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2068)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2069)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2070)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2071)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2072)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2073)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -5653,7 +5657,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U])))
                                                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_13)
                                                                    : 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_651)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_652)
                                                                     ? 
                                                                    ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U] 
                                                                      << 0x10U) 
@@ -5689,21 +5693,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                        ((0x7f80U 
                                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5717224) 
                                                                              - 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2074)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2075)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2076)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2077)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2078)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2079)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2080)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2081)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2082)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2083)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2084)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2085)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2086)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2087)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -5715,22 +5719,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                : 0U)) 
                                                                             << 7U)) 
                                                                         | (0x7fU 
-                                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
+                                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
                                                                                ? 
                                                                               (0x1feU 
-                                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2074)
+                                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2075)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2076)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2077)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2078)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2079)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2080)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2081)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2082)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2083)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2084)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2085)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2086)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2087)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -5768,7 +5772,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U])))
                                                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_12)
                                                                        : 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_644)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_645)
                                                                         ? 
                                                                        vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U]
                                                                         : 
@@ -5801,21 +5805,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                            ((0x7f80U 
                                                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5718091) 
                                                                                 - 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2088)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2089)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2090)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2091)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2092)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2093)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2094)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2095)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2096)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2097)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2098)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2099)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2100)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2101)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -5827,22 +5831,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                  : 0U)) 
                                                                                 << 7U)) 
                                                                             | (0x7fU 
-                                                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
+                                                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
                                                                                  ? 
                                                                                 (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2088)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2089)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2090)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2091)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2092)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2093)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2094)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2095)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2096)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2097)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2098)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2099)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2100)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2101)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -5879,7 +5883,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                  & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U])))
                                                         ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_15)
                                                         : 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_665)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_666)
                                                          ? 
                                                         ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U] 
                                                           << 0x10U) 
@@ -5915,21 +5919,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                             ((0x7f80U 
                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5715490) 
                                                                   - 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2046)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2047)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2048)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2049)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2050)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2051)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2052)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2053)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2054)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2055)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2056)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2057)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2058)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2059)
                                                                            ? 8U
                                                                            : 7U)
                                                                           : 6U)
@@ -5941,22 +5945,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                     : 0U)) 
                                                                  << 7U)) 
                                                              | (0x7fU 
-                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
+                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
                                                                     ? 
                                                                    (0x1feU 
-                                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2046)
+                                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2047)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2048)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2049)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2050)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2051)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2052)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2053)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2054)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2055)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2056)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2057)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2058)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2059)
                                                                                ? 0U
                                                                                : 
                                                                               (0xc0U 
@@ -5994,7 +5998,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                      & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U])))
                                                             ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_14)
                                                             : 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_658)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_659)
                                                              ? 
                                                             vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U]
                                                              : 
@@ -6027,21 +6031,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 ((0x7f80U 
                                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5716357) 
                                                                       - 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2060)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2061)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2062)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2063)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2064)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2065)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2066)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2067)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2068)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2069)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2070)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2071)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2072)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2073)
                                                                                ? 8U
                                                                                : 7U)
                                                                               : 6U)
@@ -6053,22 +6057,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                         : 0U)) 
                                                                      << 7U)) 
                                                                  | (0x7fU 
-                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
+                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
                                                                         ? 
                                                                        (0x1feU 
-                                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2060)
+                                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2061)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2062)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2063)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2064)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2065)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2066)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2067)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2068)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2069)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2070)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2071)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2072)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2073)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -6105,7 +6109,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U])))
                                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_13)
                                                                     : 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_651)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_652)
                                                                      ? 
                                                                     ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U] 
                                                                       << 0x10U) 
@@ -6141,21 +6145,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                         ((0x7f80U 
                                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5717224) 
                                                                               - 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2074)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2075)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2076)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2077)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2078)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2079)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2080)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2081)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2082)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2083)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2084)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2085)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2086)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2087)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -6167,22 +6171,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 : 0U)) 
                                                                              << 7U)) 
                                                                          | (0x7fU 
-                                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
+                                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
                                                                                 ? 
                                                                                (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2074)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2075)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2076)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2077)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2078)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2079)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2080)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2081)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2082)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2083)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2084)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2085)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2086)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2087)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -6220,7 +6224,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U])))
                                                                         ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_12)
                                                                         : 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_644)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_645)
                                                                          ? 
                                                                         vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U]
                                                                          : 
@@ -6253,21 +6257,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                             ((0x7f80U 
                                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5718091) 
                                                                                 - 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2088)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2089)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2090)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2091)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2092)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2093)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2094)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2095)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2096)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2097)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2098)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2099)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2100)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2101)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -6279,22 +6283,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                  : 0U)) 
                                                                                 << 7U)) 
                                                                              | (0x7fU 
-                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
+                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
                                                                                  ? 
                                                                                 (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2088)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2089)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2090)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2091)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2092)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2093)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2094)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2095)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2096)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2097)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2098)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2099)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2100)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2101)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -6327,7 +6331,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_40[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[4U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_9)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_623)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_624)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[4U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[4U] 
                                                   >> 0x10U))
@@ -6355,21 +6359,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5720692) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_388)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_389)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2130)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2131)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2132)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2133)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2134)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2135)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2136)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2137)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2138)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2139)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2140)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2141)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2142)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2143)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -6381,22 +6385,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_388)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_389)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2130)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2131)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2132)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2133)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2134)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2135)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2136)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2137)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2138)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2139)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2140)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2141)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2142)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2143)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -6432,7 +6436,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[4U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_8)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_610)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_611)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[4U]
                                                      : 
@@ -6465,21 +6469,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5721559) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_389)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_390)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2144)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2145)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2146)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2147)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2148)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2149)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2150)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2151)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2152)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2153)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2154)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2155)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2156)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2157)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -6491,22 +6495,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_389)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_390)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2144)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2145)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2146)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2147)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2148)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2149)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2150)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2151)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2152)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2153)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2154)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2155)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2156)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2157)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -6538,7 +6542,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_41[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[3U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_7)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_603)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_604)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[3U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[3U] 
                                                   >> 0x10U))
@@ -6566,21 +6570,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5722426) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_390)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_391)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2158)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2159)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2160)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2161)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2162)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2163)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2164)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2165)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2166)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2167)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2168)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2169)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2170)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2171)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -6592,22 +6596,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_390)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_391)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2158)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2159)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2160)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2161)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2162)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2163)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2164)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2165)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2166)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2167)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2168)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2169)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2170)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2171)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -6643,7 +6647,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[3U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_6)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_596)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_597)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[3U]
                                                      : 
@@ -6676,21 +6680,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5723293) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_391)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_392)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2172)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2173)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2174)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2175)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2176)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2177)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2178)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2179)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2180)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2181)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2182)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2183)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2184)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2185)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -6702,22 +6706,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_391)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_392)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2172)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2173)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2174)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2175)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2176)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2177)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2178)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2179)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2180)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2181)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2182)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2183)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2184)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2185)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -6749,7 +6753,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_42[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[2U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_5)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_699)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_700)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[2U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[2U] 
                                                   >> 0x10U))
@@ -6777,21 +6781,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5724160) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_392)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_393)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2186)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2187)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2188)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2189)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2190)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2191)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2192)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2193)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2194)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2195)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2196)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2197)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2198)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2199)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -6803,22 +6807,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_392)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_393)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2186)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2187)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2188)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2189)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2190)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2191)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2192)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2193)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2194)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2195)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2196)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2197)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2198)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2199)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -6854,7 +6858,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[2U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_4)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_692)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_693)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[2U]
                                                      : 
@@ -6887,21 +6891,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5725027) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_393)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_394)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2200)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2201)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2202)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2203)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2204)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2205)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2206)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2207)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2208)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2209)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2210)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2211)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2212)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2213)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -6913,22 +6917,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_393)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_394)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2200)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2201)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2202)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2203)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2204)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2205)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2206)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2207)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2208)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2209)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2210)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2211)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2212)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2213)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -6960,7 +6964,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_43[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[1U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_3)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_685)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_686)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[1U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[1U] 
                                                   >> 0x10U))
@@ -6988,21 +6992,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5725894) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_394)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_395)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2214)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2215)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2216)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2217)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2218)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2219)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2220)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2221)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2222)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2223)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2224)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2225)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2226)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2227)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -7014,22 +7018,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_394)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_395)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2214)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2215)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2216)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2217)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2218)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2219)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2220)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2221)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2222)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2223)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2224)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2225)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2226)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2227)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -7065,7 +7069,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[1U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_2)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_678)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_679)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[1U]
                                                      : 
@@ -7098,21 +7102,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5726761) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_395)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_396)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2228)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2229)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2230)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2231)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2232)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2233)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2234)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2235)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2236)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2237)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2238)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2239)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2240)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2241)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -7124,22 +7128,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_395)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_396)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2228)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2229)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2230)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2231)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2232)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2233)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2234)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2235)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2236)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2237)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2238)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2239)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2240)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2241)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -7171,7 +7175,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_44[0U] = ((((IData)((0U == (0x7fff0000U 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[0U])))
                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_1)
-                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_672)
+                             : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_673)
                                  ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[0U] 
                                      << 0x10U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[0U] 
                                                   >> 0x10U))
@@ -7199,21 +7203,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                  >> 1U)))
                                         : ((0x7f80U 
                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5727628) 
-                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_396)
+                                                - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_397)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2242)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2243)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2244)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2245)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2246)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2247)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2248)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2249)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2250)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2251)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2252)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2253)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2254)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2255)
                                                            ? 8U
                                                            : 7U)
                                                           : 6U)
@@ -7225,22 +7229,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                     : 0U)) 
                                                << 7U)) 
                                            | (0x7fU 
-                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_396)
+                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_397)
                                                   ? 
                                                  (0x1feU 
-                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2242)
+                                                  & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2243)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2244)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2245)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2246)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2247)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2248)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2249)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2250)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2251)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2252)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2253)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2254)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2255)
                                                              ? 0U
                                                              : 
                                                             (0xc0U 
@@ -7276,7 +7280,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[0U])))
                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_0)
                                                     : 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_617)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_618)
                                                      ? 
                                                     vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[0U]
                                                      : 
@@ -7309,21 +7313,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                         ((0x7f80U 
                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5728495) 
                                                               - 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_397)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_398)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2256)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2257)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2258)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2259)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2260)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2261)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2262)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2263)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2264)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2265)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2266)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2267)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2268)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2269)
                                                                        ? 8U
                                                                        : 7U)
                                                                       : 6U)
@@ -7335,22 +7339,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 : 0U)) 
                                                              << 7U)) 
                                                          | (0x7fU 
-                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_397)
+                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_398)
                                                                 ? 
                                                                (0x1feU 
-                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2256)
+                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2257)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2258)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2259)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2260)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2261)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2262)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2263)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2264)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2265)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2266)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2267)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2268)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2269)
                                                                            ? 0U
                                                                            : 
                                                                           (0xc0U 
@@ -7399,7 +7403,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
             __Vtemp_45[7U] = VmkTb_COP__ConstPool__CONST_h9e67c271_0[7U];
         }
         bufp->chgWData(oldp+4008,(__Vtemp_45),256);
-        bufp->chgBit(oldp+4016,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_348) 
+        bufp->chgBit(oldp+4016,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_349) 
                                  | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_sa1_complete))));
         bufp->chgWData(oldp+4017,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_final_output),12288);
         VL_CONCAT_WWI(12192,12160,32, __Vtemp_46, vlSelfRef.mkTb_COP__DOT__cop__DOT__IF_sa2_output_row_idx_556_EQ_47_0445_THEN_sa2___05FETC___05F_d12355, 
@@ -7485,8 +7489,8 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         bufp->chgBit(oldp+4800,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_state__024EN));
         bufp->chgBit(oldp+4801,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_weight_batch_ready));
         bufp->chgBit(oldp+4802,(((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa2_load_weights_from_bram)) 
-                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_354))));
-        bufp->chgBit(oldp+4803,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_352) 
+                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_355))));
+        bufp->chgBit(oldp+4803,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_353) 
                                  | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa2_load_weights_from_bram) 
                                     | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__readCounter__024EN)))));
         bufp->chgBit(oldp+4804,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_weight_batch_requested));
@@ -7498,7 +7502,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         bufp->chgCData(oldp+4808,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_weight_matrix_idx),4);
         bufp->chgBit(oldp+4809,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_weights_ready));
         bufp->chgBit(oldp+4810,(((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_sa1_complete)) 
-                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_354))));
+                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_355))));
         bufp->chgBit(oldp+4811,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_input_chunk_idx__024EN) 
                                  | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa2_load_weights_from_bram))));
         bufp->chgBit(oldp+4812,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa_r_ready));
@@ -7506,7 +7510,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         bufp->chgWData(oldp+4814,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa_result_k),12288);
         bufp->chgBit(oldp+5198,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa_result_k__024EN));
         bufp->chgWData(oldp+5199,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa_result_o),12288);
-        bufp->chgBit(oldp+5583,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_state__024write_1___05FPSEL_2) 
+        bufp->chgBit(oldp+5583,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_sa2_complete) 
                                  & (3U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__current_sa_operation)))));
         bufp->chgWData(oldp+5584,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa_result_r),12288);
         bufp->chgWData(oldp+5968,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa_result_v),12288);
@@ -9965,94 +9969,94 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                      & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_started)) 
                                         & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_weights_ready))))));
         bufp->chgBit(oldp+21960,(vlSelfRef.mkTb_COP__DOT__cop__DOT__CAN_FIRE_RL_tsc_cts_collect_e1_e2));
-        bufp->chgBit(oldp+21961,(vlSelfRef.mkTb_COP__DOT__cop__DOT__CAN_FIRE_RL_tsc_wkv_collect_results));
-        bufp->chgBit(oldp+21962,(((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif_done)) 
+        bufp->chgBit(oldp+21961,(((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif_done)) 
                                   & (0x1bU == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_state)))));
-        bufp->chgBit(oldp+21963,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_load_k0));
-        bufp->chgBit(oldp+21964,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_load_r0));
-        bufp->chgBit(oldp+21965,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_load_v0));
-        bufp->chgBit(oldp+21966,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_one_last_rule));
-        bufp->chgBit(oldp+21967,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_k0));
-        bufp->chgBit(oldp+21968,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_k1));
-        bufp->chgBit(oldp+21969,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_k2));
-        bufp->chgBit(oldp+21970,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_r0));
-        bufp->chgBit(oldp+21971,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_r1));
-        bufp->chgBit(oldp+21972,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_r2));
-        bufp->chgBit(oldp+21973,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_v0));
-        bufp->chgBit(oldp+21974,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_v1));
-        bufp->chgBit(oldp+21975,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_v2));
-        bufp->chgBit(oldp+21976,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_readback_issue_read));
-        bufp->chgBit(oldp+21977,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa1_collect_result));
-        bufp->chgBit(oldp+21978,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa1_load_activations));
-        bufp->chgBit(oldp+21979,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa1_load_weights_from_bram));
-        bufp->chgBit(oldp+21980,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa1_prefetch_weights_overlap));
-        bufp->chgBit(oldp+21981,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa1_prefetch_weights_wait));
-        bufp->chgBit(oldp+21982,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa2_collect_result));
-        bufp->chgBit(oldp+21983,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa2_load_activations));
-        bufp->chgBit(oldp+21984,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa2_load_weights_from_bram));
-        bufp->chgBit(oldp+21985,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa2_prefetch_weights_overlap));
-        bufp->chgBit(oldp+21986,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__024RDY_start) 
+        bufp->chgBit(oldp+21962,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_load_k0));
+        bufp->chgBit(oldp+21963,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_load_r0));
+        bufp->chgBit(oldp+21964,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_load_v0));
+        bufp->chgBit(oldp+21965,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_one_last_rule));
+        bufp->chgBit(oldp+21966,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_k0));
+        bufp->chgBit(oldp+21967,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_k1));
+        bufp->chgBit(oldp+21968,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_k2));
+        bufp->chgBit(oldp+21969,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_r0));
+        bufp->chgBit(oldp+21970,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_r1));
+        bufp->chgBit(oldp+21971,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_r2));
+        bufp->chgBit(oldp+21972,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_v0));
+        bufp->chgBit(oldp+21973,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_v1));
+        bufp->chgBit(oldp+21974,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_process_v2));
+        bufp->chgBit(oldp+21975,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_readback_issue_read));
+        bufp->chgBit(oldp+21976,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa1_collect_result));
+        bufp->chgBit(oldp+21977,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa1_load_activations));
+        bufp->chgBit(oldp+21978,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa1_load_weights_from_bram));
+        bufp->chgBit(oldp+21979,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa1_prefetch_weights_overlap));
+        bufp->chgBit(oldp+21980,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa1_prefetch_weights_wait));
+        bufp->chgBit(oldp+21981,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa2_collect_result));
+        bufp->chgBit(oldp+21982,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa2_load_activations));
+        bufp->chgBit(oldp+21983,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa2_load_weights_from_bram));
+        bufp->chgBit(oldp+21984,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_sa2_prefetch_weights_overlap));
+        bufp->chgBit(oldp+21985,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__024RDY_start) 
                                   & ((1U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_state)) 
                                      & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_weights_ready)) 
                                         & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_weight_batch_requested)))))));
-        bufp->chgBit(oldp+21987,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_compute_rwkv0));
-        bufp->chgBit(oldp+21988,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_compute_rwkv1));
-        bufp->chgBit(oldp+21989,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_compute_rwkv2));
-        bufp->chgBit(oldp+21990,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_a0));
-        bufp->chgBit(oldp+21991,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_a1));
-        bufp->chgBit(oldp+21992,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_a2));
-        bufp->chgBit(oldp+21993,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_b0));
-        bufp->chgBit(oldp+21994,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_b1));
-        bufp->chgBit(oldp+21995,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_b2));
-        bufp->chgBit(oldp+21996,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_ww));
-        bufp->chgBit(oldp+21997,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_ww1));
-        bufp->chgBit(oldp+21998,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_ww2));
-        bufp->chgBit(oldp+21999,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_feed_mse));
-        bufp->chgBit(oldp+22000,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_a0));
-        bufp->chgBit(oldp+22001,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_a1));
-        bufp->chgBit(oldp+22002,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_b0));
-        bufp->chgBit(oldp+22003,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_b1));
-        bufp->chgBit(oldp+22004,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_ww0));
-        bufp->chgBit(oldp+22005,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_ww1));
-        bufp->chgBit(oldp+22006,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_load_data));
-        bufp->chgBit(oldp+22007,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s20));
-        bufp->chgBit(oldp+22008,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s21));
-        bufp->chgBit(oldp+22009,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s22));
-        bufp->chgBit(oldp+22010,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s30));
-        bufp->chgBit(oldp+22011,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s31));
-        bufp->chgBit(oldp+22012,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s32));
-        bufp->chgBit(oldp+22013,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_ww0));
-        bufp->chgBit(oldp+22014,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_ww1));
-        bufp->chgBit(oldp+22015,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_ww2));
-        bufp->chgBit(oldp+22016,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_feed_mse));
-        bufp->chgBit(oldp+22017,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_mse_done));
-        bufp->chgBit(oldp+22018,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_s20));
-        bufp->chgBit(oldp+22019,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_s21));
-        bufp->chgBit(oldp+22020,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_s30));
-        bufp->chgBit(oldp+22021,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_s31));
-        bufp->chgBit(oldp+22022,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_ww0));
-        bufp->chgBit(oldp+22023,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_ww1));
-        bufp->chgBit(oldp+22024,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_wait_data_load));
-        bufp->chgBit(oldp+22025,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_wait_rwkv0));
-        bufp->chgBit(oldp+22026,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_wait_rwkv1));
-        bufp->chgBit(oldp+22027,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_wait_vv));
-        bufp->chgBit(oldp+22028,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k0_done));
-        bufp->chgBit(oldp+22029,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k0_load));
-        bufp->chgBit(oldp+22030,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k0_load_done));
-        bufp->chgBit(oldp+22031,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k1_done));
-        bufp->chgBit(oldp+22032,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k1_load));
-        bufp->chgBit(oldp+22033,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k1_load_done));
-        bufp->chgBit(oldp+22034,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k2_load));
-        bufp->chgBit(oldp+22035,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k2_load_done));
-        bufp->chgBit(oldp+22036,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r0_done));
-        bufp->chgBit(oldp+22037,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r0_load));
-        bufp->chgBit(oldp+22038,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r0_load_done));
-        bufp->chgBit(oldp+22039,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r1_done));
-        bufp->chgBit(oldp+22040,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r1_load));
-        bufp->chgBit(oldp+22041,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r1_load_done));
-        bufp->chgBit(oldp+22042,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r2_load));
-        bufp->chgBit(oldp+22043,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r2_load_done));
-        bufp->chgBit(oldp+22044,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_sa1_complete));
+        bufp->chgBit(oldp+21986,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_compute_rwkv0));
+        bufp->chgBit(oldp+21987,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_compute_rwkv1));
+        bufp->chgBit(oldp+21988,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_compute_rwkv2));
+        bufp->chgBit(oldp+21989,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_a0));
+        bufp->chgBit(oldp+21990,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_a1));
+        bufp->chgBit(oldp+21991,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_a2));
+        bufp->chgBit(oldp+21992,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_b0));
+        bufp->chgBit(oldp+21993,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_b1));
+        bufp->chgBit(oldp+21994,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_b2));
+        bufp->chgBit(oldp+21995,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_ww));
+        bufp->chgBit(oldp+21996,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_ww1));
+        bufp->chgBit(oldp+21997,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_compute_ww2));
+        bufp->chgBit(oldp+21998,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_feed_mse));
+        bufp->chgBit(oldp+21999,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_a0));
+        bufp->chgBit(oldp+22000,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_a1));
+        bufp->chgBit(oldp+22001,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_b0));
+        bufp->chgBit(oldp+22002,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_b1));
+        bufp->chgBit(oldp+22003,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_ww0));
+        bufp->chgBit(oldp+22004,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_cts_wait_ww1));
+        bufp->chgBit(oldp+22005,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_load_data));
+        bufp->chgBit(oldp+22006,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s20));
+        bufp->chgBit(oldp+22007,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s21));
+        bufp->chgBit(oldp+22008,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s22));
+        bufp->chgBit(oldp+22009,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s30));
+        bufp->chgBit(oldp+22010,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s31));
+        bufp->chgBit(oldp+22011,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_s32));
+        bufp->chgBit(oldp+22012,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_ww0));
+        bufp->chgBit(oldp+22013,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_ww1));
+        bufp->chgBit(oldp+22014,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_compute_ww2));
+        bufp->chgBit(oldp+22015,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_feed_mse));
+        bufp->chgBit(oldp+22016,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_mse_done));
+        bufp->chgBit(oldp+22017,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_s20));
+        bufp->chgBit(oldp+22018,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_s21));
+        bufp->chgBit(oldp+22019,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_s30));
+        bufp->chgBit(oldp+22020,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_s31));
+        bufp->chgBit(oldp+22021,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_ww0));
+        bufp->chgBit(oldp+22022,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_nts_wait_ww1));
+        bufp->chgBit(oldp+22023,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_wait_data_load));
+        bufp->chgBit(oldp+22024,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_wait_rwkv0));
+        bufp->chgBit(oldp+22025,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_wait_rwkv1));
+        bufp->chgBit(oldp+22026,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_tsc_wait_vv));
+        bufp->chgBit(oldp+22027,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k0_done));
+        bufp->chgBit(oldp+22028,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k0_load));
+        bufp->chgBit(oldp+22029,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k0_load_done));
+        bufp->chgBit(oldp+22030,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k1_done));
+        bufp->chgBit(oldp+22031,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k1_load));
+        bufp->chgBit(oldp+22032,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k1_load_done));
+        bufp->chgBit(oldp+22033,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k2_load));
+        bufp->chgBit(oldp+22034,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_k2_load_done));
+        bufp->chgBit(oldp+22035,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r0_done));
+        bufp->chgBit(oldp+22036,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r0_load));
+        bufp->chgBit(oldp+22037,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r0_load_done));
+        bufp->chgBit(oldp+22038,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r1_done));
+        bufp->chgBit(oldp+22039,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r1_load));
+        bufp->chgBit(oldp+22040,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r1_load_done));
+        bufp->chgBit(oldp+22041,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r2_load));
+        bufp->chgBit(oldp+22042,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_r2_load_done));
+        bufp->chgBit(oldp+22043,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_sa1_complete));
+        bufp->chgBit(oldp+22044,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_sa2_complete));
         bufp->chgBit(oldp+22045,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_v0_done));
         bufp->chgBit(oldp+22046,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_v0_load));
         bufp->chgBit(oldp+22047,(vlSelfRef.mkTb_COP__DOT__cop__DOT__WILL_FIRE_RL_wait_v0_load_done));
@@ -10328,7 +10332,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_192[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[5U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_11)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_637)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_638)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[5U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[5U] 
@@ -10358,21 +10362,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5578828) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_371)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1878)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1879)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1880)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1881)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1882)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1883)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1884)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1885)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1886)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1887)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1888)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1889)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1890)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1891)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -10384,22 +10388,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_371)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1878)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1879)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1880)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1881)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1882)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1883)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1884)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1885)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1886)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1887)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1888)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1889)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1890)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1891)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -10434,7 +10438,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[5U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_10)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_630)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_631)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[5U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator_378_BIT_175_019_EQ_sa_get_resu_ETC___05F_d6021)
@@ -10465,21 +10469,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5579695) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_371)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_372)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1892)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1893)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1894)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1895)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1896)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1897)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1898)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1899)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1900)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1901)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1902)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1903)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1904)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1905)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -10491,22 +10495,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_371)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_372)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1892)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1893)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1894)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1895)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1896)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1897)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1898)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1899)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1900)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1901)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1902)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1903)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1904)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1905)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -10543,7 +10547,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                  & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U])))
                                                         ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_15)
                                                         : 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_665)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_666)
                                                          ? 
                                                         ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U] 
                                                           << 0x10U) 
@@ -10579,21 +10583,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                             ((0x7f80U 
                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5575360) 
                                                                   - 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_366)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1822)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1823)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1824)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1825)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1826)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1827)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1828)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1829)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1830)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1831)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1832)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1833)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1834)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1835)
                                                                            ? 8U
                                                                            : 7U)
                                                                           : 6U)
@@ -10605,22 +10609,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                     : 0U)) 
                                                                  << 7U)) 
                                                              | (0x7fU 
-                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_366)
+                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
                                                                     ? 
                                                                    (0x1feU 
-                                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1822)
+                                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1823)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1824)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1825)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1826)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1827)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1828)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1829)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1830)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1831)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1832)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1833)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1834)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1835)
                                                                                ? 0U
                                                                                : 
                                                                               (0xc0U 
@@ -10658,7 +10662,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                      & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U])))
                                                             ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_14)
                                                             : 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_658)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_659)
                                                              ? 
                                                             vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U]
                                                              : 
@@ -10691,21 +10695,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 ((0x7f80U 
                                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5576227) 
                                                                       - 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1836)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1837)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1838)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1839)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1840)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1841)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1842)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1843)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1844)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1845)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1846)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1847)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1848)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1849)
                                                                                ? 8U
                                                                                : 7U)
                                                                               : 6U)
@@ -10717,22 +10721,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                         : 0U)) 
                                                                      << 7U)) 
                                                                  | (0x7fU 
-                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
+                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
                                                                         ? 
                                                                        (0x1feU 
-                                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1836)
+                                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1837)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1838)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1839)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1840)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1841)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1842)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1843)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1844)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1845)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1846)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1847)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1848)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1849)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -10769,7 +10773,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U])))
                                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_13)
                                                                     : 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_651)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_652)
                                                                      ? 
                                                                     ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U] 
                                                                       << 0x10U) 
@@ -10805,21 +10809,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                         ((0x7f80U 
                                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5577094) 
                                                                               - 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1850)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1851)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1852)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1853)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1854)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1855)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1856)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1857)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1858)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1859)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1860)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1861)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1862)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1863)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -10831,22 +10835,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 : 0U)) 
                                                                              << 7U)) 
                                                                          | (0x7fU 
-                                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
+                                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
                                                                                 ? 
                                                                                (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1850)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1851)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1852)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1853)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1854)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1855)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1856)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1857)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1858)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1859)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1860)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1861)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1862)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1863)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -10884,7 +10888,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U])))
                                                                         ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_12)
                                                                         : 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_644)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_645)
                                                                          ? 
                                                                         vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U]
                                                                          : 
@@ -10917,21 +10921,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                             ((0x7f80U 
                                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5577961) 
                                                                                 - 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1864)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1865)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1866)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1867)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1868)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1869)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1870)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1871)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1872)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1873)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1874)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1875)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1876)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1877)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -10943,22 +10947,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                  : 0U)) 
                                                                                 << 7U)) 
                                                                              | (0x7fU 
-                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
+                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
                                                                                  ? 
                                                                                 (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1864)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1865)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1866)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1867)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1868)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1869)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1870)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1871)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1872)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1873)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1874)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1875)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1876)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1877)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -10995,7 +10999,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                   & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U])))
                                                          ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_15)
                                                          : 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_665)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_666)
                                                           ? 
                                                          ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U] 
                                                            << 0x10U) 
@@ -11031,21 +11035,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              ((0x7f80U 
                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5575360) 
                                                                    - 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_366)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1822)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1823)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1824)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1825)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1826)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1827)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1828)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1829)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1830)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1831)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1832)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1833)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1834)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1835)
                                                                             ? 8U
                                                                             : 7U)
                                                                            : 6U)
@@ -11057,22 +11061,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                      : 0U)) 
                                                                   << 7U)) 
                                                               | (0x7fU 
-                                                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_366)
+                                                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
                                                                      ? 
                                                                     (0x1feU 
-                                                                     & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1822)
+                                                                     & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1823)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1824)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1825)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1826)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1827)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1828)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1829)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1830)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1831)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1832)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1833)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1834)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1835)
                                                                                 ? 0U
                                                                                 : 
                                                                                (0xc0U 
@@ -11110,7 +11114,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                       & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U])))
                                                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_14)
                                                              : 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_658)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_659)
                                                               ? 
                                                              vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[7U]
                                                               : 
@@ -11143,21 +11147,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                  ((0x7f80U 
                                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5576227) 
                                                                        - 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1836)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1837)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1838)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1839)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1840)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1841)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1842)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1843)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1844)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1845)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1846)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1847)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1848)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1849)
                                                                                 ? 8U
                                                                                 : 7U)
                                                                                : 6U)
@@ -11169,22 +11173,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                          : 0U)) 
                                                                       << 7U)) 
                                                                   | (0x7fU 
-                                                                     & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_367)
+                                                                     & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
                                                                          ? 
                                                                         (0x1feU 
-                                                                         & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1836)
+                                                                         & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1837)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1838)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1839)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1840)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1841)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1842)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1843)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1844)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1845)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1846)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1847)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1848)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1849)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -11221,7 +11225,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                               & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U])))
                                                                      ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_13)
                                                                      : 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_651)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_652)
                                                                       ? 
                                                                      ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U] 
                                                                        << 0x10U) 
@@ -11257,21 +11261,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                          ((0x7f80U 
                                                                            & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5577094) 
                                                                                - 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1850)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1851)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1852)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1853)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1854)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1855)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1856)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1857)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1858)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1859)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1860)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1861)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1862)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1863)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -11283,22 +11287,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                  : 0U)) 
                                                                               << 7U)) 
                                                                           | (0x7fU 
-                                                                             & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_368)
+                                                                             & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
                                                                                  ? 
                                                                                 (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1850)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1851)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1852)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1853)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1854)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1855)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1856)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1857)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1858)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1859)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1860)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1861)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1862)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1863)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -11336,7 +11340,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U])))
                                                                          ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_12)
                                                                          : 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_644)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_645)
                                                                           ? 
                                                                          vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[6U]
                                                                           : 
@@ -11369,21 +11373,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                              ((0x7f80U 
                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5577961) 
                                                                                 - 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1864)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1865)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1866)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1867)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1868)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1869)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1870)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1871)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1872)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1873)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1874)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1875)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1876)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1877)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -11395,22 +11399,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                  : 0U)) 
                                                                                 << 7U)) 
                                                                               | (0x7fU 
-                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_369)
+                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_370)
                                                                                  ? 
                                                                                 (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1864)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1865)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1866)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1867)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1868)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1869)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1870)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1871)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1872)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1873)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1874)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1875)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1876)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1877)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -11443,7 +11447,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_193[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[4U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_9)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_623)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_624)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[4U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[4U] 
@@ -11473,21 +11477,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5580562) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_372)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_373)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1906)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1907)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1908)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1909)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1910)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1911)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1912)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1913)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1914)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1915)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1916)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1917)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1918)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1919)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -11499,22 +11503,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_372)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_373)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1906)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1907)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1908)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1909)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1910)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1911)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1912)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1913)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1914)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1915)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1916)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1917)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1918)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1919)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -11549,7 +11553,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[4U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_8)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_610)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_611)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[4U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator_378_BIT_143_270_EQ_sa_get_resu_ETC___05F_d6272)
@@ -11580,21 +11584,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5581429) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_373)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_374)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1920)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1921)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1922)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1923)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1924)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1925)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1926)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1927)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1928)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1929)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1930)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1931)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1932)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1933)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -11606,22 +11610,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_373)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_374)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1920)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1921)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1922)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1923)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1924)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1925)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1926)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1927)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1928)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1929)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1930)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1931)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1932)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1933)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -11653,7 +11657,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_194[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[3U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_7)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_603)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_604)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[3U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[3U] 
@@ -11683,21 +11687,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5582296) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_374)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_375)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1934)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1935)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1936)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1937)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1938)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1939)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1940)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1941)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1942)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1943)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1944)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1945)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1946)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1947)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -11709,22 +11713,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_374)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_375)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1934)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1935)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1936)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1937)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1938)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1939)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1940)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1941)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1942)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1943)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1944)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1945)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1946)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1947)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -11759,7 +11763,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[3U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_6)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_596)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_597)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[3U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator_378_BIT_111_521_EQ_sa_get_resu_ETC___05F_d6523)
@@ -11790,21 +11794,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5583163) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_375)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_376)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1948)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1949)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1950)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1951)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1952)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1953)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1954)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1955)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1956)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1957)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1958)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1959)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1960)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1961)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -11816,22 +11820,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_375)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_376)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1948)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1949)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1950)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1951)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1952)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1953)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1954)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1955)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1956)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1957)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1958)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1959)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1960)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1961)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -11863,7 +11867,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_195[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[2U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_5)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_699)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_700)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[2U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[2U] 
@@ -11893,21 +11897,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5584030) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_376)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_377)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1962)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1963)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1964)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1965)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1966)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1967)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1968)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1969)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1970)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1971)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1972)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1973)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1974)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1975)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -11919,22 +11923,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_376)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_377)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1962)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1963)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1964)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1965)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1966)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1967)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1968)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1969)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1970)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1971)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1972)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1973)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1974)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1975)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -11969,7 +11973,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[2U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_4)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_692)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_693)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[2U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator_378_BIT_79_772_EQ_sa_get_resul_ETC___05F_d6774)
@@ -12000,21 +12004,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5584897) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_377)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_378)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1976)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1977)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1978)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1979)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1980)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1981)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1982)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1983)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1984)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1985)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1986)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1987)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1988)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1989)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -12026,22 +12030,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_377)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_378)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1976)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1977)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1978)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1979)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1980)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1981)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1982)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1983)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1984)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1985)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1986)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1987)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1988)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1989)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -12073,7 +12077,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_196[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[1U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_3)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_685)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_686)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[1U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[1U] 
@@ -12103,21 +12107,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5585764) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_378)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_379)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1990)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1991)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1992)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1993)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1994)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1995)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1996)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1997)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1998)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1999)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2000)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2001)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2002)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2003)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -12129,22 +12133,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_378)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_379)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1990)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1991)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1992)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1993)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1994)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1995)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1996)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1997)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1998)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_1999)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2000)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2001)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2002)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2003)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -12179,7 +12183,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[1U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_2)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_678)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_679)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[1U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator_378_BIT_47_023_EQ_sa_get_resul_ETC___05F_d7025)
@@ -12210,21 +12214,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5586631) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_379)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_380)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2004)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2005)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2006)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2007)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2008)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2009)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2010)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2011)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2012)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2013)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2014)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2015)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2016)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2017)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -12236,22 +12240,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_379)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_380)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2004)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2005)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2006)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2007)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2008)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2009)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2010)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2011)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2012)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2013)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2014)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2015)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2016)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2017)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -12283,7 +12287,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_197[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[0U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_1)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_672)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_673)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[0U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[0U] 
@@ -12313,21 +12317,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5587498) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_380)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_381)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2018)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2019)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2020)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2021)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2022)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2023)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2024)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2025)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2026)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2027)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2028)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2029)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2030)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2031)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -12339,22 +12343,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_380)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_381)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2018)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2019)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2020)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2021)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2022)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2023)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2024)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2025)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2026)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2027)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2028)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2029)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2030)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2031)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -12389,7 +12393,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[0U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_0)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_617)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_618)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator[0U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa1_accumulator_378_BIT_15_274_EQ_sa_get_resul_ETC___05F_d7276)
@@ -12420,21 +12424,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5588365) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_381)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2032)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2033)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2034)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2035)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2036)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2037)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2038)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2039)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2040)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2041)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2042)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2043)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2044)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2045)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -12446,22 +12450,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_381)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2032)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2033)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2034)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2035)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2036)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2037)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2038)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2039)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2040)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2041)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2042)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2043)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2044)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2045)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -12501,7 +12505,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_198[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[5U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_11)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_637)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_638)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[5U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[5U] 
@@ -12531,21 +12535,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5718958) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_387)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2102)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2103)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2104)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2105)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2106)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2107)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2108)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2109)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2110)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2111)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2112)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2113)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2114)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2115)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -12557,22 +12561,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_387)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2102)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2103)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2104)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2105)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2106)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2107)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2108)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2109)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2110)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2111)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2112)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2113)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2114)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2115)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -12607,7 +12611,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[5U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_10)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_630)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_631)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[5U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator_559_BIT_175_153_EQ_sa_get_resu_ETC___05F_d9154)
@@ -12638,21 +12642,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5719825) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_387)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_388)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2116)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2117)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2118)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2119)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2120)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2121)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2122)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2123)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2124)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2125)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2126)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2127)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2128)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2129)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -12664,22 +12668,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_387)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_388)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2116)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2117)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2118)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2119)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2120)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2121)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2122)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2123)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2124)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2125)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2126)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2127)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2128)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2129)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -12716,7 +12720,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                  & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U])))
                                                         ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_15)
                                                         : 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_665)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_666)
                                                          ? 
                                                         ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U] 
                                                           << 0x10U) 
@@ -12752,21 +12756,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                             ((0x7f80U 
                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5715490) 
                                                                   - 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2046)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2047)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2048)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2049)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2050)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2051)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2052)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2053)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2054)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2055)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2056)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2057)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2058)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2059)
                                                                            ? 8U
                                                                            : 7U)
                                                                           : 6U)
@@ -12778,22 +12782,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                     : 0U)) 
                                                                  << 7U)) 
                                                              | (0x7fU 
-                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
+                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
                                                                     ? 
                                                                    (0x1feU 
-                                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2046)
+                                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2047)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2048)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2049)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2050)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2051)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2052)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2053)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2054)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2055)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2056)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2057)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2058)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2059)
                                                                                ? 0U
                                                                                : 
                                                                               (0xc0U 
@@ -12831,7 +12835,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                      & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U])))
                                                             ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_14)
                                                             : 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_658)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_659)
                                                              ? 
                                                             vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U]
                                                              : 
@@ -12864,21 +12868,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                 ((0x7f80U 
                                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5716357) 
                                                                       - 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2060)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2061)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2062)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2063)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2064)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2065)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2066)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2067)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2068)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2069)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2070)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2071)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2072)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2073)
                                                                                ? 8U
                                                                                : 7U)
                                                                               : 6U)
@@ -12890,22 +12894,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                         : 0U)) 
                                                                      << 7U)) 
                                                                  | (0x7fU 
-                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
+                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
                                                                         ? 
                                                                        (0x1feU 
-                                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2060)
+                                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2061)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2062)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2063)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2064)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2065)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2066)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2067)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2068)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2069)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2070)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2071)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2072)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2073)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -12942,7 +12946,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U])))
                                                                     ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_13)
                                                                     : 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_651)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_652)
                                                                      ? 
                                                                     ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U] 
                                                                       << 0x10U) 
@@ -12978,21 +12982,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                         ((0x7f80U 
                                                                           & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5717224) 
                                                                               - 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2074)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2075)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2076)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2077)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2078)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2079)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2080)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2081)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2082)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2083)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2084)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2085)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2086)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2087)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -13004,22 +13008,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 : 0U)) 
                                                                              << 7U)) 
                                                                          | (0x7fU 
-                                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
+                                                                            & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
                                                                                 ? 
                                                                                (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2074)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2075)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2076)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2077)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2078)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2079)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2080)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2081)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2082)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2083)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2084)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2085)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2086)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2087)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -13057,7 +13061,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U])))
                                                                         ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_12)
                                                                         : 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_644)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_645)
                                                                          ? 
                                                                         vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U]
                                                                          : 
@@ -13090,21 +13094,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                             ((0x7f80U 
                                                                               & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5718091) 
                                                                                 - 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2088)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2089)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2090)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2091)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2092)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2093)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2094)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2095)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2096)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2097)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2098)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2099)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2100)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2101)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -13116,22 +13120,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                  : 0U)) 
                                                                                 << 7U)) 
                                                                              | (0x7fU 
-                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
+                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
                                                                                  ? 
                                                                                 (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2088)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2089)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2090)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2091)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2092)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2093)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2094)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2095)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2096)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2097)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2098)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2099)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2100)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2101)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -13168,7 +13172,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                   & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U])))
                                                          ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_15)
                                                          : 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_665)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_666)
                                                           ? 
                                                          ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U] 
                                                            << 0x10U) 
@@ -13204,21 +13208,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              ((0x7f80U 
                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5715490) 
                                                                    - 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2046)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2047)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2048)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2049)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2050)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2051)
                                                                         ? 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2052)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2053)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2054)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2055)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2056)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2057)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2058)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2059)
                                                                             ? 8U
                                                                             : 7U)
                                                                            : 6U)
@@ -13230,22 +13234,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                      : 0U)) 
                                                                   << 7U)) 
                                                               | (0x7fU 
-                                                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_382)
+                                                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
                                                                      ? 
                                                                     (0x1feU 
-                                                                     & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2046)
+                                                                     & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2047)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2048)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2049)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2050)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2051)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2052)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2053)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2054)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2055)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2056)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2057)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2058)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2059)
                                                                                 ? 0U
                                                                                 : 
                                                                                (0xc0U 
@@ -13283,7 +13287,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                       & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U])))
                                                              ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_14)
                                                              : 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_658)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_659)
                                                               ? 
                                                              vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[7U]
                                                               : 
@@ -13316,21 +13320,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                  ((0x7f80U 
                                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5716357) 
                                                                        - 
-                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
+                                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
                                                                          ? 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2060)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2061)
                                                                           ? 
-                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2062)
+                                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2063)
                                                                            ? 
-                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2064)
+                                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2065)
                                                                             ? 
-                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2066)
+                                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2067)
                                                                              ? 
-                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2068)
+                                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2069)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2070)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2071)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2072)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2073)
                                                                                 ? 8U
                                                                                 : 7U)
                                                                                : 6U)
@@ -13342,22 +13346,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                          : 0U)) 
                                                                       << 7U)) 
                                                                   | (0x7fU 
-                                                                     & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_383)
+                                                                     & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
                                                                          ? 
                                                                         (0x1feU 
-                                                                         & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2060)
+                                                                         & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2061)
                                                                               ? 
-                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2062)
+                                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2063)
                                                                                ? 
-                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2064)
+                                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2065)
                                                                                 ? 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2066)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2067)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2068)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2069)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2070)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2071)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2072)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2073)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -13394,7 +13398,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                               & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U])))
                                                                      ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_13)
                                                                      : 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_651)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_652)
                                                                       ? 
                                                                      ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U] 
                                                                        << 0x10U) 
@@ -13430,21 +13434,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                          ((0x7f80U 
                                                                            & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5717224) 
                                                                                - 
-                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
+                                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2074)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2075)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2076)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2077)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2078)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2079)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2080)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2081)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2082)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2083)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2084)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2085)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2086)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2087)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -13456,22 +13460,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                  : 0U)) 
                                                                               << 7U)) 
                                                                           | (0x7fU 
-                                                                             & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_384)
+                                                                             & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
                                                                                  ? 
                                                                                 (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2074)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2075)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2076)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2077)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2078)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2079)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2080)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2081)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2082)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2083)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2084)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2085)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2086)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2087)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -13509,7 +13513,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                 & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U])))
                                                                          ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_12)
                                                                          : 
-                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_644)
+                                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_645)
                                                                           ? 
                                                                          vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[6U]
                                                                           : 
@@ -13542,21 +13546,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                              ((0x7f80U 
                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5718091) 
                                                                                 - 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2088)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2089)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2090)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2091)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2092)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2093)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2094)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2095)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2096)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2097)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2098)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2099)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2100)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2101)
                                                                                  ? 8U
                                                                                  : 7U)
                                                                                  : 6U)
@@ -13568,22 +13572,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                                                  : 0U)) 
                                                                                 << 7U)) 
                                                                               | (0x7fU 
-                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_385)
+                                                                                & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_386)
                                                                                  ? 
                                                                                 (0x1feU 
-                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2088)
+                                                                                & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2089)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2090)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2091)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2092)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2093)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2094)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2095)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2096)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2097)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2098)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2099)
                                                                                  ? 
-                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2100)
+                                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2101)
                                                                                  ? 0U
                                                                                  : 
                                                                                 (0xc0U 
@@ -13616,7 +13620,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_199[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[4U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_9)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_623)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_624)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[4U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[4U] 
@@ -13646,21 +13650,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5720692) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_388)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_389)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2130)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2131)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2132)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2133)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2134)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2135)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2136)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2137)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2138)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2139)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2140)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2141)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2142)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2143)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -13672,22 +13676,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_388)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_389)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2130)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2131)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2132)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2133)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2134)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2135)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2136)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2137)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2138)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2139)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2140)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2141)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2142)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2143)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -13722,7 +13726,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[4U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_8)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_610)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_611)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[4U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator_559_BIT_143_388_EQ_sa_get_resu_ETC___05F_d9389)
@@ -13753,21 +13757,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5721559) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_389)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_390)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2144)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2145)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2146)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2147)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2148)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2149)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2150)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2151)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2152)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2153)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2154)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2155)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2156)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2157)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -13779,22 +13783,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_389)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_390)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2144)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2145)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2146)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2147)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2148)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2149)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2150)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2151)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2152)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2153)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2154)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2155)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2156)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2157)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -13826,7 +13830,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_200[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[3U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_7)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_603)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_604)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[3U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[3U] 
@@ -13856,21 +13860,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5722426) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_390)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_391)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2158)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2159)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2160)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2161)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2162)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2163)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2164)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2165)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2166)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2167)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2168)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2169)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2170)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2171)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -13882,22 +13886,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_390)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_391)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2158)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2159)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2160)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2161)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2162)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2163)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2164)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2165)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2166)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2167)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2168)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2169)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2170)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2171)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -13932,7 +13936,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[3U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_6)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_596)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_597)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[3U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator_559_BIT_111_623_EQ_sa_get_resu_ETC___05F_d9624)
@@ -13963,21 +13967,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5723293) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_391)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_392)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2172)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2173)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2174)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2175)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2176)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2177)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2178)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2179)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2180)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2181)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2182)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2183)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2184)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2185)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -13989,22 +13993,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_391)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_392)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2172)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2173)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2174)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2175)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2176)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2177)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2178)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2179)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2180)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2181)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2182)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2183)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2184)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2185)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -14036,7 +14040,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_201[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[2U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_5)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_699)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_700)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[2U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[2U] 
@@ -14066,21 +14070,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5724160) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_392)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_393)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2186)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2187)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2188)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2189)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2190)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2191)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2192)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2193)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2194)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2195)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2196)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2197)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2198)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2199)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -14092,22 +14096,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_392)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_393)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2186)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2187)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2188)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2189)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2190)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2191)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2192)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2193)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2194)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2195)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2196)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2197)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2198)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2199)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -14142,7 +14146,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[2U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_4)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_692)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_693)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[2U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator_559_BIT_79_858_EQ_sa_get_resul_ETC___05F_d9859)
@@ -14173,21 +14177,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5725027) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_393)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_394)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2200)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2201)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2202)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2203)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2204)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2205)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2206)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2207)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2208)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2209)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2210)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2211)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2212)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2213)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -14199,22 +14203,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_393)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_394)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2200)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2201)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2202)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2203)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2204)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2205)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2206)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2207)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2208)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2209)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2210)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2211)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2212)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2213)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -14246,7 +14250,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_202[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[1U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_3)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_685)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_686)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[1U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[1U] 
@@ -14276,21 +14280,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5725894) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_394)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_395)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2214)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2215)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2216)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2217)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2218)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2219)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2220)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2221)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2222)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2223)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2224)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2225)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2226)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2227)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -14302,22 +14306,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_394)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_395)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2214)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2215)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2216)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2217)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2218)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2219)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2220)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2221)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2222)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2223)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2224)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2225)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2226)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2227)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -14352,7 +14356,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[1U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_2)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_678)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_679)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[1U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator_559_BIT_47_0093_EQ_sa_get_resu_ETC___05F_d10094)
@@ -14383,21 +14387,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5726761) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_395)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_396)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2228)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2229)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2230)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2231)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2232)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2233)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2234)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2235)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2236)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2237)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2238)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2239)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2240)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2241)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -14409,22 +14413,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_395)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_396)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2228)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2229)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2230)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2231)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2232)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2233)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2234)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2235)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2236)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2237)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2238)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2239)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2240)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2241)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -14456,7 +14460,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         __Vtemp_203[0U] = ((((IData)((0U == (0x7fff0000U 
                                              & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[0U])))
                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_1)
-                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_672)
+                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_673)
                                   ? ((vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[0U] 
                                       << 0x10U) | (
                                                    vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[0U] 
@@ -14486,21 +14490,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                          : ((0x7f80U 
                                              & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5727628) 
                                                  - 
-                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_396)
+                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_397)
                                                    ? 
-                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2242)
+                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2243)
                                                     ? 
-                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2244)
+                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2245)
                                                      ? 
-                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2246)
+                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2247)
                                                       ? 
-                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2248)
+                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2249)
                                                        ? 
-                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2250)
+                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2251)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2252)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2253)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2254)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2255)
                                                           ? 8U
                                                           : 7U)
                                                          : 6U)
@@ -14512,22 +14516,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    : 0U)) 
                                                 << 7U)) 
                                             | (0x7fU 
-                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_396)
+                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_397)
                                                    ? 
                                                   (0x1feU 
-                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2242)
+                                                   & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2243)
                                                         ? 
-                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2244)
+                                                       ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2245)
                                                          ? 
-                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2246)
+                                                        ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2247)
                                                           ? 
-                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2248)
+                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2249)
                                                            ? 
-                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2250)
+                                                          ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2251)
                                                             ? 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2252)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2253)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2254)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2255)
                                                               ? 0U
                                                               : 
                                                              (0xc0U 
@@ -14562,7 +14566,7 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                    (0x7fffU 
                                                     & vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[0U])))
                                            ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__result_matrix_0)
-                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_617)
+                                           : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_618)
                                                ? vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator[0U]
                                                : ((0x8000U 
                                                    & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa2_accumulator_559_BIT_15_0328_EQ_sa_get_resu_ETC___05F_d10329)
@@ -14593,21 +14597,21 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                      ((0x7f80U 
                                                        & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT___theResult___05F_fst_exp___05Fh5728495) 
                                                            - 
-                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_397)
+                                                           ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_398)
                                                              ? 
-                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2256)
+                                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2257)
                                                               ? 
-                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2258)
+                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2259)
                                                                ? 
-                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2260)
+                                                              ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2261)
                                                                 ? 
-                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2262)
+                                                               ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2263)
                                                                  ? 
-                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2264)
+                                                                ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2265)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2266)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2267)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2268)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2269)
                                                                     ? 8U
                                                                     : 7U)
                                                                    : 6U)
@@ -14619,22 +14623,22 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
                                                              : 0U)) 
                                                           << 7U)) 
                                                       | (0x7fU 
-                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_397)
+                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_398)
                                                              ? 
                                                             (0x1feU 
-                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2256)
+                                                             & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2257)
                                                                   ? 
-                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2258)
+                                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2259)
                                                                    ? 
-                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2260)
+                                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2261)
                                                                     ? 
-                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2262)
+                                                                   ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2263)
                                                                      ? 
-                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2264)
+                                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2265)
                                                                       ? 
-                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2266)
+                                                                     ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2267)
                                                                        ? 
-                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2268)
+                                                                      ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT____VdfgRegularize_hc77dd2ce_0_2269)
                                                                         ? 0U
                                                                         : 
                                                                        (0xc0U 
@@ -14742,174 +14746,174 @@ void VmkTb_COP___024root__trace_chg_0_sub_0(VmkTb_COP___024root* vlSelf, Verilat
         bufp->chgBit(oldp+26948,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_sa1_accumulator__024write_1___05FSEL_2));
         bufp->chgBit(oldp+26949,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_sa1_input_chunk_idx__024write_1___05FSEL_4));
         bufp->chgBit(oldp+26950,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_sa2_input_chunk_idx__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26951,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_state__024write_1___05FPSEL_2));
-        bufp->chgBit(oldp+26952,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_tsc_state__024write_1___05FSEL_14));
-        bufp->chgBit(oldp+26953,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_tsc_state__024write_1___05FSEL_18));
-        bufp->chgBit(oldp+26954,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_tsc_state__024write_1___05FSEL_19));
-        bufp->chgBit(oldp+26955,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_tsc_state__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26956,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_tsc_state__024write_1___05FSEL_22));
-        bufp->chgBit(oldp+26957,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_a_255__024write_1___05FPSEL_1));
-        bufp->chgBit(oldp+26958,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FPSEL_1));
-        bufp->chgBit(oldp+26959,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FPSEL_2));
-        bufp->chgBit(oldp+26960,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FPSEL_3));
-        bufp->chgBit(oldp+26961,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26962,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26963,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26964,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_1__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26965,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_1__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26966,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_1__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26967,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_10__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26968,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_10__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26969,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_10__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26970,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_100__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26971,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_100__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26972,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_100__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26973,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_101__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26974,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_101__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26975,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_101__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26976,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_102__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26977,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_102__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26978,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_102__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26979,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_103__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26980,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_103__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26981,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_103__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26982,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_104__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26983,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_104__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26984,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_104__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26985,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_105__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26986,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_105__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26987,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_105__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26988,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_106__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26989,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_106__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26990,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_106__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26991,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_107__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26992,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_107__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26993,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_107__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26994,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_108__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26995,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_108__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26996,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_108__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+26997,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_109__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+26998,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_109__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+26999,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_109__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27000,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_11__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27001,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_11__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27002,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_11__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27003,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_110__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27004,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_110__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27005,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_110__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27006,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_111__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27007,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_111__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27008,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_111__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27009,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_112__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27010,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_112__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27011,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_112__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27012,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_113__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27013,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_113__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27014,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_113__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27015,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_114__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27016,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_114__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27017,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_114__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27018,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_115__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27019,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_115__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27020,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_115__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27021,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_116__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27022,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_116__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27023,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_116__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27024,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_117__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27025,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_117__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27026,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_117__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27027,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_118__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27028,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_118__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27029,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_118__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27030,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_119__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27031,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_119__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27032,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_119__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27033,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_12__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27034,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_12__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27035,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_12__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27036,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_120__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27037,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_120__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27038,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_120__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27039,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_121__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27040,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_121__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27041,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_121__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27042,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_122__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27043,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_122__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27044,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_122__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27045,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_123__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27046,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_123__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27047,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_123__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27048,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_124__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27049,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_124__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27050,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_124__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27051,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_125__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27052,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_125__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27053,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_125__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27054,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_126__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27055,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_126__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27056,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_126__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27057,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_127__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27058,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_127__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27059,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_127__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27060,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_128__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27061,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_128__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27062,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_128__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27063,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_129__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27064,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_129__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27065,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_129__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27066,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_13__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27067,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_13__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27068,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_13__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27069,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_130__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27070,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_130__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27071,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_130__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27072,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_131__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27073,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_131__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27074,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_131__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27075,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_132__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27076,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_132__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27077,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_132__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27078,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_133__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27079,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_133__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27080,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_133__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27081,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_134__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27082,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_134__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27083,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_134__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27084,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_135__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27085,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_135__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27086,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_135__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27087,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_136__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27088,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_136__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27089,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_136__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27090,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_137__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27091,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_137__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27092,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_137__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27093,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_138__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27094,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_138__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27095,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_138__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27096,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_139__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27097,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_139__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27098,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_139__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27099,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_14__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27100,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_14__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27101,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_14__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27102,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_140__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27103,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_140__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27104,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_140__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27105,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_141__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27106,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_141__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27107,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_141__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27108,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_142__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27109,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_142__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27110,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_142__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27111,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_143__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27112,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_143__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27113,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_143__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27114,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_144__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27115,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_144__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27116,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_144__024write_1___05FSEL_3));
-        bufp->chgBit(oldp+27117,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_145__024write_1___05FSEL_1));
-        bufp->chgBit(oldp+27118,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_145__024write_1___05FSEL_2));
-        bufp->chgBit(oldp+27119,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_145__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26951,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_tsc_state__024write_1___05FSEL_14));
+        bufp->chgBit(oldp+26952,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_tsc_state__024write_1___05FSEL_18));
+        bufp->chgBit(oldp+26953,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_tsc_state__024write_1___05FSEL_19));
+        bufp->chgBit(oldp+26954,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_tsc_state__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26955,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_tsc_state__024write_1___05FSEL_22));
+        bufp->chgBit(oldp+26956,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_a_255__024write_1___05FPSEL_1));
+        bufp->chgBit(oldp+26957,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FPSEL_1));
+        bufp->chgBit(oldp+26958,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FPSEL_2));
+        bufp->chgBit(oldp+26959,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FPSEL_3));
+        bufp->chgBit(oldp+26960,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26961,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26962,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_0__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26963,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_1__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26964,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_1__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26965,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_1__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26966,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_10__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26967,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_10__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26968,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_10__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26969,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_100__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26970,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_100__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26971,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_100__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26972,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_101__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26973,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_101__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26974,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_101__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26975,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_102__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26976,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_102__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26977,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_102__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26978,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_103__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26979,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_103__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26980,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_103__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26981,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_104__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26982,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_104__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26983,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_104__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26984,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_105__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26985,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_105__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26986,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_105__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26987,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_106__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26988,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_106__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26989,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_106__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26990,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_107__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26991,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_107__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26992,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_107__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26993,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_108__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26994,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_108__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26995,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_108__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26996,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_109__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+26997,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_109__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+26998,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_109__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+26999,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_11__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27000,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_11__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27001,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_11__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27002,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_110__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27003,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_110__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27004,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_110__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27005,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_111__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27006,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_111__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27007,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_111__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27008,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_112__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27009,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_112__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27010,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_112__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27011,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_113__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27012,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_113__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27013,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_113__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27014,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_114__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27015,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_114__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27016,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_114__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27017,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_115__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27018,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_115__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27019,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_115__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27020,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_116__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27021,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_116__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27022,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_116__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27023,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_117__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27024,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_117__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27025,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_117__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27026,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_118__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27027,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_118__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27028,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_118__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27029,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_119__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27030,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_119__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27031,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_119__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27032,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_12__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27033,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_12__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27034,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_12__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27035,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_120__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27036,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_120__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27037,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_120__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27038,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_121__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27039,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_121__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27040,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_121__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27041,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_122__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27042,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_122__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27043,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_122__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27044,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_123__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27045,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_123__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27046,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_123__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27047,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_124__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27048,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_124__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27049,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_124__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27050,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_125__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27051,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_125__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27052,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_125__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27053,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_126__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27054,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_126__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27055,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_126__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27056,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_127__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27057,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_127__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27058,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_127__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27059,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_128__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27060,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_128__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27061,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_128__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27062,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_129__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27063,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_129__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27064,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_129__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27065,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_13__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27066,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_13__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27067,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_13__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27068,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_130__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27069,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_130__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27070,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_130__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27071,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_131__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27072,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_131__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27073,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_131__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27074,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_132__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27075,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_132__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27076,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_132__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27077,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_133__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27078,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_133__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27079,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_133__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27080,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_134__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27081,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_134__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27082,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_134__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27083,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_135__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27084,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_135__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27085,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_135__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27086,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_136__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27087,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_136__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27088,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_136__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27089,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_137__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27090,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_137__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27091,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_137__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27092,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_138__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27093,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_138__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27094,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_138__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27095,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_139__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27096,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_139__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27097,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_139__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27098,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_14__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27099,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_14__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27100,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_14__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27101,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_140__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27102,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_140__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27103,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_140__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27104,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_141__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27105,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_141__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27106,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_141__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27107,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_142__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27108,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_142__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27109,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_142__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27110,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_143__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27111,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_143__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27112,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_143__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27113,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_144__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27114,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_144__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27115,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_144__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27116,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_145__024write_1___05FSEL_1));
+        bufp->chgBit(oldp+27117,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_145__024write_1___05FSEL_2));
+        bufp->chgBit(oldp+27118,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_145__024write_1___05FSEL_3));
+        bufp->chgBit(oldp+27119,(vlSelfRef.mkTb_COP__DOT__cop__DOT__MUX_vec_b_146__024write_1___05FSEL_1));
     }
 }

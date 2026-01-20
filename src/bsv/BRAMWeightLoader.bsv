@@ -1,22 +1,18 @@
 package BRAMWeightLoader;
-
 import BRAMLoaderWrapperBE::*;
 import Vector::*;
 import FIFOF::*;
-
 typedef enum {Idle, Reading, Done} LoaderState deriving (Bits, Eq);
-
 interface BRAMWeightLoaderIfc;
    method Action start();
    method Vector#(256, Bit#(16)) get_res();
    method Action done_ack();
 endinterface
-
 (* synthesize *)
 module mkBRAMWeightLoader (BRAMWeightLoaderIfc);
    
-   // Instantiate 66 BRAM loaders
-   Vector#(66, BRAMLoaderConcrete) brams <- replicateM(mkBRAMLoaderConcrete);
+   // Instantiate 74 BRAM loaders
+   Vector#(74, BRAMLoaderConcrete) brams <- replicateM(mkBRAMLoaderConcrete);
    
    // Internal vector to store 256 elements
    Vector#(256, Reg#(Bit#(16))) dataVec <- replicateM(mkReg(0));
@@ -33,7 +29,7 @@ module mkBRAMWeightLoader (BRAMWeightLoaderIfc);
    // Check if all BRAMs are ready
    rule checkReady (!allReady);
       Bool ready = True;
-      for (Integer i = 0; i < 66; i = i + 1) begin
+      for (Integer i = 0; i < 74; i = i + 1) begin
          ready = ready && brams[i].ready();
       end
       if (ready) allReady <= True;
@@ -44,12 +40,12 @@ module mkBRAMWeightLoader (BRAMWeightLoaderIfc);
       if (cycleCount < 4) begin
          Bit#(18) baseElement = extend(readCounter) * 256 + extend(cycleCount) * 64;
          
-         for (Integer i = 0; i < 66; i = i + 1) begin
+         for (Integer i = 0; i < 74; i = i + 1) begin
             Bit#(18) elemA = baseElement + fromInteger(i);
-            Bit#(18) elemB = elemA + 66;
+            Bit#(18) elemB = elemA + 74;
             
-            Bit#(12) addrA = truncate(elemA / 66);
-            Bit#(12) addrB = truncate(elemB / 66);
+            Bit#(12) addrA = truncate(elemA / 74);
+            Bit#(12) addrB = truncate(elemB / 74);
             
             // Only request if element is within total range
             if (elemA <= maxElement) begin
@@ -72,9 +68,9 @@ module mkBRAMWeightLoader (BRAMWeightLoaderIfc);
       Bit#(3) respCycle = cycleCount - 1;
       Bit#(18) baseElement = extend(readCounter) * 256 + extend(respCycle) * 64;
       
-      for (Integer i = 0; i < 66; i = i + 1) begin
+      for (Integer i = 0; i < 74; i = i + 1) begin
          Bit#(18) elemA = baseElement + fromInteger(i);
-         Bit#(18) elemB = elemA + 66;
+         Bit#(18) elemB = elemA + 74;
          
          // Only collect if we made the request
          if (elemA <= maxElement) begin
@@ -108,7 +104,5 @@ module mkBRAMWeightLoader (BRAMWeightLoaderIfc);
       state <= Idle;
       readCounter <= readCounter + 1;
    endmethod
-
 endmodule
-
 endpackage

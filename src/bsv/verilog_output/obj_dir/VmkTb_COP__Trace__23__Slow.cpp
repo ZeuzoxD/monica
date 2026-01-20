@@ -11,8 +11,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
     // Init
     uint32_t* const oldp VL_ATTR_UNUSED = bufp->oldp(vlSymsp->__Vm_baseCode);
     // Body
-    bufp->fullSData(oldp+945092,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945093,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945091,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945092,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -89,14 +89,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945094,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945093,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945095,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945096,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945097,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945094,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945095,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945096,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945098,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945097,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -139,27 +139,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945099,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945098,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945100,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945099,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945101,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945100,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945102,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945101,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945103,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945102,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945104,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945103,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -175,7 +175,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945105,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945104,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -190,7 +190,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945106,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945105,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -204,7 +204,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945107,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945106,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -217,7 +217,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945108,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945107,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -229,7 +229,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945109,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945108,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -240,7 +240,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945110,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945109,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -249,7 +249,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945111,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945110,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -257,14 +257,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945112,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945111,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945113,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945112,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -306,47 +306,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945114,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__weight_reg) 
+    bufp->fullSData(oldp+945113,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945115,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_10__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945114,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_10__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_10__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945116,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945117,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945115,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945116,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945118,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945117,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945119,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945118,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945120,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945121,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945119,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945120,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945122,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945121,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_10__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_10__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945123,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945124,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945122,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945123,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945125,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945124,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945126,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945125,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945127,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945126,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -370,8 +370,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945128,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945129,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945127,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945128,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__psum_out_reg))), 
@@ -380,18 +380,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945130,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945129,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945131,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945132,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945133,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945134,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945135,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945130,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945131,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945132,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945133,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945134,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -399,13 +399,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945136,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945137,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945135,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945136,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945138,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945139,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945137,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945138,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -509,11 +509,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945140,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945141,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945139,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945140,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945142,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945141,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -612,8 +612,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945143,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945144,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945142,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945143,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -690,14 +690,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945145,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945144,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945146,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945147,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945148,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945145,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945146,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945147,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945149,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945148,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -740,27 +740,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945150,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945149,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945151,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945150,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945152,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945151,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945153,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945152,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945154,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945153,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945155,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945154,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -776,7 +776,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945156,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945155,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -791,7 +791,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945157,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945156,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -805,7 +805,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945158,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945157,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -818,7 +818,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945159,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945158,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -830,7 +830,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945160,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945159,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -841,7 +841,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945161,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945160,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -850,7 +850,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945162,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945161,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -858,14 +858,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945163,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945162,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945164,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945163,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -907,47 +907,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945165,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__weight_reg) 
+    bufp->fullSData(oldp+945164,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945166,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_11__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945165,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_11__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_11__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945167,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945168,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945166,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945167,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945169,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945168,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945170,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945169,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945171,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945172,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945170,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945171,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945173,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945172,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_11__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_11__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945174,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945175,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945173,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945174,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945176,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945175,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945177,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945176,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945178,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945177,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -971,8 +971,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945179,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945180,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945178,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945179,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__psum_out_reg))), 
@@ -981,18 +981,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945181,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945180,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945182,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945183,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945184,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945185,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945186,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945181,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945182,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945183,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945184,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945185,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -1000,13 +1000,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945187,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945188,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945186,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945187,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945189,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945190,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945188,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945189,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -1110,11 +1110,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945191,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945192,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945190,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945191,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945193,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945192,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -1213,8 +1213,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945194,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945195,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945193,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945194,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -1291,14 +1291,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945196,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945195,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945197,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945198,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945199,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945196,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945197,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945198,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945200,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945199,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -1341,27 +1341,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945201,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945200,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945202,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945201,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945203,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945202,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945204,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945203,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945205,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945204,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945206,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945205,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -1377,7 +1377,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945207,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945206,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -1392,7 +1392,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945208,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945207,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -1406,7 +1406,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945209,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945208,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -1419,7 +1419,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945210,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945209,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -1431,7 +1431,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945211,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945210,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -1442,7 +1442,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945212,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945211,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -1451,7 +1451,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945213,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945212,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -1459,14 +1459,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945214,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945213,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945215,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945214,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -1508,47 +1508,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945216,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__weight_reg) 
+    bufp->fullSData(oldp+945215,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945217,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_12__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945216,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_12__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_12__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945218,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945219,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945217,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945218,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945220,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945219,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945221,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945220,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945222,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945223,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945221,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945222,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945224,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945223,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_12__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_12__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945225,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945226,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945224,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945225,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945227,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945226,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945228,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945227,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945229,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945228,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -1572,8 +1572,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945230,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945231,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945229,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945230,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__psum_out_reg))), 
@@ -1582,18 +1582,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945232,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945231,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945233,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945234,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945235,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945236,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945237,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945232,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945233,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945234,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945235,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945236,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -1601,13 +1601,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945238,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945239,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945237,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945238,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945240,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945241,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945239,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945240,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -1711,11 +1711,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945242,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945243,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945241,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945242,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945244,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945243,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -1814,8 +1814,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945245,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945246,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945244,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945245,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -1892,14 +1892,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945247,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945246,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945248,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945249,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945250,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945247,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945248,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945249,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945251,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945250,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -1942,27 +1942,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945252,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945251,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945253,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945252,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945254,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945253,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945255,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945254,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945256,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945255,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945257,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945256,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -1978,7 +1978,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945258,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945257,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -1993,7 +1993,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945259,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945258,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -2007,7 +2007,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945260,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945259,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -2020,7 +2020,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945261,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945260,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -2032,7 +2032,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945262,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945261,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -2043,7 +2043,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945263,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945262,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -2052,7 +2052,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945264,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945263,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -2060,14 +2060,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945265,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945264,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945266,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945265,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -2109,47 +2109,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945267,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__weight_reg) 
+    bufp->fullSData(oldp+945266,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945268,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_13__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945267,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_13__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_13__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945269,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945270,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945268,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945269,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945271,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945270,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945272,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945271,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945273,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945274,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945272,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945273,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945275,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945274,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_13__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_13__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945276,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945277,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945275,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945276,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945278,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945277,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945279,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945278,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945280,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945279,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -2173,8 +2173,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945281,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945282,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945280,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945281,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__psum_out_reg))), 
@@ -2183,18 +2183,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945283,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945282,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945284,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945285,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945286,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945287,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945288,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945283,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945284,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945285,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945286,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945287,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -2202,13 +2202,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945289,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945290,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945288,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945289,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945291,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945292,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945290,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945291,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -2312,11 +2312,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945293,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945294,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945292,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945293,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945295,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945294,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -2415,8 +2415,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945296,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945297,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945295,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945296,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -2493,14 +2493,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945298,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945297,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945299,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945300,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945301,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945298,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945299,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945300,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945302,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945301,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -2543,27 +2543,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945303,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945302,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945304,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945303,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945305,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945304,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945306,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945305,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945307,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945306,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945308,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945307,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -2579,7 +2579,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945309,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945308,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -2594,7 +2594,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945310,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945309,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -2608,7 +2608,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945311,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945310,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -2621,7 +2621,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945312,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945311,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -2633,7 +2633,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945313,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945312,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -2644,7 +2644,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945314,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945313,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -2653,7 +2653,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945315,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945314,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -2661,14 +2661,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945316,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945315,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945317,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945316,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -2710,47 +2710,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945318,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__weight_reg) 
+    bufp->fullSData(oldp+945317,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945319,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_14__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945318,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_14__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_14__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945320,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945321,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945319,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945320,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945322,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945321,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945323,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945322,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945324,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945325,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945323,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945324,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945326,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945325,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_14__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_14__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945327,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945328,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945326,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945327,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945329,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945328,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945330,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945329,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945331,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945330,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -2774,8 +2774,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945332,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945333,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945331,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945332,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__psum_out_reg))), 
@@ -2784,18 +2784,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945334,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945333,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945335,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945336,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945337,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945338,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945339,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945334,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945335,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945336,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945337,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945338,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -2803,13 +2803,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945340,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945341,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945339,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945340,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945342,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945343,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945341,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945342,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -2913,11 +2913,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945344,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945345,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945343,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945344,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945346,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945345,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -3016,8 +3016,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945347,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945348,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945346,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945347,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -3094,14 +3094,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945349,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945348,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945350,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945351,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945352,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945349,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945350,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945351,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945353,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945352,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -3144,27 +3144,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945354,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945353,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945355,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945354,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945356,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945355,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945357,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945356,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945358,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945357,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945359,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945358,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -3180,7 +3180,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945360,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945359,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -3195,7 +3195,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945361,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945360,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -3209,7 +3209,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945362,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945361,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -3222,7 +3222,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945363,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945362,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -3234,7 +3234,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945364,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945363,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -3245,7 +3245,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945365,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945364,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -3254,7 +3254,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945366,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945365,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -3262,14 +3262,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945367,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945366,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945368,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945367,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -3311,47 +3311,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945369,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__weight_reg) 
+    bufp->fullSData(oldp+945368,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945370,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_15__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945369,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_15__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_15__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945371,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945372,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945370,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945371,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945373,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945372,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945374,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945373,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945375,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945376,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945374,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945375,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945377,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945376,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_15__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_15__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945378,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945379,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945377,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945378,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945380,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945379,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945381,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945380,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945382,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945381,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -3375,8 +3375,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945383,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945384,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945382,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945383,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__psum_out_reg))), 
@@ -3385,18 +3385,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945385,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945384,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945386,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945387,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945388,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945389,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945390,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945385,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945386,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945387,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945388,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945389,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -3404,13 +3404,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945391,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945392,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945390,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945391,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_14__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945393,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945394,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945392,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_15__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945393,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -3514,11 +3514,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945395,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945396,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945394,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945395,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945397,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945396,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -3617,8 +3617,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945398,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945399,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945397,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945398,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -3695,14 +3695,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945400,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945399,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945401,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945402,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945403,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945400,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945401,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945402,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945404,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945403,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -3745,27 +3745,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945405,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945404,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945406,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945405,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945407,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945406,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945408,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945407,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945409,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945408,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945410,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945409,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -3781,7 +3781,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945411,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945410,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -3796,7 +3796,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945412,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945411,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -3810,7 +3810,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945413,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945412,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -3823,7 +3823,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945414,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945413,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -3835,7 +3835,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945415,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945414,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -3846,7 +3846,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945416,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945415,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -3855,7 +3855,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945417,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945416,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -3863,14 +3863,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945418,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945417,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945419,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945418,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -3912,47 +3912,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945420,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__weight_reg) 
+    bufp->fullSData(oldp+945419,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945421,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_2__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945420,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_2__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_2__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945422,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945423,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945421,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945422,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945424,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945423,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945425,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945424,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945426,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945427,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945425,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945426,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945428,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945427,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_2__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_2__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945429,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945430,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945428,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945429,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945431,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945430,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945432,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945431,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945433,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945432,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -3976,8 +3976,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945434,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945435,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945433,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945434,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__psum_out_reg))), 
@@ -3986,18 +3986,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945436,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945435,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945437,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945438,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945439,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945440,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945441,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945436,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945437,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945438,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945439,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945440,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -4005,13 +4005,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945442,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945443,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945441,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945442,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945444,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945445,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945443,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945444,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -4115,11 +4115,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945446,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945447,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945445,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945446,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945448,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945447,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -4218,8 +4218,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945449,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945450,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945448,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945449,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -4296,14 +4296,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945451,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945450,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945452,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945453,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945454,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945451,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945452,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945453,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945455,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945454,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -4346,27 +4346,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945456,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945455,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945457,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945456,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945458,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945457,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945459,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945458,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945460,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945459,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945461,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945460,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -4382,7 +4382,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945462,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945461,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -4397,7 +4397,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945463,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945462,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -4411,7 +4411,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945464,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945463,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -4424,7 +4424,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945465,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945464,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -4436,7 +4436,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945466,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945465,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -4447,7 +4447,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945467,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945466,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -4456,7 +4456,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945468,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945467,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -4464,14 +4464,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945469,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945468,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945470,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945469,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -4513,47 +4513,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945471,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__weight_reg) 
+    bufp->fullSData(oldp+945470,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945472,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_3__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945471,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_3__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_3__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945473,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945474,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945472,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945473,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945475,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945474,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945476,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945475,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945477,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945478,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945476,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945477,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945479,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945478,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_3__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_3__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945480,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945481,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945479,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945480,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945482,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945481,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945483,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945482,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945484,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945483,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -4577,8 +4577,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945485,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945486,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945484,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945485,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__psum_out_reg))), 
@@ -4587,18 +4587,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945487,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945486,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945488,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945489,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945490,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945491,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945492,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945487,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945488,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945489,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945490,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945491,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -4606,13 +4606,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945493,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945494,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945492,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945493,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_2__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945495,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945496,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945494,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945495,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -4716,11 +4716,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945497,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945498,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945496,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945497,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945499,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945498,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -4819,8 +4819,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945500,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945501,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945499,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945500,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -4897,14 +4897,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945502,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945501,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945503,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945504,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945505,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945502,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945503,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945504,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945506,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945505,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -4947,27 +4947,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945507,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945506,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945508,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945507,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945509,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945508,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945510,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945509,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945511,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945510,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945512,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945511,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -4983,7 +4983,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945513,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945512,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -4998,7 +4998,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945514,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945513,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -5012,7 +5012,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945515,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945514,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -5025,7 +5025,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945516,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945515,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -5037,7 +5037,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945517,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945516,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -5048,7 +5048,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945518,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945517,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -5057,7 +5057,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945519,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945518,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -5065,14 +5065,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945520,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945519,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945521,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945520,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -5114,47 +5114,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945522,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__weight_reg) 
+    bufp->fullSData(oldp+945521,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945523,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_4__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945522,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_4__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_4__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945524,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945525,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945523,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945524,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945526,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945525,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945527,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945526,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945528,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945529,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945527,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945528,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945530,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945529,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_4__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_4__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945531,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945532,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945530,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945531,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945533,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945532,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945534,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945533,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945535,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945534,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -5178,8 +5178,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945536,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945537,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945535,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945536,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__psum_out_reg))), 
@@ -5188,18 +5188,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945538,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945537,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945539,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945540,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945541,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945542,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945543,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945538,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945539,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945540,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945541,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945542,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -5207,13 +5207,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945544,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945545,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945543,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945544,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_3__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945546,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945547,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945545,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945546,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -5317,11 +5317,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945548,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945549,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945547,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945548,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945550,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945549,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -5420,8 +5420,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945551,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945552,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945550,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945551,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -5498,14 +5498,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945553,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945552,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945554,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945555,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945556,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945553,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945554,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945555,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945557,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945556,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -5548,27 +5548,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945558,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945557,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945559,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945558,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945560,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945559,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945561,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945560,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945562,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945561,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945563,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945562,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -5584,7 +5584,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945564,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945563,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -5599,7 +5599,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945565,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945564,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -5613,7 +5613,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945566,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945565,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -5626,7 +5626,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945567,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945566,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -5638,7 +5638,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945568,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945567,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -5649,7 +5649,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945569,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945568,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -5658,7 +5658,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945570,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945569,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -5666,14 +5666,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945571,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945570,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945572,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945571,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -5715,47 +5715,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945573,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__weight_reg) 
+    bufp->fullSData(oldp+945572,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945574,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_5__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945573,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_5__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_5__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945575,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945576,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945574,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945575,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945577,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945576,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945578,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945577,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945579,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945580,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945578,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945579,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945581,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945580,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_5__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_5__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945582,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945583,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945581,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945582,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945584,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945583,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945585,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945584,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945586,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945585,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -5779,8 +5779,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945587,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945588,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945586,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945587,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__psum_out_reg))), 
@@ -5789,18 +5789,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945589,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945588,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945590,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945591,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945592,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945593,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945594,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945589,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945590,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945591,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945592,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945593,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -5808,13 +5808,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945595,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945596,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945594,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945595,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_4__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945597,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945598,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945596,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945597,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -5918,11 +5918,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945599,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945600,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945598,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945599,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945601,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945600,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -6021,8 +6021,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945602,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945603,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945601,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945602,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -6099,14 +6099,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945604,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945603,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945605,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945606,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945607,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945604,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945605,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945606,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945608,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945607,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -6149,27 +6149,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945609,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945608,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945610,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945609,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945611,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945610,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945612,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945611,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945613,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945612,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945614,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945613,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -6185,7 +6185,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945615,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945614,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -6200,7 +6200,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945616,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945615,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -6214,7 +6214,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945617,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945616,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -6227,7 +6227,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945618,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945617,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -6239,7 +6239,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945619,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945618,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -6250,7 +6250,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945620,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945619,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -6259,7 +6259,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945621,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945620,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -6267,14 +6267,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945622,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945621,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945623,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945622,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -6316,47 +6316,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945624,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__weight_reg) 
+    bufp->fullSData(oldp+945623,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945625,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_6__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945624,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_6__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_6__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945626,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945627,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945625,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945626,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945628,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945627,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945629,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945628,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945630,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945631,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945629,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945630,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945632,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945631,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_6__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_6__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945633,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945634,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945632,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945633,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945635,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945634,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945636,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945635,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945637,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945636,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -6380,8 +6380,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945638,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945639,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945637,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945638,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__psum_out_reg))), 
@@ -6390,18 +6390,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945640,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945639,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945641,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945642,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945643,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945644,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945645,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945640,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945641,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945642,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945643,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945644,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -6409,13 +6409,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945646,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945647,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945645,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945646,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_5__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945648,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945649,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945647,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945648,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -6519,11 +6519,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945650,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945651,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945649,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945650,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945652,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945651,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -6622,8 +6622,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945653,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945654,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945652,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945653,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -6700,14 +6700,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945655,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945654,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945656,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945657,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945658,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945655,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945656,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945657,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945659,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945658,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -6750,27 +6750,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945660,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945659,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945661,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945660,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945662,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945661,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945663,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945662,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945664,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945663,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945665,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945664,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -6786,7 +6786,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945666,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945665,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -6801,7 +6801,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945667,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945666,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -6815,7 +6815,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945668,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945667,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -6828,7 +6828,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945669,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945668,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -6840,7 +6840,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945670,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945669,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -6851,7 +6851,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945671,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945670,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -6860,7 +6860,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945672,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945671,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -6868,14 +6868,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945673,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945672,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945674,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945673,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -6917,47 +6917,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945675,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__weight_reg) 
+    bufp->fullSData(oldp+945674,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945676,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_7__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945675,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_7__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_7__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945677,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945678,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945676,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945677,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945679,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945678,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945680,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945679,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945681,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945682,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945680,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945681,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945683,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945682,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_7__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_7__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945684,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945685,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945683,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945684,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945686,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945685,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945687,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945686,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945688,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945687,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -6981,8 +6981,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945689,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945690,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945688,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945689,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__psum_out_reg))), 
@@ -6991,18 +6991,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945691,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945690,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945692,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945693,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945694,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945695,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945696,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945691,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945692,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945693,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945694,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945695,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -7010,13 +7010,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945697,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945698,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945696,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945697,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_6__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945699,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945700,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945698,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945699,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -7120,11 +7120,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945701,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945702,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945700,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945701,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945703,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945702,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -7223,8 +7223,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945704,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945705,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945703,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945704,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -7301,14 +7301,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945706,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945705,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945707,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945708,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945709,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945706,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945707,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945708,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945710,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945709,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -7351,27 +7351,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945711,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945710,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945712,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945711,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945713,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945712,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945714,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945713,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945715,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945714,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945716,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945715,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -7387,7 +7387,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945717,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945716,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -7402,7 +7402,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945718,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945717,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -7416,7 +7416,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945719,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945718,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -7429,7 +7429,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945720,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945719,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -7441,7 +7441,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945721,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945720,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -7452,7 +7452,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945722,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945721,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -7461,7 +7461,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945723,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945722,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -7469,14 +7469,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945724,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945723,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945725,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945724,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -7518,47 +7518,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945726,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__weight_reg) 
+    bufp->fullSData(oldp+945725,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945727,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_8__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945726,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_8__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_8__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945728,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945729,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945727,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945728,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945730,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945729,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945731,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945730,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945732,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945733,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945731,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945732,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945734,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945733,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_8__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_8__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945735,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945736,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945734,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945735,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945737,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945736,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945738,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945737,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945739,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945738,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -7582,8 +7582,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945740,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945741,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945739,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945740,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__psum_out_reg))), 
@@ -7592,18 +7592,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945742,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945741,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945743,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945744,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945745,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945746,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945747,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945742,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945743,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945744,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945745,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945746,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -7611,13 +7611,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945748,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945749,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945747,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945748,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_7__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945750,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945751,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945749,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945750,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -7721,11 +7721,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945752,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945753,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945751,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945752,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945754,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945753,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -7824,8 +7824,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945755,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945756,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945754,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945755,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -7902,14 +7902,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945757,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945756,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945758,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945759,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945760,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945757,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945758,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945759,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945761,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945760,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -7952,27 +7952,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945762,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945761,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945763,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945762,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945764,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945763,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945765,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945764,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945766,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945765,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945767,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945766,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -7988,7 +7988,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945768,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945767,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -8003,7 +8003,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945769,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945768,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -8017,7 +8017,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945770,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945769,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -8030,7 +8030,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945771,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945770,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -8042,7 +8042,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945772,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945771,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -8053,7 +8053,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945773,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945772,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -8062,7 +8062,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945774,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945773,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -8070,14 +8070,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945775,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945774,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945776,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945775,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -8119,47 +8119,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945777,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__weight_reg) 
+    bufp->fullSData(oldp+945776,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945778,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_9__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945777,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_9__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_9__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945779,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945780,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945778,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945779,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945781,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945780,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945782,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945781,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945783,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945784,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945782,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945783,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945785,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945784,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_9__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_3_9__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945786,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945787,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945785,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945786,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945788,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945787,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945789,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945788,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945790,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945789,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -8183,8 +8183,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945791,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945792,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945790,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945791,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__psum_out_reg))), 
@@ -8193,18 +8193,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945793,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945792,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945794,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945795,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945796,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945797,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945798,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945793,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945794,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945795,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945796,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945797,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -8212,29 +8212,29 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945799,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945800,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945798,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945799,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_8__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945801,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945802,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945800,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_9__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945801,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? 0U : (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__res_sign___05Fh483) 
                                             << 0xfU) 
                                            | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_12)
                                                ? 0U
                                                : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))))),16);
-    bufp->fullSData(oldp+945803,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945804,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945802,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945803,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945805,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__res_sign___05Fh483) 
+    bufp->fullSData(oldp+945804,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__res_sign___05Fh483) 
                                    << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_12)
                                                 ? 0U
                                                 : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213)))),16);
-    bufp->fullSData(oldp+945806,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945807,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945805,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945806,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                                   << 7U)) 
@@ -8332,14 +8332,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945808,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945807,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945809,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945810,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945811,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945808,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945809,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945810,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945812,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945811,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -8382,27 +8382,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945813,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945812,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945814,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945813,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945815,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945814,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945816,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945815,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945817,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945816,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945818,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945817,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -8418,7 +8418,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945819,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945818,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -8433,7 +8433,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945820,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945819,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -8447,7 +8447,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945821,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945820,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -8460,7 +8460,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945822,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945821,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -8472,7 +8472,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945823,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945822,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -8483,7 +8483,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945824,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945823,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -8492,7 +8492,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945825,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945824,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -8500,14 +8500,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945826,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945825,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945827,((((~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428) 
+    bufp->fullSData(oldp+945826,((((~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428) 
                                        >> 7U)) & (0U 
                                                   != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428)))
                                    ? (0x1feU & ((((~ 
@@ -8557,46 +8557,46 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945828,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__weight_reg) 
+    bufp->fullSData(oldp+945827,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945829,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_0__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945828,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_0__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_0__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945830,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945831,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945829,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945830,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_56)) 
                                             + (0xffU 
                                                & VL_SHIFTR_III(8,8,8, 0x80U, (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)))))),9);
-    bufp->fullSData(oldp+945832,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945831,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_56)) 
                                             - (0xffU 
                                                & VL_SHIFTR_III(8,8,8, 0x80U, (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)))))),9);
-    bufp->fullSData(oldp+945833,((0x1ffU & ((0xffU 
+    bufp->fullSData(oldp+945832,((0x1ffU & ((0xffU 
                                              & VL_SHIFTR_III(8,8,8, 0x80U, (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57))) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_56))))),9);
-    bufp->fullSData(oldp+945834,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945835,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945833,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945834,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945836,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945835,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_0__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_0__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945837,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_56))),8);
-    bufp->fullCData(oldp+945838,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57),8);
-    bufp->fullCData(oldp+945839,((0xffU & (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945840,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945836,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_56))),8);
+    bufp->fullCData(oldp+945837,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57),8);
+    bufp->fullCData(oldp+945838,((0xffU & (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
+    bufp->fullCData(oldp+945839,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945841,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945840,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - (((~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__tmp___05Fh1428) 
                                                    >> 7U)) 
                                                & (0U 
@@ -8630,22 +8630,22 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945842,((0xffU & VL_SHIFTR_III(8,8,8, 0x80U, (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945843,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945841,((0xffU & VL_SHIFTR_III(8,8,8, 0x80U, (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
+    bufp->fullCData(oldp+945842,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945844,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_56),7);
-    bufp->fullCData(oldp+945845,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945846,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945847,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__res_sign___05Fh483)
+    bufp->fullCData(oldp+945843,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_56),7);
+    bufp->fullCData(oldp+945844,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945845,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945846,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__res_sign___05Fh483)
                                  ? (((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_56)) 
                                      >= (0xffU & VL_SHIFTR_III(8,8,8, 0x80U, (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT____VdfgRegularize_he5b7ae78_0_57)))) 
                                     && (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__res_sign___05Fh483))
                                  : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__res_sign___05Fh483))));
-    bufp->fullBit(oldp+945848,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__res_sign___05Fh483)))));
-    bufp->fullSData(oldp+945849,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945847,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__res_sign___05Fh483)))));
+    bufp->fullSData(oldp+945848,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -8749,11 +8749,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945850,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945851,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945849,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945850,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945852,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945851,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -8852,8 +8852,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945853,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945854,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945852,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945853,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -8930,14 +8930,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945855,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945854,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945856,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945857,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945858,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945855,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945856,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945857,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945859,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945858,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -8980,27 +8980,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945860,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945859,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945861,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945860,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945862,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945861,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945863,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945862,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945864,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945863,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945865,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945864,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -9016,7 +9016,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945866,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945865,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -9031,7 +9031,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945867,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945866,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -9045,7 +9045,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945868,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945867,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -9058,7 +9058,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945869,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945868,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -9070,7 +9070,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945870,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945869,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -9081,7 +9081,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945871,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945870,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -9090,7 +9090,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945872,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945871,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -9098,14 +9098,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945873,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945872,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945874,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945873,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -9147,47 +9147,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945875,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__weight_reg) 
+    bufp->fullSData(oldp+945874,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945876,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945875,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945877,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945878,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945876,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945877,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945879,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945878,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945880,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945879,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945881,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945882,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945880,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945881,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945883,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945882,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_1__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945884,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945885,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945883,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945884,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945886,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945885,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945887,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945886,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945888,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945887,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -9211,8 +9211,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945889,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945890,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945888,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945889,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__psum_out_reg))), 
@@ -9221,18 +9221,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945891,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945890,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945892,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945893,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945894,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945895,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945896,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945891,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945892,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945893,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945894,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945895,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -9240,13 +9240,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945897,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945898,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945896,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945897,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_0__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945899,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945900,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945898,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_1__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945899,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_9__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -9350,11 +9350,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945901,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945902,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945900,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945901,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945903,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945902,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_9__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -9453,8 +9453,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945904,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945905,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945903,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945904,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -9531,14 +9531,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945906,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945905,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945907,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945908,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945909,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945906,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945907,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945908,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945910,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945909,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -9581,27 +9581,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945911,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945910,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945912,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945911,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945913,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945912,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945914,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945913,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945915,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945914,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945916,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945915,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -9617,7 +9617,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945917,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945916,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -9632,7 +9632,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945918,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945917,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -9646,7 +9646,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945919,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945918,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -9659,7 +9659,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945920,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945919,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -9671,7 +9671,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945921,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945920,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -9682,7 +9682,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945922,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945921,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -9691,7 +9691,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945923,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945922,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -9699,14 +9699,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945924,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945923,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945925,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945924,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -9748,47 +9748,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945926,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__weight_reg) 
+    bufp->fullSData(oldp+945925,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945927,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945926,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945928,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945929,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945927,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945928,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945930,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945929,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945931,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945930,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945932,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945933,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945931,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945932,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945934,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945933,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_10__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945935,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945936,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945934,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945935,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_9__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945937,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_9__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945936,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_9__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945938,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945937,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945939,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945938,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -9812,8 +9812,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945940,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945941,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945939,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945940,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_9__DOT__psum_out_reg))), 
@@ -9822,18 +9822,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_9__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945942,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945941,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_9__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945943,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945944,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945945,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945946,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945947,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945942,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945943,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945944,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945945,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945946,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -9841,13 +9841,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_9__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945948,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+945949,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945947,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945948,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_9__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+945950,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+945951,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+945949,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+945950,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -9951,11 +9951,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+945952,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__weight_reg),16);
-    bufp->fullSData(oldp+945953,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945951,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__weight_reg),16);
+    bufp->fullSData(oldp+945952,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+945954,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+945953,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -10054,8 +10054,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+945955,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+945956,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+945954,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+945955,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -10132,14 +10132,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+945957,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+945956,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+945958,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+945959,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+945960,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+945957,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+945958,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+945959,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945961,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+945960,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -10182,27 +10182,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+945962,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945961,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+945963,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945962,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945964,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945963,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945965,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945964,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945966,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945965,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945967,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945966,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -10218,7 +10218,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945968,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945967,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -10233,7 +10233,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945969,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945968,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -10247,7 +10247,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945970,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945969,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -10260,7 +10260,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945971,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945970,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -10272,7 +10272,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945972,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+945971,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -10283,7 +10283,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945973,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945972,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -10292,7 +10292,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945974,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945973,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -10300,14 +10300,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945975,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+945974,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+945976,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+945975,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -10349,47 +10349,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+945977,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__weight_reg) 
+    bufp->fullSData(oldp+945976,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945978,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+945977,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+945979,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+945980,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945978,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+945979,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945981,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+945980,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+945982,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+945981,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+945983,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+945984,((((0U != (0xffU & 
+    bufp->fullSData(oldp+945982,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+945983,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+945985,((((0U != (0xffU & 
+    bufp->fullCData(oldp+945984,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_11__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+945986,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+945987,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+945985,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+945986,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+945988,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+945987,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+945989,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+945988,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+945990,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+945989,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -10413,8 +10413,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+945991,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+945992,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945990,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+945991,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__psum_out_reg))), 
@@ -10423,18 +10423,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+945993,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+945992,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+945994,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+945995,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+945996,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+945997,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+945998,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+945993,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+945994,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+945995,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+945996,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+945997,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -10442,13 +10442,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+945999,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+946000,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+945998,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+945999,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_10__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+946001,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+946002,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+946000,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+946001,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -10552,11 +10552,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+946003,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__weight_reg),16);
-    bufp->fullSData(oldp+946004,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+946002,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__weight_reg),16);
+    bufp->fullSData(oldp+946003,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+946005,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+946004,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -10655,8 +10655,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+946006,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+946007,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+946005,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+946006,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -10733,14 +10733,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+946008,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+946007,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+946009,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+946010,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+946011,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+946008,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+946009,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+946010,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+946012,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+946011,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -10783,27 +10783,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+946013,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946012,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+946014,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946013,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946015,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946014,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946016,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946015,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946017,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946016,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946018,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946017,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -10819,7 +10819,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946019,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946018,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -10834,7 +10834,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946020,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946019,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -10848,7 +10848,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946021,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946020,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -10861,7 +10861,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946022,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946021,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -10873,7 +10873,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946023,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946022,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -10884,7 +10884,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946024,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946023,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -10893,7 +10893,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946025,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946024,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -10901,14 +10901,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946026,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946025,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946027,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+946026,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -10950,47 +10950,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+946028,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__weight_reg) 
+    bufp->fullSData(oldp+946027,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+946029,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+946028,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+946030,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+946031,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+946029,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+946030,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+946032,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+946031,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+946033,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+946032,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+946034,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+946035,((((0U != (0xffU & 
+    bufp->fullSData(oldp+946033,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+946034,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+946036,((((0U != (0xffU & 
+    bufp->fullCData(oldp+946035,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_12__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+946037,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+946038,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+946036,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+946037,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+946039,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+946038,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+946040,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+946039,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+946041,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+946040,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -11014,8 +11014,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+946042,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+946043,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+946041,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+946042,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__psum_out_reg))), 
@@ -11024,18 +11024,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+946044,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+946043,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+946045,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+946046,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+946047,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+946048,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+946049,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+946044,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+946045,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+946046,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+946047,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+946048,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -11043,13 +11043,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+946050,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+946051,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+946049,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+946050,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_11__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+946052,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+946053,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+946051,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+946052,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -11153,11 +11153,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+946054,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__weight_reg),16);
-    bufp->fullSData(oldp+946055,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+946053,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__weight_reg),16);
+    bufp->fullSData(oldp+946054,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+946056,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+946055,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -11256,8 +11256,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+946057,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+946058,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+946056,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+946057,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -11334,14 +11334,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+946059,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+946058,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+946060,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+946061,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+946062,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+946059,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+946060,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+946061,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+946063,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+946062,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -11384,27 +11384,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+946064,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946063,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+946065,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946064,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946066,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946065,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946067,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946066,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946068,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946067,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946069,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946068,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -11420,7 +11420,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946070,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946069,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -11435,7 +11435,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946071,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946070,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -11449,7 +11449,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946072,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946071,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -11462,7 +11462,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946073,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946072,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -11474,7 +11474,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946074,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946073,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -11485,7 +11485,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946075,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946074,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -11494,7 +11494,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946076,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946075,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -11502,14 +11502,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946077,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946076,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946078,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_4)
+    bufp->fullSData(oldp+946077,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_4)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_16)
@@ -11551,47 +11551,47 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428))),9);
-    bufp->fullSData(oldp+946079,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__weight_reg) 
+    bufp->fullSData(oldp+946078,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__weight_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__weight_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+946080,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__activation_out_reg) 
+    bufp->fullSData(oldp+946079,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__activation_out_reg) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__activation_out_reg) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+946081,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634),9);
-    bufp->fullSData(oldp+946082,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+946080,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__exp_sum___05Fh634),9);
+    bufp->fullSData(oldp+946081,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+946083,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+946082,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__smaller_m___05Fh1422)))),9);
-    bufp->fullSData(oldp+946084,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__smaller_m___05Fh1422) 
+    bufp->fullSData(oldp+946083,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__smaller_m___05Fh1422) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))))),9);
-    bufp->fullSData(oldp+946085,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428),9);
-    bufp->fullCData(oldp+946086,((((0U != (0xffU & 
+    bufp->fullSData(oldp+946084,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__tmp___05Fh1428),9);
+    bufp->fullCData(oldp+946085,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__weight_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__weight_reg)))),8);
-    bufp->fullCData(oldp+946087,((((0U != (0xffU & 
+    bufp->fullCData(oldp+946086,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__activation_out_reg) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_4_13__DOT__activation_out_reg)))),8);
-    bufp->fullCData(oldp+946088,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
-    bufp->fullCData(oldp+946089,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_57) 
+    bufp->fullCData(oldp+946087,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233))),8);
+    bufp->fullCData(oldp+946088,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_57) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__psum_out_reg) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+946090,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__psum_out_reg) 
+    bufp->fullCData(oldp+946089,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__psum_out_reg) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_57)))),8);
-    bufp->fullCData(oldp+946091,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+946090,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT___theResult___05F_fst_exp___05Fh1505)))),8);
-    bufp->fullCData(oldp+946092,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT___theResult___05F_fst_exp___05Fh1505) 
+    bufp->fullCData(oldp+946091,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT___theResult___05F_fst_exp___05Fh1505) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_4)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_14)
                                                    ? 
@@ -11615,8 +11615,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+946093,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__smaller_m___05Fh1422),8);
-    bufp->fullCData(oldp+946094,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+946092,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__smaller_m___05Fh1422),8);
+    bufp->fullCData(oldp+946093,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__psum_out_reg))), 
@@ -11625,18 +11625,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__psum_out_reg) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+946095,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+946094,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_56)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__psum_out_reg) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT____VdfgRegularize_he5b7ae78_0_57)))))),8);
-    bufp->fullCData(oldp+946096,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
-    bufp->fullCData(oldp+946097,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__final_mant___05Fh640),7);
-    bufp->fullBit(oldp+946098,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
-    bufp->fullBit(oldp+946099,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__res_sign___05Fh483));
-    bufp->fullBit(oldp+946100,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
+    bufp->fullCData(oldp+946095,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight___05FETC___05F_d233),7);
+    bufp->fullCData(oldp+946096,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__final_mant___05Fh640),7);
+    bufp->fullBit(oldp+946097,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231));
+    bufp->fullBit(oldp+946098,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__res_sign___05Fh483));
+    bufp->fullBit(oldp+946099,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__result_sign___05Fh1481)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT___0b1_CONCAT_IF_IF_weight_reg_BITS_14_TO_7_EQ_0___05FETC___05F_d242)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
@@ -11644,13 +11644,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__psum_out_reg) 
                                                   >> 0xfU))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__result_sign___05Fh1481))))));
-    bufp->fullBit(oldp+946101,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__result_sign___05Fh1481));
-    bufp->fullBit(oldp+946102,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
+    bufp->fullBit(oldp+946100,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__result_sign___05Fh1481));
+    bufp->fullBit(oldp+946101,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__IF_weight_reg_BITS_14_TO_7_EQ_0_AND_weight_reg_ETC___05F_d231)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__res_sign___05Fh483)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_12__DOT__psum_out_reg) 
                                           >> 0xfU)))));
-    bufp->fullBit(oldp+946103,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
-    bufp->fullSData(oldp+946104,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_57)) 
+    bufp->fullBit(oldp+946102,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__weight_reg_BIT_15_25_XOR_compute_act_in_BIT_15_ETC___05F_d230));
+    bufp->fullSData(oldp+946103,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_57)) 
                                    & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_56)))
                                    ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__psum_out_reg)
                                    : ((IData)((0U == 
@@ -11754,11 +11754,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__tmp___05Fh1428)) 
                                                            << 1U))
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__tmp___05Fh1428))))))))),16);
-    bufp->fullSData(oldp+946105,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__weight_reg),16);
-    bufp->fullSData(oldp+946106,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+946104,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__weight_reg),16);
+    bufp->fullSData(oldp+946105,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_3)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT___theResult___05F_snd___05Fh788)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT___0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ_0_3_CO_ETC___05F_d19))),16);
-    bufp->fullSData(oldp+946107,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+946106,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_13__DOT__psum_out_reg))))
                                    ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__res_sign___05Fh483) 
                                        << 0xfU) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_12)
@@ -11857,8 +11857,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                          : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__tmp___05Fh1428)) 
                                                        << 1U))
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__tmp___05Fh1428)))))))),16);
-    bufp->fullSData(oldp+946108,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
-    bufp->fullSData(oldp+946109,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__tmp___05Fh1428))
+    bufp->fullSData(oldp+946107,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213),15);
+    bufp->fullSData(oldp+946108,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__tmp___05Fh1428))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT___theResult___05F_fst_exp___05Fh1505)) 
                                                   << 7U)) 
@@ -11935,14 +11935,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__tmp___05Fh1428)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__tmp___05Fh1428)))))),15);
-    bufp->fullSData(oldp+946110,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_12)
+    bufp->fullSData(oldp+946109,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_12)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__IF_IF_0_CONCAT_NOT_weight_reg_BITS_14_TO_7_EQ___05FETC___05F_d213))),15);
-    bufp->fullSData(oldp+946111,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634),10);
-    bufp->fullSData(oldp+946112,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__final_exp_10___05Fh641),10);
-    bufp->fullSData(oldp+946113,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+946110,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634),10);
+    bufp->fullSData(oldp+946111,(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__final_exp_10___05Fh641),10);
+    bufp->fullSData(oldp+946112,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+946114,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_3)
+    bufp->fullSData(oldp+946113,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_3)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_41)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT____VdfgRegularize_he5b7ae78_0_43)
@@ -11985,27 +11985,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+946115,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946114,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+946116,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946115,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946117,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946116,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946118,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946117,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946119,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946118,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946120,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946119,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -12021,7 +12021,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946121,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946120,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -12036,7 +12036,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946122,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946121,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -12050,7 +12050,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946123,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946122,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -12063,7 +12063,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946124,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946123,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -12075,7 +12075,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946125,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+946124,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -12086,7 +12086,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946126,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946125,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -12095,7 +12095,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_20(VmkTb_COP___024root* 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+946127,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
+    bufp->fullSData(oldp+946126,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__sa__DOT__pe_array_5_14__DOT__exp_sum___05Fh634) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 

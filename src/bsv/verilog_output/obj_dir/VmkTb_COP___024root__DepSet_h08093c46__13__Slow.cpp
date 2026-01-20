@@ -10,6 +10,471 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
     VmkTb_COP__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__b_exp___05Fh19825 
+        = ((0x40U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+            ? 0xaaU : (0xffU & ((0x20U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                 ? ((0x10U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                     ? ((8U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                         ? ((4U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                             ? ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1fU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1fU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1fU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1fU] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1eU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1eU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1eU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1eU] 
+                                                     >> 7U))))
+                                             : ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1dU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1dU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1dU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1dU] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1cU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1cU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1cU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1cU] 
+                                                     >> 7U)))))
+                                         : ((4U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                             ? ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1bU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1bU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1bU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1bU] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1aU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1aU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1aU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x1aU] 
+                                                     >> 7U))))
+                                             : ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x19U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x19U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x19U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x19U] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x18U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x18U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x18U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x18U] 
+                                                     >> 7U))))))
+                                     : ((8U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                         ? ((4U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                             ? ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x17U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x17U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x17U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x17U] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x16U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x16U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x16U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x16U] 
+                                                     >> 7U))))
+                                             : ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x15U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x15U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x15U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x15U] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x14U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x14U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x14U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x14U] 
+                                                     >> 7U)))))
+                                         : ((4U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                             ? ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x13U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x13U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x13U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x13U] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x12U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x12U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x12U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x12U] 
+                                                     >> 7U))))
+                                             : ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x11U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x11U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x11U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x11U] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x10U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x10U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x10U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0x10U] 
+                                                     >> 7U)))))))
+                                 : ((0x10U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                     ? ((8U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                         ? ((4U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                             ? ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xfU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xfU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xfU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xfU] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xeU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xeU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xeU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xeU] 
+                                                     >> 7U))))
+                                             : ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xdU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xdU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xdU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xdU] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xcU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xcU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xcU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xcU] 
+                                                     >> 7U)))))
+                                         : ((4U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                             ? ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xbU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xbU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xbU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xbU] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xaU] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xaU] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xaU] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0xaU] 
+                                                     >> 7U))))
+                                             : ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[9U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[9U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[9U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[9U] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[8U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[8U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[8U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[8U] 
+                                                     >> 7U))))))
+                                     : ((8U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                         ? ((4U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                             ? ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[7U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[7U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[7U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[7U] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[6U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[6U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[6U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[6U] 
+                                                     >> 7U))))
+                                             : ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[5U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[5U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[5U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[5U] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[4U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[4U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[4U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[4U] 
+                                                     >> 7U)))))
+                                         : ((4U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                             ? ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[3U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[3U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[3U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[3U] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[2U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[2U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[2U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[2U] 
+                                                     >> 7U))))
+                                             : ((2U 
+                                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                 ? 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[1U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[1U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[1U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[1U] 
+                                                     >> 7U)))
+                                                 : 
+                                                ((1U 
+                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__issue_index))
+                                                  ? 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0U] 
+                                                   << 9U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0U] 
+                                                     >> 0x17U))
+                                                  : 
+                                                 ((vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0U] 
+                                                   << 0x19U) 
+                                                  | (vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd2__DOT__reg_d[0U] 
+                                                     >> 7U))))))))));
     if ((0x40U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd3__DOT__issue_index))) {
         vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd3__DOT__a_exp___05Fh12136 = 0xaaU;
         vlSelfRef.mkTb_COP__DOT__cop__DOT__pipeline__DOT__simd3__DOT__b_exp___05Fh12139 = 0xaaU;
@@ -1420,8 +1885,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                 = (0xffU & 0xaaU);
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                 = (0x7fU & 0x2aU);
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                = (0xffU & 0xaaU);
         } else if ((4U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
             if ((2U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
                 if ((1U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
@@ -1607,10 +2070,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                                   >> 7U)));
                     vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                         = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x173U]);
-                    vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                        = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x172U] 
-                                     << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x172U] 
-                                               >> 0x17U)));
                 } else {
                     vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq38 
                         = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x16fU] 
@@ -1794,10 +2253,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                                   >> 7U)));
                     vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                         = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x163U]);
-                    vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                        = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x162U] 
-                                     << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x162U] 
-                                               >> 0x17U)));
                 }
             } else if ((1U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq38 
@@ -1982,10 +2437,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                               >> 7U)));
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                     = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x153U]);
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                    = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x152U] 
-                                 << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x152U] 
-                                           >> 0x17U)));
             } else {
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq38 
                     = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x14fU] 
@@ -2169,10 +2620,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                               >> 7U)));
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                     = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x143U]);
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                    = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x142U] 
-                                 << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x142U] 
-                                           >> 0x17U)));
             }
         } else if ((2U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
             if ((1U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
@@ -2358,10 +2805,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                               >> 7U)));
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                     = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x133U]);
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                    = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x132U] 
-                                 << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x132U] 
-                                           >> 0x17U)));
             } else {
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq38 
                     = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x12fU] 
@@ -2545,10 +2988,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                               >> 7U)));
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                     = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x123U]);
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                    = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x122U] 
-                                 << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x122U] 
-                                           >> 0x17U)));
             }
         } else if ((1U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq38 
@@ -2733,10 +3172,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                           >> 7U)));
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                 = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x113U]);
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x112U] 
-                             << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x112U] 
-                                       >> 0x17U)));
         } else {
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq38 
                 = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x10fU] 
@@ -2920,10 +3355,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                           >> 7U)));
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                 = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x103U]);
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x102U] 
-                             << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x102U] 
-                                       >> 0x17U)));
         }
         vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x645236_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq40 
             = (1U & ((1U & (~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed) 
@@ -4075,52 +4506,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                                      : 
                                                     (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x103U] 
                                                      >> 0xfU)))))));
-        vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-            = (1U & ((1U & (~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed) 
-                               >> 3U))) && (1U & ((4U 
-                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))
-                                                   ? 
-                                                  ((2U 
-                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))
-                                                    ? 
-                                                   ((1U 
-                                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))
-                                                     ? 
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x172U] 
-                                                     >> 0x1fU)
-                                                     : 
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x162U] 
-                                                     >> 0x1fU))
-                                                    : 
-                                                   ((1U 
-                                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))
-                                                     ? 
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x152U] 
-                                                     >> 0x1fU)
-                                                     : 
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x142U] 
-                                                     >> 0x1fU)))
-                                                   : 
-                                                  ((2U 
-                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))
-                                                    ? 
-                                                   ((1U 
-                                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))
-                                                     ? 
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x132U] 
-                                                     >> 0x1fU)
-                                                     : 
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x122U] 
-                                                     >> 0x1fU))
-                                                    : 
-                                                   ((1U 
-                                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))
-                                                     ? 
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x112U] 
-                                                     >> 0x1fU)
-                                                     : 
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x102U] 
-                                                     >> 0x1fU)))))));
     } else if ((8U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
         if ((4U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
             if ((2U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
@@ -4385,13 +4770,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                                   >> 7U)));
                     vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                         = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xf3U]);
-                    vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                        = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xf2U] 
-                                 >> 0x1fU));
-                    vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                        = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xf2U] 
-                                     << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xf2U] 
-                                               >> 0x17U)));
                 } else {
                     vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
                         = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xefU] 
@@ -4653,13 +5031,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                                   >> 7U)));
                     vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                         = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xe3U]);
-                    vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                        = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xe2U] 
-                                 >> 0x1fU));
-                    vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                        = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xe2U] 
-                                     << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xe2U] 
-                                               >> 0x17U)));
                 }
             } else if ((1U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
@@ -4922,13 +5293,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                               >> 7U)));
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                     = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xd3U]);
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                    = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xd2U] 
-                             >> 0x1fU));
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                    = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xd2U] 
-                                 << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xd2U] 
-                                           >> 0x17U)));
             } else {
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
                     = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xcfU] 
@@ -5190,13 +5554,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                               >> 7U)));
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                     = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xc3U]);
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                    = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xc2U] 
-                             >> 0x1fU));
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                    = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xc2U] 
-                                 << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xc2U] 
-                                           >> 0x17U)));
             }
         } else if ((2U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
             if ((1U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
@@ -5460,13 +5817,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                               >> 7U)));
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                     = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xb3U]);
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                    = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xb2U] 
-                             >> 0x1fU));
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                    = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xb2U] 
-                                 << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xb2U] 
-                                           >> 0x17U)));
             } else {
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
                     = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xafU] 
@@ -5728,13 +6078,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                               >> 7U)));
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                     = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xa3U]);
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                    = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xa2U] 
-                             >> 0x1fU));
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                    = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xa2U] 
-                                 << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xa2U] 
-                                           >> 0x17U)));
             }
         } else if ((1U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
@@ -5997,13 +6340,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                           >> 7U)));
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                 = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x93U]);
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x92U] 
-                         >> 0x1fU));
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x92U] 
-                             << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x92U] 
-                                       >> 0x17U)));
         } else {
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
                 = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x8fU] 
@@ -6265,13 +6601,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                           >> 7U)));
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                 = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x83U]);
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x82U] 
-                         >> 0x1fU));
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x82U] 
-                             << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x82U] 
-                                       >> 0x17U)));
         }
     } else if ((4U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
         if ((2U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
@@ -6536,13 +6865,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                               >> 7U)));
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                     = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x73U]);
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                    = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x72U] 
-                             >> 0x1fU));
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                    = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x72U] 
-                                 << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x72U] 
-                                           >> 0x17U)));
             } else {
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
                     = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x6fU] 
@@ -6804,13 +7126,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                               >> 7U)));
                 vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                     = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x63U]);
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                    = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x62U] 
-                             >> 0x1fU));
-                vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                    = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x62U] 
-                                 << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x62U] 
-                                           >> 0x17U)));
             }
         } else if ((1U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
@@ -7073,13 +7388,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                           >> 7U)));
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                 = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x53U]);
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x52U] 
-                         >> 0x1fU));
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x52U] 
-                             << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x52U] 
-                                       >> 0x17U)));
         } else {
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
                 = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x4fU] 
@@ -7341,13 +7649,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                           >> 7U)));
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                 = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x43U]);
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x42U] 
-                         >> 0x1fU));
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x42U] 
-                             << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x42U] 
-                                       >> 0x17U)));
         }
     } else if ((2U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
         if ((1U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
@@ -7611,13 +7912,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                           >> 7U)));
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                 = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x33U]);
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x32U] 
-                         >> 0x1fU));
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x32U] 
-                             << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x32U] 
-                                       >> 0x17U)));
         } else {
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
                 = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x2fU] 
@@ -7879,13 +8173,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                           >> 7U)));
             vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
                 = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x23U]);
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-                = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x22U] 
-                         >> 0x1fU));
-            vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-                = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x22U] 
-                             << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x22U] 
-                                       >> 0x17U)));
         }
     } else if ((1U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_cts_mse_chunk_fed))) {
         vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
@@ -8148,13 +8435,6 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                       >> 7U)));
         vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
             = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x13U]);
-        vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-            = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x12U] 
-                     >> 0x1fU));
-        vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-            = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x12U] 
-                         << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0x12U] 
-                                   >> 0x17U)));
     } else {
         vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x672435_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq37 
             = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[0xfU] 
@@ -8416,12 +8696,5 @@ VL_ATTR_COLD void VmkTb_COP___024root___stl_sequent__TOP__12(VmkTb_COP___024root
                                       >> 7U)));
         vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x664988_0_tsc_pp_BITS_6_TO_0_1_tsc_pp_BIT_ETC___05Fq114 
             = (0x7fU & vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[3U]);
-        vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BIT_15_1_tsc_pp_BIT_31_2_ETC___05Fq115 
-            = (1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[2U] 
-                     >> 0x1fU));
-        vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x665811_0_tsc_pp_BITS_14_TO_7_1_tsc_pp_BI_ETC___05Fq116 
-            = (0xffU & ((vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[2U] 
-                         << 9U) | (vlSelfRef.mkTb_COP__DOT__cop__DOT__tsc_pp[2U] 
-                                   >> 0x17U)));
     }
 }

@@ -34,477 +34,549 @@ VL_ATTR_COLD void VmkTb_COP___024root___eval_initial__TOP(VmkTb_COP___024root* v
     // Body
     VmkTb_COP___024root___eval_initial__TOP__0(vlSelf);
     VmkTb_COP___024root____Vm_traceActivitySetAll(vlSelf);
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_20__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_21__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_21__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_21__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_21__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_21__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_21__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_21__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_22__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_22__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_22__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_22__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_22__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_22__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_22__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_23__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_23__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_23__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_23__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_23__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_23__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_23__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_24__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_24__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_24__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_24__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_24__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_24__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_24__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_25__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_25__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_25__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_25__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_25__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_25__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_25__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_26__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_26__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_26__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_26__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_26__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_26__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_26__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_27__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_27__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_27__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_27__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_27__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_27__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_27__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_28__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_28__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_28__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_28__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_28__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_28__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_28__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_29__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_29__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_29__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_29__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_29__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_29__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_29__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_3__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_3__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_3__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_3__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_3__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_3__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_3__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_30__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_30__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_30__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_30__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_30__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_30__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_30__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_31__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_31__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_31__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_31__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_31__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_31__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_31__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_32__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_32__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_32__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_32__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_32__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_32__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_32__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_33__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_33__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_33__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_33__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_33__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_33__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_33__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_34__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_34__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_34__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_34__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_34__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_34__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_34__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_35__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_35__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_35__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_35__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_35__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_35__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_35__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_36__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_36__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_36__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_36__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_36__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_36__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_36__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_37__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_37__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_37__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_37__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_37__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_37__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_37__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_38__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_38__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_38__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_38__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_38__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_38__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_38__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_39__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_39__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_39__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_39__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_39__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_39__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_39__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_4__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_4__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_4__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_4__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_4__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_4__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_4__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_40__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_40__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_40__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_40__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_40__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_40__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_40__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_41__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_41__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_41__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_41__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_41__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_41__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_41__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_42__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_42__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_42__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_42__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_42__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_42__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_42__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_43__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_43__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_43__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_43__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_43__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_43__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_43__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_44__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_44__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_44__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_44__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_44__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_44__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_44__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_45__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_45__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_45__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_45__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_45__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_45__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_45__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_46__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_46__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_46__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_46__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_46__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_46__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_46__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_47__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_47__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_47__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_47__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_47__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_47__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_47__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_48__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_48__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_48__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_48__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_48__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_48__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_48__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_49__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_49__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_49__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_49__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_49__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_49__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_49__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_5__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_5__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_5__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_5__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_5__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_5__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_5__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_50__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_50__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_50__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_50__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_50__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_50__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_50__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_51__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_51__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_51__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_51__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_51__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_51__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_51__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_52__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_52__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_52__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_52__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_52__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_52__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_52__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_53__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_53__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_53__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_53__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_53__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_53__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_53__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_54__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_54__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_54__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_54__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_54__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_54__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_54__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_55__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_55__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_55__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_55__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_55__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_55__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_55__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_56__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_56__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_56__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_56__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_56__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_56__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_56__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_57__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_57__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_57__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_57__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_57__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_57__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_57__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_58__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_58__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_58__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_58__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_58__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_58__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_58__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_59__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_59__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_59__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_59__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_59__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_59__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_59__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_6__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_6__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_6__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_6__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_6__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_6__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_6__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_60__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_60__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_60__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_60__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_60__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_60__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_60__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_61__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_61__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_61__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_61__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_61__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_61__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_61__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_62__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_62__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_62__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_62__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_62__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_62__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_62__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_63__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_63__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_63__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_63__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_63__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_63__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_63__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_64__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_64__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_64__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_64__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_64__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_64__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_64__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_65__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_65__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_65__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_65__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_65__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_65__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_65__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_66__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_66__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_66__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_66__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_66__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_66__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_66__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_67__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_67__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_67__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_67__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_67__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_67__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_67__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_68__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_68__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_68__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_68__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_68__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_68__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_68__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_69__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_69__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_69__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_69__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_69__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_69__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_69__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_7__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_7__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_7__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_7__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_7__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_7__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_7__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_70__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_70__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_70__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_70__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_70__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_70__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_70__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_71__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_71__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_71__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_71__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_71__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_71__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_71__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_72__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_72__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_72__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_72__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_72__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_72__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_72__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_73__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_73__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_73__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_73__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_73__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_73__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_73__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_8__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_8__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_8__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_8__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_8__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_8__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_8__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_9__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_9__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_9__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_9__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_9__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_9__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_9__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__allReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__cycleCount = 2U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__dataVec_0 = 0xaaaaU;
@@ -771,594 +843,666 @@ VL_ATTR_COLD void VmkTb_COP___024root___eval_initial__TOP(VmkTb_COP___024root* v
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_0__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_0__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_0__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_0__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_1__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_1__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_1__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_1__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_1__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_1__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_1__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_10__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_10__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_10__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_10__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_10__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_10__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_10__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_11__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_11__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_11__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_11__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_11__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_11__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_11__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_12__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_12__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_12__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_12__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_12__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_12__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_12__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_13__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_13__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_13__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_13__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_13__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_13__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_13__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_14__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_14__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_14__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_14__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_14__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_14__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_14__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_15__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_15__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_15__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_15__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_15__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_15__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_15__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_16__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_16__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_16__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_16__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_16__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_16__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_16__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_17__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_17__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_17__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_17__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_17__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_17__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_17__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_18__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_18__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_18__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_18__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_18__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_18__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_18__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_19__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_19__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_19__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_19__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_19__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_19__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_19__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_2__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_2__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_2__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_2__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_2__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_2__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_2__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_20__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_20__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_20__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_20__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_20__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_20__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_20__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_21__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_21__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_21__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_21__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_21__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_21__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_21__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_22__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_22__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_22__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_22__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_22__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_22__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_22__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_23__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_23__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_23__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_23__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_23__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_23__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_23__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_24__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_24__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_24__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_24__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_24__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_24__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_24__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_25__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_25__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_25__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_25__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_25__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_25__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_25__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_26__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_26__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_26__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_26__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_26__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_26__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_26__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_27__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_27__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_27__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_27__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_27__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_27__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_27__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_28__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_28__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_28__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_28__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_28__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_28__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_28__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_29__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_29__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_29__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_29__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_29__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_29__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_29__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_3__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_3__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_3__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_3__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_3__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_3__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_3__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_30__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_30__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_30__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_30__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_30__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_30__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_30__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_31__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_31__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_31__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_31__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_31__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_31__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_31__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_32__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_32__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_32__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_32__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_32__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_32__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_32__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_33__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_33__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_33__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_33__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_33__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_33__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_33__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_34__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_34__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_34__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_34__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_34__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_34__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_34__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_35__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_35__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_35__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_35__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_35__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_35__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_35__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_36__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_36__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_36__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_36__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_36__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_36__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_36__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_37__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_37__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_37__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_37__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_37__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_37__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_37__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_38__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_38__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_38__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_38__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_38__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_38__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_38__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_39__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_39__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_39__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_39__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_39__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_39__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_39__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_4__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_4__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_4__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_4__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_4__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_4__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_4__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_40__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_40__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_40__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_40__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_40__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_40__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_40__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_41__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_41__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_41__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_41__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_41__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_41__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_41__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_42__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_42__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_42__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_42__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_42__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_42__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_42__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_43__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_43__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_43__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_43__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_43__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_43__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_43__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_44__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_44__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_44__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_44__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_44__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_44__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_44__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_45__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_45__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_45__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_45__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_45__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_45__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_45__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_46__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_46__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_46__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_46__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_46__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_46__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_46__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_47__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_47__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_47__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_47__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_47__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_47__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_47__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_48__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_48__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_48__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_48__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_48__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_48__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_48__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_49__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_49__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_49__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_49__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_49__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_49__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_49__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_5__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_5__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_5__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_5__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_5__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_5__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_5__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_50__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_50__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_50__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_50__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_50__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_50__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_50__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_51__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_51__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_51__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_51__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_51__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_51__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_51__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_52__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_52__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_52__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_52__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_52__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_52__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_52__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_53__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_53__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_53__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_53__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_53__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_53__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_53__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_54__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_54__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_54__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_54__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_54__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_54__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_54__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_55__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_55__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_55__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_55__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_55__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_55__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_55__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_56__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_56__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_56__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_56__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_56__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_56__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_56__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_57__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_57__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_57__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_57__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_57__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_57__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_57__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_58__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_58__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_58__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_58__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_58__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_58__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_58__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_59__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_59__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_59__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_59__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_59__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_59__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_59__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_6__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_6__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_6__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_6__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_6__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_6__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_6__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_60__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_60__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_60__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_60__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_60__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_60__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_60__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_61__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_61__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_61__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_61__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_61__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_61__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_61__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_62__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_62__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_62__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_62__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_62__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_62__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_62__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_63__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_63__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_63__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_63__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_63__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_63__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_63__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_64__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_64__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_64__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_64__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_64__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_64__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_64__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_65__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_65__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_65__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_65__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_65__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_65__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_65__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_66__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_66__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_66__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_66__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_66__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_66__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_66__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_67__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_67__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_67__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_67__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_67__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_67__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_67__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_68__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_68__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_68__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_68__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_68__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_68__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_68__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_69__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_69__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_69__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_69__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_69__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_69__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_69__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_7__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_7__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_7__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_7__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_7__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_7__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_7__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_70__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_70__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_70__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_70__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_70__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_70__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_70__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_71__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_71__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_71__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_71__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_71__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_71__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_71__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_72__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_72__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_72__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_72__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_72__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_72__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_72__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_73__DOT__loader_initDelay = 0x2aaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_73__DOT__loader_isReady = 0U;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_73__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_73__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_73__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
+    vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_73__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
+                 ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_73__DOT__loader_bram__DOT__RAM)
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_8__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_8__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_8__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_8__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_8__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_8__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_8__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_9__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_9__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_9__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_9__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_9__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_9__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa2__DOT__brams_9__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
 }
 
 extern const VlWide<384>/*12287:0*/ VmkTb_COP__ConstPool__CONST_h3189f01a_0;
@@ -10379,117 +10523,117 @@ VL_ATTR_COLD void VmkTb_COP___024root___eval_initial__TOP__0(VmkTb_COP___024root
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_0__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_0__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_0__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_0__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_1__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_1__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_1__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_1__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_1__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_1__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_1__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_10__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_10__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_10__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_10__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_10__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_10__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_10__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_11__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_11__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_11__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_11__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_11__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_11__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_11__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_12__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_12__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_12__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_12__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_12__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_12__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_12__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_13__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_13__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_13__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_13__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_13__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_13__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_13__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_14__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_14__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_14__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_14__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_14__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_14__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_14__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_15__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_15__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_15__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_15__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_15__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_15__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_15__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_16__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_16__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_16__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_16__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_16__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_16__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_16__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_17__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_17__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_17__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_17__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_17__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_17__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_17__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_18__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_18__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_18__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_18__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_18__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_18__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_18__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_19__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_19__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_19__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_19__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_19__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_19__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_19__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_2__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_2__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_2__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_2__DOT__loader_bram__DOT__DOA_R2 = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_2__DOT__loader_bram__DOT__DOB_R = 0xaaaaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_2__DOT__loader_bram__DOT__DOB_R2 = 0xaaaaU;
-    VL_READMEM_N(true, 16, 2240, 0, std::string{"data.hex"}
+    VL_READMEM_N(true, 16, 2000, 0, std::string{"data.hex"}
                  ,  &(vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_2__DOT__loader_bram__DOT__RAM)
-                 , 0U, 0x8bfU);
+                 , 0U, 0x7cfU);
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_20__DOT__loader_initDelay = 0x2aaU;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_20__DOT__loader_isReady = 0U;
     vlSelfRef.mkTb_COP__DOT__cop__DOT__weight_loader_sa1__DOT__brams_20__DOT__loader_bram__DOT__DOA_R = 0xaaaaU;

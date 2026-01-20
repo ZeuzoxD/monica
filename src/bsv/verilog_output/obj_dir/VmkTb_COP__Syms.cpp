@@ -18,7 +18,7 @@ VmkTb_COP__Syms::VmkTb_COP__Syms(VerilatedContext* contextp, const char* namep, 
     , TOP{this, namep}
 {
         // Check resources
-        Verilated::stackCheck(337682);
+        Verilated::stackCheck(337566);
     // Configure time unit / time precision
     _vm_contextp__->timeunit(-12);
     _vm_contextp__->timeprecision(-12);

@@ -17,27 +17,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
     VlWide<4>/*127:0*/ __Vtemp_14;
     VlWide<4>/*127:0*/ __Vtemp_16;
     // Body
-    bufp->fullSData(oldp+926956,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+926955,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+926957,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+926956,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926958,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+926957,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926959,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+926958,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926960,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+926959,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926961,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+926960,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -53,7 +53,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926962,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+926961,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -68,7 +68,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926963,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+926962,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -82,7 +82,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926964,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+926963,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -95,7 +95,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926965,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+926964,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -107,7 +107,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926966,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+926965,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -118,7 +118,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926967,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+926966,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -127,7 +127,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926968,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+926967,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -135,14 +135,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926969,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+926968,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+926970,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
+    bufp->fullSData(oldp+926969,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT____VdfgRegularize_h799d9463_0_33)
@@ -184,64 +184,64 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__tmp___05Fh2907)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__tmp___05Fh2907))),9);
-    bufp->fullSData(oldp+926971,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullSData(oldp+926970,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__inv_tau_cached) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+926972,(((0U == (0xffU & (IData)(
+    bufp->fullSData(oldp+926971,(((0U == (0xffU & (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage1_data 
                                                            >> 0xcU))))
                                    ? 1U : (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU))))),9);
-    bufp->fullSData(oldp+926973,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441),9);
-    bufp->fullSData(oldp+926974,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+926972,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__exp_sum___05Fh1441),9);
+    bufp->fullSData(oldp+926973,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+926975,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+926974,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+926976,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__smaller_m___05Fh2901) 
+    bufp->fullSData(oldp+926975,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__smaller_m___05Fh2901) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))))),9);
-    bufp->fullSData(oldp+926977,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__tmp___05Fh2907),9);
-    bufp->fullCData(oldp+926978,((((0U != (0xffU & 
+    bufp->fullSData(oldp+926976,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__tmp___05Fh2907),9);
+    bufp->fullCData(oldp+926977,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__inv_tau_cached)))),8);
-    bufp->fullCData(oldp+926979,((((0U != (0xffU & (IData)(
+    bufp->fullCData(oldp+926978,((((0U != (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU)))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(
                                                        (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage1_data 
                                                         >> 5U))))),8);
-    bufp->fullCData(oldp+926980,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
-    bufp->fullCData(oldp+926981,((0xffU & ((IData)(
+    bufp->fullCData(oldp+926979,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
+    bufp->fullCData(oldp+926980,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage2_data 
                                                     >> 0x1cU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage2_data 
                                                       >> 0xcU))))),8);
-    bufp->fullCData(oldp+926982,((0xffU & ((IData)(
+    bufp->fullCData(oldp+926981,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage2_data 
                                                     >> 0xcU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage2_data 
                                                       >> 0x1cU))))),8);
-    bufp->fullCData(oldp+926983,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+926982,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214)))),8);
-    bufp->fullCData(oldp+926984,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+926983,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__conf 
                                                       >> 0x1bU))))),8);
-    bufp->fullCData(oldp+926985,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+926984,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2168449_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq551)))),8);
-    bufp->fullCData(oldp+926986,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+926985,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986)))),8);
-    bufp->fullCData(oldp+926987,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
+    bufp->fullCData(oldp+926986,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                    ? 
@@ -265,11 +265,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+926988,((0xffU & ((IData)(2U) 
+    bufp->fullCData(oldp+926987,((0xffU & ((IData)(2U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+926989,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+926988,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+926990,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+926989,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT____VdfgRegularize_h799d9463_0_45)
                                                    ? 
@@ -293,9 +293,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+926991,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__man_a___05Fh4163),8);
-    bufp->fullCData(oldp+926992,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__man_b___05Fh4164),8);
-    bufp->fullCData(oldp+926993,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullCData(oldp+926990,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__man_a___05Fh4163),8);
+    bufp->fullCData(oldp+926991,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__man_b___05Fh4164),8);
+    bufp->fullCData(oldp+926992,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -303,8 +303,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2168449_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq551))))))),8);
-    bufp->fullCData(oldp+926994,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__smaller_m___05Fh2901),8);
-    bufp->fullCData(oldp+926995,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+926993,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__smaller_m___05Fh2901),8);
+    bufp->fullCData(oldp+926994,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -317,7 +317,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage2_data 
                                                                        >> 0xcU))))))),8);
-    bufp->fullCData(oldp+926996,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+926995,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -330,9 +330,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage2_data 
                                                                        >> 0x1cU))))))),8);
-    bufp->fullCData(oldp+926997,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
-    bufp->fullCData(oldp+926998,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__final_mant___05Fh1447),7);
-    bufp->fullBit(oldp+926999,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__a___05Fh2557) 
+    bufp->fullCData(oldp+926996,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
+    bufp->fullCData(oldp+926997,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__final_mant___05Fh1447),7);
+    bufp->fullBit(oldp+926998,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__a___05Fh2557) 
                                               >> 0xfU)) 
                                        == (1U & (IData)(
                                                         (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__conf 
@@ -359,17 +359,17 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 >> 0x24U)))))))
                                        : (~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__a___05Fh2557) 
                                              >> 0xfU))))));
-    bufp->fullBit(oldp+927000,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
-    bufp->fullBit(oldp+927001,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
-    bufp->fullBit(oldp+927002,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
+    bufp->fullBit(oldp+926999,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
+    bufp->fullBit(oldp+927000,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
+    bufp->fullBit(oldp+927001,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377) 
                                    | ((0x7fU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__a___05Fh2557)) 
                                       < (0x7fU & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__conf 
                                                           >> 0x24U))))))));
-    bufp->fullBit(oldp+927003,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
-    bufp->fullBit(oldp+927004,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
-    bufp->fullBit(oldp+927005,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
+    bufp->fullBit(oldp+927002,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
+    bufp->fullBit(oldp+927003,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
+    bufp->fullBit(oldp+927004,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
                                       | ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377)) 
                                          & ((0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__a___05Fh2557)) 
@@ -377,14 +377,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__conf 
                                                           >> 0x24U)))))))));
-    bufp->fullBit(oldp+927006,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage2_data 
+    bufp->fullBit(oldp+927005,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage2_data 
                                             >> 4U))) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6))));
-    bufp->fullBit(oldp+927007,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullBit(oldp+927006,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__inv_tau_cached) 
                                        >> 0xfU) ^ (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage1_data 
                                                            >> 0x14U))))));
-    bufp->fullBit(oldp+927008,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
+    bufp->fullBit(oldp+927007,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__result_sign___05Fh2962)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT___0b1_CONCAT_IF_IF_stage2_data_BIT_37_THEN_stage_ETC___05F_d271)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
@@ -395,406 +395,406 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage2_data 
                                                           >> 0x14U)))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__result_sign___05Fh2962))))));
-    bufp->fullBit(oldp+927009,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__result_sign___05Fh2962));
-    bufp->fullBit(oldp+927010,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
+    bufp->fullBit(oldp+927008,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__result_sign___05Fh2962));
+    bufp->fullBit(oldp+927009,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
                                        ? (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage2_data 
                                                   >> 0x24U))
                                        : (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__lif__DOT__stage2_data 
                                                   >> 0x14U))))));
-    bufp->fullBit(oldp+927011,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
-    bufp->fullBit(oldp+927012,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__state)) 
+    bufp->fullBit(oldp+927010,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_4__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
+    bufp->fullBit(oldp+927011,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__state)) 
                                 & (3U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__state)))));
-    bufp->fullCData(oldp+927013,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__input_index),6);
-    bufp->fullCData(oldp+927014,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
+    bufp->fullCData(oldp+927012,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__input_index),6);
+    bufp->fullCData(oldp+927013,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__input_index)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+927015,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__inputs_fed),6);
-    bufp->fullCData(oldp+927016,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
+    bufp->fullCData(oldp+927014,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__inputs_fed),6);
+    bufp->fullCData(oldp+927015,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__inputs_fed)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+927017,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__output_index),6);
-    bufp->fullCData(oldp+927018,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024EN_get_output)
+    bufp->fullCData(oldp+927016,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__output_index),6);
+    bufp->fullCData(oldp+927017,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024EN_get_output)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__output_index)))
                                    : 0U)),6);
-    bufp->fullBit(oldp+927019,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024EN_get_output));
-    bufp->fullCData(oldp+927020,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__outputs_received),6);
-    bufp->fullCData(oldp+927021,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024EN_get_output)
+    bufp->fullBit(oldp+927018,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024EN_get_output));
+    bufp->fullCData(oldp+927019,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__outputs_received),6);
+    bufp->fullCData(oldp+927020,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024EN_get_output)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__outputs_received)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+927022,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_0),4);
-    bufp->fullCData(oldp+927023,((0xfU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg)),4);
-    bufp->fullBit(oldp+927024,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_0__024EN));
-    bufp->fullCData(oldp+927025,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_1),4);
-    bufp->fullBit(oldp+927026,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_1__024EN));
-    bufp->fullCData(oldp+927027,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_10),4);
-    bufp->fullBit(oldp+927028,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_10__024EN));
-    bufp->fullCData(oldp+927029,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_11),4);
-    bufp->fullBit(oldp+927030,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_11__024EN));
-    bufp->fullCData(oldp+927031,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_12),4);
-    bufp->fullBit(oldp+927032,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_12__024EN));
-    bufp->fullCData(oldp+927033,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_13),4);
-    bufp->fullBit(oldp+927034,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_13__024EN));
-    bufp->fullCData(oldp+927035,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_14),4);
-    bufp->fullBit(oldp+927036,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_14__024EN));
-    bufp->fullCData(oldp+927037,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_15),4);
-    bufp->fullBit(oldp+927038,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_15__024EN));
-    bufp->fullCData(oldp+927039,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_16),4);
-    bufp->fullBit(oldp+927040,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_16__024EN));
-    bufp->fullCData(oldp+927041,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_17),4);
-    bufp->fullBit(oldp+927042,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_17__024EN));
-    bufp->fullCData(oldp+927043,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_18),4);
-    bufp->fullBit(oldp+927044,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_18__024EN));
-    bufp->fullCData(oldp+927045,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_19),4);
-    bufp->fullBit(oldp+927046,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_19__024EN));
-    bufp->fullCData(oldp+927047,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_2),4);
-    bufp->fullBit(oldp+927048,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_2__024EN));
-    bufp->fullCData(oldp+927049,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_20),4);
-    bufp->fullBit(oldp+927050,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_20__024EN));
-    bufp->fullCData(oldp+927051,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_21),4);
-    bufp->fullBit(oldp+927052,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_21__024EN));
-    bufp->fullCData(oldp+927053,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_22),4);
-    bufp->fullBit(oldp+927054,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_22__024EN));
-    bufp->fullCData(oldp+927055,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_23),4);
-    bufp->fullBit(oldp+927056,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_23__024EN));
-    bufp->fullCData(oldp+927057,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_24),4);
-    bufp->fullBit(oldp+927058,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_24__024EN));
-    bufp->fullCData(oldp+927059,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_25),4);
-    bufp->fullBit(oldp+927060,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_25__024EN));
-    bufp->fullCData(oldp+927061,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_26),4);
-    bufp->fullBit(oldp+927062,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_26__024EN));
-    bufp->fullCData(oldp+927063,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_27),4);
-    bufp->fullBit(oldp+927064,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_27__024EN));
-    bufp->fullCData(oldp+927065,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_28),4);
-    bufp->fullBit(oldp+927066,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_28__024EN));
-    bufp->fullCData(oldp+927067,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_29),4);
-    bufp->fullBit(oldp+927068,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_29__024EN));
-    bufp->fullCData(oldp+927069,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_3),4);
-    bufp->fullBit(oldp+927070,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_3__024EN));
-    bufp->fullCData(oldp+927071,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_30),4);
-    bufp->fullBit(oldp+927072,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_30__024EN));
-    bufp->fullCData(oldp+927073,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_31),4);
-    bufp->fullBit(oldp+927074,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_31__024EN));
-    bufp->fullCData(oldp+927075,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_32),4);
-    bufp->fullBit(oldp+927076,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_32__024EN));
-    bufp->fullCData(oldp+927077,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_33),4);
-    bufp->fullBit(oldp+927078,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_33__024EN));
-    bufp->fullCData(oldp+927079,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_34),4);
-    bufp->fullBit(oldp+927080,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_34__024EN));
-    bufp->fullCData(oldp+927081,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_35),4);
-    bufp->fullBit(oldp+927082,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_35__024EN));
-    bufp->fullCData(oldp+927083,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_36),4);
-    bufp->fullBit(oldp+927084,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_36__024EN));
-    bufp->fullCData(oldp+927085,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_37),4);
-    bufp->fullBit(oldp+927086,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_37__024EN));
-    bufp->fullCData(oldp+927087,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_38),4);
-    bufp->fullBit(oldp+927088,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_38__024EN));
-    bufp->fullCData(oldp+927089,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_39),4);
-    bufp->fullBit(oldp+927090,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_39__024EN));
-    bufp->fullCData(oldp+927091,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_4),4);
-    bufp->fullBit(oldp+927092,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_4__024EN));
-    bufp->fullCData(oldp+927093,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_40),4);
-    bufp->fullBit(oldp+927094,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_40__024EN));
-    bufp->fullCData(oldp+927095,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_41),4);
-    bufp->fullBit(oldp+927096,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_41__024EN));
-    bufp->fullCData(oldp+927097,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_42),4);
-    bufp->fullBit(oldp+927098,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_42__024EN));
-    bufp->fullCData(oldp+927099,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_43),4);
-    bufp->fullBit(oldp+927100,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_43__024EN));
-    bufp->fullCData(oldp+927101,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_44),4);
-    bufp->fullBit(oldp+927102,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_44__024EN));
-    bufp->fullCData(oldp+927103,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_45),4);
-    bufp->fullBit(oldp+927104,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_45__024EN));
-    bufp->fullCData(oldp+927105,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_46),4);
-    bufp->fullBit(oldp+927106,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_46__024EN));
-    bufp->fullCData(oldp+927107,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_47),4);
-    bufp->fullBit(oldp+927108,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_47__024EN));
-    bufp->fullCData(oldp+927109,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_5),4);
-    bufp->fullBit(oldp+927110,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_5__024EN));
-    bufp->fullCData(oldp+927111,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_6),4);
-    bufp->fullBit(oldp+927112,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_6__024EN));
-    bufp->fullCData(oldp+927113,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_7),4);
-    bufp->fullBit(oldp+927114,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_7__024EN));
-    bufp->fullCData(oldp+927115,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_8),4);
-    bufp->fullBit(oldp+927116,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_8__024EN));
-    bufp->fullCData(oldp+927117,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_9),4);
-    bufp->fullBit(oldp+927118,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_9__024EN));
-    bufp->fullBit(oldp+927119,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_0));
-    bufp->fullBit(oldp+927120,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_0__024EN) 
+    bufp->fullCData(oldp+927021,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_0),4);
+    bufp->fullCData(oldp+927022,((0xfU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg)),4);
+    bufp->fullBit(oldp+927023,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_0__024EN));
+    bufp->fullCData(oldp+927024,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_1),4);
+    bufp->fullBit(oldp+927025,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_1__024EN));
+    bufp->fullCData(oldp+927026,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_10),4);
+    bufp->fullBit(oldp+927027,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_10__024EN));
+    bufp->fullCData(oldp+927028,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_11),4);
+    bufp->fullBit(oldp+927029,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_11__024EN));
+    bufp->fullCData(oldp+927030,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_12),4);
+    bufp->fullBit(oldp+927031,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_12__024EN));
+    bufp->fullCData(oldp+927032,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_13),4);
+    bufp->fullBit(oldp+927033,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_13__024EN));
+    bufp->fullCData(oldp+927034,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_14),4);
+    bufp->fullBit(oldp+927035,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_14__024EN));
+    bufp->fullCData(oldp+927036,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_15),4);
+    bufp->fullBit(oldp+927037,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_15__024EN));
+    bufp->fullCData(oldp+927038,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_16),4);
+    bufp->fullBit(oldp+927039,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_16__024EN));
+    bufp->fullCData(oldp+927040,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_17),4);
+    bufp->fullBit(oldp+927041,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_17__024EN));
+    bufp->fullCData(oldp+927042,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_18),4);
+    bufp->fullBit(oldp+927043,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_18__024EN));
+    bufp->fullCData(oldp+927044,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_19),4);
+    bufp->fullBit(oldp+927045,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_19__024EN));
+    bufp->fullCData(oldp+927046,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_2),4);
+    bufp->fullBit(oldp+927047,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_2__024EN));
+    bufp->fullCData(oldp+927048,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_20),4);
+    bufp->fullBit(oldp+927049,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_20__024EN));
+    bufp->fullCData(oldp+927050,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_21),4);
+    bufp->fullBit(oldp+927051,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_21__024EN));
+    bufp->fullCData(oldp+927052,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_22),4);
+    bufp->fullBit(oldp+927053,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_22__024EN));
+    bufp->fullCData(oldp+927054,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_23),4);
+    bufp->fullBit(oldp+927055,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_23__024EN));
+    bufp->fullCData(oldp+927056,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_24),4);
+    bufp->fullBit(oldp+927057,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_24__024EN));
+    bufp->fullCData(oldp+927058,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_25),4);
+    bufp->fullBit(oldp+927059,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_25__024EN));
+    bufp->fullCData(oldp+927060,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_26),4);
+    bufp->fullBit(oldp+927061,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_26__024EN));
+    bufp->fullCData(oldp+927062,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_27),4);
+    bufp->fullBit(oldp+927063,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_27__024EN));
+    bufp->fullCData(oldp+927064,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_28),4);
+    bufp->fullBit(oldp+927065,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_28__024EN));
+    bufp->fullCData(oldp+927066,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_29),4);
+    bufp->fullBit(oldp+927067,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_29__024EN));
+    bufp->fullCData(oldp+927068,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_3),4);
+    bufp->fullBit(oldp+927069,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_3__024EN));
+    bufp->fullCData(oldp+927070,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_30),4);
+    bufp->fullBit(oldp+927071,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_30__024EN));
+    bufp->fullCData(oldp+927072,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_31),4);
+    bufp->fullBit(oldp+927073,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_31__024EN));
+    bufp->fullCData(oldp+927074,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_32),4);
+    bufp->fullBit(oldp+927075,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_32__024EN));
+    bufp->fullCData(oldp+927076,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_33),4);
+    bufp->fullBit(oldp+927077,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_33__024EN));
+    bufp->fullCData(oldp+927078,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_34),4);
+    bufp->fullBit(oldp+927079,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_34__024EN));
+    bufp->fullCData(oldp+927080,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_35),4);
+    bufp->fullBit(oldp+927081,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_35__024EN));
+    bufp->fullCData(oldp+927082,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_36),4);
+    bufp->fullBit(oldp+927083,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_36__024EN));
+    bufp->fullCData(oldp+927084,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_37),4);
+    bufp->fullBit(oldp+927085,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_37__024EN));
+    bufp->fullCData(oldp+927086,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_38),4);
+    bufp->fullBit(oldp+927087,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_38__024EN));
+    bufp->fullCData(oldp+927088,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_39),4);
+    bufp->fullBit(oldp+927089,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_39__024EN));
+    bufp->fullCData(oldp+927090,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_4),4);
+    bufp->fullBit(oldp+927091,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_4__024EN));
+    bufp->fullCData(oldp+927092,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_40),4);
+    bufp->fullBit(oldp+927093,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_40__024EN));
+    bufp->fullCData(oldp+927094,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_41),4);
+    bufp->fullBit(oldp+927095,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_41__024EN));
+    bufp->fullCData(oldp+927096,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_42),4);
+    bufp->fullBit(oldp+927097,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_42__024EN));
+    bufp->fullCData(oldp+927098,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_43),4);
+    bufp->fullBit(oldp+927099,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_43__024EN));
+    bufp->fullCData(oldp+927100,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_44),4);
+    bufp->fullBit(oldp+927101,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_44__024EN));
+    bufp->fullCData(oldp+927102,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_45),4);
+    bufp->fullBit(oldp+927103,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_45__024EN));
+    bufp->fullCData(oldp+927104,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_46),4);
+    bufp->fullBit(oldp+927105,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_46__024EN));
+    bufp->fullCData(oldp+927106,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_47),4);
+    bufp->fullBit(oldp+927107,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_47__024EN));
+    bufp->fullCData(oldp+927108,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_5),4);
+    bufp->fullBit(oldp+927109,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_5__024EN));
+    bufp->fullCData(oldp+927110,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_6),4);
+    bufp->fullBit(oldp+927111,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_6__024EN));
+    bufp->fullCData(oldp+927112,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_7),4);
+    bufp->fullBit(oldp+927113,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_7__024EN));
+    bufp->fullCData(oldp+927114,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_8),4);
+    bufp->fullBit(oldp+927115,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_8__024EN));
+    bufp->fullCData(oldp+927116,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_9),4);
+    bufp->fullBit(oldp+927117,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_9__024EN));
+    bufp->fullBit(oldp+927118,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_0));
+    bufp->fullBit(oldp+927119,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_0__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927121,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_1));
-    bufp->fullBit(oldp+927122,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_1__024EN) 
+    bufp->fullBit(oldp+927120,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_1));
+    bufp->fullBit(oldp+927121,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_1__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927123,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_10));
-    bufp->fullBit(oldp+927124,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_10__024EN) 
+    bufp->fullBit(oldp+927122,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_10));
+    bufp->fullBit(oldp+927123,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_10__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927125,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_11));
-    bufp->fullBit(oldp+927126,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_11__024EN) 
+    bufp->fullBit(oldp+927124,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_11));
+    bufp->fullBit(oldp+927125,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_11__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927127,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_12));
-    bufp->fullBit(oldp+927128,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_12__024EN) 
+    bufp->fullBit(oldp+927126,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_12));
+    bufp->fullBit(oldp+927127,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_12__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927129,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_13));
-    bufp->fullBit(oldp+927130,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_13__024EN) 
+    bufp->fullBit(oldp+927128,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_13));
+    bufp->fullBit(oldp+927129,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_13__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927131,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_14));
-    bufp->fullBit(oldp+927132,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_14__024EN) 
+    bufp->fullBit(oldp+927130,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_14));
+    bufp->fullBit(oldp+927131,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_14__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927133,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_15));
-    bufp->fullBit(oldp+927134,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_15__024EN) 
+    bufp->fullBit(oldp+927132,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_15));
+    bufp->fullBit(oldp+927133,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_15__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927135,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_16));
-    bufp->fullBit(oldp+927136,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_16__024EN) 
+    bufp->fullBit(oldp+927134,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_16));
+    bufp->fullBit(oldp+927135,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_16__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927137,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_17));
-    bufp->fullBit(oldp+927138,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_17__024EN) 
+    bufp->fullBit(oldp+927136,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_17));
+    bufp->fullBit(oldp+927137,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_17__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927139,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_18));
-    bufp->fullBit(oldp+927140,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_18__024EN) 
+    bufp->fullBit(oldp+927138,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_18));
+    bufp->fullBit(oldp+927139,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_18__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927141,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_19));
-    bufp->fullBit(oldp+927142,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_19__024EN) 
+    bufp->fullBit(oldp+927140,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_19));
+    bufp->fullBit(oldp+927141,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_19__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927143,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_2));
-    bufp->fullBit(oldp+927144,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_2__024EN) 
+    bufp->fullBit(oldp+927142,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_2));
+    bufp->fullBit(oldp+927143,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_2__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927145,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_20));
-    bufp->fullBit(oldp+927146,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_20__024EN) 
+    bufp->fullBit(oldp+927144,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_20));
+    bufp->fullBit(oldp+927145,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_20__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927147,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_21));
-    bufp->fullBit(oldp+927148,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_21__024EN) 
+    bufp->fullBit(oldp+927146,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_21));
+    bufp->fullBit(oldp+927147,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_21__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927149,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_22));
-    bufp->fullBit(oldp+927150,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_22__024EN) 
+    bufp->fullBit(oldp+927148,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_22));
+    bufp->fullBit(oldp+927149,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_22__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927151,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_23));
-    bufp->fullBit(oldp+927152,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_23__024EN) 
+    bufp->fullBit(oldp+927150,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_23));
+    bufp->fullBit(oldp+927151,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_23__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927153,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_24));
-    bufp->fullBit(oldp+927154,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_24__024EN) 
+    bufp->fullBit(oldp+927152,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_24));
+    bufp->fullBit(oldp+927153,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_24__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927155,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_25));
-    bufp->fullBit(oldp+927156,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_25__024EN) 
+    bufp->fullBit(oldp+927154,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_25));
+    bufp->fullBit(oldp+927155,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_25__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927157,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_26));
-    bufp->fullBit(oldp+927158,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_26__024EN) 
+    bufp->fullBit(oldp+927156,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_26));
+    bufp->fullBit(oldp+927157,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_26__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927159,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_27));
-    bufp->fullBit(oldp+927160,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_27__024EN) 
+    bufp->fullBit(oldp+927158,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_27));
+    bufp->fullBit(oldp+927159,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_27__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927161,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_28));
-    bufp->fullBit(oldp+927162,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_28__024EN) 
+    bufp->fullBit(oldp+927160,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_28));
+    bufp->fullBit(oldp+927161,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_28__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927163,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_29));
-    bufp->fullBit(oldp+927164,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_29__024EN) 
+    bufp->fullBit(oldp+927162,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_29));
+    bufp->fullBit(oldp+927163,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_29__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927165,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_3));
-    bufp->fullBit(oldp+927166,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_3__024EN) 
+    bufp->fullBit(oldp+927164,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_3));
+    bufp->fullBit(oldp+927165,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_3__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927167,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_30));
-    bufp->fullBit(oldp+927168,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_30__024EN) 
+    bufp->fullBit(oldp+927166,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_30));
+    bufp->fullBit(oldp+927167,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_30__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927169,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_31));
-    bufp->fullBit(oldp+927170,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_31__024EN) 
+    bufp->fullBit(oldp+927168,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_31));
+    bufp->fullBit(oldp+927169,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_31__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927171,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_32));
-    bufp->fullBit(oldp+927172,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_32__024EN) 
+    bufp->fullBit(oldp+927170,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_32));
+    bufp->fullBit(oldp+927171,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_32__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927173,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_33));
-    bufp->fullBit(oldp+927174,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_33__024EN) 
+    bufp->fullBit(oldp+927172,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_33));
+    bufp->fullBit(oldp+927173,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_33__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927175,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_34));
-    bufp->fullBit(oldp+927176,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_34__024EN) 
+    bufp->fullBit(oldp+927174,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_34));
+    bufp->fullBit(oldp+927175,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_34__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927177,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_35));
-    bufp->fullBit(oldp+927178,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_35__024EN) 
+    bufp->fullBit(oldp+927176,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_35));
+    bufp->fullBit(oldp+927177,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_35__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927179,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_36));
-    bufp->fullBit(oldp+927180,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_36__024EN) 
+    bufp->fullBit(oldp+927178,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_36));
+    bufp->fullBit(oldp+927179,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_36__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927181,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_37));
-    bufp->fullBit(oldp+927182,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_37__024EN) 
+    bufp->fullBit(oldp+927180,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_37));
+    bufp->fullBit(oldp+927181,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_37__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927183,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_38));
-    bufp->fullBit(oldp+927184,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_38__024EN) 
+    bufp->fullBit(oldp+927182,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_38));
+    bufp->fullBit(oldp+927183,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_38__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927185,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_39));
-    bufp->fullBit(oldp+927186,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_39__024EN) 
+    bufp->fullBit(oldp+927184,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_39));
+    bufp->fullBit(oldp+927185,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_39__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927187,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_4));
-    bufp->fullBit(oldp+927188,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_4__024EN) 
+    bufp->fullBit(oldp+927186,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_4));
+    bufp->fullBit(oldp+927187,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_4__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927189,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_40));
-    bufp->fullBit(oldp+927190,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_40__024EN) 
+    bufp->fullBit(oldp+927188,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_40));
+    bufp->fullBit(oldp+927189,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_40__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927191,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_41));
-    bufp->fullBit(oldp+927192,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_41__024EN) 
+    bufp->fullBit(oldp+927190,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_41));
+    bufp->fullBit(oldp+927191,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_41__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927193,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_42));
-    bufp->fullBit(oldp+927194,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_42__024EN) 
+    bufp->fullBit(oldp+927192,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_42));
+    bufp->fullBit(oldp+927193,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_42__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927195,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_43));
-    bufp->fullBit(oldp+927196,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_43__024EN) 
+    bufp->fullBit(oldp+927194,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_43));
+    bufp->fullBit(oldp+927195,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_43__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927197,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_44));
-    bufp->fullBit(oldp+927198,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_44__024EN) 
+    bufp->fullBit(oldp+927196,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_44));
+    bufp->fullBit(oldp+927197,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_44__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927199,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_45));
-    bufp->fullBit(oldp+927200,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_45__024EN) 
+    bufp->fullBit(oldp+927198,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_45));
+    bufp->fullBit(oldp+927199,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_45__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927201,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_46));
-    bufp->fullBit(oldp+927202,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_46__024EN) 
+    bufp->fullBit(oldp+927200,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_46));
+    bufp->fullBit(oldp+927201,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_46__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927203,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_47));
-    bufp->fullBit(oldp+927204,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_47__024EN) 
+    bufp->fullBit(oldp+927202,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_47));
+    bufp->fullBit(oldp+927203,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_47__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927205,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_5));
-    bufp->fullBit(oldp+927206,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_5__024EN) 
+    bufp->fullBit(oldp+927204,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_5));
+    bufp->fullBit(oldp+927205,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_5__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927207,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_6));
-    bufp->fullBit(oldp+927208,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_6__024EN) 
+    bufp->fullBit(oldp+927206,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_6));
+    bufp->fullBit(oldp+927207,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_6__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927209,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_7));
-    bufp->fullBit(oldp+927210,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_7__024EN) 
+    bufp->fullBit(oldp+927208,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_7));
+    bufp->fullBit(oldp+927209,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_7__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927211,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_8));
-    bufp->fullBit(oldp+927212,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_8__024EN) 
+    bufp->fullBit(oldp+927210,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_8));
+    bufp->fullBit(oldp+927211,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_8__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927213,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_9));
-    bufp->fullBit(oldp+927214,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_9__024EN) 
+    bufp->fullBit(oldp+927212,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__spike_out_9));
+    bufp->fullBit(oldp+927213,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__refr_9__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullCData(oldp+927215,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__state),2);
-    bufp->fullCData(oldp+927216,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__state__024D_IN),2);
-    bufp->fullBit(oldp+927217,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__MUX_state__024write_1___05FSEL_1) 
+    bufp->fullCData(oldp+927214,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__state),2);
+    bufp->fullCData(oldp+927215,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__state__024D_IN),2);
+    bufp->fullBit(oldp+927216,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__MUX_state__024write_1___05FSEL_1) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__MUX_state__024write_1___05FSEL_2))));
-    bufp->fullSData(oldp+927218,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_0),16);
-    bufp->fullSData(oldp+927219,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
+    bufp->fullSData(oldp+927217,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_0),16);
+    bufp->fullSData(oldp+927218,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                              >> 4U))),16);
-    bufp->fullSData(oldp+927220,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_1),16);
-    bufp->fullSData(oldp+927221,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_10),16);
-    bufp->fullSData(oldp+927222,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_11),16);
-    bufp->fullSData(oldp+927223,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_12),16);
-    bufp->fullSData(oldp+927224,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_13),16);
-    bufp->fullSData(oldp+927225,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_14),16);
-    bufp->fullSData(oldp+927226,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_15),16);
-    bufp->fullSData(oldp+927227,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_16),16);
-    bufp->fullSData(oldp+927228,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_17),16);
-    bufp->fullSData(oldp+927229,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_18),16);
-    bufp->fullSData(oldp+927230,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_19),16);
-    bufp->fullSData(oldp+927231,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_2),16);
-    bufp->fullSData(oldp+927232,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_20),16);
-    bufp->fullSData(oldp+927233,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_21),16);
-    bufp->fullSData(oldp+927234,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_22),16);
-    bufp->fullSData(oldp+927235,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_23),16);
-    bufp->fullSData(oldp+927236,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_24),16);
-    bufp->fullSData(oldp+927237,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_25),16);
-    bufp->fullSData(oldp+927238,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_26),16);
-    bufp->fullSData(oldp+927239,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_27),16);
-    bufp->fullSData(oldp+927240,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_28),16);
-    bufp->fullSData(oldp+927241,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_29),16);
-    bufp->fullSData(oldp+927242,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_3),16);
-    bufp->fullSData(oldp+927243,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_30),16);
-    bufp->fullSData(oldp+927244,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_31),16);
-    bufp->fullSData(oldp+927245,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_32),16);
-    bufp->fullSData(oldp+927246,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_33),16);
-    bufp->fullSData(oldp+927247,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_34),16);
-    bufp->fullSData(oldp+927248,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_35),16);
-    bufp->fullSData(oldp+927249,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_36),16);
-    bufp->fullSData(oldp+927250,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_37),16);
-    bufp->fullSData(oldp+927251,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_38),16);
-    bufp->fullSData(oldp+927252,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_39),16);
-    bufp->fullSData(oldp+927253,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_4),16);
-    bufp->fullSData(oldp+927254,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_40),16);
-    bufp->fullSData(oldp+927255,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_41),16);
-    bufp->fullSData(oldp+927256,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_42),16);
-    bufp->fullSData(oldp+927257,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_43),16);
-    bufp->fullSData(oldp+927258,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_44),16);
-    bufp->fullSData(oldp+927259,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_45),16);
-    bufp->fullSData(oldp+927260,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_46),16);
-    bufp->fullSData(oldp+927261,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_47),16);
-    bufp->fullSData(oldp+927262,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_5),16);
-    bufp->fullSData(oldp+927263,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_6),16);
-    bufp->fullSData(oldp+927264,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_7),16);
-    bufp->fullSData(oldp+927265,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_8),16);
-    bufp->fullSData(oldp+927266,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_9),16);
-    bufp->fullCData(oldp+927267,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024load_and_step_refr),4);
-    bufp->fullIData(oldp+927268,((0x1fffffU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg)),21);
-    bufp->fullSData(oldp+927269,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164) 
+    bufp->fullSData(oldp+927219,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_1),16);
+    bufp->fullSData(oldp+927220,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_10),16);
+    bufp->fullSData(oldp+927221,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_11),16);
+    bufp->fullSData(oldp+927222,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_12),16);
+    bufp->fullSData(oldp+927223,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_13),16);
+    bufp->fullSData(oldp+927224,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_14),16);
+    bufp->fullSData(oldp+927225,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_15),16);
+    bufp->fullSData(oldp+927226,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_16),16);
+    bufp->fullSData(oldp+927227,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_17),16);
+    bufp->fullSData(oldp+927228,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_18),16);
+    bufp->fullSData(oldp+927229,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_19),16);
+    bufp->fullSData(oldp+927230,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_2),16);
+    bufp->fullSData(oldp+927231,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_20),16);
+    bufp->fullSData(oldp+927232,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_21),16);
+    bufp->fullSData(oldp+927233,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_22),16);
+    bufp->fullSData(oldp+927234,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_23),16);
+    bufp->fullSData(oldp+927235,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_24),16);
+    bufp->fullSData(oldp+927236,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_25),16);
+    bufp->fullSData(oldp+927237,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_26),16);
+    bufp->fullSData(oldp+927238,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_27),16);
+    bufp->fullSData(oldp+927239,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_28),16);
+    bufp->fullSData(oldp+927240,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_29),16);
+    bufp->fullSData(oldp+927241,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_3),16);
+    bufp->fullSData(oldp+927242,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_30),16);
+    bufp->fullSData(oldp+927243,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_31),16);
+    bufp->fullSData(oldp+927244,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_32),16);
+    bufp->fullSData(oldp+927245,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_33),16);
+    bufp->fullSData(oldp+927246,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_34),16);
+    bufp->fullSData(oldp+927247,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_35),16);
+    bufp->fullSData(oldp+927248,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_36),16);
+    bufp->fullSData(oldp+927249,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_37),16);
+    bufp->fullSData(oldp+927250,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_38),16);
+    bufp->fullSData(oldp+927251,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_39),16);
+    bufp->fullSData(oldp+927252,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_4),16);
+    bufp->fullSData(oldp+927253,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_40),16);
+    bufp->fullSData(oldp+927254,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_41),16);
+    bufp->fullSData(oldp+927255,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_42),16);
+    bufp->fullSData(oldp+927256,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_43),16);
+    bufp->fullSData(oldp+927257,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_44),16);
+    bufp->fullSData(oldp+927258,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_45),16);
+    bufp->fullSData(oldp+927259,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_46),16);
+    bufp->fullSData(oldp+927260,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_47),16);
+    bufp->fullSData(oldp+927261,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_5),16);
+    bufp->fullSData(oldp+927262,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_6),16);
+    bufp->fullSData(oldp+927263,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_7),16);
+    bufp->fullSData(oldp+927264,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_8),16);
+    bufp->fullSData(oldp+927265,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__v_t_9),16);
+    bufp->fullCData(oldp+927266,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024load_and_step_refr),4);
+    bufp->fullIData(oldp+927267,((0x1fffffU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg)),21);
+    bufp->fullSData(oldp+927268,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164) 
                                    << 0xfU) | (IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_18))),16);
-    bufp->fullBit(oldp+927270,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
+    bufp->fullBit(oldp+927269,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg 
                                       >> 0x15U))));
-    bufp->fullBit(oldp+927271,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024RDY_load_and_step));
-    bufp->fullCData(oldp+927272,((0x3fU & ((IData)(1U) 
+    bufp->fullBit(oldp+927270,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024RDY_load_and_step));
+    bufp->fullCData(oldp+927271,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__input_index)))),6);
-    bufp->fullCData(oldp+927273,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+927272,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__inputs_fed)))),6);
-    bufp->fullCData(oldp+927274,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+927273,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__output_index)))),6);
-    bufp->fullCData(oldp+927275,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+927274,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__outputs_received)))),6);
-    bufp->fullCData(oldp+927276,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__state))
+    bufp->fullCData(oldp+927275,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__state))
                                    ? 1U : 2U)),2);
-    bufp->fullBit(oldp+927277,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__MUX_state__024write_1___05FSEL_1));
-    bufp->fullBit(oldp+927278,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__MUX_state__024write_1___05FSEL_2));
-    bufp->fullCData(oldp+927279,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214),8);
-    bufp->fullCData(oldp+927280,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BITS_6_TO_0_15_v_t_1_8_BITS_6___05FETC___05F_d264),7);
-    bufp->fullBit(oldp+927281,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164));
-    bufp->fullQData(oldp+927282,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__conf),52);
-    bufp->fullBit(oldp+927284,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__config_valid));
-    bufp->fullSData(oldp+927285,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__inv_tau_cached),16);
-    bufp->fullIData(oldp+927286,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg),22);
-    bufp->fullIData(oldp+927287,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024EN_get_output)
+    bufp->fullBit(oldp+927276,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__MUX_state__024write_1___05FSEL_1));
+    bufp->fullBit(oldp+927277,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__MUX_state__024write_1___05FSEL_2));
+    bufp->fullCData(oldp+927278,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214),8);
+    bufp->fullCData(oldp+927279,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BITS_6_TO_0_15_v_t_1_8_BITS_6___05FETC___05F_d264),7);
+    bufp->fullBit(oldp+927280,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164));
+    bufp->fullQData(oldp+927281,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__conf),52);
+    bufp->fullBit(oldp+927283,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__config_valid));
+    bufp->fullSData(oldp+927284,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__inv_tau_cached),16);
+    bufp->fullIData(oldp+927285,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__output_reg),22);
+    bufp->fullIData(oldp+927286,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024EN_get_output)
                                    ? 0xaaaaaU : (0x200000U 
                                                  | ((((~ (IData)(
                                                                  (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
@@ -826,10 +826,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          : 
                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__a___05Fh2557) 
                                                          << 4U))))))),22);
-    bufp->fullBit(oldp+927288,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024EN_get_output) 
+    bufp->fullBit(oldp+927287,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024EN_get_output) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3))));
-    bufp->fullQData(oldp+927289,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage1_data),38);
-    bufp->fullQData(oldp+927291,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2)
+    bufp->fullQData(oldp+927288,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage1_data),38);
+    bufp->fullQData(oldp+927290,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2)
                                    ? 0xaaaaaaaaaULL
                                    : (0x2000000000ULL 
                                       | (((QData)((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
@@ -879,10 +879,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 | (0xfU 
                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024load_and_step_refr) 
                                                                       - (IData)(1U)))))))))))),38);
-    bufp->fullBit(oldp+927293,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2) 
+    bufp->fullBit(oldp+927292,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input))));
-    bufp->fullQData(oldp+927294,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data),38);
-    bufp->fullQData(oldp+927296,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3)
+    bufp->fullQData(oldp+927293,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data),38);
+    bufp->fullQData(oldp+927295,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3)
                                    ? 0xaaaaaaaaaULL
                                    : (0x2000000000ULL 
                                       | (((QData)((IData)(
@@ -944,11 +944,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                  << 5U) 
                                                                 | (0xfU 
                                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage1_data))))))))))),38);
-    bufp->fullBit(oldp+927298,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3) 
+    bufp->fullBit(oldp+927297,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2))));
-    bufp->fullBit(oldp+927299,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2));
-    bufp->fullBit(oldp+927300,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3));
-    bufp->fullQData(oldp+927301,((0x2000000000ULL | 
+    bufp->fullBit(oldp+927298,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2));
+    bufp->fullBit(oldp+927299,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3));
+    bufp->fullQData(oldp+927300,((0x2000000000ULL | 
                                   (((QData)((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                     << 0x24U) | (((QData)((IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_18)) 
                                                   << 0x15U) 
@@ -995,7 +995,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                      | (0xfU 
                                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024load_and_step_refr) 
                                                                            - (IData)(1U))))))))))),38);
-    bufp->fullQData(oldp+927303,((0x2000000000ULL | 
+    bufp->fullQData(oldp+927302,((0x2000000000ULL | 
                                   (((QData)((IData)(
                                                     (0xffffU 
                                                      & (IData)(
@@ -1054,7 +1054,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                       << 5U) 
                                                                      | (0xfU 
                                                                         & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage1_data)))))))))),38);
-    bufp->fullIData(oldp+927305,((0x200000U | ((((~ (IData)(
+    bufp->fullIData(oldp+927304,((0x200000U | ((((~ (IData)(
                                                             (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                              >> 4U))) 
                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)) 
@@ -1084,7 +1084,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__a___05Fh2557) 
                                                     << 4U)))))),22);
-    bufp->fullIData(oldp+927306,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024load_and_step_refr))
+    bufp->fullIData(oldp+927305,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024load_and_step_refr))
                                    ? ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92) 
                                         & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                         ? 0U : (0xffffU 
@@ -1120,7 +1120,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                 | (0xfU 
                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__024load_and_step_refr) 
                                                       - (IData)(1U)))))),21);
-    bufp->fullIData(oldp+927307,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)
+    bufp->fullIData(oldp+927306,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)
                                    ? ((0xffff0U & ((IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__conf 
                                                             >> 0x14U)) 
@@ -1128,10 +1128,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                       | (0xfU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__conf)))
                                    : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__a___05Fh2557) 
                                       << 4U))),20);
-    bufp->fullSData(oldp+927308,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
+    bufp->fullSData(oldp+927307,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F_snd___05Fh1595)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___0_CONCAT_NOT_inv_tau_cached_4_BITS_14_TO_7_0_E_ETC___05F_d37))),16);
-    bufp->fullSData(oldp+927309,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_19) 
+    bufp->fullSData(oldp+927308,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_19) 
                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                    ? ((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                                   << 0xfU)) 
@@ -1139,7 +1139,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                    : ((0U == (0x3ffU 
                                               & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__x___05Fh4179)))
                                        ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__result_raw___05Fh4385)))),16);
-    bufp->fullSData(oldp+927310,((0xffffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_28) 
+    bufp->fullSData(oldp+927309,((0xffffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_28) 
                                               & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                               ? (IData)(
                                                         (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__conf 
@@ -1158,7 +1158,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__x___05Fh4179)))
                                                    ? 0U
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__result_raw___05Fh4385)))))),16);
-    bufp->fullSData(oldp+927311,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92)
+    bufp->fullSData(oldp+927310,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92)
                                               ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2167626_0_sa_result_o_BIT_15_1_sa_result_ETC___05Fq547) 
                                                   << 0xfU) 
                                                  | (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2167626_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq548) 
@@ -1184,8 +1184,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__x___05Fh4179)))
                                                     ? 0U
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__result_raw___05Fh4385))))))),16);
-    bufp->fullSData(oldp+927312,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__a___05Fh2557),16);
-    bufp->fullSData(oldp+927313,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
+    bufp->fullSData(oldp+927311,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__a___05Fh2557),16);
+    bufp->fullSData(oldp+927312,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
                                                 ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__result_sign___05Fh2962)
                                                 : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___0b1_CONCAT_IF_IF_stage2_data_BIT_37_THEN_stage_ETC___05F_d271)
                                                     ? 
@@ -1276,20 +1276,20 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                       : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__tmp___05Fh2907)) 
                                                     << 1U))
                                               : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__tmp___05Fh2907))))))),16);
-    bufp->fullSData(oldp+927314,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
+    bufp->fullSData(oldp+927313,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                               << 0xfU)) 
                                   | (IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_18))),16);
-    bufp->fullSData(oldp+927315,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__result_raw___05Fh4385),16);
-    bufp->fullSData(oldp+927316,((0xffffU & (IData)(
+    bufp->fullSData(oldp+927314,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__result_raw___05Fh4385),16);
+    bufp->fullSData(oldp+927315,((0xffffU & (IData)(
                                                     (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage1_data 
+                                                     >> 5U)))),16);
+    bufp->fullSData(oldp+927316,((0xffffU & (IData)(
+                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                      >> 5U)))),16);
     bufp->fullSData(oldp+927317,((0xffffU & (IData)(
                                                     (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
-                                                     >> 5U)))),16);
-    bufp->fullSData(oldp+927318,((0xffffU & (IData)(
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                      >> 0x15U)))),16);
-    bufp->fullSData(oldp+927319,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__final_exp_10___05Fh1448) 
+    bufp->fullSData(oldp+927318,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__final_exp_10___05Fh1448) 
                                             >> 9U) 
                                            | (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__final_exp_10___05Fh1448))))
                                    ? ((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__final_exp_10___05Fh1448))
@@ -1302,7 +1302,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      << 7U)) 
                                                  | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__final_mant___05Fh1447))
                                                  : 0x7f80U))),15);
-    bufp->fullSData(oldp+927320,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__x___05Fh4179))
+    bufp->fullSData(oldp+927319,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__x___05Fh4179))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)) 
                                                   << 7U)) 
@@ -1376,7 +1376,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__x___05Fh4179)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__x___05Fh4179)))))),15);
-    bufp->fullSData(oldp+927321,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__tmp___05Fh2907))
+    bufp->fullSData(oldp+927320,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__tmp___05Fh2907))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986)) 
                                                   << 7U)) 
@@ -1453,7 +1453,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__tmp___05Fh2907)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__tmp___05Fh2907)))))),15);
-    bufp->fullSData(oldp+927322,((((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+927321,((((IData)((0U == (0x7fffU 
                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__inv_tau_cached)))) 
                                    | (IData)((0ULL 
                                               == (0xfffe0ULL 
@@ -1475,7 +1475,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__final_mant___05Fh1447))
                                                 : 0x7f80U)))),15);
-    bufp->fullSData(oldp+927323,((0x7ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)
+    bufp->fullSData(oldp+927322,((0x7ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_a___05Fh4163)
                                               : (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_a___05Fh4163))) 
                                             + ((1U 
@@ -1484,10 +1484,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                            >> 0x23U)))
                                                 ? (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_b___05Fh4164))
                                                 : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_b___05Fh4164))))),11);
-    bufp->fullSData(oldp+927324,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_load_and_step_v_t_BIT_15_25_THEN_SEXT___05F0_CO_ETC___05F_d460),11);
-    bufp->fullSData(oldp+927325,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_b___05Fh4164),11);
-    bufp->fullSData(oldp+927326,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_a___05Fh4163),11);
-    bufp->fullSData(oldp+927327,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullSData(oldp+927323,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_load_and_step_v_t_BIT_15_25_THEN_SEXT___05F0_CO_ETC___05F_d460),11);
+    bufp->fullSData(oldp+927324,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_b___05Fh4164),11);
+    bufp->fullSData(oldp+927325,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_a___05Fh4163),11);
+    bufp->fullSData(oldp+927326,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -1495,8 +1495,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2167626_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq548))))))),11);
-    bufp->fullSData(oldp+927328,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__x___05Fh4179),11);
-    bufp->fullSData(oldp+927329,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
+    bufp->fullSData(oldp+927327,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__x___05Fh4179),11);
+    bufp->fullSData(oldp+927328,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
                                              ? (0x3feU 
                                                 & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_45)
                                                      ? 
@@ -1536,10 +1536,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__x___05Fh4179)) 
                                                    << 1U))
                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__x___05Fh4179)))),10);
-    bufp->fullSData(oldp+927330,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441),10);
-    bufp->fullSData(oldp+927331,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_a___05Fh4163),10);
-    bufp->fullSData(oldp+927332,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_b___05Fh4164),10);
-    bufp->fullSData(oldp+927333,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullSData(oldp+927329,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441),10);
+    bufp->fullSData(oldp+927330,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_a___05Fh4163),10);
+    bufp->fullSData(oldp+927331,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_b___05Fh4164),10);
+    bufp->fullSData(oldp+927332,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -1547,11 +1547,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2167626_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq548))))))),10);
-    bufp->fullSData(oldp+927334,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__final_exp_10___05Fh1448),10);
-    bufp->fullSData(oldp+927335,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+927333,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__final_exp_10___05Fh1448),10);
+    bufp->fullSData(oldp+927334,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+927336,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
+    bufp->fullSData(oldp+927335,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_60)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_62)
@@ -1690,27 +1690,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+927337,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927336,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+927338,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927337,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927339,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927338,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927340,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927339,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927341,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927340,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927342,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927341,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -1726,7 +1726,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927343,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927342,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -1741,7 +1741,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927344,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927343,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -1755,7 +1755,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927345,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927344,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -1768,7 +1768,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927346,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927345,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -1780,7 +1780,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927347,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927346,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -1791,7 +1791,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927348,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927347,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -1800,7 +1800,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927349,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927348,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -1808,14 +1808,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927350,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927349,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927351,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
+    bufp->fullSData(oldp+927350,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_33)
@@ -1857,64 +1857,64 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__tmp___05Fh2907)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__tmp___05Fh2907))),9);
-    bufp->fullSData(oldp+927352,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullSData(oldp+927351,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__inv_tau_cached) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+927353,(((0U == (0xffU & (IData)(
+    bufp->fullSData(oldp+927352,(((0U == (0xffU & (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage1_data 
                                                            >> 0xcU))))
                                    ? 1U : (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU))))),9);
-    bufp->fullSData(oldp+927354,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441),9);
-    bufp->fullSData(oldp+927355,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+927353,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__exp_sum___05Fh1441),9);
+    bufp->fullSData(oldp+927354,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+927356,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+927355,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+927357,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__smaller_m___05Fh2901) 
+    bufp->fullSData(oldp+927356,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__smaller_m___05Fh2901) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))))),9);
-    bufp->fullSData(oldp+927358,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__tmp___05Fh2907),9);
-    bufp->fullCData(oldp+927359,((((0U != (0xffU & 
+    bufp->fullSData(oldp+927357,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__tmp___05Fh2907),9);
+    bufp->fullCData(oldp+927358,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__inv_tau_cached)))),8);
-    bufp->fullCData(oldp+927360,((((0U != (0xffU & (IData)(
+    bufp->fullCData(oldp+927359,((((0U != (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU)))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(
                                                        (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage1_data 
                                                         >> 5U))))),8);
-    bufp->fullCData(oldp+927361,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
-    bufp->fullCData(oldp+927362,((0xffU & ((IData)(
+    bufp->fullCData(oldp+927360,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
+    bufp->fullCData(oldp+927361,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                     >> 0x1cU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                       >> 0xcU))))),8);
-    bufp->fullCData(oldp+927363,((0xffU & ((IData)(
+    bufp->fullCData(oldp+927362,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                     >> 0xcU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                       >> 0x1cU))))),8);
-    bufp->fullCData(oldp+927364,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+927363,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214)))),8);
-    bufp->fullCData(oldp+927365,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+927364,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__conf 
                                                       >> 0x1bU))))),8);
-    bufp->fullCData(oldp+927366,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+927365,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2167626_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq548)))),8);
-    bufp->fullCData(oldp+927367,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+927366,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986)))),8);
-    bufp->fullCData(oldp+927368,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
+    bufp->fullCData(oldp+927367,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                    ? 
@@ -1938,11 +1938,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+927369,((0xffU & ((IData)(2U) 
+    bufp->fullCData(oldp+927368,((0xffU & ((IData)(2U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+927370,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+927369,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+927371,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+927370,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_45)
                                                    ? 
@@ -1966,9 +1966,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+927372,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_a___05Fh4163),8);
-    bufp->fullCData(oldp+927373,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_b___05Fh4164),8);
-    bufp->fullCData(oldp+927374,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullCData(oldp+927371,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_a___05Fh4163),8);
+    bufp->fullCData(oldp+927372,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__man_b___05Fh4164),8);
+    bufp->fullCData(oldp+927373,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -1976,8 +1976,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2167626_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq548))))))),8);
-    bufp->fullCData(oldp+927375,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__smaller_m___05Fh2901),8);
-    bufp->fullCData(oldp+927376,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+927374,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__smaller_m___05Fh2901),8);
+    bufp->fullCData(oldp+927375,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -1990,7 +1990,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                                        >> 0xcU))))))),8);
-    bufp->fullCData(oldp+927377,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+927376,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -2003,9 +2003,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                                        >> 0x1cU))))))),8);
-    bufp->fullCData(oldp+927378,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
-    bufp->fullCData(oldp+927379,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__final_mant___05Fh1447),7);
-    bufp->fullBit(oldp+927380,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__a___05Fh2557) 
+    bufp->fullCData(oldp+927377,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
+    bufp->fullCData(oldp+927378,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__final_mant___05Fh1447),7);
+    bufp->fullBit(oldp+927379,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__a___05Fh2557) 
                                               >> 0xfU)) 
                                        == (1U & (IData)(
                                                         (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__conf 
@@ -2032,17 +2032,17 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 >> 0x24U)))))))
                                        : (~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__a___05Fh2557) 
                                              >> 0xfU))))));
-    bufp->fullBit(oldp+927381,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
-    bufp->fullBit(oldp+927382,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
-    bufp->fullBit(oldp+927383,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
+    bufp->fullBit(oldp+927380,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
+    bufp->fullBit(oldp+927381,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
+    bufp->fullBit(oldp+927382,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377) 
                                    | ((0x7fU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__a___05Fh2557)) 
                                       < (0x7fU & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__conf 
                                                           >> 0x24U))))))));
-    bufp->fullBit(oldp+927384,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
-    bufp->fullBit(oldp+927385,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
-    bufp->fullBit(oldp+927386,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
+    bufp->fullBit(oldp+927383,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
+    bufp->fullBit(oldp+927384,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
+    bufp->fullBit(oldp+927385,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
                                       | ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377)) 
                                          & ((0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__a___05Fh2557)) 
@@ -2050,14 +2050,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__conf 
                                                           >> 0x24U)))))))));
-    bufp->fullBit(oldp+927387,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
+    bufp->fullBit(oldp+927386,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                             >> 4U))) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6))));
-    bufp->fullBit(oldp+927388,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullBit(oldp+927387,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__inv_tau_cached) 
                                        >> 0xfU) ^ (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage1_data 
                                                            >> 0x14U))))));
-    bufp->fullBit(oldp+927389,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
+    bufp->fullBit(oldp+927388,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__result_sign___05Fh2962)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT___0b1_CONCAT_IF_IF_stage2_data_BIT_37_THEN_stage_ETC___05F_d271)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
@@ -2068,406 +2068,406 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                           >> 0x14U)))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__result_sign___05Fh2962))))));
-    bufp->fullBit(oldp+927390,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__result_sign___05Fh2962));
-    bufp->fullBit(oldp+927391,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
+    bufp->fullBit(oldp+927389,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__result_sign___05Fh2962));
+    bufp->fullBit(oldp+927390,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
                                        ? (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                   >> 0x24U))
                                        : (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__lif__DOT__stage2_data 
                                                   >> 0x14U))))));
-    bufp->fullBit(oldp+927392,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
-    bufp->fullBit(oldp+927393,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__state)) 
+    bufp->fullBit(oldp+927391,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_5__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
+    bufp->fullBit(oldp+927392,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__state)) 
                                 & (3U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__state)))));
-    bufp->fullCData(oldp+927394,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__input_index),6);
-    bufp->fullCData(oldp+927395,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
+    bufp->fullCData(oldp+927393,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__input_index),6);
+    bufp->fullCData(oldp+927394,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__input_index)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+927396,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__inputs_fed),6);
-    bufp->fullCData(oldp+927397,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
+    bufp->fullCData(oldp+927395,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__inputs_fed),6);
+    bufp->fullCData(oldp+927396,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__inputs_fed)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+927398,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__output_index),6);
-    bufp->fullCData(oldp+927399,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024EN_get_output)
+    bufp->fullCData(oldp+927397,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__output_index),6);
+    bufp->fullCData(oldp+927398,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024EN_get_output)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__output_index)))
                                    : 0U)),6);
-    bufp->fullBit(oldp+927400,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024EN_get_output));
-    bufp->fullCData(oldp+927401,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__outputs_received),6);
-    bufp->fullCData(oldp+927402,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024EN_get_output)
+    bufp->fullBit(oldp+927399,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024EN_get_output));
+    bufp->fullCData(oldp+927400,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__outputs_received),6);
+    bufp->fullCData(oldp+927401,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024EN_get_output)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__outputs_received)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+927403,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_0),4);
-    bufp->fullCData(oldp+927404,((0xfU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg)),4);
-    bufp->fullBit(oldp+927405,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_0__024EN));
-    bufp->fullCData(oldp+927406,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_1),4);
-    bufp->fullBit(oldp+927407,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_1__024EN));
-    bufp->fullCData(oldp+927408,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_10),4);
-    bufp->fullBit(oldp+927409,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_10__024EN));
-    bufp->fullCData(oldp+927410,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_11),4);
-    bufp->fullBit(oldp+927411,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_11__024EN));
-    bufp->fullCData(oldp+927412,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_12),4);
-    bufp->fullBit(oldp+927413,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_12__024EN));
-    bufp->fullCData(oldp+927414,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_13),4);
-    bufp->fullBit(oldp+927415,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_13__024EN));
-    bufp->fullCData(oldp+927416,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_14),4);
-    bufp->fullBit(oldp+927417,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_14__024EN));
-    bufp->fullCData(oldp+927418,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_15),4);
-    bufp->fullBit(oldp+927419,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_15__024EN));
-    bufp->fullCData(oldp+927420,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_16),4);
-    bufp->fullBit(oldp+927421,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_16__024EN));
-    bufp->fullCData(oldp+927422,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_17),4);
-    bufp->fullBit(oldp+927423,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_17__024EN));
-    bufp->fullCData(oldp+927424,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_18),4);
-    bufp->fullBit(oldp+927425,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_18__024EN));
-    bufp->fullCData(oldp+927426,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_19),4);
-    bufp->fullBit(oldp+927427,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_19__024EN));
-    bufp->fullCData(oldp+927428,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_2),4);
-    bufp->fullBit(oldp+927429,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_2__024EN));
-    bufp->fullCData(oldp+927430,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_20),4);
-    bufp->fullBit(oldp+927431,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_20__024EN));
-    bufp->fullCData(oldp+927432,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_21),4);
-    bufp->fullBit(oldp+927433,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_21__024EN));
-    bufp->fullCData(oldp+927434,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_22),4);
-    bufp->fullBit(oldp+927435,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_22__024EN));
-    bufp->fullCData(oldp+927436,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_23),4);
-    bufp->fullBit(oldp+927437,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_23__024EN));
-    bufp->fullCData(oldp+927438,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_24),4);
-    bufp->fullBit(oldp+927439,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_24__024EN));
-    bufp->fullCData(oldp+927440,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_25),4);
-    bufp->fullBit(oldp+927441,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_25__024EN));
-    bufp->fullCData(oldp+927442,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_26),4);
-    bufp->fullBit(oldp+927443,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_26__024EN));
-    bufp->fullCData(oldp+927444,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_27),4);
-    bufp->fullBit(oldp+927445,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_27__024EN));
-    bufp->fullCData(oldp+927446,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_28),4);
-    bufp->fullBit(oldp+927447,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_28__024EN));
-    bufp->fullCData(oldp+927448,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_29),4);
-    bufp->fullBit(oldp+927449,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_29__024EN));
-    bufp->fullCData(oldp+927450,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_3),4);
-    bufp->fullBit(oldp+927451,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_3__024EN));
-    bufp->fullCData(oldp+927452,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_30),4);
-    bufp->fullBit(oldp+927453,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_30__024EN));
-    bufp->fullCData(oldp+927454,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_31),4);
-    bufp->fullBit(oldp+927455,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_31__024EN));
-    bufp->fullCData(oldp+927456,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_32),4);
-    bufp->fullBit(oldp+927457,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_32__024EN));
-    bufp->fullCData(oldp+927458,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_33),4);
-    bufp->fullBit(oldp+927459,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_33__024EN));
-    bufp->fullCData(oldp+927460,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_34),4);
-    bufp->fullBit(oldp+927461,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_34__024EN));
-    bufp->fullCData(oldp+927462,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_35),4);
-    bufp->fullBit(oldp+927463,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_35__024EN));
-    bufp->fullCData(oldp+927464,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_36),4);
-    bufp->fullBit(oldp+927465,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_36__024EN));
-    bufp->fullCData(oldp+927466,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_37),4);
-    bufp->fullBit(oldp+927467,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_37__024EN));
-    bufp->fullCData(oldp+927468,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_38),4);
-    bufp->fullBit(oldp+927469,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_38__024EN));
-    bufp->fullCData(oldp+927470,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_39),4);
-    bufp->fullBit(oldp+927471,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_39__024EN));
-    bufp->fullCData(oldp+927472,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_4),4);
-    bufp->fullBit(oldp+927473,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_4__024EN));
-    bufp->fullCData(oldp+927474,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_40),4);
-    bufp->fullBit(oldp+927475,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_40__024EN));
-    bufp->fullCData(oldp+927476,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_41),4);
-    bufp->fullBit(oldp+927477,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_41__024EN));
-    bufp->fullCData(oldp+927478,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_42),4);
-    bufp->fullBit(oldp+927479,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_42__024EN));
-    bufp->fullCData(oldp+927480,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_43),4);
-    bufp->fullBit(oldp+927481,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_43__024EN));
-    bufp->fullCData(oldp+927482,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_44),4);
-    bufp->fullBit(oldp+927483,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_44__024EN));
-    bufp->fullCData(oldp+927484,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_45),4);
-    bufp->fullBit(oldp+927485,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_45__024EN));
-    bufp->fullCData(oldp+927486,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_46),4);
-    bufp->fullBit(oldp+927487,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_46__024EN));
-    bufp->fullCData(oldp+927488,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_47),4);
-    bufp->fullBit(oldp+927489,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_47__024EN));
-    bufp->fullCData(oldp+927490,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_5),4);
-    bufp->fullBit(oldp+927491,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_5__024EN));
-    bufp->fullCData(oldp+927492,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_6),4);
-    bufp->fullBit(oldp+927493,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_6__024EN));
-    bufp->fullCData(oldp+927494,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_7),4);
-    bufp->fullBit(oldp+927495,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_7__024EN));
-    bufp->fullCData(oldp+927496,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_8),4);
-    bufp->fullBit(oldp+927497,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_8__024EN));
-    bufp->fullCData(oldp+927498,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_9),4);
-    bufp->fullBit(oldp+927499,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_9__024EN));
-    bufp->fullBit(oldp+927500,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_0));
-    bufp->fullBit(oldp+927501,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_0__024EN) 
+    bufp->fullCData(oldp+927402,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_0),4);
+    bufp->fullCData(oldp+927403,((0xfU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg)),4);
+    bufp->fullBit(oldp+927404,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_0__024EN));
+    bufp->fullCData(oldp+927405,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_1),4);
+    bufp->fullBit(oldp+927406,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_1__024EN));
+    bufp->fullCData(oldp+927407,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_10),4);
+    bufp->fullBit(oldp+927408,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_10__024EN));
+    bufp->fullCData(oldp+927409,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_11),4);
+    bufp->fullBit(oldp+927410,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_11__024EN));
+    bufp->fullCData(oldp+927411,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_12),4);
+    bufp->fullBit(oldp+927412,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_12__024EN));
+    bufp->fullCData(oldp+927413,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_13),4);
+    bufp->fullBit(oldp+927414,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_13__024EN));
+    bufp->fullCData(oldp+927415,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_14),4);
+    bufp->fullBit(oldp+927416,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_14__024EN));
+    bufp->fullCData(oldp+927417,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_15),4);
+    bufp->fullBit(oldp+927418,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_15__024EN));
+    bufp->fullCData(oldp+927419,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_16),4);
+    bufp->fullBit(oldp+927420,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_16__024EN));
+    bufp->fullCData(oldp+927421,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_17),4);
+    bufp->fullBit(oldp+927422,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_17__024EN));
+    bufp->fullCData(oldp+927423,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_18),4);
+    bufp->fullBit(oldp+927424,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_18__024EN));
+    bufp->fullCData(oldp+927425,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_19),4);
+    bufp->fullBit(oldp+927426,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_19__024EN));
+    bufp->fullCData(oldp+927427,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_2),4);
+    bufp->fullBit(oldp+927428,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_2__024EN));
+    bufp->fullCData(oldp+927429,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_20),4);
+    bufp->fullBit(oldp+927430,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_20__024EN));
+    bufp->fullCData(oldp+927431,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_21),4);
+    bufp->fullBit(oldp+927432,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_21__024EN));
+    bufp->fullCData(oldp+927433,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_22),4);
+    bufp->fullBit(oldp+927434,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_22__024EN));
+    bufp->fullCData(oldp+927435,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_23),4);
+    bufp->fullBit(oldp+927436,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_23__024EN));
+    bufp->fullCData(oldp+927437,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_24),4);
+    bufp->fullBit(oldp+927438,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_24__024EN));
+    bufp->fullCData(oldp+927439,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_25),4);
+    bufp->fullBit(oldp+927440,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_25__024EN));
+    bufp->fullCData(oldp+927441,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_26),4);
+    bufp->fullBit(oldp+927442,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_26__024EN));
+    bufp->fullCData(oldp+927443,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_27),4);
+    bufp->fullBit(oldp+927444,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_27__024EN));
+    bufp->fullCData(oldp+927445,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_28),4);
+    bufp->fullBit(oldp+927446,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_28__024EN));
+    bufp->fullCData(oldp+927447,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_29),4);
+    bufp->fullBit(oldp+927448,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_29__024EN));
+    bufp->fullCData(oldp+927449,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_3),4);
+    bufp->fullBit(oldp+927450,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_3__024EN));
+    bufp->fullCData(oldp+927451,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_30),4);
+    bufp->fullBit(oldp+927452,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_30__024EN));
+    bufp->fullCData(oldp+927453,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_31),4);
+    bufp->fullBit(oldp+927454,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_31__024EN));
+    bufp->fullCData(oldp+927455,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_32),4);
+    bufp->fullBit(oldp+927456,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_32__024EN));
+    bufp->fullCData(oldp+927457,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_33),4);
+    bufp->fullBit(oldp+927458,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_33__024EN));
+    bufp->fullCData(oldp+927459,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_34),4);
+    bufp->fullBit(oldp+927460,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_34__024EN));
+    bufp->fullCData(oldp+927461,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_35),4);
+    bufp->fullBit(oldp+927462,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_35__024EN));
+    bufp->fullCData(oldp+927463,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_36),4);
+    bufp->fullBit(oldp+927464,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_36__024EN));
+    bufp->fullCData(oldp+927465,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_37),4);
+    bufp->fullBit(oldp+927466,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_37__024EN));
+    bufp->fullCData(oldp+927467,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_38),4);
+    bufp->fullBit(oldp+927468,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_38__024EN));
+    bufp->fullCData(oldp+927469,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_39),4);
+    bufp->fullBit(oldp+927470,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_39__024EN));
+    bufp->fullCData(oldp+927471,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_4),4);
+    bufp->fullBit(oldp+927472,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_4__024EN));
+    bufp->fullCData(oldp+927473,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_40),4);
+    bufp->fullBit(oldp+927474,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_40__024EN));
+    bufp->fullCData(oldp+927475,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_41),4);
+    bufp->fullBit(oldp+927476,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_41__024EN));
+    bufp->fullCData(oldp+927477,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_42),4);
+    bufp->fullBit(oldp+927478,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_42__024EN));
+    bufp->fullCData(oldp+927479,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_43),4);
+    bufp->fullBit(oldp+927480,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_43__024EN));
+    bufp->fullCData(oldp+927481,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_44),4);
+    bufp->fullBit(oldp+927482,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_44__024EN));
+    bufp->fullCData(oldp+927483,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_45),4);
+    bufp->fullBit(oldp+927484,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_45__024EN));
+    bufp->fullCData(oldp+927485,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_46),4);
+    bufp->fullBit(oldp+927486,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_46__024EN));
+    bufp->fullCData(oldp+927487,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_47),4);
+    bufp->fullBit(oldp+927488,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_47__024EN));
+    bufp->fullCData(oldp+927489,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_5),4);
+    bufp->fullBit(oldp+927490,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_5__024EN));
+    bufp->fullCData(oldp+927491,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_6),4);
+    bufp->fullBit(oldp+927492,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_6__024EN));
+    bufp->fullCData(oldp+927493,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_7),4);
+    bufp->fullBit(oldp+927494,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_7__024EN));
+    bufp->fullCData(oldp+927495,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_8),4);
+    bufp->fullBit(oldp+927496,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_8__024EN));
+    bufp->fullCData(oldp+927497,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_9),4);
+    bufp->fullBit(oldp+927498,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_9__024EN));
+    bufp->fullBit(oldp+927499,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_0));
+    bufp->fullBit(oldp+927500,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_0__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927502,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_1));
-    bufp->fullBit(oldp+927503,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_1__024EN) 
+    bufp->fullBit(oldp+927501,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_1));
+    bufp->fullBit(oldp+927502,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_1__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927504,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_10));
-    bufp->fullBit(oldp+927505,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_10__024EN) 
+    bufp->fullBit(oldp+927503,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_10));
+    bufp->fullBit(oldp+927504,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_10__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927506,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_11));
-    bufp->fullBit(oldp+927507,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_11__024EN) 
+    bufp->fullBit(oldp+927505,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_11));
+    bufp->fullBit(oldp+927506,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_11__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927508,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_12));
-    bufp->fullBit(oldp+927509,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_12__024EN) 
+    bufp->fullBit(oldp+927507,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_12));
+    bufp->fullBit(oldp+927508,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_12__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927510,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_13));
-    bufp->fullBit(oldp+927511,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_13__024EN) 
+    bufp->fullBit(oldp+927509,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_13));
+    bufp->fullBit(oldp+927510,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_13__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927512,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_14));
-    bufp->fullBit(oldp+927513,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_14__024EN) 
+    bufp->fullBit(oldp+927511,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_14));
+    bufp->fullBit(oldp+927512,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_14__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927514,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_15));
-    bufp->fullBit(oldp+927515,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_15__024EN) 
+    bufp->fullBit(oldp+927513,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_15));
+    bufp->fullBit(oldp+927514,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_15__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927516,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_16));
-    bufp->fullBit(oldp+927517,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_16__024EN) 
+    bufp->fullBit(oldp+927515,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_16));
+    bufp->fullBit(oldp+927516,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_16__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927518,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_17));
-    bufp->fullBit(oldp+927519,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_17__024EN) 
+    bufp->fullBit(oldp+927517,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_17));
+    bufp->fullBit(oldp+927518,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_17__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927520,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_18));
-    bufp->fullBit(oldp+927521,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_18__024EN) 
+    bufp->fullBit(oldp+927519,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_18));
+    bufp->fullBit(oldp+927520,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_18__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927522,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_19));
-    bufp->fullBit(oldp+927523,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_19__024EN) 
+    bufp->fullBit(oldp+927521,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_19));
+    bufp->fullBit(oldp+927522,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_19__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927524,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_2));
-    bufp->fullBit(oldp+927525,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_2__024EN) 
+    bufp->fullBit(oldp+927523,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_2));
+    bufp->fullBit(oldp+927524,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_2__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927526,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_20));
-    bufp->fullBit(oldp+927527,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_20__024EN) 
+    bufp->fullBit(oldp+927525,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_20));
+    bufp->fullBit(oldp+927526,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_20__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927528,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_21));
-    bufp->fullBit(oldp+927529,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_21__024EN) 
+    bufp->fullBit(oldp+927527,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_21));
+    bufp->fullBit(oldp+927528,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_21__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927530,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_22));
-    bufp->fullBit(oldp+927531,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_22__024EN) 
+    bufp->fullBit(oldp+927529,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_22));
+    bufp->fullBit(oldp+927530,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_22__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927532,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_23));
-    bufp->fullBit(oldp+927533,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_23__024EN) 
+    bufp->fullBit(oldp+927531,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_23));
+    bufp->fullBit(oldp+927532,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_23__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927534,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_24));
-    bufp->fullBit(oldp+927535,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_24__024EN) 
+    bufp->fullBit(oldp+927533,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_24));
+    bufp->fullBit(oldp+927534,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_24__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927536,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_25));
-    bufp->fullBit(oldp+927537,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_25__024EN) 
+    bufp->fullBit(oldp+927535,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_25));
+    bufp->fullBit(oldp+927536,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_25__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927538,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_26));
-    bufp->fullBit(oldp+927539,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_26__024EN) 
+    bufp->fullBit(oldp+927537,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_26));
+    bufp->fullBit(oldp+927538,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_26__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927540,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_27));
-    bufp->fullBit(oldp+927541,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_27__024EN) 
+    bufp->fullBit(oldp+927539,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_27));
+    bufp->fullBit(oldp+927540,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_27__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927542,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_28));
-    bufp->fullBit(oldp+927543,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_28__024EN) 
+    bufp->fullBit(oldp+927541,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_28));
+    bufp->fullBit(oldp+927542,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_28__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927544,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_29));
-    bufp->fullBit(oldp+927545,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_29__024EN) 
+    bufp->fullBit(oldp+927543,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_29));
+    bufp->fullBit(oldp+927544,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_29__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927546,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_3));
-    bufp->fullBit(oldp+927547,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_3__024EN) 
+    bufp->fullBit(oldp+927545,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_3));
+    bufp->fullBit(oldp+927546,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_3__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927548,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_30));
-    bufp->fullBit(oldp+927549,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_30__024EN) 
+    bufp->fullBit(oldp+927547,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_30));
+    bufp->fullBit(oldp+927548,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_30__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927550,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_31));
-    bufp->fullBit(oldp+927551,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_31__024EN) 
+    bufp->fullBit(oldp+927549,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_31));
+    bufp->fullBit(oldp+927550,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_31__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927552,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_32));
-    bufp->fullBit(oldp+927553,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_32__024EN) 
+    bufp->fullBit(oldp+927551,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_32));
+    bufp->fullBit(oldp+927552,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_32__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927554,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_33));
-    bufp->fullBit(oldp+927555,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_33__024EN) 
+    bufp->fullBit(oldp+927553,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_33));
+    bufp->fullBit(oldp+927554,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_33__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927556,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_34));
-    bufp->fullBit(oldp+927557,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_34__024EN) 
+    bufp->fullBit(oldp+927555,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_34));
+    bufp->fullBit(oldp+927556,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_34__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927558,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_35));
-    bufp->fullBit(oldp+927559,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_35__024EN) 
+    bufp->fullBit(oldp+927557,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_35));
+    bufp->fullBit(oldp+927558,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_35__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927560,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_36));
-    bufp->fullBit(oldp+927561,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_36__024EN) 
+    bufp->fullBit(oldp+927559,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_36));
+    bufp->fullBit(oldp+927560,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_36__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927562,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_37));
-    bufp->fullBit(oldp+927563,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_37__024EN) 
+    bufp->fullBit(oldp+927561,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_37));
+    bufp->fullBit(oldp+927562,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_37__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927564,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_38));
-    bufp->fullBit(oldp+927565,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_38__024EN) 
+    bufp->fullBit(oldp+927563,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_38));
+    bufp->fullBit(oldp+927564,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_38__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927566,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_39));
-    bufp->fullBit(oldp+927567,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_39__024EN) 
+    bufp->fullBit(oldp+927565,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_39));
+    bufp->fullBit(oldp+927566,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_39__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927568,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_4));
-    bufp->fullBit(oldp+927569,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_4__024EN) 
+    bufp->fullBit(oldp+927567,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_4));
+    bufp->fullBit(oldp+927568,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_4__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927570,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_40));
-    bufp->fullBit(oldp+927571,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_40__024EN) 
+    bufp->fullBit(oldp+927569,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_40));
+    bufp->fullBit(oldp+927570,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_40__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927572,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_41));
-    bufp->fullBit(oldp+927573,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_41__024EN) 
+    bufp->fullBit(oldp+927571,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_41));
+    bufp->fullBit(oldp+927572,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_41__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927574,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_42));
-    bufp->fullBit(oldp+927575,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_42__024EN) 
+    bufp->fullBit(oldp+927573,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_42));
+    bufp->fullBit(oldp+927574,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_42__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927576,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_43));
-    bufp->fullBit(oldp+927577,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_43__024EN) 
+    bufp->fullBit(oldp+927575,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_43));
+    bufp->fullBit(oldp+927576,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_43__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927578,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_44));
-    bufp->fullBit(oldp+927579,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_44__024EN) 
+    bufp->fullBit(oldp+927577,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_44));
+    bufp->fullBit(oldp+927578,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_44__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927580,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_45));
-    bufp->fullBit(oldp+927581,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_45__024EN) 
+    bufp->fullBit(oldp+927579,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_45));
+    bufp->fullBit(oldp+927580,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_45__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927582,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_46));
-    bufp->fullBit(oldp+927583,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_46__024EN) 
+    bufp->fullBit(oldp+927581,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_46));
+    bufp->fullBit(oldp+927582,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_46__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927584,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_47));
-    bufp->fullBit(oldp+927585,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_47__024EN) 
+    bufp->fullBit(oldp+927583,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_47));
+    bufp->fullBit(oldp+927584,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_47__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927586,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_5));
-    bufp->fullBit(oldp+927587,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_5__024EN) 
+    bufp->fullBit(oldp+927585,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_5));
+    bufp->fullBit(oldp+927586,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_5__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927588,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_6));
-    bufp->fullBit(oldp+927589,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_6__024EN) 
+    bufp->fullBit(oldp+927587,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_6));
+    bufp->fullBit(oldp+927588,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_6__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927590,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_7));
-    bufp->fullBit(oldp+927591,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_7__024EN) 
+    bufp->fullBit(oldp+927589,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_7));
+    bufp->fullBit(oldp+927590,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_7__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927592,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_8));
-    bufp->fullBit(oldp+927593,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_8__024EN) 
+    bufp->fullBit(oldp+927591,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_8));
+    bufp->fullBit(oldp+927592,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_8__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927594,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_9));
-    bufp->fullBit(oldp+927595,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_9__024EN) 
+    bufp->fullBit(oldp+927593,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__spike_out_9));
+    bufp->fullBit(oldp+927594,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__refr_9__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullCData(oldp+927596,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__state),2);
-    bufp->fullCData(oldp+927597,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__state__024D_IN),2);
-    bufp->fullBit(oldp+927598,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__MUX_state__024write_1___05FSEL_1) 
+    bufp->fullCData(oldp+927595,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__state),2);
+    bufp->fullCData(oldp+927596,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__state__024D_IN),2);
+    bufp->fullBit(oldp+927597,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__MUX_state__024write_1___05FSEL_1) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__MUX_state__024write_1___05FSEL_2))));
-    bufp->fullSData(oldp+927599,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_0),16);
-    bufp->fullSData(oldp+927600,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
+    bufp->fullSData(oldp+927598,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_0),16);
+    bufp->fullSData(oldp+927599,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                              >> 4U))),16);
-    bufp->fullSData(oldp+927601,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_1),16);
-    bufp->fullSData(oldp+927602,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_10),16);
-    bufp->fullSData(oldp+927603,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_11),16);
-    bufp->fullSData(oldp+927604,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_12),16);
-    bufp->fullSData(oldp+927605,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_13),16);
-    bufp->fullSData(oldp+927606,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_14),16);
-    bufp->fullSData(oldp+927607,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_15),16);
-    bufp->fullSData(oldp+927608,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_16),16);
-    bufp->fullSData(oldp+927609,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_17),16);
-    bufp->fullSData(oldp+927610,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_18),16);
-    bufp->fullSData(oldp+927611,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_19),16);
-    bufp->fullSData(oldp+927612,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_2),16);
-    bufp->fullSData(oldp+927613,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_20),16);
-    bufp->fullSData(oldp+927614,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_21),16);
-    bufp->fullSData(oldp+927615,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_22),16);
-    bufp->fullSData(oldp+927616,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_23),16);
-    bufp->fullSData(oldp+927617,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_24),16);
-    bufp->fullSData(oldp+927618,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_25),16);
-    bufp->fullSData(oldp+927619,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_26),16);
-    bufp->fullSData(oldp+927620,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_27),16);
-    bufp->fullSData(oldp+927621,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_28),16);
-    bufp->fullSData(oldp+927622,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_29),16);
-    bufp->fullSData(oldp+927623,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_3),16);
-    bufp->fullSData(oldp+927624,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_30),16);
-    bufp->fullSData(oldp+927625,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_31),16);
-    bufp->fullSData(oldp+927626,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_32),16);
-    bufp->fullSData(oldp+927627,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_33),16);
-    bufp->fullSData(oldp+927628,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_34),16);
-    bufp->fullSData(oldp+927629,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_35),16);
-    bufp->fullSData(oldp+927630,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_36),16);
-    bufp->fullSData(oldp+927631,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_37),16);
-    bufp->fullSData(oldp+927632,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_38),16);
-    bufp->fullSData(oldp+927633,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_39),16);
-    bufp->fullSData(oldp+927634,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_4),16);
-    bufp->fullSData(oldp+927635,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_40),16);
-    bufp->fullSData(oldp+927636,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_41),16);
-    bufp->fullSData(oldp+927637,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_42),16);
-    bufp->fullSData(oldp+927638,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_43),16);
-    bufp->fullSData(oldp+927639,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_44),16);
-    bufp->fullSData(oldp+927640,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_45),16);
-    bufp->fullSData(oldp+927641,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_46),16);
-    bufp->fullSData(oldp+927642,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_47),16);
-    bufp->fullSData(oldp+927643,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_5),16);
-    bufp->fullSData(oldp+927644,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_6),16);
-    bufp->fullSData(oldp+927645,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_7),16);
-    bufp->fullSData(oldp+927646,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_8),16);
-    bufp->fullSData(oldp+927647,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_9),16);
-    bufp->fullCData(oldp+927648,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024load_and_step_refr),4);
-    bufp->fullIData(oldp+927649,((0x1fffffU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg)),21);
-    bufp->fullSData(oldp+927650,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164) 
+    bufp->fullSData(oldp+927600,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_1),16);
+    bufp->fullSData(oldp+927601,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_10),16);
+    bufp->fullSData(oldp+927602,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_11),16);
+    bufp->fullSData(oldp+927603,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_12),16);
+    bufp->fullSData(oldp+927604,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_13),16);
+    bufp->fullSData(oldp+927605,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_14),16);
+    bufp->fullSData(oldp+927606,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_15),16);
+    bufp->fullSData(oldp+927607,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_16),16);
+    bufp->fullSData(oldp+927608,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_17),16);
+    bufp->fullSData(oldp+927609,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_18),16);
+    bufp->fullSData(oldp+927610,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_19),16);
+    bufp->fullSData(oldp+927611,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_2),16);
+    bufp->fullSData(oldp+927612,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_20),16);
+    bufp->fullSData(oldp+927613,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_21),16);
+    bufp->fullSData(oldp+927614,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_22),16);
+    bufp->fullSData(oldp+927615,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_23),16);
+    bufp->fullSData(oldp+927616,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_24),16);
+    bufp->fullSData(oldp+927617,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_25),16);
+    bufp->fullSData(oldp+927618,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_26),16);
+    bufp->fullSData(oldp+927619,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_27),16);
+    bufp->fullSData(oldp+927620,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_28),16);
+    bufp->fullSData(oldp+927621,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_29),16);
+    bufp->fullSData(oldp+927622,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_3),16);
+    bufp->fullSData(oldp+927623,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_30),16);
+    bufp->fullSData(oldp+927624,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_31),16);
+    bufp->fullSData(oldp+927625,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_32),16);
+    bufp->fullSData(oldp+927626,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_33),16);
+    bufp->fullSData(oldp+927627,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_34),16);
+    bufp->fullSData(oldp+927628,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_35),16);
+    bufp->fullSData(oldp+927629,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_36),16);
+    bufp->fullSData(oldp+927630,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_37),16);
+    bufp->fullSData(oldp+927631,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_38),16);
+    bufp->fullSData(oldp+927632,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_39),16);
+    bufp->fullSData(oldp+927633,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_4),16);
+    bufp->fullSData(oldp+927634,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_40),16);
+    bufp->fullSData(oldp+927635,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_41),16);
+    bufp->fullSData(oldp+927636,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_42),16);
+    bufp->fullSData(oldp+927637,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_43),16);
+    bufp->fullSData(oldp+927638,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_44),16);
+    bufp->fullSData(oldp+927639,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_45),16);
+    bufp->fullSData(oldp+927640,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_46),16);
+    bufp->fullSData(oldp+927641,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_47),16);
+    bufp->fullSData(oldp+927642,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_5),16);
+    bufp->fullSData(oldp+927643,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_6),16);
+    bufp->fullSData(oldp+927644,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_7),16);
+    bufp->fullSData(oldp+927645,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_8),16);
+    bufp->fullSData(oldp+927646,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__v_t_9),16);
+    bufp->fullCData(oldp+927647,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024load_and_step_refr),4);
+    bufp->fullIData(oldp+927648,((0x1fffffU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg)),21);
+    bufp->fullSData(oldp+927649,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164) 
                                    << 0xfU) | (IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_19))),16);
-    bufp->fullBit(oldp+927651,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
+    bufp->fullBit(oldp+927650,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg 
                                       >> 0x15U))));
-    bufp->fullBit(oldp+927652,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024RDY_load_and_step));
-    bufp->fullCData(oldp+927653,((0x3fU & ((IData)(1U) 
+    bufp->fullBit(oldp+927651,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024RDY_load_and_step));
+    bufp->fullCData(oldp+927652,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__input_index)))),6);
-    bufp->fullCData(oldp+927654,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+927653,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__inputs_fed)))),6);
-    bufp->fullCData(oldp+927655,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+927654,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__output_index)))),6);
-    bufp->fullCData(oldp+927656,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+927655,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__outputs_received)))),6);
-    bufp->fullCData(oldp+927657,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__state))
+    bufp->fullCData(oldp+927656,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__state))
                                    ? 1U : 2U)),2);
-    bufp->fullBit(oldp+927658,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__MUX_state__024write_1___05FSEL_1));
-    bufp->fullBit(oldp+927659,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__MUX_state__024write_1___05FSEL_2));
-    bufp->fullCData(oldp+927660,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214),8);
-    bufp->fullCData(oldp+927661,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BITS_6_TO_0_15_v_t_1_8_BITS_6___05FETC___05F_d264),7);
-    bufp->fullBit(oldp+927662,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164));
-    bufp->fullQData(oldp+927663,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__conf),52);
-    bufp->fullBit(oldp+927665,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__config_valid));
-    bufp->fullSData(oldp+927666,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__inv_tau_cached),16);
-    bufp->fullIData(oldp+927667,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg),22);
-    bufp->fullIData(oldp+927668,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024EN_get_output)
+    bufp->fullBit(oldp+927657,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__MUX_state__024write_1___05FSEL_1));
+    bufp->fullBit(oldp+927658,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__MUX_state__024write_1___05FSEL_2));
+    bufp->fullCData(oldp+927659,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214),8);
+    bufp->fullCData(oldp+927660,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BITS_6_TO_0_15_v_t_1_8_BITS_6___05FETC___05F_d264),7);
+    bufp->fullBit(oldp+927661,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164));
+    bufp->fullQData(oldp+927662,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__conf),52);
+    bufp->fullBit(oldp+927664,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__config_valid));
+    bufp->fullSData(oldp+927665,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__inv_tau_cached),16);
+    bufp->fullIData(oldp+927666,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__output_reg),22);
+    bufp->fullIData(oldp+927667,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024EN_get_output)
                                    ? 0xaaaaaU : (0x200000U 
                                                  | ((((~ (IData)(
                                                                  (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
@@ -2499,10 +2499,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          : 
                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__a___05Fh2557) 
                                                          << 4U))))))),22);
-    bufp->fullBit(oldp+927669,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024EN_get_output) 
+    bufp->fullBit(oldp+927668,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024EN_get_output) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3))));
-    bufp->fullQData(oldp+927670,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage1_data),38);
-    bufp->fullQData(oldp+927672,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2)
+    bufp->fullQData(oldp+927669,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage1_data),38);
+    bufp->fullQData(oldp+927671,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2)
                                    ? 0xaaaaaaaaaULL
                                    : (0x2000000000ULL 
                                       | (((QData)((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
@@ -2552,10 +2552,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 | (0xfU 
                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024load_and_step_refr) 
                                                                       - (IData)(1U)))))))))))),38);
-    bufp->fullBit(oldp+927674,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2) 
+    bufp->fullBit(oldp+927673,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input))));
-    bufp->fullQData(oldp+927675,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data),38);
-    bufp->fullQData(oldp+927677,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3)
+    bufp->fullQData(oldp+927674,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data),38);
+    bufp->fullQData(oldp+927676,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3)
                                    ? 0xaaaaaaaaaULL
                                    : (0x2000000000ULL 
                                       | (((QData)((IData)(
@@ -2617,11 +2617,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                  << 5U) 
                                                                 | (0xfU 
                                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage1_data))))))))))),38);
-    bufp->fullBit(oldp+927679,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3) 
+    bufp->fullBit(oldp+927678,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2))));
-    bufp->fullBit(oldp+927680,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2));
-    bufp->fullBit(oldp+927681,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3));
-    bufp->fullQData(oldp+927682,((0x2000000000ULL | 
+    bufp->fullBit(oldp+927679,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2));
+    bufp->fullBit(oldp+927680,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3));
+    bufp->fullQData(oldp+927681,((0x2000000000ULL | 
                                   (((QData)((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                     << 0x24U) | (((QData)((IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_19)) 
                                                   << 0x15U) 
@@ -2668,7 +2668,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                      | (0xfU 
                                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024load_and_step_refr) 
                                                                            - (IData)(1U))))))))))),38);
-    bufp->fullQData(oldp+927684,((0x2000000000ULL | 
+    bufp->fullQData(oldp+927683,((0x2000000000ULL | 
                                   (((QData)((IData)(
                                                     (0xffffU 
                                                      & (IData)(
@@ -2727,7 +2727,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                       << 5U) 
                                                                      | (0xfU 
                                                                         & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage1_data)))))))))),38);
-    bufp->fullIData(oldp+927686,((0x200000U | ((((~ (IData)(
+    bufp->fullIData(oldp+927685,((0x200000U | ((((~ (IData)(
                                                             (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                              >> 4U))) 
                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)) 
@@ -2757,7 +2757,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__a___05Fh2557) 
                                                     << 4U)))))),22);
-    bufp->fullIData(oldp+927687,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024load_and_step_refr))
+    bufp->fullIData(oldp+927686,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024load_and_step_refr))
                                    ? ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92) 
                                         & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                         ? 0U : (0xffffU 
@@ -2793,7 +2793,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                 | (0xfU 
                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__024load_and_step_refr) 
                                                       - (IData)(1U)))))),21);
-    bufp->fullIData(oldp+927688,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)
+    bufp->fullIData(oldp+927687,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)
                                    ? ((0xffff0U & ((IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__conf 
                                                             >> 0x14U)) 
@@ -2801,10 +2801,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                       | (0xfU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__conf)))
                                    : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__a___05Fh2557) 
                                       << 4U))),20);
-    bufp->fullSData(oldp+927689,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
+    bufp->fullSData(oldp+927688,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F_snd___05Fh1595)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___0_CONCAT_NOT_inv_tau_cached_4_BITS_14_TO_7_0_E_ETC___05F_d37))),16);
-    bufp->fullSData(oldp+927690,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_19) 
+    bufp->fullSData(oldp+927689,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_19) 
                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                    ? ((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                                   << 0xfU)) 
@@ -2812,7 +2812,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                    : ((0U == (0x3ffU 
                                               & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__x___05Fh4179)))
                                        ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__result_raw___05Fh4385)))),16);
-    bufp->fullSData(oldp+927691,((0xffffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_28) 
+    bufp->fullSData(oldp+927690,((0xffffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_28) 
                                               & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                               ? (IData)(
                                                         (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__conf 
@@ -2831,7 +2831,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__x___05Fh4179)))
                                                    ? 0U
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__result_raw___05Fh4385)))))),16);
-    bufp->fullSData(oldp+927692,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92)
+    bufp->fullSData(oldp+927691,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92)
                                               ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2166803_0_sa_result_o_BIT_15_1_sa_result_ETC___05Fq544) 
                                                   << 0xfU) 
                                                  | (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2166803_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq545) 
@@ -2857,8 +2857,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__x___05Fh4179)))
                                                     ? 0U
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__result_raw___05Fh4385))))))),16);
-    bufp->fullSData(oldp+927693,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__a___05Fh2557),16);
-    bufp->fullSData(oldp+927694,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
+    bufp->fullSData(oldp+927692,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__a___05Fh2557),16);
+    bufp->fullSData(oldp+927693,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
                                                 ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__result_sign___05Fh2962)
                                                 : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___0b1_CONCAT_IF_IF_stage2_data_BIT_37_THEN_stage_ETC___05F_d271)
                                                     ? 
@@ -2949,20 +2949,20 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                       : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__tmp___05Fh2907)) 
                                                     << 1U))
                                               : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__tmp___05Fh2907))))))),16);
-    bufp->fullSData(oldp+927695,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
+    bufp->fullSData(oldp+927694,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                               << 0xfU)) 
                                   | (IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_19))),16);
-    bufp->fullSData(oldp+927696,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__result_raw___05Fh4385),16);
-    bufp->fullSData(oldp+927697,((0xffffU & (IData)(
+    bufp->fullSData(oldp+927695,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__result_raw___05Fh4385),16);
+    bufp->fullSData(oldp+927696,((0xffffU & (IData)(
                                                     (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage1_data 
+                                                     >> 5U)))),16);
+    bufp->fullSData(oldp+927697,((0xffffU & (IData)(
+                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                      >> 5U)))),16);
     bufp->fullSData(oldp+927698,((0xffffU & (IData)(
                                                     (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
-                                                     >> 5U)))),16);
-    bufp->fullSData(oldp+927699,((0xffffU & (IData)(
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                      >> 0x15U)))),16);
-    bufp->fullSData(oldp+927700,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__final_exp_10___05Fh1448) 
+    bufp->fullSData(oldp+927699,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__final_exp_10___05Fh1448) 
                                             >> 9U) 
                                            | (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__final_exp_10___05Fh1448))))
                                    ? ((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__final_exp_10___05Fh1448))
@@ -2975,7 +2975,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      << 7U)) 
                                                  | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__final_mant___05Fh1447))
                                                  : 0x7f80U))),15);
-    bufp->fullSData(oldp+927701,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__x___05Fh4179))
+    bufp->fullSData(oldp+927700,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__x___05Fh4179))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)) 
                                                   << 7U)) 
@@ -3049,7 +3049,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__x___05Fh4179)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__x___05Fh4179)))))),15);
-    bufp->fullSData(oldp+927702,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__tmp___05Fh2907))
+    bufp->fullSData(oldp+927701,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__tmp___05Fh2907))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986)) 
                                                   << 7U)) 
@@ -3126,7 +3126,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__tmp___05Fh2907)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__tmp___05Fh2907)))))),15);
-    bufp->fullSData(oldp+927703,((((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+927702,((((IData)((0U == (0x7fffU 
                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__inv_tau_cached)))) 
                                    | (IData)((0ULL 
                                               == (0xfffe0ULL 
@@ -3148,7 +3148,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__final_mant___05Fh1447))
                                                 : 0x7f80U)))),15);
-    bufp->fullSData(oldp+927704,((0x7ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)
+    bufp->fullSData(oldp+927703,((0x7ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_a___05Fh4163)
                                               : (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_a___05Fh4163))) 
                                             + ((1U 
@@ -3157,10 +3157,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                            >> 0x23U)))
                                                 ? (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_b___05Fh4164))
                                                 : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_b___05Fh4164))))),11);
-    bufp->fullSData(oldp+927705,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_load_and_step_v_t_BIT_15_25_THEN_SEXT___05F0_CO_ETC___05F_d460),11);
-    bufp->fullSData(oldp+927706,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_b___05Fh4164),11);
-    bufp->fullSData(oldp+927707,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_a___05Fh4163),11);
-    bufp->fullSData(oldp+927708,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullSData(oldp+927704,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_load_and_step_v_t_BIT_15_25_THEN_SEXT___05F0_CO_ETC___05F_d460),11);
+    bufp->fullSData(oldp+927705,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_b___05Fh4164),11);
+    bufp->fullSData(oldp+927706,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_a___05Fh4163),11);
+    bufp->fullSData(oldp+927707,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -3168,8 +3168,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2166803_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq545))))))),11);
-    bufp->fullSData(oldp+927709,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__x___05Fh4179),11);
-    bufp->fullSData(oldp+927710,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
+    bufp->fullSData(oldp+927708,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__x___05Fh4179),11);
+    bufp->fullSData(oldp+927709,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
                                              ? (0x3feU 
                                                 & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_45)
                                                      ? 
@@ -3209,10 +3209,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__x___05Fh4179)) 
                                                    << 1U))
                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__x___05Fh4179)))),10);
-    bufp->fullSData(oldp+927711,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441),10);
-    bufp->fullSData(oldp+927712,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_a___05Fh4163),10);
-    bufp->fullSData(oldp+927713,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_b___05Fh4164),10);
-    bufp->fullSData(oldp+927714,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullSData(oldp+927710,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441),10);
+    bufp->fullSData(oldp+927711,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_a___05Fh4163),10);
+    bufp->fullSData(oldp+927712,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_b___05Fh4164),10);
+    bufp->fullSData(oldp+927713,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -3220,11 +3220,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2166803_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq545))))))),10);
-    bufp->fullSData(oldp+927715,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__final_exp_10___05Fh1448),10);
-    bufp->fullSData(oldp+927716,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+927714,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__final_exp_10___05Fh1448),10);
+    bufp->fullSData(oldp+927715,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+927717,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
+    bufp->fullSData(oldp+927716,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_60)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_62)
@@ -3363,27 +3363,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+927718,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927717,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+927719,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927718,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927720,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927719,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927721,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927720,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927722,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927721,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927723,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927722,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -3399,7 +3399,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927724,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927723,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -3414,7 +3414,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927725,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927724,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -3428,7 +3428,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927726,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927725,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -3441,7 +3441,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927727,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927726,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -3453,7 +3453,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927728,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+927727,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -3464,7 +3464,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927729,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927728,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -3473,7 +3473,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927730,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927729,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -3481,14 +3481,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927731,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+927730,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+927732,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
+    bufp->fullSData(oldp+927731,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_33)
@@ -3530,64 +3530,64 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__tmp___05Fh2907)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__tmp___05Fh2907))),9);
-    bufp->fullSData(oldp+927733,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullSData(oldp+927732,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__inv_tau_cached) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+927734,(((0U == (0xffU & (IData)(
+    bufp->fullSData(oldp+927733,(((0U == (0xffU & (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage1_data 
                                                            >> 0xcU))))
                                    ? 1U : (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU))))),9);
-    bufp->fullSData(oldp+927735,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441),9);
-    bufp->fullSData(oldp+927736,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+927734,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__exp_sum___05Fh1441),9);
+    bufp->fullSData(oldp+927735,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+927737,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+927736,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+927738,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__smaller_m___05Fh2901) 
+    bufp->fullSData(oldp+927737,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__smaller_m___05Fh2901) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))))),9);
-    bufp->fullSData(oldp+927739,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__tmp___05Fh2907),9);
-    bufp->fullCData(oldp+927740,((((0U != (0xffU & 
+    bufp->fullSData(oldp+927738,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__tmp___05Fh2907),9);
+    bufp->fullCData(oldp+927739,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__inv_tau_cached)))),8);
-    bufp->fullCData(oldp+927741,((((0U != (0xffU & (IData)(
+    bufp->fullCData(oldp+927740,((((0U != (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU)))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(
                                                        (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage1_data 
                                                         >> 5U))))),8);
-    bufp->fullCData(oldp+927742,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
-    bufp->fullCData(oldp+927743,((0xffU & ((IData)(
+    bufp->fullCData(oldp+927741,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
+    bufp->fullCData(oldp+927742,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                     >> 0x1cU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                       >> 0xcU))))),8);
-    bufp->fullCData(oldp+927744,((0xffU & ((IData)(
+    bufp->fullCData(oldp+927743,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                     >> 0xcU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                       >> 0x1cU))))),8);
-    bufp->fullCData(oldp+927745,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+927744,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214)))),8);
-    bufp->fullCData(oldp+927746,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+927745,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__conf 
                                                       >> 0x1bU))))),8);
-    bufp->fullCData(oldp+927747,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+927746,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2166803_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq545)))),8);
-    bufp->fullCData(oldp+927748,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+927747,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986)))),8);
-    bufp->fullCData(oldp+927749,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
+    bufp->fullCData(oldp+927748,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                    ? 
@@ -3611,11 +3611,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+927750,((0xffU & ((IData)(2U) 
+    bufp->fullCData(oldp+927749,((0xffU & ((IData)(2U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+927751,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+927750,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+927752,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+927751,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_45)
                                                    ? 
@@ -3639,9 +3639,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+927753,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_a___05Fh4163),8);
-    bufp->fullCData(oldp+927754,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_b___05Fh4164),8);
-    bufp->fullCData(oldp+927755,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullCData(oldp+927752,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_a___05Fh4163),8);
+    bufp->fullCData(oldp+927753,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__man_b___05Fh4164),8);
+    bufp->fullCData(oldp+927754,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -3649,8 +3649,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2166803_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq545))))))),8);
-    bufp->fullCData(oldp+927756,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__smaller_m___05Fh2901),8);
-    bufp->fullCData(oldp+927757,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+927755,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__smaller_m___05Fh2901),8);
+    bufp->fullCData(oldp+927756,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -3663,7 +3663,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                                        >> 0xcU))))))),8);
-    bufp->fullCData(oldp+927758,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+927757,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -3676,9 +3676,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                                        >> 0x1cU))))))),8);
-    bufp->fullCData(oldp+927759,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
-    bufp->fullCData(oldp+927760,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__final_mant___05Fh1447),7);
-    bufp->fullBit(oldp+927761,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__a___05Fh2557) 
+    bufp->fullCData(oldp+927758,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
+    bufp->fullCData(oldp+927759,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__final_mant___05Fh1447),7);
+    bufp->fullBit(oldp+927760,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__a___05Fh2557) 
                                               >> 0xfU)) 
                                        == (1U & (IData)(
                                                         (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__conf 
@@ -3705,17 +3705,17 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 >> 0x24U)))))))
                                        : (~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__a___05Fh2557) 
                                              >> 0xfU))))));
-    bufp->fullBit(oldp+927762,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
-    bufp->fullBit(oldp+927763,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
-    bufp->fullBit(oldp+927764,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
+    bufp->fullBit(oldp+927761,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
+    bufp->fullBit(oldp+927762,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
+    bufp->fullBit(oldp+927763,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377) 
                                    | ((0x7fU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__a___05Fh2557)) 
                                       < (0x7fU & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__conf 
                                                           >> 0x24U))))))));
-    bufp->fullBit(oldp+927765,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
-    bufp->fullBit(oldp+927766,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
-    bufp->fullBit(oldp+927767,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
+    bufp->fullBit(oldp+927764,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
+    bufp->fullBit(oldp+927765,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
+    bufp->fullBit(oldp+927766,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
                                       | ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377)) 
                                          & ((0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__a___05Fh2557)) 
@@ -3723,14 +3723,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__conf 
                                                           >> 0x24U)))))))));
-    bufp->fullBit(oldp+927768,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
+    bufp->fullBit(oldp+927767,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                             >> 4U))) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6))));
-    bufp->fullBit(oldp+927769,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullBit(oldp+927768,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__inv_tau_cached) 
                                        >> 0xfU) ^ (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage1_data 
                                                            >> 0x14U))))));
-    bufp->fullBit(oldp+927770,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
+    bufp->fullBit(oldp+927769,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__result_sign___05Fh2962)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT___0b1_CONCAT_IF_IF_stage2_data_BIT_37_THEN_stage_ETC___05F_d271)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
@@ -3741,406 +3741,406 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                           >> 0x14U)))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__result_sign___05Fh2962))))));
-    bufp->fullBit(oldp+927771,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__result_sign___05Fh2962));
-    bufp->fullBit(oldp+927772,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
+    bufp->fullBit(oldp+927770,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__result_sign___05Fh2962));
+    bufp->fullBit(oldp+927771,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
                                        ? (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                   >> 0x24U))
                                        : (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__lif__DOT__stage2_data 
                                                   >> 0x14U))))));
-    bufp->fullBit(oldp+927773,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
-    bufp->fullBit(oldp+927774,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__state)) 
+    bufp->fullBit(oldp+927772,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_6__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
+    bufp->fullBit(oldp+927773,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__state)) 
                                 & (3U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__state)))));
-    bufp->fullCData(oldp+927775,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__input_index),6);
-    bufp->fullCData(oldp+927776,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
+    bufp->fullCData(oldp+927774,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__input_index),6);
+    bufp->fullCData(oldp+927775,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__input_index)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+927777,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__inputs_fed),6);
-    bufp->fullCData(oldp+927778,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
+    bufp->fullCData(oldp+927776,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__inputs_fed),6);
+    bufp->fullCData(oldp+927777,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__inputs_fed)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+927779,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__output_index),6);
-    bufp->fullCData(oldp+927780,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024EN_get_output)
+    bufp->fullCData(oldp+927778,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__output_index),6);
+    bufp->fullCData(oldp+927779,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024EN_get_output)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__output_index)))
                                    : 0U)),6);
-    bufp->fullBit(oldp+927781,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024EN_get_output));
-    bufp->fullCData(oldp+927782,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__outputs_received),6);
-    bufp->fullCData(oldp+927783,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024EN_get_output)
+    bufp->fullBit(oldp+927780,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024EN_get_output));
+    bufp->fullCData(oldp+927781,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__outputs_received),6);
+    bufp->fullCData(oldp+927782,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024EN_get_output)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__outputs_received)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+927784,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_0),4);
-    bufp->fullCData(oldp+927785,((0xfU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg)),4);
-    bufp->fullBit(oldp+927786,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_0__024EN));
-    bufp->fullCData(oldp+927787,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_1),4);
-    bufp->fullBit(oldp+927788,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_1__024EN));
-    bufp->fullCData(oldp+927789,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_10),4);
-    bufp->fullBit(oldp+927790,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_10__024EN));
-    bufp->fullCData(oldp+927791,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_11),4);
-    bufp->fullBit(oldp+927792,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_11__024EN));
-    bufp->fullCData(oldp+927793,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_12),4);
-    bufp->fullBit(oldp+927794,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_12__024EN));
-    bufp->fullCData(oldp+927795,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_13),4);
-    bufp->fullBit(oldp+927796,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_13__024EN));
-    bufp->fullCData(oldp+927797,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_14),4);
-    bufp->fullBit(oldp+927798,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_14__024EN));
-    bufp->fullCData(oldp+927799,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_15),4);
-    bufp->fullBit(oldp+927800,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_15__024EN));
-    bufp->fullCData(oldp+927801,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_16),4);
-    bufp->fullBit(oldp+927802,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_16__024EN));
-    bufp->fullCData(oldp+927803,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_17),4);
-    bufp->fullBit(oldp+927804,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_17__024EN));
-    bufp->fullCData(oldp+927805,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_18),4);
-    bufp->fullBit(oldp+927806,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_18__024EN));
-    bufp->fullCData(oldp+927807,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_19),4);
-    bufp->fullBit(oldp+927808,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_19__024EN));
-    bufp->fullCData(oldp+927809,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_2),4);
-    bufp->fullBit(oldp+927810,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_2__024EN));
-    bufp->fullCData(oldp+927811,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_20),4);
-    bufp->fullBit(oldp+927812,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_20__024EN));
-    bufp->fullCData(oldp+927813,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_21),4);
-    bufp->fullBit(oldp+927814,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_21__024EN));
-    bufp->fullCData(oldp+927815,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_22),4);
-    bufp->fullBit(oldp+927816,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_22__024EN));
-    bufp->fullCData(oldp+927817,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_23),4);
-    bufp->fullBit(oldp+927818,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_23__024EN));
-    bufp->fullCData(oldp+927819,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_24),4);
-    bufp->fullBit(oldp+927820,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_24__024EN));
-    bufp->fullCData(oldp+927821,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_25),4);
-    bufp->fullBit(oldp+927822,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_25__024EN));
-    bufp->fullCData(oldp+927823,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_26),4);
-    bufp->fullBit(oldp+927824,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_26__024EN));
-    bufp->fullCData(oldp+927825,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_27),4);
-    bufp->fullBit(oldp+927826,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_27__024EN));
-    bufp->fullCData(oldp+927827,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_28),4);
-    bufp->fullBit(oldp+927828,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_28__024EN));
-    bufp->fullCData(oldp+927829,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_29),4);
-    bufp->fullBit(oldp+927830,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_29__024EN));
-    bufp->fullCData(oldp+927831,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_3),4);
-    bufp->fullBit(oldp+927832,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_3__024EN));
-    bufp->fullCData(oldp+927833,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_30),4);
-    bufp->fullBit(oldp+927834,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_30__024EN));
-    bufp->fullCData(oldp+927835,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_31),4);
-    bufp->fullBit(oldp+927836,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_31__024EN));
-    bufp->fullCData(oldp+927837,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_32),4);
-    bufp->fullBit(oldp+927838,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_32__024EN));
-    bufp->fullCData(oldp+927839,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_33),4);
-    bufp->fullBit(oldp+927840,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_33__024EN));
-    bufp->fullCData(oldp+927841,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_34),4);
-    bufp->fullBit(oldp+927842,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_34__024EN));
-    bufp->fullCData(oldp+927843,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_35),4);
-    bufp->fullBit(oldp+927844,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_35__024EN));
-    bufp->fullCData(oldp+927845,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_36),4);
-    bufp->fullBit(oldp+927846,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_36__024EN));
-    bufp->fullCData(oldp+927847,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_37),4);
-    bufp->fullBit(oldp+927848,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_37__024EN));
-    bufp->fullCData(oldp+927849,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_38),4);
-    bufp->fullBit(oldp+927850,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_38__024EN));
-    bufp->fullCData(oldp+927851,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_39),4);
-    bufp->fullBit(oldp+927852,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_39__024EN));
-    bufp->fullCData(oldp+927853,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_4),4);
-    bufp->fullBit(oldp+927854,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_4__024EN));
-    bufp->fullCData(oldp+927855,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_40),4);
-    bufp->fullBit(oldp+927856,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_40__024EN));
-    bufp->fullCData(oldp+927857,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_41),4);
-    bufp->fullBit(oldp+927858,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_41__024EN));
-    bufp->fullCData(oldp+927859,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_42),4);
-    bufp->fullBit(oldp+927860,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_42__024EN));
-    bufp->fullCData(oldp+927861,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_43),4);
-    bufp->fullBit(oldp+927862,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_43__024EN));
-    bufp->fullCData(oldp+927863,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_44),4);
-    bufp->fullBit(oldp+927864,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_44__024EN));
-    bufp->fullCData(oldp+927865,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_45),4);
-    bufp->fullBit(oldp+927866,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_45__024EN));
-    bufp->fullCData(oldp+927867,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_46),4);
-    bufp->fullBit(oldp+927868,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_46__024EN));
-    bufp->fullCData(oldp+927869,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_47),4);
-    bufp->fullBit(oldp+927870,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_47__024EN));
-    bufp->fullCData(oldp+927871,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_5),4);
-    bufp->fullBit(oldp+927872,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_5__024EN));
-    bufp->fullCData(oldp+927873,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_6),4);
-    bufp->fullBit(oldp+927874,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_6__024EN));
-    bufp->fullCData(oldp+927875,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_7),4);
-    bufp->fullBit(oldp+927876,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_7__024EN));
-    bufp->fullCData(oldp+927877,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_8),4);
-    bufp->fullBit(oldp+927878,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_8__024EN));
-    bufp->fullCData(oldp+927879,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_9),4);
-    bufp->fullBit(oldp+927880,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_9__024EN));
-    bufp->fullBit(oldp+927881,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_0));
-    bufp->fullBit(oldp+927882,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_0__024EN) 
+    bufp->fullCData(oldp+927783,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_0),4);
+    bufp->fullCData(oldp+927784,((0xfU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg)),4);
+    bufp->fullBit(oldp+927785,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_0__024EN));
+    bufp->fullCData(oldp+927786,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_1),4);
+    bufp->fullBit(oldp+927787,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_1__024EN));
+    bufp->fullCData(oldp+927788,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_10),4);
+    bufp->fullBit(oldp+927789,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_10__024EN));
+    bufp->fullCData(oldp+927790,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_11),4);
+    bufp->fullBit(oldp+927791,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_11__024EN));
+    bufp->fullCData(oldp+927792,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_12),4);
+    bufp->fullBit(oldp+927793,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_12__024EN));
+    bufp->fullCData(oldp+927794,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_13),4);
+    bufp->fullBit(oldp+927795,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_13__024EN));
+    bufp->fullCData(oldp+927796,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_14),4);
+    bufp->fullBit(oldp+927797,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_14__024EN));
+    bufp->fullCData(oldp+927798,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_15),4);
+    bufp->fullBit(oldp+927799,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_15__024EN));
+    bufp->fullCData(oldp+927800,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_16),4);
+    bufp->fullBit(oldp+927801,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_16__024EN));
+    bufp->fullCData(oldp+927802,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_17),4);
+    bufp->fullBit(oldp+927803,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_17__024EN));
+    bufp->fullCData(oldp+927804,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_18),4);
+    bufp->fullBit(oldp+927805,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_18__024EN));
+    bufp->fullCData(oldp+927806,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_19),4);
+    bufp->fullBit(oldp+927807,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_19__024EN));
+    bufp->fullCData(oldp+927808,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_2),4);
+    bufp->fullBit(oldp+927809,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_2__024EN));
+    bufp->fullCData(oldp+927810,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_20),4);
+    bufp->fullBit(oldp+927811,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_20__024EN));
+    bufp->fullCData(oldp+927812,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_21),4);
+    bufp->fullBit(oldp+927813,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_21__024EN));
+    bufp->fullCData(oldp+927814,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_22),4);
+    bufp->fullBit(oldp+927815,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_22__024EN));
+    bufp->fullCData(oldp+927816,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_23),4);
+    bufp->fullBit(oldp+927817,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_23__024EN));
+    bufp->fullCData(oldp+927818,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_24),4);
+    bufp->fullBit(oldp+927819,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_24__024EN));
+    bufp->fullCData(oldp+927820,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_25),4);
+    bufp->fullBit(oldp+927821,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_25__024EN));
+    bufp->fullCData(oldp+927822,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_26),4);
+    bufp->fullBit(oldp+927823,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_26__024EN));
+    bufp->fullCData(oldp+927824,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_27),4);
+    bufp->fullBit(oldp+927825,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_27__024EN));
+    bufp->fullCData(oldp+927826,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_28),4);
+    bufp->fullBit(oldp+927827,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_28__024EN));
+    bufp->fullCData(oldp+927828,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_29),4);
+    bufp->fullBit(oldp+927829,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_29__024EN));
+    bufp->fullCData(oldp+927830,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_3),4);
+    bufp->fullBit(oldp+927831,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_3__024EN));
+    bufp->fullCData(oldp+927832,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_30),4);
+    bufp->fullBit(oldp+927833,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_30__024EN));
+    bufp->fullCData(oldp+927834,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_31),4);
+    bufp->fullBit(oldp+927835,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_31__024EN));
+    bufp->fullCData(oldp+927836,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_32),4);
+    bufp->fullBit(oldp+927837,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_32__024EN));
+    bufp->fullCData(oldp+927838,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_33),4);
+    bufp->fullBit(oldp+927839,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_33__024EN));
+    bufp->fullCData(oldp+927840,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_34),4);
+    bufp->fullBit(oldp+927841,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_34__024EN));
+    bufp->fullCData(oldp+927842,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_35),4);
+    bufp->fullBit(oldp+927843,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_35__024EN));
+    bufp->fullCData(oldp+927844,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_36),4);
+    bufp->fullBit(oldp+927845,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_36__024EN));
+    bufp->fullCData(oldp+927846,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_37),4);
+    bufp->fullBit(oldp+927847,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_37__024EN));
+    bufp->fullCData(oldp+927848,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_38),4);
+    bufp->fullBit(oldp+927849,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_38__024EN));
+    bufp->fullCData(oldp+927850,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_39),4);
+    bufp->fullBit(oldp+927851,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_39__024EN));
+    bufp->fullCData(oldp+927852,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_4),4);
+    bufp->fullBit(oldp+927853,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_4__024EN));
+    bufp->fullCData(oldp+927854,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_40),4);
+    bufp->fullBit(oldp+927855,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_40__024EN));
+    bufp->fullCData(oldp+927856,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_41),4);
+    bufp->fullBit(oldp+927857,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_41__024EN));
+    bufp->fullCData(oldp+927858,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_42),4);
+    bufp->fullBit(oldp+927859,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_42__024EN));
+    bufp->fullCData(oldp+927860,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_43),4);
+    bufp->fullBit(oldp+927861,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_43__024EN));
+    bufp->fullCData(oldp+927862,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_44),4);
+    bufp->fullBit(oldp+927863,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_44__024EN));
+    bufp->fullCData(oldp+927864,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_45),4);
+    bufp->fullBit(oldp+927865,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_45__024EN));
+    bufp->fullCData(oldp+927866,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_46),4);
+    bufp->fullBit(oldp+927867,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_46__024EN));
+    bufp->fullCData(oldp+927868,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_47),4);
+    bufp->fullBit(oldp+927869,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_47__024EN));
+    bufp->fullCData(oldp+927870,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_5),4);
+    bufp->fullBit(oldp+927871,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_5__024EN));
+    bufp->fullCData(oldp+927872,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_6),4);
+    bufp->fullBit(oldp+927873,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_6__024EN));
+    bufp->fullCData(oldp+927874,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_7),4);
+    bufp->fullBit(oldp+927875,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_7__024EN));
+    bufp->fullCData(oldp+927876,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_8),4);
+    bufp->fullBit(oldp+927877,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_8__024EN));
+    bufp->fullCData(oldp+927878,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_9),4);
+    bufp->fullBit(oldp+927879,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_9__024EN));
+    bufp->fullBit(oldp+927880,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_0));
+    bufp->fullBit(oldp+927881,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_0__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927883,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_1));
-    bufp->fullBit(oldp+927884,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_1__024EN) 
+    bufp->fullBit(oldp+927882,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_1));
+    bufp->fullBit(oldp+927883,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_1__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927885,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_10));
-    bufp->fullBit(oldp+927886,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_10__024EN) 
+    bufp->fullBit(oldp+927884,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_10));
+    bufp->fullBit(oldp+927885,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_10__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927887,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_11));
-    bufp->fullBit(oldp+927888,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_11__024EN) 
+    bufp->fullBit(oldp+927886,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_11));
+    bufp->fullBit(oldp+927887,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_11__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927889,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_12));
-    bufp->fullBit(oldp+927890,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_12__024EN) 
+    bufp->fullBit(oldp+927888,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_12));
+    bufp->fullBit(oldp+927889,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_12__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927891,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_13));
-    bufp->fullBit(oldp+927892,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_13__024EN) 
+    bufp->fullBit(oldp+927890,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_13));
+    bufp->fullBit(oldp+927891,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_13__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927893,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_14));
-    bufp->fullBit(oldp+927894,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_14__024EN) 
+    bufp->fullBit(oldp+927892,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_14));
+    bufp->fullBit(oldp+927893,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_14__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927895,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_15));
-    bufp->fullBit(oldp+927896,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_15__024EN) 
+    bufp->fullBit(oldp+927894,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_15));
+    bufp->fullBit(oldp+927895,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_15__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927897,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_16));
-    bufp->fullBit(oldp+927898,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_16__024EN) 
+    bufp->fullBit(oldp+927896,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_16));
+    bufp->fullBit(oldp+927897,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_16__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927899,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_17));
-    bufp->fullBit(oldp+927900,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_17__024EN) 
+    bufp->fullBit(oldp+927898,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_17));
+    bufp->fullBit(oldp+927899,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_17__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927901,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_18));
-    bufp->fullBit(oldp+927902,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_18__024EN) 
+    bufp->fullBit(oldp+927900,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_18));
+    bufp->fullBit(oldp+927901,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_18__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927903,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_19));
-    bufp->fullBit(oldp+927904,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_19__024EN) 
+    bufp->fullBit(oldp+927902,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_19));
+    bufp->fullBit(oldp+927903,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_19__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927905,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_2));
-    bufp->fullBit(oldp+927906,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_2__024EN) 
+    bufp->fullBit(oldp+927904,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_2));
+    bufp->fullBit(oldp+927905,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_2__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927907,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_20));
-    bufp->fullBit(oldp+927908,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_20__024EN) 
+    bufp->fullBit(oldp+927906,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_20));
+    bufp->fullBit(oldp+927907,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_20__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927909,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_21));
-    bufp->fullBit(oldp+927910,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_21__024EN) 
+    bufp->fullBit(oldp+927908,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_21));
+    bufp->fullBit(oldp+927909,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_21__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927911,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_22));
-    bufp->fullBit(oldp+927912,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_22__024EN) 
+    bufp->fullBit(oldp+927910,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_22));
+    bufp->fullBit(oldp+927911,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_22__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927913,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_23));
-    bufp->fullBit(oldp+927914,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_23__024EN) 
+    bufp->fullBit(oldp+927912,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_23));
+    bufp->fullBit(oldp+927913,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_23__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927915,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_24));
-    bufp->fullBit(oldp+927916,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_24__024EN) 
+    bufp->fullBit(oldp+927914,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_24));
+    bufp->fullBit(oldp+927915,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_24__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927917,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_25));
-    bufp->fullBit(oldp+927918,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_25__024EN) 
+    bufp->fullBit(oldp+927916,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_25));
+    bufp->fullBit(oldp+927917,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_25__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927919,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_26));
-    bufp->fullBit(oldp+927920,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_26__024EN) 
+    bufp->fullBit(oldp+927918,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_26));
+    bufp->fullBit(oldp+927919,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_26__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927921,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_27));
-    bufp->fullBit(oldp+927922,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_27__024EN) 
+    bufp->fullBit(oldp+927920,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_27));
+    bufp->fullBit(oldp+927921,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_27__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927923,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_28));
-    bufp->fullBit(oldp+927924,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_28__024EN) 
+    bufp->fullBit(oldp+927922,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_28));
+    bufp->fullBit(oldp+927923,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_28__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927925,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_29));
-    bufp->fullBit(oldp+927926,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_29__024EN) 
+    bufp->fullBit(oldp+927924,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_29));
+    bufp->fullBit(oldp+927925,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_29__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927927,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_3));
-    bufp->fullBit(oldp+927928,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_3__024EN) 
+    bufp->fullBit(oldp+927926,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_3));
+    bufp->fullBit(oldp+927927,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_3__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927929,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_30));
-    bufp->fullBit(oldp+927930,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_30__024EN) 
+    bufp->fullBit(oldp+927928,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_30));
+    bufp->fullBit(oldp+927929,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_30__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927931,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_31));
-    bufp->fullBit(oldp+927932,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_31__024EN) 
+    bufp->fullBit(oldp+927930,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_31));
+    bufp->fullBit(oldp+927931,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_31__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927933,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_32));
-    bufp->fullBit(oldp+927934,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_32__024EN) 
+    bufp->fullBit(oldp+927932,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_32));
+    bufp->fullBit(oldp+927933,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_32__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927935,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_33));
-    bufp->fullBit(oldp+927936,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_33__024EN) 
+    bufp->fullBit(oldp+927934,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_33));
+    bufp->fullBit(oldp+927935,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_33__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927937,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_34));
-    bufp->fullBit(oldp+927938,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_34__024EN) 
+    bufp->fullBit(oldp+927936,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_34));
+    bufp->fullBit(oldp+927937,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_34__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927939,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_35));
-    bufp->fullBit(oldp+927940,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_35__024EN) 
+    bufp->fullBit(oldp+927938,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_35));
+    bufp->fullBit(oldp+927939,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_35__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927941,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_36));
-    bufp->fullBit(oldp+927942,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_36__024EN) 
+    bufp->fullBit(oldp+927940,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_36));
+    bufp->fullBit(oldp+927941,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_36__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927943,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_37));
-    bufp->fullBit(oldp+927944,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_37__024EN) 
+    bufp->fullBit(oldp+927942,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_37));
+    bufp->fullBit(oldp+927943,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_37__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927945,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_38));
-    bufp->fullBit(oldp+927946,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_38__024EN) 
+    bufp->fullBit(oldp+927944,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_38));
+    bufp->fullBit(oldp+927945,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_38__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927947,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_39));
-    bufp->fullBit(oldp+927948,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_39__024EN) 
+    bufp->fullBit(oldp+927946,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_39));
+    bufp->fullBit(oldp+927947,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_39__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927949,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_4));
-    bufp->fullBit(oldp+927950,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_4__024EN) 
+    bufp->fullBit(oldp+927948,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_4));
+    bufp->fullBit(oldp+927949,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_4__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927951,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_40));
-    bufp->fullBit(oldp+927952,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_40__024EN) 
+    bufp->fullBit(oldp+927950,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_40));
+    bufp->fullBit(oldp+927951,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_40__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927953,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_41));
-    bufp->fullBit(oldp+927954,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_41__024EN) 
+    bufp->fullBit(oldp+927952,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_41));
+    bufp->fullBit(oldp+927953,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_41__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927955,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_42));
-    bufp->fullBit(oldp+927956,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_42__024EN) 
+    bufp->fullBit(oldp+927954,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_42));
+    bufp->fullBit(oldp+927955,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_42__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927957,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_43));
-    bufp->fullBit(oldp+927958,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_43__024EN) 
+    bufp->fullBit(oldp+927956,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_43));
+    bufp->fullBit(oldp+927957,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_43__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927959,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_44));
-    bufp->fullBit(oldp+927960,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_44__024EN) 
+    bufp->fullBit(oldp+927958,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_44));
+    bufp->fullBit(oldp+927959,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_44__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927961,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_45));
-    bufp->fullBit(oldp+927962,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_45__024EN) 
+    bufp->fullBit(oldp+927960,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_45));
+    bufp->fullBit(oldp+927961,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_45__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927963,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_46));
-    bufp->fullBit(oldp+927964,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_46__024EN) 
+    bufp->fullBit(oldp+927962,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_46));
+    bufp->fullBit(oldp+927963,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_46__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927965,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_47));
-    bufp->fullBit(oldp+927966,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_47__024EN) 
+    bufp->fullBit(oldp+927964,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_47));
+    bufp->fullBit(oldp+927965,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_47__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927967,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_5));
-    bufp->fullBit(oldp+927968,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_5__024EN) 
+    bufp->fullBit(oldp+927966,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_5));
+    bufp->fullBit(oldp+927967,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_5__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927969,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_6));
-    bufp->fullBit(oldp+927970,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_6__024EN) 
+    bufp->fullBit(oldp+927968,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_6));
+    bufp->fullBit(oldp+927969,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_6__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927971,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_7));
-    bufp->fullBit(oldp+927972,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_7__024EN) 
+    bufp->fullBit(oldp+927970,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_7));
+    bufp->fullBit(oldp+927971,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_7__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927973,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_8));
-    bufp->fullBit(oldp+927974,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_8__024EN) 
+    bufp->fullBit(oldp+927972,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_8));
+    bufp->fullBit(oldp+927973,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_8__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+927975,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_9));
-    bufp->fullBit(oldp+927976,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_9__024EN) 
+    bufp->fullBit(oldp+927974,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__spike_out_9));
+    bufp->fullBit(oldp+927975,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__refr_9__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullCData(oldp+927977,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__state),2);
-    bufp->fullCData(oldp+927978,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__state__024D_IN),2);
-    bufp->fullBit(oldp+927979,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__MUX_state__024write_1___05FSEL_1) 
+    bufp->fullCData(oldp+927976,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__state),2);
+    bufp->fullCData(oldp+927977,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__state__024D_IN),2);
+    bufp->fullBit(oldp+927978,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__MUX_state__024write_1___05FSEL_1) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__MUX_state__024write_1___05FSEL_2))));
-    bufp->fullSData(oldp+927980,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_0),16);
-    bufp->fullSData(oldp+927981,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
+    bufp->fullSData(oldp+927979,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_0),16);
+    bufp->fullSData(oldp+927980,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                              >> 4U))),16);
-    bufp->fullSData(oldp+927982,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_1),16);
-    bufp->fullSData(oldp+927983,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_10),16);
-    bufp->fullSData(oldp+927984,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_11),16);
-    bufp->fullSData(oldp+927985,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_12),16);
-    bufp->fullSData(oldp+927986,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_13),16);
-    bufp->fullSData(oldp+927987,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_14),16);
-    bufp->fullSData(oldp+927988,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_15),16);
-    bufp->fullSData(oldp+927989,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_16),16);
-    bufp->fullSData(oldp+927990,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_17),16);
-    bufp->fullSData(oldp+927991,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_18),16);
-    bufp->fullSData(oldp+927992,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_19),16);
-    bufp->fullSData(oldp+927993,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_2),16);
-    bufp->fullSData(oldp+927994,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_20),16);
-    bufp->fullSData(oldp+927995,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_21),16);
-    bufp->fullSData(oldp+927996,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_22),16);
-    bufp->fullSData(oldp+927997,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_23),16);
-    bufp->fullSData(oldp+927998,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_24),16);
-    bufp->fullSData(oldp+927999,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_25),16);
-    bufp->fullSData(oldp+928000,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_26),16);
-    bufp->fullSData(oldp+928001,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_27),16);
-    bufp->fullSData(oldp+928002,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_28),16);
-    bufp->fullSData(oldp+928003,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_29),16);
-    bufp->fullSData(oldp+928004,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_3),16);
-    bufp->fullSData(oldp+928005,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_30),16);
-    bufp->fullSData(oldp+928006,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_31),16);
-    bufp->fullSData(oldp+928007,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_32),16);
-    bufp->fullSData(oldp+928008,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_33),16);
-    bufp->fullSData(oldp+928009,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_34),16);
-    bufp->fullSData(oldp+928010,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_35),16);
-    bufp->fullSData(oldp+928011,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_36),16);
-    bufp->fullSData(oldp+928012,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_37),16);
-    bufp->fullSData(oldp+928013,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_38),16);
-    bufp->fullSData(oldp+928014,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_39),16);
-    bufp->fullSData(oldp+928015,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_4),16);
-    bufp->fullSData(oldp+928016,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_40),16);
-    bufp->fullSData(oldp+928017,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_41),16);
-    bufp->fullSData(oldp+928018,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_42),16);
-    bufp->fullSData(oldp+928019,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_43),16);
-    bufp->fullSData(oldp+928020,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_44),16);
-    bufp->fullSData(oldp+928021,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_45),16);
-    bufp->fullSData(oldp+928022,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_46),16);
-    bufp->fullSData(oldp+928023,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_47),16);
-    bufp->fullSData(oldp+928024,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_5),16);
-    bufp->fullSData(oldp+928025,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_6),16);
-    bufp->fullSData(oldp+928026,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_7),16);
-    bufp->fullSData(oldp+928027,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_8),16);
-    bufp->fullSData(oldp+928028,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_9),16);
-    bufp->fullCData(oldp+928029,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024load_and_step_refr),4);
-    bufp->fullIData(oldp+928030,((0x1fffffU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg)),21);
-    bufp->fullSData(oldp+928031,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164) 
+    bufp->fullSData(oldp+927981,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_1),16);
+    bufp->fullSData(oldp+927982,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_10),16);
+    bufp->fullSData(oldp+927983,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_11),16);
+    bufp->fullSData(oldp+927984,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_12),16);
+    bufp->fullSData(oldp+927985,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_13),16);
+    bufp->fullSData(oldp+927986,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_14),16);
+    bufp->fullSData(oldp+927987,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_15),16);
+    bufp->fullSData(oldp+927988,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_16),16);
+    bufp->fullSData(oldp+927989,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_17),16);
+    bufp->fullSData(oldp+927990,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_18),16);
+    bufp->fullSData(oldp+927991,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_19),16);
+    bufp->fullSData(oldp+927992,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_2),16);
+    bufp->fullSData(oldp+927993,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_20),16);
+    bufp->fullSData(oldp+927994,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_21),16);
+    bufp->fullSData(oldp+927995,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_22),16);
+    bufp->fullSData(oldp+927996,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_23),16);
+    bufp->fullSData(oldp+927997,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_24),16);
+    bufp->fullSData(oldp+927998,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_25),16);
+    bufp->fullSData(oldp+927999,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_26),16);
+    bufp->fullSData(oldp+928000,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_27),16);
+    bufp->fullSData(oldp+928001,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_28),16);
+    bufp->fullSData(oldp+928002,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_29),16);
+    bufp->fullSData(oldp+928003,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_3),16);
+    bufp->fullSData(oldp+928004,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_30),16);
+    bufp->fullSData(oldp+928005,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_31),16);
+    bufp->fullSData(oldp+928006,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_32),16);
+    bufp->fullSData(oldp+928007,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_33),16);
+    bufp->fullSData(oldp+928008,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_34),16);
+    bufp->fullSData(oldp+928009,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_35),16);
+    bufp->fullSData(oldp+928010,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_36),16);
+    bufp->fullSData(oldp+928011,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_37),16);
+    bufp->fullSData(oldp+928012,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_38),16);
+    bufp->fullSData(oldp+928013,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_39),16);
+    bufp->fullSData(oldp+928014,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_4),16);
+    bufp->fullSData(oldp+928015,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_40),16);
+    bufp->fullSData(oldp+928016,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_41),16);
+    bufp->fullSData(oldp+928017,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_42),16);
+    bufp->fullSData(oldp+928018,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_43),16);
+    bufp->fullSData(oldp+928019,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_44),16);
+    bufp->fullSData(oldp+928020,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_45),16);
+    bufp->fullSData(oldp+928021,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_46),16);
+    bufp->fullSData(oldp+928022,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_47),16);
+    bufp->fullSData(oldp+928023,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_5),16);
+    bufp->fullSData(oldp+928024,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_6),16);
+    bufp->fullSData(oldp+928025,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_7),16);
+    bufp->fullSData(oldp+928026,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_8),16);
+    bufp->fullSData(oldp+928027,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__v_t_9),16);
+    bufp->fullCData(oldp+928028,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024load_and_step_refr),4);
+    bufp->fullIData(oldp+928029,((0x1fffffU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg)),21);
+    bufp->fullSData(oldp+928030,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164) 
                                    << 0xfU) | (IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_20))),16);
-    bufp->fullBit(oldp+928032,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
+    bufp->fullBit(oldp+928031,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg 
                                       >> 0x15U))));
-    bufp->fullBit(oldp+928033,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024RDY_load_and_step));
-    bufp->fullCData(oldp+928034,((0x3fU & ((IData)(1U) 
+    bufp->fullBit(oldp+928032,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024RDY_load_and_step));
+    bufp->fullCData(oldp+928033,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__input_index)))),6);
-    bufp->fullCData(oldp+928035,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+928034,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__inputs_fed)))),6);
-    bufp->fullCData(oldp+928036,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+928035,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__output_index)))),6);
-    bufp->fullCData(oldp+928037,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+928036,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__outputs_received)))),6);
-    bufp->fullCData(oldp+928038,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__state))
+    bufp->fullCData(oldp+928037,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__state))
                                    ? 1U : 2U)),2);
-    bufp->fullBit(oldp+928039,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__MUX_state__024write_1___05FSEL_1));
-    bufp->fullBit(oldp+928040,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__MUX_state__024write_1___05FSEL_2));
-    bufp->fullCData(oldp+928041,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214),8);
-    bufp->fullCData(oldp+928042,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BITS_6_TO_0_15_v_t_1_8_BITS_6___05FETC___05F_d264),7);
-    bufp->fullBit(oldp+928043,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164));
-    bufp->fullQData(oldp+928044,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__conf),52);
-    bufp->fullBit(oldp+928046,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__config_valid));
-    bufp->fullSData(oldp+928047,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__inv_tau_cached),16);
-    bufp->fullIData(oldp+928048,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg),22);
-    bufp->fullIData(oldp+928049,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024EN_get_output)
+    bufp->fullBit(oldp+928038,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__MUX_state__024write_1___05FSEL_1));
+    bufp->fullBit(oldp+928039,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__MUX_state__024write_1___05FSEL_2));
+    bufp->fullCData(oldp+928040,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214),8);
+    bufp->fullCData(oldp+928041,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BITS_6_TO_0_15_v_t_1_8_BITS_6___05FETC___05F_d264),7);
+    bufp->fullBit(oldp+928042,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164));
+    bufp->fullQData(oldp+928043,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__conf),52);
+    bufp->fullBit(oldp+928045,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__config_valid));
+    bufp->fullSData(oldp+928046,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__inv_tau_cached),16);
+    bufp->fullIData(oldp+928047,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__output_reg),22);
+    bufp->fullIData(oldp+928048,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024EN_get_output)
                                    ? 0xaaaaaU : (0x200000U 
                                                  | ((((~ (IData)(
                                                                  (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
@@ -4172,10 +4172,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          : 
                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__a___05Fh2557) 
                                                          << 4U))))))),22);
-    bufp->fullBit(oldp+928050,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024EN_get_output) 
+    bufp->fullBit(oldp+928049,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024EN_get_output) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3))));
-    bufp->fullQData(oldp+928051,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage1_data),38);
-    bufp->fullQData(oldp+928053,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2)
+    bufp->fullQData(oldp+928050,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage1_data),38);
+    bufp->fullQData(oldp+928052,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2)
                                    ? 0xaaaaaaaaaULL
                                    : (0x2000000000ULL 
                                       | (((QData)((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
@@ -4225,10 +4225,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 | (0xfU 
                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024load_and_step_refr) 
                                                                       - (IData)(1U)))))))))))),38);
-    bufp->fullBit(oldp+928055,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2) 
+    bufp->fullBit(oldp+928054,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input))));
-    bufp->fullQData(oldp+928056,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data),38);
-    bufp->fullQData(oldp+928058,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3)
+    bufp->fullQData(oldp+928055,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data),38);
+    bufp->fullQData(oldp+928057,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3)
                                    ? 0xaaaaaaaaaULL
                                    : (0x2000000000ULL 
                                       | (((QData)((IData)(
@@ -4290,11 +4290,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                  << 5U) 
                                                                 | (0xfU 
                                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage1_data))))))))))),38);
-    bufp->fullBit(oldp+928060,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3) 
+    bufp->fullBit(oldp+928059,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2))));
-    bufp->fullBit(oldp+928061,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2));
-    bufp->fullBit(oldp+928062,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3));
-    bufp->fullQData(oldp+928063,((0x2000000000ULL | 
+    bufp->fullBit(oldp+928060,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2));
+    bufp->fullBit(oldp+928061,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3));
+    bufp->fullQData(oldp+928062,((0x2000000000ULL | 
                                   (((QData)((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                     << 0x24U) | (((QData)((IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_20)) 
                                                   << 0x15U) 
@@ -4341,7 +4341,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                      | (0xfU 
                                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024load_and_step_refr) 
                                                                            - (IData)(1U))))))))))),38);
-    bufp->fullQData(oldp+928065,((0x2000000000ULL | 
+    bufp->fullQData(oldp+928064,((0x2000000000ULL | 
                                   (((QData)((IData)(
                                                     (0xffffU 
                                                      & (IData)(
@@ -4400,7 +4400,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                       << 5U) 
                                                                      | (0xfU 
                                                                         & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage1_data)))))))))),38);
-    bufp->fullIData(oldp+928067,((0x200000U | ((((~ (IData)(
+    bufp->fullIData(oldp+928066,((0x200000U | ((((~ (IData)(
                                                             (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                              >> 4U))) 
                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)) 
@@ -4430,7 +4430,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__a___05Fh2557) 
                                                     << 4U)))))),22);
-    bufp->fullIData(oldp+928068,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024load_and_step_refr))
+    bufp->fullIData(oldp+928067,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024load_and_step_refr))
                                    ? ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92) 
                                         & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                         ? 0U : (0xffffU 
@@ -4466,7 +4466,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                 | (0xfU 
                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__024load_and_step_refr) 
                                                       - (IData)(1U)))))),21);
-    bufp->fullIData(oldp+928069,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)
+    bufp->fullIData(oldp+928068,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)
                                    ? ((0xffff0U & ((IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__conf 
                                                             >> 0x14U)) 
@@ -4474,10 +4474,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                       | (0xfU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__conf)))
                                    : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__a___05Fh2557) 
                                       << 4U))),20);
-    bufp->fullSData(oldp+928070,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
+    bufp->fullSData(oldp+928069,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F_snd___05Fh1595)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___0_CONCAT_NOT_inv_tau_cached_4_BITS_14_TO_7_0_E_ETC___05F_d37))),16);
-    bufp->fullSData(oldp+928071,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_19) 
+    bufp->fullSData(oldp+928070,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_19) 
                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                    ? ((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                                   << 0xfU)) 
@@ -4485,7 +4485,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                    : ((0U == (0x3ffU 
                                               & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__x___05Fh4179)))
                                        ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__result_raw___05Fh4385)))),16);
-    bufp->fullSData(oldp+928072,((0xffffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_28) 
+    bufp->fullSData(oldp+928071,((0xffffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_28) 
                                               & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                               ? (IData)(
                                                         (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__conf 
@@ -4504,7 +4504,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__x___05Fh4179)))
                                                    ? 0U
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__result_raw___05Fh4385)))))),16);
-    bufp->fullSData(oldp+928073,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92)
+    bufp->fullSData(oldp+928072,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92)
                                               ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165980_0_sa_result_o_BIT_15_1_sa_result_ETC___05Fq541) 
                                                   << 0xfU) 
                                                  | (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165980_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq542) 
@@ -4530,8 +4530,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__x___05Fh4179)))
                                                     ? 0U
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__result_raw___05Fh4385))))))),16);
-    bufp->fullSData(oldp+928074,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__a___05Fh2557),16);
-    bufp->fullSData(oldp+928075,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
+    bufp->fullSData(oldp+928073,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__a___05Fh2557),16);
+    bufp->fullSData(oldp+928074,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
                                                 ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__result_sign___05Fh2962)
                                                 : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___0b1_CONCAT_IF_IF_stage2_data_BIT_37_THEN_stage_ETC___05F_d271)
                                                     ? 
@@ -4622,20 +4622,20 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                       : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__tmp___05Fh2907)) 
                                                     << 1U))
                                               : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__tmp___05Fh2907))))))),16);
-    bufp->fullSData(oldp+928076,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
+    bufp->fullSData(oldp+928075,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                               << 0xfU)) 
                                   | (IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_20))),16);
-    bufp->fullSData(oldp+928077,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__result_raw___05Fh4385),16);
-    bufp->fullSData(oldp+928078,((0xffffU & (IData)(
+    bufp->fullSData(oldp+928076,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__result_raw___05Fh4385),16);
+    bufp->fullSData(oldp+928077,((0xffffU & (IData)(
                                                     (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage1_data 
+                                                     >> 5U)))),16);
+    bufp->fullSData(oldp+928078,((0xffffU & (IData)(
+                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                      >> 5U)))),16);
     bufp->fullSData(oldp+928079,((0xffffU & (IData)(
                                                     (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
-                                                     >> 5U)))),16);
-    bufp->fullSData(oldp+928080,((0xffffU & (IData)(
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                      >> 0x15U)))),16);
-    bufp->fullSData(oldp+928081,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__final_exp_10___05Fh1448) 
+    bufp->fullSData(oldp+928080,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__final_exp_10___05Fh1448) 
                                             >> 9U) 
                                            | (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__final_exp_10___05Fh1448))))
                                    ? ((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__final_exp_10___05Fh1448))
@@ -4648,7 +4648,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      << 7U)) 
                                                  | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__final_mant___05Fh1447))
                                                  : 0x7f80U))),15);
-    bufp->fullSData(oldp+928082,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__x___05Fh4179))
+    bufp->fullSData(oldp+928081,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__x___05Fh4179))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)) 
                                                   << 7U)) 
@@ -4722,7 +4722,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__x___05Fh4179)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__x___05Fh4179)))))),15);
-    bufp->fullSData(oldp+928083,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__tmp___05Fh2907))
+    bufp->fullSData(oldp+928082,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__tmp___05Fh2907))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986)) 
                                                   << 7U)) 
@@ -4799,7 +4799,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__tmp___05Fh2907)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__tmp___05Fh2907)))))),15);
-    bufp->fullSData(oldp+928084,((((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+928083,((((IData)((0U == (0x7fffU 
                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__inv_tau_cached)))) 
                                    | (IData)((0ULL 
                                               == (0xfffe0ULL 
@@ -4821,7 +4821,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__final_mant___05Fh1447))
                                                 : 0x7f80U)))),15);
-    bufp->fullSData(oldp+928085,((0x7ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)
+    bufp->fullSData(oldp+928084,((0x7ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_a___05Fh4163)
                                               : (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_a___05Fh4163))) 
                                             + ((1U 
@@ -4830,10 +4830,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                            >> 0x23U)))
                                                 ? (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_b___05Fh4164))
                                                 : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_b___05Fh4164))))),11);
-    bufp->fullSData(oldp+928086,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_load_and_step_v_t_BIT_15_25_THEN_SEXT___05F0_CO_ETC___05F_d460),11);
-    bufp->fullSData(oldp+928087,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_b___05Fh4164),11);
-    bufp->fullSData(oldp+928088,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_a___05Fh4163),11);
-    bufp->fullSData(oldp+928089,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullSData(oldp+928085,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_load_and_step_v_t_BIT_15_25_THEN_SEXT___05F0_CO_ETC___05F_d460),11);
+    bufp->fullSData(oldp+928086,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_b___05Fh4164),11);
+    bufp->fullSData(oldp+928087,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_a___05Fh4163),11);
+    bufp->fullSData(oldp+928088,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -4841,8 +4841,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165980_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq542))))))),11);
-    bufp->fullSData(oldp+928090,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__x___05Fh4179),11);
-    bufp->fullSData(oldp+928091,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
+    bufp->fullSData(oldp+928089,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__x___05Fh4179),11);
+    bufp->fullSData(oldp+928090,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
                                              ? (0x3feU 
                                                 & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_45)
                                                      ? 
@@ -4882,10 +4882,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__x___05Fh4179)) 
                                                    << 1U))
                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__x___05Fh4179)))),10);
-    bufp->fullSData(oldp+928092,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441),10);
-    bufp->fullSData(oldp+928093,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_a___05Fh4163),10);
-    bufp->fullSData(oldp+928094,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_b___05Fh4164),10);
-    bufp->fullSData(oldp+928095,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullSData(oldp+928091,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441),10);
+    bufp->fullSData(oldp+928092,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_a___05Fh4163),10);
+    bufp->fullSData(oldp+928093,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_b___05Fh4164),10);
+    bufp->fullSData(oldp+928094,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -4893,11 +4893,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165980_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq542))))))),10);
-    bufp->fullSData(oldp+928096,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__final_exp_10___05Fh1448),10);
-    bufp->fullSData(oldp+928097,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+928095,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__final_exp_10___05Fh1448),10);
+    bufp->fullSData(oldp+928096,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+928098,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
+    bufp->fullSData(oldp+928097,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_60)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_62)
@@ -5036,27 +5036,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+928099,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928098,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+928100,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928099,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928101,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928100,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928102,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928101,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928103,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928102,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928104,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928103,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -5072,7 +5072,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928105,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928104,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -5087,7 +5087,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928106,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928105,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -5101,7 +5101,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928107,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928106,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -5114,7 +5114,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928108,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928107,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -5126,7 +5126,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928109,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928108,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -5137,7 +5137,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928110,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928109,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -5146,7 +5146,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928111,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928110,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -5154,14 +5154,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928112,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928111,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928113,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
+    bufp->fullSData(oldp+928112,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_33)
@@ -5203,64 +5203,64 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__tmp___05Fh2907)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__tmp___05Fh2907))),9);
-    bufp->fullSData(oldp+928114,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullSData(oldp+928113,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__inv_tau_cached) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+928115,(((0U == (0xffU & (IData)(
+    bufp->fullSData(oldp+928114,(((0U == (0xffU & (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage1_data 
                                                            >> 0xcU))))
                                    ? 1U : (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU))))),9);
-    bufp->fullSData(oldp+928116,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441),9);
-    bufp->fullSData(oldp+928117,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+928115,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__exp_sum___05Fh1441),9);
+    bufp->fullSData(oldp+928116,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+928118,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+928117,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+928119,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__smaller_m___05Fh2901) 
+    bufp->fullSData(oldp+928118,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__smaller_m___05Fh2901) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))))),9);
-    bufp->fullSData(oldp+928120,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__tmp___05Fh2907),9);
-    bufp->fullCData(oldp+928121,((((0U != (0xffU & 
+    bufp->fullSData(oldp+928119,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__tmp___05Fh2907),9);
+    bufp->fullCData(oldp+928120,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__inv_tau_cached)))),8);
-    bufp->fullCData(oldp+928122,((((0U != (0xffU & (IData)(
+    bufp->fullCData(oldp+928121,((((0U != (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU)))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(
                                                        (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage1_data 
                                                         >> 5U))))),8);
-    bufp->fullCData(oldp+928123,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
-    bufp->fullCData(oldp+928124,((0xffU & ((IData)(
+    bufp->fullCData(oldp+928122,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
+    bufp->fullCData(oldp+928123,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                     >> 0x1cU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                       >> 0xcU))))),8);
-    bufp->fullCData(oldp+928125,((0xffU & ((IData)(
+    bufp->fullCData(oldp+928124,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                     >> 0xcU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                       >> 0x1cU))))),8);
-    bufp->fullCData(oldp+928126,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928125,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214)))),8);
-    bufp->fullCData(oldp+928127,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928126,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__conf 
                                                       >> 0x1bU))))),8);
-    bufp->fullCData(oldp+928128,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928127,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165980_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq542)))),8);
-    bufp->fullCData(oldp+928129,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+928128,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986)))),8);
-    bufp->fullCData(oldp+928130,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
+    bufp->fullCData(oldp+928129,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                    ? 
@@ -5284,11 +5284,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+928131,((0xffU & ((IData)(2U) 
+    bufp->fullCData(oldp+928130,((0xffU & ((IData)(2U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+928132,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+928131,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+928133,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928132,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_45)
                                                    ? 
@@ -5312,9 +5312,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+928134,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_a___05Fh4163),8);
-    bufp->fullCData(oldp+928135,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_b___05Fh4164),8);
-    bufp->fullCData(oldp+928136,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullCData(oldp+928133,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_a___05Fh4163),8);
+    bufp->fullCData(oldp+928134,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__man_b___05Fh4164),8);
+    bufp->fullCData(oldp+928135,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -5322,8 +5322,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165980_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq542))))))),8);
-    bufp->fullCData(oldp+928137,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__smaller_m___05Fh2901),8);
-    bufp->fullCData(oldp+928138,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+928136,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__smaller_m___05Fh2901),8);
+    bufp->fullCData(oldp+928137,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -5336,7 +5336,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                                        >> 0xcU))))))),8);
-    bufp->fullCData(oldp+928139,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+928138,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -5349,9 +5349,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                                        >> 0x1cU))))))),8);
-    bufp->fullCData(oldp+928140,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
-    bufp->fullCData(oldp+928141,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__final_mant___05Fh1447),7);
-    bufp->fullBit(oldp+928142,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__a___05Fh2557) 
+    bufp->fullCData(oldp+928139,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
+    bufp->fullCData(oldp+928140,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__final_mant___05Fh1447),7);
+    bufp->fullBit(oldp+928141,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__a___05Fh2557) 
                                               >> 0xfU)) 
                                        == (1U & (IData)(
                                                         (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__conf 
@@ -5378,17 +5378,17 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 >> 0x24U)))))))
                                        : (~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__a___05Fh2557) 
                                              >> 0xfU))))));
-    bufp->fullBit(oldp+928143,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
-    bufp->fullBit(oldp+928144,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
-    bufp->fullBit(oldp+928145,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
+    bufp->fullBit(oldp+928142,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
+    bufp->fullBit(oldp+928143,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
+    bufp->fullBit(oldp+928144,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377) 
                                    | ((0x7fU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__a___05Fh2557)) 
                                       < (0x7fU & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__conf 
                                                           >> 0x24U))))))));
-    bufp->fullBit(oldp+928146,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
-    bufp->fullBit(oldp+928147,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
-    bufp->fullBit(oldp+928148,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
+    bufp->fullBit(oldp+928145,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
+    bufp->fullBit(oldp+928146,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
+    bufp->fullBit(oldp+928147,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
                                       | ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377)) 
                                          & ((0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__a___05Fh2557)) 
@@ -5396,14 +5396,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__conf 
                                                           >> 0x24U)))))))));
-    bufp->fullBit(oldp+928149,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
+    bufp->fullBit(oldp+928148,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                             >> 4U))) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6))));
-    bufp->fullBit(oldp+928150,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullBit(oldp+928149,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__inv_tau_cached) 
                                        >> 0xfU) ^ (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage1_data 
                                                            >> 0x14U))))));
-    bufp->fullBit(oldp+928151,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
+    bufp->fullBit(oldp+928150,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__result_sign___05Fh2962)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT___0b1_CONCAT_IF_IF_stage2_data_BIT_37_THEN_stage_ETC___05F_d271)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
@@ -5414,406 +5414,406 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                           >> 0x14U)))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__result_sign___05Fh2962))))));
-    bufp->fullBit(oldp+928152,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__result_sign___05Fh2962));
-    bufp->fullBit(oldp+928153,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
+    bufp->fullBit(oldp+928151,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__result_sign___05Fh2962));
+    bufp->fullBit(oldp+928152,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
                                        ? (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                   >> 0x24U))
                                        : (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__lif__DOT__stage2_data 
                                                   >> 0x14U))))));
-    bufp->fullBit(oldp+928154,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
-    bufp->fullBit(oldp+928155,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__state)) 
+    bufp->fullBit(oldp+928153,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_7__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
+    bufp->fullBit(oldp+928154,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__state)) 
                                 & (3U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__state)))));
-    bufp->fullCData(oldp+928156,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__input_index),6);
-    bufp->fullCData(oldp+928157,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
+    bufp->fullCData(oldp+928155,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__input_index),6);
+    bufp->fullCData(oldp+928156,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__input_index)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+928158,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__inputs_fed),6);
-    bufp->fullCData(oldp+928159,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
+    bufp->fullCData(oldp+928157,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__inputs_fed),6);
+    bufp->fullCData(oldp+928158,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__inputs_fed)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+928160,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__output_index),6);
-    bufp->fullCData(oldp+928161,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024EN_get_output)
+    bufp->fullCData(oldp+928159,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__output_index),6);
+    bufp->fullCData(oldp+928160,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024EN_get_output)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__output_index)))
                                    : 0U)),6);
-    bufp->fullBit(oldp+928162,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024EN_get_output));
-    bufp->fullCData(oldp+928163,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__outputs_received),6);
-    bufp->fullCData(oldp+928164,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024EN_get_output)
+    bufp->fullBit(oldp+928161,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024EN_get_output));
+    bufp->fullCData(oldp+928162,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__outputs_received),6);
+    bufp->fullCData(oldp+928163,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024EN_get_output)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__outputs_received)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+928165,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_0),4);
-    bufp->fullCData(oldp+928166,((0xfU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg)),4);
-    bufp->fullBit(oldp+928167,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_0__024EN));
-    bufp->fullCData(oldp+928168,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_1),4);
-    bufp->fullBit(oldp+928169,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_1__024EN));
-    bufp->fullCData(oldp+928170,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_10),4);
-    bufp->fullBit(oldp+928171,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_10__024EN));
-    bufp->fullCData(oldp+928172,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_11),4);
-    bufp->fullBit(oldp+928173,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_11__024EN));
-    bufp->fullCData(oldp+928174,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_12),4);
-    bufp->fullBit(oldp+928175,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_12__024EN));
-    bufp->fullCData(oldp+928176,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_13),4);
-    bufp->fullBit(oldp+928177,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_13__024EN));
-    bufp->fullCData(oldp+928178,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_14),4);
-    bufp->fullBit(oldp+928179,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_14__024EN));
-    bufp->fullCData(oldp+928180,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_15),4);
-    bufp->fullBit(oldp+928181,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_15__024EN));
-    bufp->fullCData(oldp+928182,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_16),4);
-    bufp->fullBit(oldp+928183,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_16__024EN));
-    bufp->fullCData(oldp+928184,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_17),4);
-    bufp->fullBit(oldp+928185,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_17__024EN));
-    bufp->fullCData(oldp+928186,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_18),4);
-    bufp->fullBit(oldp+928187,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_18__024EN));
-    bufp->fullCData(oldp+928188,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_19),4);
-    bufp->fullBit(oldp+928189,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_19__024EN));
-    bufp->fullCData(oldp+928190,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_2),4);
-    bufp->fullBit(oldp+928191,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_2__024EN));
-    bufp->fullCData(oldp+928192,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_20),4);
-    bufp->fullBit(oldp+928193,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_20__024EN));
-    bufp->fullCData(oldp+928194,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_21),4);
-    bufp->fullBit(oldp+928195,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_21__024EN));
-    bufp->fullCData(oldp+928196,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_22),4);
-    bufp->fullBit(oldp+928197,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_22__024EN));
-    bufp->fullCData(oldp+928198,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_23),4);
-    bufp->fullBit(oldp+928199,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_23__024EN));
-    bufp->fullCData(oldp+928200,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_24),4);
-    bufp->fullBit(oldp+928201,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_24__024EN));
-    bufp->fullCData(oldp+928202,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_25),4);
-    bufp->fullBit(oldp+928203,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_25__024EN));
-    bufp->fullCData(oldp+928204,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_26),4);
-    bufp->fullBit(oldp+928205,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_26__024EN));
-    bufp->fullCData(oldp+928206,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_27),4);
-    bufp->fullBit(oldp+928207,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_27__024EN));
-    bufp->fullCData(oldp+928208,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_28),4);
-    bufp->fullBit(oldp+928209,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_28__024EN));
-    bufp->fullCData(oldp+928210,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_29),4);
-    bufp->fullBit(oldp+928211,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_29__024EN));
-    bufp->fullCData(oldp+928212,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_3),4);
-    bufp->fullBit(oldp+928213,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_3__024EN));
-    bufp->fullCData(oldp+928214,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_30),4);
-    bufp->fullBit(oldp+928215,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_30__024EN));
-    bufp->fullCData(oldp+928216,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_31),4);
-    bufp->fullBit(oldp+928217,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_31__024EN));
-    bufp->fullCData(oldp+928218,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_32),4);
-    bufp->fullBit(oldp+928219,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_32__024EN));
-    bufp->fullCData(oldp+928220,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_33),4);
-    bufp->fullBit(oldp+928221,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_33__024EN));
-    bufp->fullCData(oldp+928222,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_34),4);
-    bufp->fullBit(oldp+928223,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_34__024EN));
-    bufp->fullCData(oldp+928224,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_35),4);
-    bufp->fullBit(oldp+928225,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_35__024EN));
-    bufp->fullCData(oldp+928226,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_36),4);
-    bufp->fullBit(oldp+928227,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_36__024EN));
-    bufp->fullCData(oldp+928228,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_37),4);
-    bufp->fullBit(oldp+928229,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_37__024EN));
-    bufp->fullCData(oldp+928230,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_38),4);
-    bufp->fullBit(oldp+928231,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_38__024EN));
-    bufp->fullCData(oldp+928232,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_39),4);
-    bufp->fullBit(oldp+928233,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_39__024EN));
-    bufp->fullCData(oldp+928234,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_4),4);
-    bufp->fullBit(oldp+928235,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_4__024EN));
-    bufp->fullCData(oldp+928236,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_40),4);
-    bufp->fullBit(oldp+928237,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_40__024EN));
-    bufp->fullCData(oldp+928238,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_41),4);
-    bufp->fullBit(oldp+928239,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_41__024EN));
-    bufp->fullCData(oldp+928240,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_42),4);
-    bufp->fullBit(oldp+928241,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_42__024EN));
-    bufp->fullCData(oldp+928242,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_43),4);
-    bufp->fullBit(oldp+928243,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_43__024EN));
-    bufp->fullCData(oldp+928244,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_44),4);
-    bufp->fullBit(oldp+928245,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_44__024EN));
-    bufp->fullCData(oldp+928246,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_45),4);
-    bufp->fullBit(oldp+928247,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_45__024EN));
-    bufp->fullCData(oldp+928248,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_46),4);
-    bufp->fullBit(oldp+928249,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_46__024EN));
-    bufp->fullCData(oldp+928250,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_47),4);
-    bufp->fullBit(oldp+928251,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_47__024EN));
-    bufp->fullCData(oldp+928252,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_5),4);
-    bufp->fullBit(oldp+928253,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_5__024EN));
-    bufp->fullCData(oldp+928254,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_6),4);
-    bufp->fullBit(oldp+928255,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_6__024EN));
-    bufp->fullCData(oldp+928256,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_7),4);
-    bufp->fullBit(oldp+928257,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_7__024EN));
-    bufp->fullCData(oldp+928258,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_8),4);
-    bufp->fullBit(oldp+928259,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_8__024EN));
-    bufp->fullCData(oldp+928260,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_9),4);
-    bufp->fullBit(oldp+928261,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_9__024EN));
-    bufp->fullBit(oldp+928262,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_0));
-    bufp->fullBit(oldp+928263,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_0__024EN) 
+    bufp->fullCData(oldp+928164,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_0),4);
+    bufp->fullCData(oldp+928165,((0xfU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg)),4);
+    bufp->fullBit(oldp+928166,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_0__024EN));
+    bufp->fullCData(oldp+928167,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_1),4);
+    bufp->fullBit(oldp+928168,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_1__024EN));
+    bufp->fullCData(oldp+928169,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_10),4);
+    bufp->fullBit(oldp+928170,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_10__024EN));
+    bufp->fullCData(oldp+928171,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_11),4);
+    bufp->fullBit(oldp+928172,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_11__024EN));
+    bufp->fullCData(oldp+928173,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_12),4);
+    bufp->fullBit(oldp+928174,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_12__024EN));
+    bufp->fullCData(oldp+928175,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_13),4);
+    bufp->fullBit(oldp+928176,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_13__024EN));
+    bufp->fullCData(oldp+928177,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_14),4);
+    bufp->fullBit(oldp+928178,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_14__024EN));
+    bufp->fullCData(oldp+928179,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_15),4);
+    bufp->fullBit(oldp+928180,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_15__024EN));
+    bufp->fullCData(oldp+928181,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_16),4);
+    bufp->fullBit(oldp+928182,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_16__024EN));
+    bufp->fullCData(oldp+928183,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_17),4);
+    bufp->fullBit(oldp+928184,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_17__024EN));
+    bufp->fullCData(oldp+928185,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_18),4);
+    bufp->fullBit(oldp+928186,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_18__024EN));
+    bufp->fullCData(oldp+928187,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_19),4);
+    bufp->fullBit(oldp+928188,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_19__024EN));
+    bufp->fullCData(oldp+928189,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_2),4);
+    bufp->fullBit(oldp+928190,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_2__024EN));
+    bufp->fullCData(oldp+928191,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_20),4);
+    bufp->fullBit(oldp+928192,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_20__024EN));
+    bufp->fullCData(oldp+928193,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_21),4);
+    bufp->fullBit(oldp+928194,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_21__024EN));
+    bufp->fullCData(oldp+928195,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_22),4);
+    bufp->fullBit(oldp+928196,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_22__024EN));
+    bufp->fullCData(oldp+928197,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_23),4);
+    bufp->fullBit(oldp+928198,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_23__024EN));
+    bufp->fullCData(oldp+928199,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_24),4);
+    bufp->fullBit(oldp+928200,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_24__024EN));
+    bufp->fullCData(oldp+928201,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_25),4);
+    bufp->fullBit(oldp+928202,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_25__024EN));
+    bufp->fullCData(oldp+928203,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_26),4);
+    bufp->fullBit(oldp+928204,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_26__024EN));
+    bufp->fullCData(oldp+928205,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_27),4);
+    bufp->fullBit(oldp+928206,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_27__024EN));
+    bufp->fullCData(oldp+928207,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_28),4);
+    bufp->fullBit(oldp+928208,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_28__024EN));
+    bufp->fullCData(oldp+928209,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_29),4);
+    bufp->fullBit(oldp+928210,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_29__024EN));
+    bufp->fullCData(oldp+928211,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_3),4);
+    bufp->fullBit(oldp+928212,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_3__024EN));
+    bufp->fullCData(oldp+928213,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_30),4);
+    bufp->fullBit(oldp+928214,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_30__024EN));
+    bufp->fullCData(oldp+928215,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_31),4);
+    bufp->fullBit(oldp+928216,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_31__024EN));
+    bufp->fullCData(oldp+928217,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_32),4);
+    bufp->fullBit(oldp+928218,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_32__024EN));
+    bufp->fullCData(oldp+928219,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_33),4);
+    bufp->fullBit(oldp+928220,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_33__024EN));
+    bufp->fullCData(oldp+928221,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_34),4);
+    bufp->fullBit(oldp+928222,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_34__024EN));
+    bufp->fullCData(oldp+928223,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_35),4);
+    bufp->fullBit(oldp+928224,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_35__024EN));
+    bufp->fullCData(oldp+928225,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_36),4);
+    bufp->fullBit(oldp+928226,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_36__024EN));
+    bufp->fullCData(oldp+928227,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_37),4);
+    bufp->fullBit(oldp+928228,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_37__024EN));
+    bufp->fullCData(oldp+928229,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_38),4);
+    bufp->fullBit(oldp+928230,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_38__024EN));
+    bufp->fullCData(oldp+928231,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_39),4);
+    bufp->fullBit(oldp+928232,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_39__024EN));
+    bufp->fullCData(oldp+928233,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_4),4);
+    bufp->fullBit(oldp+928234,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_4__024EN));
+    bufp->fullCData(oldp+928235,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_40),4);
+    bufp->fullBit(oldp+928236,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_40__024EN));
+    bufp->fullCData(oldp+928237,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_41),4);
+    bufp->fullBit(oldp+928238,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_41__024EN));
+    bufp->fullCData(oldp+928239,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_42),4);
+    bufp->fullBit(oldp+928240,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_42__024EN));
+    bufp->fullCData(oldp+928241,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_43),4);
+    bufp->fullBit(oldp+928242,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_43__024EN));
+    bufp->fullCData(oldp+928243,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_44),4);
+    bufp->fullBit(oldp+928244,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_44__024EN));
+    bufp->fullCData(oldp+928245,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_45),4);
+    bufp->fullBit(oldp+928246,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_45__024EN));
+    bufp->fullCData(oldp+928247,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_46),4);
+    bufp->fullBit(oldp+928248,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_46__024EN));
+    bufp->fullCData(oldp+928249,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_47),4);
+    bufp->fullBit(oldp+928250,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_47__024EN));
+    bufp->fullCData(oldp+928251,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_5),4);
+    bufp->fullBit(oldp+928252,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_5__024EN));
+    bufp->fullCData(oldp+928253,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_6),4);
+    bufp->fullBit(oldp+928254,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_6__024EN));
+    bufp->fullCData(oldp+928255,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_7),4);
+    bufp->fullBit(oldp+928256,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_7__024EN));
+    bufp->fullCData(oldp+928257,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_8),4);
+    bufp->fullBit(oldp+928258,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_8__024EN));
+    bufp->fullCData(oldp+928259,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_9),4);
+    bufp->fullBit(oldp+928260,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_9__024EN));
+    bufp->fullBit(oldp+928261,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_0));
+    bufp->fullBit(oldp+928262,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_0__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928264,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_1));
-    bufp->fullBit(oldp+928265,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_1__024EN) 
+    bufp->fullBit(oldp+928263,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_1));
+    bufp->fullBit(oldp+928264,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_1__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928266,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_10));
-    bufp->fullBit(oldp+928267,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_10__024EN) 
+    bufp->fullBit(oldp+928265,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_10));
+    bufp->fullBit(oldp+928266,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_10__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928268,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_11));
-    bufp->fullBit(oldp+928269,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_11__024EN) 
+    bufp->fullBit(oldp+928267,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_11));
+    bufp->fullBit(oldp+928268,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_11__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928270,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_12));
-    bufp->fullBit(oldp+928271,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_12__024EN) 
+    bufp->fullBit(oldp+928269,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_12));
+    bufp->fullBit(oldp+928270,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_12__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928272,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_13));
-    bufp->fullBit(oldp+928273,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_13__024EN) 
+    bufp->fullBit(oldp+928271,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_13));
+    bufp->fullBit(oldp+928272,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_13__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928274,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_14));
-    bufp->fullBit(oldp+928275,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_14__024EN) 
+    bufp->fullBit(oldp+928273,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_14));
+    bufp->fullBit(oldp+928274,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_14__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928276,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_15));
-    bufp->fullBit(oldp+928277,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_15__024EN) 
+    bufp->fullBit(oldp+928275,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_15));
+    bufp->fullBit(oldp+928276,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_15__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928278,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_16));
-    bufp->fullBit(oldp+928279,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_16__024EN) 
+    bufp->fullBit(oldp+928277,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_16));
+    bufp->fullBit(oldp+928278,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_16__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928280,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_17));
-    bufp->fullBit(oldp+928281,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_17__024EN) 
+    bufp->fullBit(oldp+928279,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_17));
+    bufp->fullBit(oldp+928280,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_17__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928282,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_18));
-    bufp->fullBit(oldp+928283,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_18__024EN) 
+    bufp->fullBit(oldp+928281,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_18));
+    bufp->fullBit(oldp+928282,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_18__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928284,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_19));
-    bufp->fullBit(oldp+928285,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_19__024EN) 
+    bufp->fullBit(oldp+928283,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_19));
+    bufp->fullBit(oldp+928284,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_19__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928286,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_2));
-    bufp->fullBit(oldp+928287,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_2__024EN) 
+    bufp->fullBit(oldp+928285,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_2));
+    bufp->fullBit(oldp+928286,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_2__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928288,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_20));
-    bufp->fullBit(oldp+928289,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_20__024EN) 
+    bufp->fullBit(oldp+928287,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_20));
+    bufp->fullBit(oldp+928288,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_20__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928290,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_21));
-    bufp->fullBit(oldp+928291,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_21__024EN) 
+    bufp->fullBit(oldp+928289,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_21));
+    bufp->fullBit(oldp+928290,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_21__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928292,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_22));
-    bufp->fullBit(oldp+928293,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_22__024EN) 
+    bufp->fullBit(oldp+928291,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_22));
+    bufp->fullBit(oldp+928292,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_22__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928294,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_23));
-    bufp->fullBit(oldp+928295,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_23__024EN) 
+    bufp->fullBit(oldp+928293,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_23));
+    bufp->fullBit(oldp+928294,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_23__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928296,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_24));
-    bufp->fullBit(oldp+928297,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_24__024EN) 
+    bufp->fullBit(oldp+928295,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_24));
+    bufp->fullBit(oldp+928296,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_24__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928298,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_25));
-    bufp->fullBit(oldp+928299,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_25__024EN) 
+    bufp->fullBit(oldp+928297,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_25));
+    bufp->fullBit(oldp+928298,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_25__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928300,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_26));
-    bufp->fullBit(oldp+928301,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_26__024EN) 
+    bufp->fullBit(oldp+928299,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_26));
+    bufp->fullBit(oldp+928300,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_26__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928302,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_27));
-    bufp->fullBit(oldp+928303,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_27__024EN) 
+    bufp->fullBit(oldp+928301,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_27));
+    bufp->fullBit(oldp+928302,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_27__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928304,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_28));
-    bufp->fullBit(oldp+928305,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_28__024EN) 
+    bufp->fullBit(oldp+928303,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_28));
+    bufp->fullBit(oldp+928304,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_28__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928306,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_29));
-    bufp->fullBit(oldp+928307,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_29__024EN) 
+    bufp->fullBit(oldp+928305,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_29));
+    bufp->fullBit(oldp+928306,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_29__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928308,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_3));
-    bufp->fullBit(oldp+928309,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_3__024EN) 
+    bufp->fullBit(oldp+928307,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_3));
+    bufp->fullBit(oldp+928308,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_3__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928310,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_30));
-    bufp->fullBit(oldp+928311,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_30__024EN) 
+    bufp->fullBit(oldp+928309,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_30));
+    bufp->fullBit(oldp+928310,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_30__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928312,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_31));
-    bufp->fullBit(oldp+928313,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_31__024EN) 
+    bufp->fullBit(oldp+928311,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_31));
+    bufp->fullBit(oldp+928312,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_31__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928314,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_32));
-    bufp->fullBit(oldp+928315,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_32__024EN) 
+    bufp->fullBit(oldp+928313,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_32));
+    bufp->fullBit(oldp+928314,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_32__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928316,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_33));
-    bufp->fullBit(oldp+928317,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_33__024EN) 
+    bufp->fullBit(oldp+928315,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_33));
+    bufp->fullBit(oldp+928316,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_33__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928318,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_34));
-    bufp->fullBit(oldp+928319,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_34__024EN) 
+    bufp->fullBit(oldp+928317,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_34));
+    bufp->fullBit(oldp+928318,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_34__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928320,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_35));
-    bufp->fullBit(oldp+928321,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_35__024EN) 
+    bufp->fullBit(oldp+928319,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_35));
+    bufp->fullBit(oldp+928320,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_35__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928322,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_36));
-    bufp->fullBit(oldp+928323,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_36__024EN) 
+    bufp->fullBit(oldp+928321,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_36));
+    bufp->fullBit(oldp+928322,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_36__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928324,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_37));
-    bufp->fullBit(oldp+928325,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_37__024EN) 
+    bufp->fullBit(oldp+928323,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_37));
+    bufp->fullBit(oldp+928324,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_37__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928326,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_38));
-    bufp->fullBit(oldp+928327,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_38__024EN) 
+    bufp->fullBit(oldp+928325,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_38));
+    bufp->fullBit(oldp+928326,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_38__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928328,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_39));
-    bufp->fullBit(oldp+928329,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_39__024EN) 
+    bufp->fullBit(oldp+928327,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_39));
+    bufp->fullBit(oldp+928328,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_39__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928330,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_4));
-    bufp->fullBit(oldp+928331,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_4__024EN) 
+    bufp->fullBit(oldp+928329,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_4));
+    bufp->fullBit(oldp+928330,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_4__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928332,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_40));
-    bufp->fullBit(oldp+928333,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_40__024EN) 
+    bufp->fullBit(oldp+928331,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_40));
+    bufp->fullBit(oldp+928332,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_40__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928334,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_41));
-    bufp->fullBit(oldp+928335,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_41__024EN) 
+    bufp->fullBit(oldp+928333,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_41));
+    bufp->fullBit(oldp+928334,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_41__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928336,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_42));
-    bufp->fullBit(oldp+928337,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_42__024EN) 
+    bufp->fullBit(oldp+928335,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_42));
+    bufp->fullBit(oldp+928336,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_42__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928338,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_43));
-    bufp->fullBit(oldp+928339,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_43__024EN) 
+    bufp->fullBit(oldp+928337,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_43));
+    bufp->fullBit(oldp+928338,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_43__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928340,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_44));
-    bufp->fullBit(oldp+928341,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_44__024EN) 
+    bufp->fullBit(oldp+928339,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_44));
+    bufp->fullBit(oldp+928340,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_44__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928342,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_45));
-    bufp->fullBit(oldp+928343,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_45__024EN) 
+    bufp->fullBit(oldp+928341,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_45));
+    bufp->fullBit(oldp+928342,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_45__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928344,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_46));
-    bufp->fullBit(oldp+928345,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_46__024EN) 
+    bufp->fullBit(oldp+928343,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_46));
+    bufp->fullBit(oldp+928344,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_46__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928346,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_47));
-    bufp->fullBit(oldp+928347,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_47__024EN) 
+    bufp->fullBit(oldp+928345,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_47));
+    bufp->fullBit(oldp+928346,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_47__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928348,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_5));
-    bufp->fullBit(oldp+928349,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_5__024EN) 
+    bufp->fullBit(oldp+928347,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_5));
+    bufp->fullBit(oldp+928348,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_5__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928350,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_6));
-    bufp->fullBit(oldp+928351,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_6__024EN) 
+    bufp->fullBit(oldp+928349,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_6));
+    bufp->fullBit(oldp+928350,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_6__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928352,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_7));
-    bufp->fullBit(oldp+928353,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_7__024EN) 
+    bufp->fullBit(oldp+928351,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_7));
+    bufp->fullBit(oldp+928352,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_7__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928354,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_8));
-    bufp->fullBit(oldp+928355,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_8__024EN) 
+    bufp->fullBit(oldp+928353,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_8));
+    bufp->fullBit(oldp+928354,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_8__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928356,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_9));
-    bufp->fullBit(oldp+928357,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_9__024EN) 
+    bufp->fullBit(oldp+928355,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__spike_out_9));
+    bufp->fullBit(oldp+928356,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__refr_9__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullCData(oldp+928358,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__state),2);
-    bufp->fullCData(oldp+928359,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__state__024D_IN),2);
-    bufp->fullBit(oldp+928360,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__MUX_state__024write_1___05FSEL_1) 
+    bufp->fullCData(oldp+928357,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__state),2);
+    bufp->fullCData(oldp+928358,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__state__024D_IN),2);
+    bufp->fullBit(oldp+928359,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__MUX_state__024write_1___05FSEL_1) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__MUX_state__024write_1___05FSEL_2))));
-    bufp->fullSData(oldp+928361,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_0),16);
-    bufp->fullSData(oldp+928362,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
+    bufp->fullSData(oldp+928360,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_0),16);
+    bufp->fullSData(oldp+928361,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                              >> 4U))),16);
-    bufp->fullSData(oldp+928363,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_1),16);
-    bufp->fullSData(oldp+928364,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_10),16);
-    bufp->fullSData(oldp+928365,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_11),16);
-    bufp->fullSData(oldp+928366,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_12),16);
-    bufp->fullSData(oldp+928367,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_13),16);
-    bufp->fullSData(oldp+928368,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_14),16);
-    bufp->fullSData(oldp+928369,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_15),16);
-    bufp->fullSData(oldp+928370,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_16),16);
-    bufp->fullSData(oldp+928371,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_17),16);
-    bufp->fullSData(oldp+928372,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_18),16);
-    bufp->fullSData(oldp+928373,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_19),16);
-    bufp->fullSData(oldp+928374,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_2),16);
-    bufp->fullSData(oldp+928375,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_20),16);
-    bufp->fullSData(oldp+928376,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_21),16);
-    bufp->fullSData(oldp+928377,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_22),16);
-    bufp->fullSData(oldp+928378,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_23),16);
-    bufp->fullSData(oldp+928379,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_24),16);
-    bufp->fullSData(oldp+928380,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_25),16);
-    bufp->fullSData(oldp+928381,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_26),16);
-    bufp->fullSData(oldp+928382,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_27),16);
-    bufp->fullSData(oldp+928383,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_28),16);
-    bufp->fullSData(oldp+928384,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_29),16);
-    bufp->fullSData(oldp+928385,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_3),16);
-    bufp->fullSData(oldp+928386,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_30),16);
-    bufp->fullSData(oldp+928387,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_31),16);
-    bufp->fullSData(oldp+928388,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_32),16);
-    bufp->fullSData(oldp+928389,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_33),16);
-    bufp->fullSData(oldp+928390,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_34),16);
-    bufp->fullSData(oldp+928391,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_35),16);
-    bufp->fullSData(oldp+928392,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_36),16);
-    bufp->fullSData(oldp+928393,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_37),16);
-    bufp->fullSData(oldp+928394,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_38),16);
-    bufp->fullSData(oldp+928395,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_39),16);
-    bufp->fullSData(oldp+928396,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_4),16);
-    bufp->fullSData(oldp+928397,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_40),16);
-    bufp->fullSData(oldp+928398,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_41),16);
-    bufp->fullSData(oldp+928399,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_42),16);
-    bufp->fullSData(oldp+928400,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_43),16);
-    bufp->fullSData(oldp+928401,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_44),16);
-    bufp->fullSData(oldp+928402,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_45),16);
-    bufp->fullSData(oldp+928403,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_46),16);
-    bufp->fullSData(oldp+928404,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_47),16);
-    bufp->fullSData(oldp+928405,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_5),16);
-    bufp->fullSData(oldp+928406,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_6),16);
-    bufp->fullSData(oldp+928407,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_7),16);
-    bufp->fullSData(oldp+928408,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_8),16);
-    bufp->fullSData(oldp+928409,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_9),16);
-    bufp->fullCData(oldp+928410,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024load_and_step_refr),4);
-    bufp->fullIData(oldp+928411,((0x1fffffU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg)),21);
-    bufp->fullSData(oldp+928412,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164) 
+    bufp->fullSData(oldp+928362,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_1),16);
+    bufp->fullSData(oldp+928363,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_10),16);
+    bufp->fullSData(oldp+928364,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_11),16);
+    bufp->fullSData(oldp+928365,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_12),16);
+    bufp->fullSData(oldp+928366,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_13),16);
+    bufp->fullSData(oldp+928367,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_14),16);
+    bufp->fullSData(oldp+928368,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_15),16);
+    bufp->fullSData(oldp+928369,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_16),16);
+    bufp->fullSData(oldp+928370,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_17),16);
+    bufp->fullSData(oldp+928371,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_18),16);
+    bufp->fullSData(oldp+928372,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_19),16);
+    bufp->fullSData(oldp+928373,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_2),16);
+    bufp->fullSData(oldp+928374,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_20),16);
+    bufp->fullSData(oldp+928375,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_21),16);
+    bufp->fullSData(oldp+928376,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_22),16);
+    bufp->fullSData(oldp+928377,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_23),16);
+    bufp->fullSData(oldp+928378,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_24),16);
+    bufp->fullSData(oldp+928379,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_25),16);
+    bufp->fullSData(oldp+928380,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_26),16);
+    bufp->fullSData(oldp+928381,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_27),16);
+    bufp->fullSData(oldp+928382,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_28),16);
+    bufp->fullSData(oldp+928383,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_29),16);
+    bufp->fullSData(oldp+928384,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_3),16);
+    bufp->fullSData(oldp+928385,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_30),16);
+    bufp->fullSData(oldp+928386,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_31),16);
+    bufp->fullSData(oldp+928387,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_32),16);
+    bufp->fullSData(oldp+928388,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_33),16);
+    bufp->fullSData(oldp+928389,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_34),16);
+    bufp->fullSData(oldp+928390,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_35),16);
+    bufp->fullSData(oldp+928391,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_36),16);
+    bufp->fullSData(oldp+928392,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_37),16);
+    bufp->fullSData(oldp+928393,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_38),16);
+    bufp->fullSData(oldp+928394,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_39),16);
+    bufp->fullSData(oldp+928395,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_4),16);
+    bufp->fullSData(oldp+928396,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_40),16);
+    bufp->fullSData(oldp+928397,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_41),16);
+    bufp->fullSData(oldp+928398,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_42),16);
+    bufp->fullSData(oldp+928399,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_43),16);
+    bufp->fullSData(oldp+928400,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_44),16);
+    bufp->fullSData(oldp+928401,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_45),16);
+    bufp->fullSData(oldp+928402,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_46),16);
+    bufp->fullSData(oldp+928403,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_47),16);
+    bufp->fullSData(oldp+928404,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_5),16);
+    bufp->fullSData(oldp+928405,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_6),16);
+    bufp->fullSData(oldp+928406,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_7),16);
+    bufp->fullSData(oldp+928407,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_8),16);
+    bufp->fullSData(oldp+928408,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__v_t_9),16);
+    bufp->fullCData(oldp+928409,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024load_and_step_refr),4);
+    bufp->fullIData(oldp+928410,((0x1fffffU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg)),21);
+    bufp->fullSData(oldp+928411,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164) 
                                    << 0xfU) | (IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_21))),16);
-    bufp->fullBit(oldp+928413,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
+    bufp->fullBit(oldp+928412,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg 
                                       >> 0x15U))));
-    bufp->fullBit(oldp+928414,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024RDY_load_and_step));
-    bufp->fullCData(oldp+928415,((0x3fU & ((IData)(1U) 
+    bufp->fullBit(oldp+928413,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024RDY_load_and_step));
+    bufp->fullCData(oldp+928414,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__input_index)))),6);
-    bufp->fullCData(oldp+928416,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+928415,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__inputs_fed)))),6);
-    bufp->fullCData(oldp+928417,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+928416,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__output_index)))),6);
-    bufp->fullCData(oldp+928418,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+928417,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__outputs_received)))),6);
-    bufp->fullCData(oldp+928419,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__state))
+    bufp->fullCData(oldp+928418,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__state))
                                    ? 1U : 2U)),2);
-    bufp->fullBit(oldp+928420,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__MUX_state__024write_1___05FSEL_1));
-    bufp->fullBit(oldp+928421,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__MUX_state__024write_1___05FSEL_2));
-    bufp->fullCData(oldp+928422,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214),8);
-    bufp->fullCData(oldp+928423,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BITS_6_TO_0_15_v_t_1_8_BITS_6___05FETC___05F_d264),7);
-    bufp->fullBit(oldp+928424,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164));
-    bufp->fullQData(oldp+928425,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__conf),52);
-    bufp->fullBit(oldp+928427,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__config_valid));
-    bufp->fullSData(oldp+928428,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__inv_tau_cached),16);
-    bufp->fullIData(oldp+928429,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg),22);
-    bufp->fullIData(oldp+928430,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024EN_get_output)
+    bufp->fullBit(oldp+928419,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__MUX_state__024write_1___05FSEL_1));
+    bufp->fullBit(oldp+928420,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__MUX_state__024write_1___05FSEL_2));
+    bufp->fullCData(oldp+928421,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214),8);
+    bufp->fullCData(oldp+928422,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BITS_6_TO_0_15_v_t_1_8_BITS_6___05FETC___05F_d264),7);
+    bufp->fullBit(oldp+928423,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164));
+    bufp->fullQData(oldp+928424,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__conf),52);
+    bufp->fullBit(oldp+928426,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__config_valid));
+    bufp->fullSData(oldp+928427,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__inv_tau_cached),16);
+    bufp->fullIData(oldp+928428,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__output_reg),22);
+    bufp->fullIData(oldp+928429,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024EN_get_output)
                                    ? 0xaaaaaU : (0x200000U 
                                                  | ((((~ (IData)(
                                                                  (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
@@ -5845,10 +5845,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          : 
                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__a___05Fh2557) 
                                                          << 4U))))))),22);
-    bufp->fullBit(oldp+928431,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024EN_get_output) 
+    bufp->fullBit(oldp+928430,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024EN_get_output) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3))));
-    bufp->fullQData(oldp+928432,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage1_data),38);
-    bufp->fullQData(oldp+928434,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2)
+    bufp->fullQData(oldp+928431,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage1_data),38);
+    bufp->fullQData(oldp+928433,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2)
                                    ? 0xaaaaaaaaaULL
                                    : (0x2000000000ULL 
                                       | (((QData)((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
@@ -5898,10 +5898,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 | (0xfU 
                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024load_and_step_refr) 
                                                                       - (IData)(1U)))))))))))),38);
-    bufp->fullBit(oldp+928436,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2) 
+    bufp->fullBit(oldp+928435,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input))));
-    bufp->fullQData(oldp+928437,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data),38);
-    bufp->fullQData(oldp+928439,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3)
+    bufp->fullQData(oldp+928436,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data),38);
+    bufp->fullQData(oldp+928438,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3)
                                    ? 0xaaaaaaaaaULL
                                    : (0x2000000000ULL 
                                       | (((QData)((IData)(
@@ -5963,11 +5963,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                  << 5U) 
                                                                 | (0xfU 
                                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage1_data))))))))))),38);
-    bufp->fullBit(oldp+928441,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3) 
+    bufp->fullBit(oldp+928440,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2))));
-    bufp->fullBit(oldp+928442,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2));
-    bufp->fullBit(oldp+928443,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3));
-    bufp->fullQData(oldp+928444,((0x2000000000ULL | 
+    bufp->fullBit(oldp+928441,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2));
+    bufp->fullBit(oldp+928442,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3));
+    bufp->fullQData(oldp+928443,((0x2000000000ULL | 
                                   (((QData)((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                     << 0x24U) | (((QData)((IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_21)) 
                                                   << 0x15U) 
@@ -6014,7 +6014,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                      | (0xfU 
                                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024load_and_step_refr) 
                                                                            - (IData)(1U))))))))))),38);
-    bufp->fullQData(oldp+928446,((0x2000000000ULL | 
+    bufp->fullQData(oldp+928445,((0x2000000000ULL | 
                                   (((QData)((IData)(
                                                     (0xffffU 
                                                      & (IData)(
@@ -6073,7 +6073,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                       << 5U) 
                                                                      | (0xfU 
                                                                         & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage1_data)))))))))),38);
-    bufp->fullIData(oldp+928448,((0x200000U | ((((~ (IData)(
+    bufp->fullIData(oldp+928447,((0x200000U | ((((~ (IData)(
                                                             (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                              >> 4U))) 
                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)) 
@@ -6103,7 +6103,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__a___05Fh2557) 
                                                     << 4U)))))),22);
-    bufp->fullIData(oldp+928449,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024load_and_step_refr))
+    bufp->fullIData(oldp+928448,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024load_and_step_refr))
                                    ? ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92) 
                                         & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                         ? 0U : (0xffffU 
@@ -6139,7 +6139,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                 | (0xfU 
                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__024load_and_step_refr) 
                                                       - (IData)(1U)))))),21);
-    bufp->fullIData(oldp+928450,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)
+    bufp->fullIData(oldp+928449,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)
                                    ? ((0xffff0U & ((IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__conf 
                                                             >> 0x14U)) 
@@ -6147,10 +6147,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                       | (0xfU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__conf)))
                                    : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__a___05Fh2557) 
                                       << 4U))),20);
-    bufp->fullSData(oldp+928451,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
+    bufp->fullSData(oldp+928450,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F_snd___05Fh1595)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___0_CONCAT_NOT_inv_tau_cached_4_BITS_14_TO_7_0_E_ETC___05F_d37))),16);
-    bufp->fullSData(oldp+928452,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_19) 
+    bufp->fullSData(oldp+928451,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_19) 
                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                    ? ((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                                   << 0xfU)) 
@@ -6158,7 +6158,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                    : ((0U == (0x3ffU 
                                               & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__x___05Fh4179)))
                                        ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__result_raw___05Fh4385)))),16);
-    bufp->fullSData(oldp+928453,((0xffffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_28) 
+    bufp->fullSData(oldp+928452,((0xffffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_28) 
                                               & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                               ? (IData)(
                                                         (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__conf 
@@ -6177,7 +6177,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__x___05Fh4179)))
                                                    ? 0U
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__result_raw___05Fh4385)))))),16);
-    bufp->fullSData(oldp+928454,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92)
+    bufp->fullSData(oldp+928453,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92)
                                               ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165157_0_sa_result_o_BIT_15_1_sa_result_ETC___05Fq538) 
                                                   << 0xfU) 
                                                  | (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165157_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq539) 
@@ -6203,8 +6203,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__x___05Fh4179)))
                                                     ? 0U
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__result_raw___05Fh4385))))))),16);
-    bufp->fullSData(oldp+928455,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__a___05Fh2557),16);
-    bufp->fullSData(oldp+928456,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
+    bufp->fullSData(oldp+928454,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__a___05Fh2557),16);
+    bufp->fullSData(oldp+928455,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
                                                 ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__result_sign___05Fh2962)
                                                 : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___0b1_CONCAT_IF_IF_stage2_data_BIT_37_THEN_stage_ETC___05F_d271)
                                                     ? 
@@ -6295,20 +6295,20 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                       : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__tmp___05Fh2907)) 
                                                     << 1U))
                                               : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__tmp___05Fh2907))))))),16);
-    bufp->fullSData(oldp+928457,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
+    bufp->fullSData(oldp+928456,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                               << 0xfU)) 
                                   | (IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_21))),16);
-    bufp->fullSData(oldp+928458,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__result_raw___05Fh4385),16);
-    bufp->fullSData(oldp+928459,((0xffffU & (IData)(
+    bufp->fullSData(oldp+928457,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__result_raw___05Fh4385),16);
+    bufp->fullSData(oldp+928458,((0xffffU & (IData)(
                                                     (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage1_data 
+                                                     >> 5U)))),16);
+    bufp->fullSData(oldp+928459,((0xffffU & (IData)(
+                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                      >> 5U)))),16);
     bufp->fullSData(oldp+928460,((0xffffU & (IData)(
                                                     (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
-                                                     >> 5U)))),16);
-    bufp->fullSData(oldp+928461,((0xffffU & (IData)(
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                      >> 0x15U)))),16);
-    bufp->fullSData(oldp+928462,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__final_exp_10___05Fh1448) 
+    bufp->fullSData(oldp+928461,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__final_exp_10___05Fh1448) 
                                             >> 9U) 
                                            | (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__final_exp_10___05Fh1448))))
                                    ? ((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__final_exp_10___05Fh1448))
@@ -6321,7 +6321,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      << 7U)) 
                                                  | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__final_mant___05Fh1447))
                                                  : 0x7f80U))),15);
-    bufp->fullSData(oldp+928463,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__x___05Fh4179))
+    bufp->fullSData(oldp+928462,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__x___05Fh4179))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)) 
                                                   << 7U)) 
@@ -6395,7 +6395,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__x___05Fh4179)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__x___05Fh4179)))))),15);
-    bufp->fullSData(oldp+928464,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__tmp___05Fh2907))
+    bufp->fullSData(oldp+928463,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__tmp___05Fh2907))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986)) 
                                                   << 7U)) 
@@ -6472,7 +6472,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__tmp___05Fh2907)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__tmp___05Fh2907)))))),15);
-    bufp->fullSData(oldp+928465,((((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+928464,((((IData)((0U == (0x7fffU 
                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__inv_tau_cached)))) 
                                    | (IData)((0ULL 
                                               == (0xfffe0ULL 
@@ -6494,7 +6494,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__final_mant___05Fh1447))
                                                 : 0x7f80U)))),15);
-    bufp->fullSData(oldp+928466,((0x7ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)
+    bufp->fullSData(oldp+928465,((0x7ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_a___05Fh4163)
                                               : (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_a___05Fh4163))) 
                                             + ((1U 
@@ -6503,10 +6503,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                            >> 0x23U)))
                                                 ? (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_b___05Fh4164))
                                                 : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_b___05Fh4164))))),11);
-    bufp->fullSData(oldp+928467,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_load_and_step_v_t_BIT_15_25_THEN_SEXT___05F0_CO_ETC___05F_d460),11);
-    bufp->fullSData(oldp+928468,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_b___05Fh4164),11);
-    bufp->fullSData(oldp+928469,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_a___05Fh4163),11);
-    bufp->fullSData(oldp+928470,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullSData(oldp+928466,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_load_and_step_v_t_BIT_15_25_THEN_SEXT___05F0_CO_ETC___05F_d460),11);
+    bufp->fullSData(oldp+928467,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_b___05Fh4164),11);
+    bufp->fullSData(oldp+928468,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_a___05Fh4163),11);
+    bufp->fullSData(oldp+928469,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -6514,8 +6514,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165157_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq539))))))),11);
-    bufp->fullSData(oldp+928471,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__x___05Fh4179),11);
-    bufp->fullSData(oldp+928472,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
+    bufp->fullSData(oldp+928470,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__x___05Fh4179),11);
+    bufp->fullSData(oldp+928471,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
                                              ? (0x3feU 
                                                 & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_45)
                                                      ? 
@@ -6555,10 +6555,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__x___05Fh4179)) 
                                                    << 1U))
                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__x___05Fh4179)))),10);
-    bufp->fullSData(oldp+928473,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441),10);
-    bufp->fullSData(oldp+928474,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_a___05Fh4163),10);
-    bufp->fullSData(oldp+928475,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_b___05Fh4164),10);
-    bufp->fullSData(oldp+928476,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullSData(oldp+928472,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441),10);
+    bufp->fullSData(oldp+928473,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_a___05Fh4163),10);
+    bufp->fullSData(oldp+928474,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_b___05Fh4164),10);
+    bufp->fullSData(oldp+928475,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -6566,11 +6566,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165157_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq539))))))),10);
-    bufp->fullSData(oldp+928477,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__final_exp_10___05Fh1448),10);
-    bufp->fullSData(oldp+928478,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+928476,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__final_exp_10___05Fh1448),10);
+    bufp->fullSData(oldp+928477,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+928479,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
+    bufp->fullSData(oldp+928478,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_60)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_62)
@@ -6709,27 +6709,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+928480,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928479,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+928481,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928480,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928482,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928481,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928483,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928482,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928484,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928483,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928485,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928484,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -6745,7 +6745,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928486,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928485,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -6760,7 +6760,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928487,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928486,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -6774,7 +6774,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928488,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928487,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -6787,7 +6787,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928489,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928488,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -6799,7 +6799,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928490,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928489,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -6810,7 +6810,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928491,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928490,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -6819,7 +6819,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928492,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928491,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -6827,14 +6827,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928493,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928492,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928494,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
+    bufp->fullSData(oldp+928493,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_33)
@@ -6876,64 +6876,64 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__tmp___05Fh2907)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__tmp___05Fh2907))),9);
-    bufp->fullSData(oldp+928495,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullSData(oldp+928494,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__inv_tau_cached) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+928496,(((0U == (0xffU & (IData)(
+    bufp->fullSData(oldp+928495,(((0U == (0xffU & (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage1_data 
                                                            >> 0xcU))))
                                    ? 1U : (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU))))),9);
-    bufp->fullSData(oldp+928497,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441),9);
-    bufp->fullSData(oldp+928498,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+928496,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__exp_sum___05Fh1441),9);
+    bufp->fullSData(oldp+928497,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+928499,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+928498,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+928500,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__smaller_m___05Fh2901) 
+    bufp->fullSData(oldp+928499,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__smaller_m___05Fh2901) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))))),9);
-    bufp->fullSData(oldp+928501,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__tmp___05Fh2907),9);
-    bufp->fullCData(oldp+928502,((((0U != (0xffU & 
+    bufp->fullSData(oldp+928500,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__tmp___05Fh2907),9);
+    bufp->fullCData(oldp+928501,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__inv_tau_cached)))),8);
-    bufp->fullCData(oldp+928503,((((0U != (0xffU & (IData)(
+    bufp->fullCData(oldp+928502,((((0U != (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU)))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(
                                                        (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage1_data 
                                                         >> 5U))))),8);
-    bufp->fullCData(oldp+928504,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
-    bufp->fullCData(oldp+928505,((0xffU & ((IData)(
+    bufp->fullCData(oldp+928503,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
+    bufp->fullCData(oldp+928504,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                     >> 0x1cU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                       >> 0xcU))))),8);
-    bufp->fullCData(oldp+928506,((0xffU & ((IData)(
+    bufp->fullCData(oldp+928505,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                     >> 0xcU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                       >> 0x1cU))))),8);
-    bufp->fullCData(oldp+928507,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928506,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214)))),8);
-    bufp->fullCData(oldp+928508,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928507,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__conf 
                                                       >> 0x1bU))))),8);
-    bufp->fullCData(oldp+928509,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928508,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165157_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq539)))),8);
-    bufp->fullCData(oldp+928510,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+928509,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986)))),8);
-    bufp->fullCData(oldp+928511,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
+    bufp->fullCData(oldp+928510,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                    ? 
@@ -6957,11 +6957,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+928512,((0xffU & ((IData)(2U) 
+    bufp->fullCData(oldp+928511,((0xffU & ((IData)(2U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+928513,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+928512,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+928514,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928513,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_45)
                                                    ? 
@@ -6985,9 +6985,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+928515,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_a___05Fh4163),8);
-    bufp->fullCData(oldp+928516,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_b___05Fh4164),8);
-    bufp->fullCData(oldp+928517,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullCData(oldp+928514,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_a___05Fh4163),8);
+    bufp->fullCData(oldp+928515,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__man_b___05Fh4164),8);
+    bufp->fullCData(oldp+928516,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -6995,8 +6995,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2165157_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq539))))))),8);
-    bufp->fullCData(oldp+928518,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__smaller_m___05Fh2901),8);
-    bufp->fullCData(oldp+928519,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+928517,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__smaller_m___05Fh2901),8);
+    bufp->fullCData(oldp+928518,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -7009,7 +7009,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                                        >> 0xcU))))))),8);
-    bufp->fullCData(oldp+928520,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+928519,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -7022,9 +7022,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                                        >> 0x1cU))))))),8);
-    bufp->fullCData(oldp+928521,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
-    bufp->fullCData(oldp+928522,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__final_mant___05Fh1447),7);
-    bufp->fullBit(oldp+928523,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__a___05Fh2557) 
+    bufp->fullCData(oldp+928520,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
+    bufp->fullCData(oldp+928521,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__final_mant___05Fh1447),7);
+    bufp->fullBit(oldp+928522,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__a___05Fh2557) 
                                               >> 0xfU)) 
                                        == (1U & (IData)(
                                                         (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__conf 
@@ -7051,17 +7051,17 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 >> 0x24U)))))))
                                        : (~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__a___05Fh2557) 
                                              >> 0xfU))))));
-    bufp->fullBit(oldp+928524,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
-    bufp->fullBit(oldp+928525,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
-    bufp->fullBit(oldp+928526,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
+    bufp->fullBit(oldp+928523,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
+    bufp->fullBit(oldp+928524,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
+    bufp->fullBit(oldp+928525,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377) 
                                    | ((0x7fU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__a___05Fh2557)) 
                                       < (0x7fU & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__conf 
                                                           >> 0x24U))))))));
-    bufp->fullBit(oldp+928527,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
-    bufp->fullBit(oldp+928528,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
-    bufp->fullBit(oldp+928529,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
+    bufp->fullBit(oldp+928526,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
+    bufp->fullBit(oldp+928527,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
+    bufp->fullBit(oldp+928528,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
                                       | ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377)) 
                                          & ((0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__a___05Fh2557)) 
@@ -7069,14 +7069,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__conf 
                                                           >> 0x24U)))))))));
-    bufp->fullBit(oldp+928530,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
+    bufp->fullBit(oldp+928529,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                             >> 4U))) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6))));
-    bufp->fullBit(oldp+928531,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullBit(oldp+928530,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__inv_tau_cached) 
                                        >> 0xfU) ^ (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage1_data 
                                                            >> 0x14U))))));
-    bufp->fullBit(oldp+928532,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
+    bufp->fullBit(oldp+928531,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__result_sign___05Fh2962)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT___0b1_CONCAT_IF_IF_stage2_data_BIT_37_THEN_stage_ETC___05F_d271)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
@@ -7087,406 +7087,406 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                           >> 0x14U)))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__result_sign___05Fh2962))))));
-    bufp->fullBit(oldp+928533,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__result_sign___05Fh2962));
-    bufp->fullBit(oldp+928534,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
+    bufp->fullBit(oldp+928532,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__result_sign___05Fh2962));
+    bufp->fullBit(oldp+928533,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
                                        ? (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                   >> 0x24U))
                                        : (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__lif__DOT__stage2_data 
                                                   >> 0x14U))))));
-    bufp->fullBit(oldp+928535,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
-    bufp->fullBit(oldp+928536,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__state)) 
+    bufp->fullBit(oldp+928534,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_8__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
+    bufp->fullBit(oldp+928535,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__state)) 
                                 & (3U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__state)))));
-    bufp->fullCData(oldp+928537,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__input_index),6);
-    bufp->fullCData(oldp+928538,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
+    bufp->fullCData(oldp+928536,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__input_index),6);
+    bufp->fullCData(oldp+928537,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__input_index)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+928539,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__inputs_fed),6);
-    bufp->fullCData(oldp+928540,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
+    bufp->fullCData(oldp+928538,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__inputs_fed),6);
+    bufp->fullCData(oldp+928539,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__inputs_fed)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+928541,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__output_index),6);
-    bufp->fullCData(oldp+928542,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024EN_get_output)
+    bufp->fullCData(oldp+928540,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__output_index),6);
+    bufp->fullCData(oldp+928541,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024EN_get_output)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__output_index)))
                                    : 0U)),6);
-    bufp->fullBit(oldp+928543,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024EN_get_output));
-    bufp->fullCData(oldp+928544,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__outputs_received),6);
-    bufp->fullCData(oldp+928545,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024EN_get_output)
+    bufp->fullBit(oldp+928542,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024EN_get_output));
+    bufp->fullCData(oldp+928543,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__outputs_received),6);
+    bufp->fullCData(oldp+928544,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024EN_get_output)
                                    ? (0x3fU & ((IData)(1U) 
                                                + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__outputs_received)))
                                    : 0U)),6);
-    bufp->fullCData(oldp+928546,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_0),4);
-    bufp->fullCData(oldp+928547,((0xfU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg)),4);
-    bufp->fullBit(oldp+928548,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_0__024EN));
-    bufp->fullCData(oldp+928549,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_1),4);
-    bufp->fullBit(oldp+928550,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_1__024EN));
-    bufp->fullCData(oldp+928551,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_10),4);
-    bufp->fullBit(oldp+928552,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_10__024EN));
-    bufp->fullCData(oldp+928553,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_11),4);
-    bufp->fullBit(oldp+928554,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_11__024EN));
-    bufp->fullCData(oldp+928555,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_12),4);
-    bufp->fullBit(oldp+928556,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_12__024EN));
-    bufp->fullCData(oldp+928557,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_13),4);
-    bufp->fullBit(oldp+928558,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_13__024EN));
-    bufp->fullCData(oldp+928559,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_14),4);
-    bufp->fullBit(oldp+928560,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_14__024EN));
-    bufp->fullCData(oldp+928561,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_15),4);
-    bufp->fullBit(oldp+928562,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_15__024EN));
-    bufp->fullCData(oldp+928563,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_16),4);
-    bufp->fullBit(oldp+928564,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_16__024EN));
-    bufp->fullCData(oldp+928565,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_17),4);
-    bufp->fullBit(oldp+928566,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_17__024EN));
-    bufp->fullCData(oldp+928567,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_18),4);
-    bufp->fullBit(oldp+928568,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_18__024EN));
-    bufp->fullCData(oldp+928569,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_19),4);
-    bufp->fullBit(oldp+928570,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_19__024EN));
-    bufp->fullCData(oldp+928571,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_2),4);
-    bufp->fullBit(oldp+928572,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_2__024EN));
-    bufp->fullCData(oldp+928573,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_20),4);
-    bufp->fullBit(oldp+928574,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_20__024EN));
-    bufp->fullCData(oldp+928575,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_21),4);
-    bufp->fullBit(oldp+928576,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_21__024EN));
-    bufp->fullCData(oldp+928577,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_22),4);
-    bufp->fullBit(oldp+928578,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_22__024EN));
-    bufp->fullCData(oldp+928579,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_23),4);
-    bufp->fullBit(oldp+928580,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_23__024EN));
-    bufp->fullCData(oldp+928581,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_24),4);
-    bufp->fullBit(oldp+928582,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_24__024EN));
-    bufp->fullCData(oldp+928583,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_25),4);
-    bufp->fullBit(oldp+928584,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_25__024EN));
-    bufp->fullCData(oldp+928585,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_26),4);
-    bufp->fullBit(oldp+928586,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_26__024EN));
-    bufp->fullCData(oldp+928587,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_27),4);
-    bufp->fullBit(oldp+928588,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_27__024EN));
-    bufp->fullCData(oldp+928589,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_28),4);
-    bufp->fullBit(oldp+928590,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_28__024EN));
-    bufp->fullCData(oldp+928591,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_29),4);
-    bufp->fullBit(oldp+928592,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_29__024EN));
-    bufp->fullCData(oldp+928593,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_3),4);
-    bufp->fullBit(oldp+928594,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_3__024EN));
-    bufp->fullCData(oldp+928595,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_30),4);
-    bufp->fullBit(oldp+928596,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_30__024EN));
-    bufp->fullCData(oldp+928597,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_31),4);
-    bufp->fullBit(oldp+928598,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_31__024EN));
-    bufp->fullCData(oldp+928599,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_32),4);
-    bufp->fullBit(oldp+928600,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_32__024EN));
-    bufp->fullCData(oldp+928601,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_33),4);
-    bufp->fullBit(oldp+928602,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_33__024EN));
-    bufp->fullCData(oldp+928603,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_34),4);
-    bufp->fullBit(oldp+928604,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_34__024EN));
-    bufp->fullCData(oldp+928605,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_35),4);
-    bufp->fullBit(oldp+928606,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_35__024EN));
-    bufp->fullCData(oldp+928607,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_36),4);
-    bufp->fullBit(oldp+928608,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_36__024EN));
-    bufp->fullCData(oldp+928609,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_37),4);
-    bufp->fullBit(oldp+928610,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_37__024EN));
-    bufp->fullCData(oldp+928611,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_38),4);
-    bufp->fullBit(oldp+928612,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_38__024EN));
-    bufp->fullCData(oldp+928613,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_39),4);
-    bufp->fullBit(oldp+928614,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_39__024EN));
-    bufp->fullCData(oldp+928615,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_4),4);
-    bufp->fullBit(oldp+928616,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_4__024EN));
-    bufp->fullCData(oldp+928617,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_40),4);
-    bufp->fullBit(oldp+928618,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_40__024EN));
-    bufp->fullCData(oldp+928619,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_41),4);
-    bufp->fullBit(oldp+928620,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_41__024EN));
-    bufp->fullCData(oldp+928621,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_42),4);
-    bufp->fullBit(oldp+928622,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_42__024EN));
-    bufp->fullCData(oldp+928623,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_43),4);
-    bufp->fullBit(oldp+928624,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_43__024EN));
-    bufp->fullCData(oldp+928625,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_44),4);
-    bufp->fullBit(oldp+928626,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_44__024EN));
-    bufp->fullCData(oldp+928627,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_45),4);
-    bufp->fullBit(oldp+928628,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_45__024EN));
-    bufp->fullCData(oldp+928629,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_46),4);
-    bufp->fullBit(oldp+928630,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_46__024EN));
-    bufp->fullCData(oldp+928631,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_47),4);
-    bufp->fullBit(oldp+928632,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_47__024EN));
-    bufp->fullCData(oldp+928633,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_5),4);
-    bufp->fullBit(oldp+928634,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_5__024EN));
-    bufp->fullCData(oldp+928635,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_6),4);
-    bufp->fullBit(oldp+928636,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_6__024EN));
-    bufp->fullCData(oldp+928637,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_7),4);
-    bufp->fullBit(oldp+928638,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_7__024EN));
-    bufp->fullCData(oldp+928639,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_8),4);
-    bufp->fullBit(oldp+928640,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_8__024EN));
-    bufp->fullCData(oldp+928641,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_9),4);
-    bufp->fullBit(oldp+928642,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_9__024EN));
-    bufp->fullBit(oldp+928643,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_0));
-    bufp->fullBit(oldp+928644,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_0__024EN) 
+    bufp->fullCData(oldp+928545,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_0),4);
+    bufp->fullCData(oldp+928546,((0xfU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg)),4);
+    bufp->fullBit(oldp+928547,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_0__024EN));
+    bufp->fullCData(oldp+928548,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_1),4);
+    bufp->fullBit(oldp+928549,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_1__024EN));
+    bufp->fullCData(oldp+928550,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_10),4);
+    bufp->fullBit(oldp+928551,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_10__024EN));
+    bufp->fullCData(oldp+928552,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_11),4);
+    bufp->fullBit(oldp+928553,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_11__024EN));
+    bufp->fullCData(oldp+928554,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_12),4);
+    bufp->fullBit(oldp+928555,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_12__024EN));
+    bufp->fullCData(oldp+928556,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_13),4);
+    bufp->fullBit(oldp+928557,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_13__024EN));
+    bufp->fullCData(oldp+928558,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_14),4);
+    bufp->fullBit(oldp+928559,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_14__024EN));
+    bufp->fullCData(oldp+928560,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_15),4);
+    bufp->fullBit(oldp+928561,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_15__024EN));
+    bufp->fullCData(oldp+928562,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_16),4);
+    bufp->fullBit(oldp+928563,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_16__024EN));
+    bufp->fullCData(oldp+928564,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_17),4);
+    bufp->fullBit(oldp+928565,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_17__024EN));
+    bufp->fullCData(oldp+928566,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_18),4);
+    bufp->fullBit(oldp+928567,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_18__024EN));
+    bufp->fullCData(oldp+928568,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_19),4);
+    bufp->fullBit(oldp+928569,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_19__024EN));
+    bufp->fullCData(oldp+928570,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_2),4);
+    bufp->fullBit(oldp+928571,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_2__024EN));
+    bufp->fullCData(oldp+928572,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_20),4);
+    bufp->fullBit(oldp+928573,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_20__024EN));
+    bufp->fullCData(oldp+928574,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_21),4);
+    bufp->fullBit(oldp+928575,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_21__024EN));
+    bufp->fullCData(oldp+928576,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_22),4);
+    bufp->fullBit(oldp+928577,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_22__024EN));
+    bufp->fullCData(oldp+928578,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_23),4);
+    bufp->fullBit(oldp+928579,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_23__024EN));
+    bufp->fullCData(oldp+928580,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_24),4);
+    bufp->fullBit(oldp+928581,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_24__024EN));
+    bufp->fullCData(oldp+928582,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_25),4);
+    bufp->fullBit(oldp+928583,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_25__024EN));
+    bufp->fullCData(oldp+928584,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_26),4);
+    bufp->fullBit(oldp+928585,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_26__024EN));
+    bufp->fullCData(oldp+928586,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_27),4);
+    bufp->fullBit(oldp+928587,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_27__024EN));
+    bufp->fullCData(oldp+928588,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_28),4);
+    bufp->fullBit(oldp+928589,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_28__024EN));
+    bufp->fullCData(oldp+928590,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_29),4);
+    bufp->fullBit(oldp+928591,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_29__024EN));
+    bufp->fullCData(oldp+928592,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_3),4);
+    bufp->fullBit(oldp+928593,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_3__024EN));
+    bufp->fullCData(oldp+928594,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_30),4);
+    bufp->fullBit(oldp+928595,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_30__024EN));
+    bufp->fullCData(oldp+928596,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_31),4);
+    bufp->fullBit(oldp+928597,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_31__024EN));
+    bufp->fullCData(oldp+928598,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_32),4);
+    bufp->fullBit(oldp+928599,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_32__024EN));
+    bufp->fullCData(oldp+928600,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_33),4);
+    bufp->fullBit(oldp+928601,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_33__024EN));
+    bufp->fullCData(oldp+928602,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_34),4);
+    bufp->fullBit(oldp+928603,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_34__024EN));
+    bufp->fullCData(oldp+928604,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_35),4);
+    bufp->fullBit(oldp+928605,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_35__024EN));
+    bufp->fullCData(oldp+928606,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_36),4);
+    bufp->fullBit(oldp+928607,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_36__024EN));
+    bufp->fullCData(oldp+928608,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_37),4);
+    bufp->fullBit(oldp+928609,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_37__024EN));
+    bufp->fullCData(oldp+928610,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_38),4);
+    bufp->fullBit(oldp+928611,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_38__024EN));
+    bufp->fullCData(oldp+928612,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_39),4);
+    bufp->fullBit(oldp+928613,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_39__024EN));
+    bufp->fullCData(oldp+928614,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_4),4);
+    bufp->fullBit(oldp+928615,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_4__024EN));
+    bufp->fullCData(oldp+928616,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_40),4);
+    bufp->fullBit(oldp+928617,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_40__024EN));
+    bufp->fullCData(oldp+928618,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_41),4);
+    bufp->fullBit(oldp+928619,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_41__024EN));
+    bufp->fullCData(oldp+928620,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_42),4);
+    bufp->fullBit(oldp+928621,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_42__024EN));
+    bufp->fullCData(oldp+928622,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_43),4);
+    bufp->fullBit(oldp+928623,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_43__024EN));
+    bufp->fullCData(oldp+928624,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_44),4);
+    bufp->fullBit(oldp+928625,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_44__024EN));
+    bufp->fullCData(oldp+928626,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_45),4);
+    bufp->fullBit(oldp+928627,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_45__024EN));
+    bufp->fullCData(oldp+928628,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_46),4);
+    bufp->fullBit(oldp+928629,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_46__024EN));
+    bufp->fullCData(oldp+928630,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_47),4);
+    bufp->fullBit(oldp+928631,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_47__024EN));
+    bufp->fullCData(oldp+928632,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_5),4);
+    bufp->fullBit(oldp+928633,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_5__024EN));
+    bufp->fullCData(oldp+928634,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_6),4);
+    bufp->fullBit(oldp+928635,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_6__024EN));
+    bufp->fullCData(oldp+928636,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_7),4);
+    bufp->fullBit(oldp+928637,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_7__024EN));
+    bufp->fullCData(oldp+928638,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_8),4);
+    bufp->fullBit(oldp+928639,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_8__024EN));
+    bufp->fullCData(oldp+928640,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_9),4);
+    bufp->fullBit(oldp+928641,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_9__024EN));
+    bufp->fullBit(oldp+928642,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_0));
+    bufp->fullBit(oldp+928643,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_0__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928645,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_1));
-    bufp->fullBit(oldp+928646,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_1__024EN) 
+    bufp->fullBit(oldp+928644,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_1));
+    bufp->fullBit(oldp+928645,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_1__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928647,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_10));
-    bufp->fullBit(oldp+928648,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_10__024EN) 
+    bufp->fullBit(oldp+928646,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_10));
+    bufp->fullBit(oldp+928647,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_10__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928649,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_11));
-    bufp->fullBit(oldp+928650,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_11__024EN) 
+    bufp->fullBit(oldp+928648,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_11));
+    bufp->fullBit(oldp+928649,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_11__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928651,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_12));
-    bufp->fullBit(oldp+928652,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_12__024EN) 
+    bufp->fullBit(oldp+928650,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_12));
+    bufp->fullBit(oldp+928651,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_12__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928653,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_13));
-    bufp->fullBit(oldp+928654,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_13__024EN) 
+    bufp->fullBit(oldp+928652,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_13));
+    bufp->fullBit(oldp+928653,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_13__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928655,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_14));
-    bufp->fullBit(oldp+928656,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_14__024EN) 
+    bufp->fullBit(oldp+928654,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_14));
+    bufp->fullBit(oldp+928655,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_14__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928657,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_15));
-    bufp->fullBit(oldp+928658,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_15__024EN) 
+    bufp->fullBit(oldp+928656,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_15));
+    bufp->fullBit(oldp+928657,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_15__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928659,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_16));
-    bufp->fullBit(oldp+928660,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_16__024EN) 
+    bufp->fullBit(oldp+928658,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_16));
+    bufp->fullBit(oldp+928659,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_16__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928661,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_17));
-    bufp->fullBit(oldp+928662,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_17__024EN) 
+    bufp->fullBit(oldp+928660,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_17));
+    bufp->fullBit(oldp+928661,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_17__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928663,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_18));
-    bufp->fullBit(oldp+928664,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_18__024EN) 
+    bufp->fullBit(oldp+928662,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_18));
+    bufp->fullBit(oldp+928663,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_18__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928665,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_19));
-    bufp->fullBit(oldp+928666,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_19__024EN) 
+    bufp->fullBit(oldp+928664,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_19));
+    bufp->fullBit(oldp+928665,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_19__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928667,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_2));
-    bufp->fullBit(oldp+928668,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_2__024EN) 
+    bufp->fullBit(oldp+928666,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_2));
+    bufp->fullBit(oldp+928667,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_2__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928669,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_20));
-    bufp->fullBit(oldp+928670,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_20__024EN) 
+    bufp->fullBit(oldp+928668,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_20));
+    bufp->fullBit(oldp+928669,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_20__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928671,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_21));
-    bufp->fullBit(oldp+928672,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_21__024EN) 
+    bufp->fullBit(oldp+928670,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_21));
+    bufp->fullBit(oldp+928671,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_21__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928673,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_22));
-    bufp->fullBit(oldp+928674,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_22__024EN) 
+    bufp->fullBit(oldp+928672,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_22));
+    bufp->fullBit(oldp+928673,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_22__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928675,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_23));
-    bufp->fullBit(oldp+928676,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_23__024EN) 
+    bufp->fullBit(oldp+928674,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_23));
+    bufp->fullBit(oldp+928675,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_23__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928677,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_24));
-    bufp->fullBit(oldp+928678,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_24__024EN) 
+    bufp->fullBit(oldp+928676,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_24));
+    bufp->fullBit(oldp+928677,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_24__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928679,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_25));
-    bufp->fullBit(oldp+928680,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_25__024EN) 
+    bufp->fullBit(oldp+928678,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_25));
+    bufp->fullBit(oldp+928679,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_25__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928681,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_26));
-    bufp->fullBit(oldp+928682,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_26__024EN) 
+    bufp->fullBit(oldp+928680,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_26));
+    bufp->fullBit(oldp+928681,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_26__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928683,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_27));
-    bufp->fullBit(oldp+928684,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_27__024EN) 
+    bufp->fullBit(oldp+928682,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_27));
+    bufp->fullBit(oldp+928683,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_27__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928685,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_28));
-    bufp->fullBit(oldp+928686,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_28__024EN) 
+    bufp->fullBit(oldp+928684,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_28));
+    bufp->fullBit(oldp+928685,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_28__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928687,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_29));
-    bufp->fullBit(oldp+928688,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_29__024EN) 
+    bufp->fullBit(oldp+928686,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_29));
+    bufp->fullBit(oldp+928687,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_29__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928689,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_3));
-    bufp->fullBit(oldp+928690,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_3__024EN) 
+    bufp->fullBit(oldp+928688,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_3));
+    bufp->fullBit(oldp+928689,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_3__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928691,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_30));
-    bufp->fullBit(oldp+928692,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_30__024EN) 
+    bufp->fullBit(oldp+928690,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_30));
+    bufp->fullBit(oldp+928691,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_30__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928693,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_31));
-    bufp->fullBit(oldp+928694,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_31__024EN) 
+    bufp->fullBit(oldp+928692,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_31));
+    bufp->fullBit(oldp+928693,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_31__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928695,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_32));
-    bufp->fullBit(oldp+928696,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_32__024EN) 
+    bufp->fullBit(oldp+928694,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_32));
+    bufp->fullBit(oldp+928695,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_32__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928697,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_33));
-    bufp->fullBit(oldp+928698,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_33__024EN) 
+    bufp->fullBit(oldp+928696,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_33));
+    bufp->fullBit(oldp+928697,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_33__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928699,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_34));
-    bufp->fullBit(oldp+928700,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_34__024EN) 
+    bufp->fullBit(oldp+928698,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_34));
+    bufp->fullBit(oldp+928699,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_34__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928701,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_35));
-    bufp->fullBit(oldp+928702,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_35__024EN) 
+    bufp->fullBit(oldp+928700,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_35));
+    bufp->fullBit(oldp+928701,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_35__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928703,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_36));
-    bufp->fullBit(oldp+928704,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_36__024EN) 
+    bufp->fullBit(oldp+928702,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_36));
+    bufp->fullBit(oldp+928703,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_36__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928705,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_37));
-    bufp->fullBit(oldp+928706,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_37__024EN) 
+    bufp->fullBit(oldp+928704,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_37));
+    bufp->fullBit(oldp+928705,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_37__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928707,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_38));
-    bufp->fullBit(oldp+928708,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_38__024EN) 
+    bufp->fullBit(oldp+928706,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_38));
+    bufp->fullBit(oldp+928707,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_38__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928709,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_39));
-    bufp->fullBit(oldp+928710,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_39__024EN) 
+    bufp->fullBit(oldp+928708,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_39));
+    bufp->fullBit(oldp+928709,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_39__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928711,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_4));
-    bufp->fullBit(oldp+928712,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_4__024EN) 
+    bufp->fullBit(oldp+928710,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_4));
+    bufp->fullBit(oldp+928711,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_4__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928713,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_40));
-    bufp->fullBit(oldp+928714,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_40__024EN) 
+    bufp->fullBit(oldp+928712,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_40));
+    bufp->fullBit(oldp+928713,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_40__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928715,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_41));
-    bufp->fullBit(oldp+928716,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_41__024EN) 
+    bufp->fullBit(oldp+928714,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_41));
+    bufp->fullBit(oldp+928715,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_41__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928717,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_42));
-    bufp->fullBit(oldp+928718,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_42__024EN) 
+    bufp->fullBit(oldp+928716,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_42));
+    bufp->fullBit(oldp+928717,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_42__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928719,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_43));
-    bufp->fullBit(oldp+928720,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_43__024EN) 
+    bufp->fullBit(oldp+928718,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_43));
+    bufp->fullBit(oldp+928719,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_43__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928721,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_44));
-    bufp->fullBit(oldp+928722,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_44__024EN) 
+    bufp->fullBit(oldp+928720,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_44));
+    bufp->fullBit(oldp+928721,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_44__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928723,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_45));
-    bufp->fullBit(oldp+928724,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_45__024EN) 
+    bufp->fullBit(oldp+928722,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_45));
+    bufp->fullBit(oldp+928723,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_45__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928725,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_46));
-    bufp->fullBit(oldp+928726,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_46__024EN) 
+    bufp->fullBit(oldp+928724,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_46));
+    bufp->fullBit(oldp+928725,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_46__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928727,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_47));
-    bufp->fullBit(oldp+928728,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_47__024EN) 
+    bufp->fullBit(oldp+928726,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_47));
+    bufp->fullBit(oldp+928727,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_47__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928729,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_5));
-    bufp->fullBit(oldp+928730,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_5__024EN) 
+    bufp->fullBit(oldp+928728,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_5));
+    bufp->fullBit(oldp+928729,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_5__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928731,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_6));
-    bufp->fullBit(oldp+928732,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_6__024EN) 
+    bufp->fullBit(oldp+928730,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_6));
+    bufp->fullBit(oldp+928731,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_6__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928733,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_7));
-    bufp->fullBit(oldp+928734,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_7__024EN) 
+    bufp->fullBit(oldp+928732,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_7));
+    bufp->fullBit(oldp+928733,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_7__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928735,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_8));
-    bufp->fullBit(oldp+928736,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_8__024EN) 
+    bufp->fullBit(oldp+928734,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_8));
+    bufp->fullBit(oldp+928735,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_8__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullBit(oldp+928737,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_9));
-    bufp->fullBit(oldp+928738,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_9__024EN) 
+    bufp->fullBit(oldp+928736,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__spike_out_9));
+    bufp->fullBit(oldp+928737,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__refr_9__024EN) 
                                 & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                    >> 0x14U))));
-    bufp->fullCData(oldp+928739,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__state),2);
-    bufp->fullCData(oldp+928740,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__state__024D_IN),2);
-    bufp->fullBit(oldp+928741,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__MUX_state__024write_1___05FSEL_1) 
+    bufp->fullCData(oldp+928738,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__state),2);
+    bufp->fullCData(oldp+928739,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__state__024D_IN),2);
+    bufp->fullBit(oldp+928740,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__MUX_state__024write_1___05FSEL_1) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__MUX_state__024write_1___05FSEL_2))));
-    bufp->fullSData(oldp+928742,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_0),16);
-    bufp->fullSData(oldp+928743,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
+    bufp->fullSData(oldp+928741,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_0),16);
+    bufp->fullSData(oldp+928742,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                              >> 4U))),16);
-    bufp->fullSData(oldp+928744,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_1),16);
-    bufp->fullSData(oldp+928745,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_10),16);
-    bufp->fullSData(oldp+928746,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_11),16);
-    bufp->fullSData(oldp+928747,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_12),16);
-    bufp->fullSData(oldp+928748,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_13),16);
-    bufp->fullSData(oldp+928749,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_14),16);
-    bufp->fullSData(oldp+928750,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_15),16);
-    bufp->fullSData(oldp+928751,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_16),16);
-    bufp->fullSData(oldp+928752,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_17),16);
-    bufp->fullSData(oldp+928753,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_18),16);
-    bufp->fullSData(oldp+928754,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_19),16);
-    bufp->fullSData(oldp+928755,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_2),16);
-    bufp->fullSData(oldp+928756,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_20),16);
-    bufp->fullSData(oldp+928757,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_21),16);
-    bufp->fullSData(oldp+928758,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_22),16);
-    bufp->fullSData(oldp+928759,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_23),16);
-    bufp->fullSData(oldp+928760,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_24),16);
-    bufp->fullSData(oldp+928761,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_25),16);
-    bufp->fullSData(oldp+928762,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_26),16);
-    bufp->fullSData(oldp+928763,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_27),16);
-    bufp->fullSData(oldp+928764,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_28),16);
-    bufp->fullSData(oldp+928765,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_29),16);
-    bufp->fullSData(oldp+928766,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_3),16);
-    bufp->fullSData(oldp+928767,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_30),16);
-    bufp->fullSData(oldp+928768,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_31),16);
-    bufp->fullSData(oldp+928769,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_32),16);
-    bufp->fullSData(oldp+928770,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_33),16);
-    bufp->fullSData(oldp+928771,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_34),16);
-    bufp->fullSData(oldp+928772,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_35),16);
-    bufp->fullSData(oldp+928773,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_36),16);
-    bufp->fullSData(oldp+928774,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_37),16);
-    bufp->fullSData(oldp+928775,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_38),16);
-    bufp->fullSData(oldp+928776,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_39),16);
-    bufp->fullSData(oldp+928777,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_4),16);
-    bufp->fullSData(oldp+928778,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_40),16);
-    bufp->fullSData(oldp+928779,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_41),16);
-    bufp->fullSData(oldp+928780,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_42),16);
-    bufp->fullSData(oldp+928781,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_43),16);
-    bufp->fullSData(oldp+928782,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_44),16);
-    bufp->fullSData(oldp+928783,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_45),16);
-    bufp->fullSData(oldp+928784,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_46),16);
-    bufp->fullSData(oldp+928785,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_47),16);
-    bufp->fullSData(oldp+928786,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_5),16);
-    bufp->fullSData(oldp+928787,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_6),16);
-    bufp->fullSData(oldp+928788,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_7),16);
-    bufp->fullSData(oldp+928789,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_8),16);
-    bufp->fullSData(oldp+928790,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_9),16);
-    bufp->fullCData(oldp+928791,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024load_and_step_refr),4);
-    bufp->fullIData(oldp+928792,((0x1fffffU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg)),21);
-    bufp->fullSData(oldp+928793,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164) 
+    bufp->fullSData(oldp+928743,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_1),16);
+    bufp->fullSData(oldp+928744,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_10),16);
+    bufp->fullSData(oldp+928745,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_11),16);
+    bufp->fullSData(oldp+928746,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_12),16);
+    bufp->fullSData(oldp+928747,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_13),16);
+    bufp->fullSData(oldp+928748,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_14),16);
+    bufp->fullSData(oldp+928749,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_15),16);
+    bufp->fullSData(oldp+928750,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_16),16);
+    bufp->fullSData(oldp+928751,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_17),16);
+    bufp->fullSData(oldp+928752,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_18),16);
+    bufp->fullSData(oldp+928753,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_19),16);
+    bufp->fullSData(oldp+928754,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_2),16);
+    bufp->fullSData(oldp+928755,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_20),16);
+    bufp->fullSData(oldp+928756,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_21),16);
+    bufp->fullSData(oldp+928757,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_22),16);
+    bufp->fullSData(oldp+928758,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_23),16);
+    bufp->fullSData(oldp+928759,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_24),16);
+    bufp->fullSData(oldp+928760,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_25),16);
+    bufp->fullSData(oldp+928761,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_26),16);
+    bufp->fullSData(oldp+928762,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_27),16);
+    bufp->fullSData(oldp+928763,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_28),16);
+    bufp->fullSData(oldp+928764,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_29),16);
+    bufp->fullSData(oldp+928765,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_3),16);
+    bufp->fullSData(oldp+928766,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_30),16);
+    bufp->fullSData(oldp+928767,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_31),16);
+    bufp->fullSData(oldp+928768,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_32),16);
+    bufp->fullSData(oldp+928769,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_33),16);
+    bufp->fullSData(oldp+928770,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_34),16);
+    bufp->fullSData(oldp+928771,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_35),16);
+    bufp->fullSData(oldp+928772,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_36),16);
+    bufp->fullSData(oldp+928773,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_37),16);
+    bufp->fullSData(oldp+928774,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_38),16);
+    bufp->fullSData(oldp+928775,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_39),16);
+    bufp->fullSData(oldp+928776,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_4),16);
+    bufp->fullSData(oldp+928777,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_40),16);
+    bufp->fullSData(oldp+928778,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_41),16);
+    bufp->fullSData(oldp+928779,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_42),16);
+    bufp->fullSData(oldp+928780,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_43),16);
+    bufp->fullSData(oldp+928781,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_44),16);
+    bufp->fullSData(oldp+928782,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_45),16);
+    bufp->fullSData(oldp+928783,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_46),16);
+    bufp->fullSData(oldp+928784,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_47),16);
+    bufp->fullSData(oldp+928785,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_5),16);
+    bufp->fullSData(oldp+928786,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_6),16);
+    bufp->fullSData(oldp+928787,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_7),16);
+    bufp->fullSData(oldp+928788,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_8),16);
+    bufp->fullSData(oldp+928789,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__v_t_9),16);
+    bufp->fullCData(oldp+928790,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024load_and_step_refr),4);
+    bufp->fullIData(oldp+928791,((0x1fffffU & vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg)),21);
+    bufp->fullSData(oldp+928792,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164) 
                                    << 0xfU) | (IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_22))),16);
-    bufp->fullBit(oldp+928794,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
+    bufp->fullBit(oldp+928793,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg 
                                       >> 0x15U))));
-    bufp->fullBit(oldp+928795,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024RDY_load_and_step));
-    bufp->fullCData(oldp+928796,((0x3fU & ((IData)(1U) 
+    bufp->fullBit(oldp+928794,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024RDY_load_and_step));
+    bufp->fullCData(oldp+928795,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__input_index)))),6);
-    bufp->fullCData(oldp+928797,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+928796,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__inputs_fed)))),6);
-    bufp->fullCData(oldp+928798,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+928797,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__output_index)))),6);
-    bufp->fullCData(oldp+928799,((0x3fU & ((IData)(1U) 
+    bufp->fullCData(oldp+928798,((0x3fU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__outputs_received)))),6);
-    bufp->fullCData(oldp+928800,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__state))
+    bufp->fullCData(oldp+928799,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__state))
                                    ? 1U : 2U)),2);
-    bufp->fullBit(oldp+928801,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__MUX_state__024write_1___05FSEL_1));
-    bufp->fullBit(oldp+928802,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__MUX_state__024write_1___05FSEL_2));
-    bufp->fullCData(oldp+928803,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214),8);
-    bufp->fullCData(oldp+928804,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BITS_6_TO_0_15_v_t_1_8_BITS_6___05FETC___05F_d264),7);
-    bufp->fullBit(oldp+928805,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164));
-    bufp->fullQData(oldp+928806,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__conf),52);
-    bufp->fullBit(oldp+928808,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__config_valid));
-    bufp->fullSData(oldp+928809,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__inv_tau_cached),16);
-    bufp->fullIData(oldp+928810,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg),22);
-    bufp->fullIData(oldp+928811,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024EN_get_output)
+    bufp->fullBit(oldp+928800,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__MUX_state__024write_1___05FSEL_1));
+    bufp->fullBit(oldp+928801,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__MUX_state__024write_1___05FSEL_2));
+    bufp->fullCData(oldp+928802,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214),8);
+    bufp->fullCData(oldp+928803,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BITS_6_TO_0_15_v_t_1_8_BITS_6___05FETC___05F_d264),7);
+    bufp->fullBit(oldp+928804,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164));
+    bufp->fullQData(oldp+928805,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__conf),52);
+    bufp->fullBit(oldp+928807,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__config_valid));
+    bufp->fullSData(oldp+928808,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__inv_tau_cached),16);
+    bufp->fullIData(oldp+928809,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__output_reg),22);
+    bufp->fullIData(oldp+928810,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024EN_get_output)
                                    ? 0xaaaaaU : (0x200000U 
                                                  | ((((~ (IData)(
                                                                  (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
@@ -7518,10 +7518,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          : 
                                                         ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__a___05Fh2557) 
                                                          << 4U))))))),22);
-    bufp->fullBit(oldp+928812,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024EN_get_output) 
+    bufp->fullBit(oldp+928811,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024EN_get_output) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3))));
-    bufp->fullQData(oldp+928813,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage1_data),38);
-    bufp->fullQData(oldp+928815,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2)
+    bufp->fullQData(oldp+928812,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage1_data),38);
+    bufp->fullQData(oldp+928814,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2)
                                    ? 0xaaaaaaaaaULL
                                    : (0x2000000000ULL 
                                       | (((QData)((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
@@ -7571,10 +7571,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 | (0xfU 
                                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024load_and_step_refr) 
                                                                       - (IData)(1U)))))))))))),38);
-    bufp->fullBit(oldp+928817,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2) 
+    bufp->fullBit(oldp+928816,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_0__024EN_feed_input))));
-    bufp->fullQData(oldp+928818,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data),38);
-    bufp->fullQData(oldp+928820,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3)
+    bufp->fullQData(oldp+928817,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data),38);
+    bufp->fullQData(oldp+928819,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3)
                                    ? 0xaaaaaaaaaULL
                                    : (0x2000000000ULL 
                                       | (((QData)((IData)(
@@ -7636,11 +7636,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                  << 5U) 
                                                                 | (0xfU 
                                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage1_data))))))))))),38);
-    bufp->fullBit(oldp+928822,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3) 
+    bufp->fullBit(oldp+928821,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3) 
                                 | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2))));
-    bufp->fullBit(oldp+928823,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2));
-    bufp->fullBit(oldp+928824,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3));
-    bufp->fullQData(oldp+928825,((0x2000000000ULL | 
+    bufp->fullBit(oldp+928822,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage2));
+    bufp->fullBit(oldp+928823,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__WILL_FIRE_RL_pipeline_stage3));
+    bufp->fullQData(oldp+928824,((0x2000000000ULL | 
                                   (((QData)((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                     << 0x24U) | (((QData)((IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_22)) 
                                                   << 0x15U) 
@@ -7687,7 +7687,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                      | (0xfU 
                                                                         & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024load_and_step_refr) 
                                                                            - (IData)(1U))))))))))),38);
-    bufp->fullQData(oldp+928827,((0x2000000000ULL | 
+    bufp->fullQData(oldp+928826,((0x2000000000ULL | 
                                   (((QData)((IData)(
                                                     (0xffffU 
                                                      & (IData)(
@@ -7746,7 +7746,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                       << 5U) 
                                                                      | (0xfU 
                                                                         & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage1_data)))))))))),38);
-    bufp->fullIData(oldp+928829,((0x200000U | ((((~ (IData)(
+    bufp->fullIData(oldp+928828,((0x200000U | ((((~ (IData)(
                                                             (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                              >> 4U))) 
                                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)) 
@@ -7776,7 +7776,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__a___05Fh2557) 
                                                     << 4U)))))),22);
-    bufp->fullIData(oldp+928830,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024load_and_step_refr))
+    bufp->fullIData(oldp+928829,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024load_and_step_refr))
                                    ? ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92) 
                                         & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                         ? 0U : (0xffffU 
@@ -7812,7 +7812,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                 | (0xfU 
                                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__024load_and_step_refr) 
                                                       - (IData)(1U)))))),21);
-    bufp->fullIData(oldp+928831,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)
+    bufp->fullIData(oldp+928830,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6)
                                    ? ((0xffff0U & ((IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__conf 
                                                             >> 0x14U)) 
@@ -7820,10 +7820,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                       | (0xfU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__conf)))
                                    : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__a___05Fh2557) 
                                       << 4U))),20);
-    bufp->fullSData(oldp+928832,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
+    bufp->fullSData(oldp+928831,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F_snd___05Fh1595)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___0_CONCAT_NOT_inv_tau_cached_4_BITS_14_TO_7_0_E_ETC___05F_d37))),16);
-    bufp->fullSData(oldp+928833,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_19) 
+    bufp->fullSData(oldp+928832,((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_19) 
                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                    ? ((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                                   << 0xfU)) 
@@ -7831,7 +7831,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                    : ((0U == (0x3ffU 
                                               & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__x___05Fh4179)))
                                        ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__result_raw___05Fh4385)))),16);
-    bufp->fullSData(oldp+928834,((0xffffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_28) 
+    bufp->fullSData(oldp+928833,((0xffffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_28) 
                                               & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84))
                                               ? (IData)(
                                                         (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__conf 
@@ -7850,7 +7850,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__x___05Fh4179)))
                                                    ? 0U
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__result_raw___05Fh4385)))))),16);
-    bufp->fullSData(oldp+928835,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92)
+    bufp->fullSData(oldp+928834,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_92)
                                               ? (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2164334_0_sa_result_o_BIT_15_1_sa_result_ETC___05Fq535) 
                                                   << 0xfU) 
                                                  | (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2164334_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq536) 
@@ -7876,8 +7876,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__x___05Fh4179)))
                                                     ? 0U
                                                     : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__result_raw___05Fh4385))))))),16);
-    bufp->fullSData(oldp+928836,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__a___05Fh2557),16);
-    bufp->fullSData(oldp+928837,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
+    bufp->fullSData(oldp+928835,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__a___05Fh2557),16);
+    bufp->fullSData(oldp+928836,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
                                                 ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__result_sign___05Fh2962)
                                                 : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___0b1_CONCAT_IF_IF_stage2_data_BIT_37_THEN_stage_ETC___05F_d271)
                                                     ? 
@@ -7968,20 +7968,20 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                       : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__tmp___05Fh2907)) 
                                                     << 1U))
                                               : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__tmp___05Fh2907))))))),16);
-    bufp->fullSData(oldp+928838,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
+    bufp->fullSData(oldp+928837,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)) 
                                               << 0xfU)) 
                                   | (IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_22))),16);
-    bufp->fullSData(oldp+928839,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__result_raw___05Fh4385),16);
-    bufp->fullSData(oldp+928840,((0xffffU & (IData)(
+    bufp->fullSData(oldp+928838,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__result_raw___05Fh4385),16);
+    bufp->fullSData(oldp+928839,((0xffffU & (IData)(
                                                     (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage1_data 
+                                                     >> 5U)))),16);
+    bufp->fullSData(oldp+928840,((0xffffU & (IData)(
+                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                      >> 5U)))),16);
     bufp->fullSData(oldp+928841,((0xffffU & (IData)(
                                                     (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
-                                                     >> 5U)))),16);
-    bufp->fullSData(oldp+928842,((0xffffU & (IData)(
-                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                      >> 0x15U)))),16);
-    bufp->fullSData(oldp+928843,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__final_exp_10___05Fh1448) 
+    bufp->fullSData(oldp+928842,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__final_exp_10___05Fh1448) 
                                             >> 9U) 
                                            | (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__final_exp_10___05Fh1448))))
                                    ? ((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__final_exp_10___05Fh1448))
@@ -7994,7 +7994,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      << 7U)) 
                                                  | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__final_mant___05Fh1447))
                                                  : 0x7f80U))),15);
-    bufp->fullSData(oldp+928844,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__x___05Fh4179))
+    bufp->fullSData(oldp+928843,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__x___05Fh4179))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)) 
                                                   << 7U)) 
@@ -8068,7 +8068,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__x___05Fh4179)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__x___05Fh4179)))))),15);
-    bufp->fullSData(oldp+928845,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__tmp___05Fh2907))
+    bufp->fullSData(oldp+928844,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__tmp___05Fh2907))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986)) 
                                                   << 7U)) 
@@ -8145,7 +8145,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__tmp___05Fh2907)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__tmp___05Fh2907)))))),15);
-    bufp->fullSData(oldp+928846,((((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+928845,((((IData)((0U == (0x7fffU 
                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__inv_tau_cached)))) 
                                    | (IData)((0ULL 
                                               == (0xfffe0ULL 
@@ -8167,7 +8167,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__final_mant___05Fh1447))
                                                 : 0x7f80U)))),15);
-    bufp->fullSData(oldp+928847,((0x7ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)
+    bufp->fullSData(oldp+928846,((0x7ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_a___05Fh4163)
                                               : (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_a___05Fh4163))) 
                                             + ((1U 
@@ -8176,10 +8176,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                            >> 0x23U)))
                                                 ? (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_b___05Fh4164))
                                                 : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_b___05Fh4164))))),11);
-    bufp->fullSData(oldp+928848,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_load_and_step_v_t_BIT_15_25_THEN_SEXT___05F0_CO_ETC___05F_d460),11);
-    bufp->fullSData(oldp+928849,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_b___05Fh4164),11);
-    bufp->fullSData(oldp+928850,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_a___05Fh4163),11);
-    bufp->fullSData(oldp+928851,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullSData(oldp+928847,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_load_and_step_v_t_BIT_15_25_THEN_SEXT___05F0_CO_ETC___05F_d460),11);
+    bufp->fullSData(oldp+928848,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_b___05Fh4164),11);
+    bufp->fullSData(oldp+928849,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_a___05Fh4163),11);
+    bufp->fullSData(oldp+928850,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -8187,8 +8187,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2164334_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq536))))))),11);
-    bufp->fullSData(oldp+928852,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__x___05Fh4179),11);
-    bufp->fullSData(oldp+928853,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
+    bufp->fullSData(oldp+928851,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__x___05Fh4179),11);
+    bufp->fullSData(oldp+928852,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
                                              ? (0x3feU 
                                                 & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_45)
                                                      ? 
@@ -8228,10 +8228,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__x___05Fh4179)) 
                                                    << 1U))
                                              : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__x___05Fh4179)))),10);
-    bufp->fullSData(oldp+928854,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441),10);
-    bufp->fullSData(oldp+928855,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_a___05Fh4163),10);
-    bufp->fullSData(oldp+928856,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_b___05Fh4164),10);
-    bufp->fullSData(oldp+928857,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullSData(oldp+928853,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441),10);
+    bufp->fullSData(oldp+928854,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_a___05Fh4163),10);
+    bufp->fullSData(oldp+928855,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_b___05Fh4164),10);
+    bufp->fullSData(oldp+928856,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -8239,11 +8239,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2164334_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq536))))))),10);
-    bufp->fullSData(oldp+928858,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__final_exp_10___05Fh1448),10);
-    bufp->fullSData(oldp+928859,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+928857,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__final_exp_10___05Fh1448),10);
+    bufp->fullSData(oldp+928858,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+928860,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
+    bufp->fullSData(oldp+928859,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_13)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_60)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_62)
@@ -8382,27 +8382,27 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+928861,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928860,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+928862,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928861,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928863,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928862,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928864,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928863,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928865,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928864,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928866,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928865,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -8418,7 +8418,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928867,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928866,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -8433,7 +8433,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928868,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928867,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -8447,7 +8447,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928869,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928868,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -8460,7 +8460,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928870,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928869,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -8472,7 +8472,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928871,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+928870,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -8483,7 +8483,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928872,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928871,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -8492,7 +8492,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928873,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928872,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -8500,14 +8500,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928874,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
+    bufp->fullSData(oldp+928873,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+928875,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
+    bufp->fullSData(oldp+928874,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_33)
@@ -8549,64 +8549,64 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__tmp___05Fh2907)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__tmp___05Fh2907))),9);
-    bufp->fullSData(oldp+928876,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullSData(oldp+928875,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__inv_tau_cached) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+928877,(((0U == (0xffU & (IData)(
+    bufp->fullSData(oldp+928876,(((0U == (0xffU & (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage1_data 
                                                            >> 0xcU))))
                                    ? 1U : (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU))))),9);
-    bufp->fullSData(oldp+928878,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441),9);
-    bufp->fullSData(oldp+928879,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+928877,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__exp_sum___05Fh1441),9);
+    bufp->fullSData(oldp+928878,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+928880,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+928879,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__smaller_m___05Fh2901)))),9);
-    bufp->fullSData(oldp+928881,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__smaller_m___05Fh2901) 
+    bufp->fullSData(oldp+928880,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__smaller_m___05Fh2901) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))))),9);
-    bufp->fullSData(oldp+928882,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__tmp___05Fh2907),9);
-    bufp->fullCData(oldp+928883,((((0U != (0xffU & 
+    bufp->fullSData(oldp+928881,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__tmp___05Fh2907),9);
+    bufp->fullCData(oldp+928882,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__inv_tau_cached) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__inv_tau_cached)))),8);
-    bufp->fullCData(oldp+928884,((((0U != (0xffU & (IData)(
+    bufp->fullCData(oldp+928883,((((0U != (0xffU & (IData)(
                                                            (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage1_data 
                                                             >> 0xcU)))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(
                                                        (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage1_data 
                                                         >> 5U))))),8);
-    bufp->fullCData(oldp+928885,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
-    bufp->fullCData(oldp+928886,((0xffU & ((IData)(
+    bufp->fullCData(oldp+928884,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262))),8);
+    bufp->fullCData(oldp+928885,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                     >> 0x1cU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                       >> 0xcU))))),8);
-    bufp->fullCData(oldp+928887,((0xffU & ((IData)(
+    bufp->fullCData(oldp+928886,((0xffU & ((IData)(
                                                    (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                     >> 0xcU)) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                       >> 0x1cU))))),8);
-    bufp->fullCData(oldp+928888,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928887,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BITS_14_TO_7_65_v_t_1_8_BITS_1_ETC___05F_d214)))),8);
-    bufp->fullCData(oldp+928889,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928888,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(
                                                      (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__conf 
                                                       >> 0x1bU))))),8);
-    bufp->fullCData(oldp+928890,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928889,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2164334_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq536)))),8);
-    bufp->fullCData(oldp+928891,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+928890,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986)))),8);
-    bufp->fullCData(oldp+928892,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
+    bufp->fullCData(oldp+928891,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F_fst_exp___05Fh2986) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_14)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_31)
                                                    ? 
@@ -8630,11 +8630,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+928893,((0xffU & ((IData)(2U) 
+    bufp->fullCData(oldp+928892,((0xffU & ((IData)(2U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+928894,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+928893,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159)))),8);
-    bufp->fullCData(oldp+928895,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
+    bufp->fullCData(oldp+928894,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_16)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_45)
                                                    ? 
@@ -8658,9 +8658,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+928896,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_a___05Fh4163),8);
-    bufp->fullCData(oldp+928897,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_b___05Fh4164),8);
-    bufp->fullCData(oldp+928898,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
+    bufp->fullCData(oldp+928895,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_a___05Fh4163),8);
+    bufp->fullCData(oldp+928896,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__man_b___05Fh4164),8);
+    bufp->fullCData(oldp+928897,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_84)
                                    ? 0U : (0xffU & 
                                            VL_SHIFTR_III(8,8,8, 
                                                          (0x80U 
@@ -8668,8 +8668,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (0xffU 
                                                           & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___theResult___05F___05F_2___05Fh4159) 
                                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__CASE_x2164334_0_sa_result_o_BITS_14_TO_7_1_sa___05FETC___05Fq536))))))),8);
-    bufp->fullCData(oldp+928899,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__smaller_m___05Fh2901),8);
-    bufp->fullCData(oldp+928900,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+928898,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__smaller_m___05Fh2901),8);
+    bufp->fullCData(oldp+928899,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -8682,7 +8682,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                                        >> 0xcU))))))),8);
-    bufp->fullCData(oldp+928901,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+928900,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(
@@ -8695,9 +8695,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - (IData)(
                                                                       (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                                        >> 0x1cU))))))),8);
-    bufp->fullCData(oldp+928902,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
-    bufp->fullCData(oldp+928903,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__final_mant___05Fh1447),7);
-    bufp->fullBit(oldp+928904,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__a___05Fh2557) 
+    bufp->fullCData(oldp+928901,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d262),7);
+    bufp->fullCData(oldp+928902,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__final_mant___05Fh1447),7);
+    bufp->fullBit(oldp+928903,((1U & (((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__a___05Fh2557) 
                                               >> 0xfU)) 
                                        == (1U & (IData)(
                                                         (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__conf 
@@ -8724,17 +8724,17 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 >> 0x24U)))))))
                                        : (~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__a___05Fh2557) 
                                              >> 0xfU))))));
-    bufp->fullBit(oldp+928905,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
-    bufp->fullBit(oldp+928906,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
-    bufp->fullBit(oldp+928907,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
+    bufp->fullBit(oldp+928904,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376));
+    bufp->fullBit(oldp+928905,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377));
+    bufp->fullBit(oldp+928906,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376) 
                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377) 
                                    | ((0x7fU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__a___05Fh2557)) 
                                       < (0x7fU & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__conf 
                                                           >> 0x24U))))))));
-    bufp->fullBit(oldp+928908,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
-    bufp->fullBit(oldp+928909,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
-    bufp->fullBit(oldp+928910,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
+    bufp->fullBit(oldp+928907,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259));
+    bufp->fullBit(oldp+928908,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260));
+    bufp->fullBit(oldp+928909,((1U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d376)) 
                                       | ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_IF_stage2_data_BIT_37_THEN_stage2_data_BITS_ETC___05F_d377)) 
                                          & ((0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__a___05Fh2557)) 
@@ -8742,14 +8742,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                & (IData)(
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__conf 
                                                           >> 0x24U)))))))));
-    bufp->fullBit(oldp+928911,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
+    bufp->fullBit(oldp+928910,(((~ (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                             >> 4U))) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT____VdfgRegularize_h799d9463_0_6))));
-    bufp->fullBit(oldp+928912,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__inv_tau_cached) 
+    bufp->fullBit(oldp+928911,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__inv_tau_cached) 
                                        >> 0xfU) ^ (IData)(
                                                           (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage1_data 
                                                            >> 0x14U))))));
-    bufp->fullBit(oldp+928913,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
+    bufp->fullBit(oldp+928912,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d259)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__result_sign___05Fh2962)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT___0b1_CONCAT_IF_IF_stage2_data_BIT_37_THEN_stage_ETC___05F_d271)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
@@ -8760,28 +8760,28 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                          (vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                           >> 0x14U)))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__result_sign___05Fh2962))))));
-    bufp->fullBit(oldp+928914,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__result_sign___05Fh2962));
-    bufp->fullBit(oldp+928915,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
+    bufp->fullBit(oldp+928913,(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__result_sign___05Fh2962));
+    bufp->fullBit(oldp+928914,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__IF_stage2_data_BIT_37_THEN_stage2_data_BITS_36_ETC___05F_d260)
                                        ? (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                   >> 0x24U))
                                        : (IData)((vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__lif__DOT__stage2_data 
                                                   >> 0x14U))))));
-    bufp->fullBit(oldp+928916,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
-    bufp->fullSData(oldp+928917,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__chunks_processed),10);
-    bufp->fullSData(oldp+928918,((0x3ffU & ((IData)(1U) 
+    bufp->fullBit(oldp+928915,((1U & (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__lif__DOT__neurons_9__DOT__SEL_ARR_v_t_0_6_BIT_15_7_v_t_1_8_BIT_15_9_v_t___05FETC___05F_d164)))));
+    bufp->fullSData(oldp+928916,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__chunks_processed),10);
+    bufp->fullSData(oldp+928917,((0x3ffU & ((IData)(1U) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__chunks_processed)))),10);
-    bufp->fullIData(oldp+928919,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__cycle_count),32);
-    bufp->fullIData(oldp+928920,(((IData)(1U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__cycle_count)),32);
-    bufp->fullCData(oldp+928921,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx),3);
-    bufp->fullCData(oldp+928922,(((3U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx))
+    bufp->fullIData(oldp+928918,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__cycle_count),32);
+    bufp->fullIData(oldp+928919,(((IData)(1U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__cycle_count)),32);
+    bufp->fullCData(oldp+928920,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx),3);
+    bufp->fullCData(oldp+928921,(((3U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx))
                                    ? 0U : (7U & ((IData)(1U) 
                                                  + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx))))),3);
-    bufp->fullBit(oldp+928923,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1__024EN));
-    bufp->fullWData(oldp+928924,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__024D_IN),128);
-    bufp->fullBit(oldp+928928,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN));
-    bufp->fullBit(oldp+928929,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__full_reg));
-    bufp->fullWData(oldp+928930,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__024D_IN),128);
-    bufp->fullBit(oldp+928934,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__full_reg));
+    bufp->fullBit(oldp+928922,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1__024EN));
+    bufp->fullWData(oldp+928923,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__024D_IN),128);
+    bufp->fullBit(oldp+928927,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN));
+    bufp->fullBit(oldp+928928,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__full_reg));
+    bufp->fullWData(oldp+928929,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__024D_IN),128);
+    bufp->fullBit(oldp+928933,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__full_reg));
     __Vtemp_2[0U] = (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__024put_data_data) 
                       << 0x10U) | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__024put_data_data));
     __Vtemp_2[1U] = (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_3__024put_data_data) 
@@ -8801,8 +8801,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                              << 0x10U) 
                                                             | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_4__024put_data_data))))) 
                              >> 0x20U));
-    bufp->fullWData(oldp+928935,(__Vtemp_2),128);
-    bufp->fullBit(oldp+928939,(((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_valid) 
+    bufp->fullWData(oldp+928934,(__Vtemp_2),128);
+    bufp->fullBit(oldp+928938,(((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_valid) 
                                       & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__result_valid)) 
                                      & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_2__DOT__result_valid)) 
                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_3__DOT__result_valid)) 
@@ -8810,7 +8810,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_5__DOT__result_valid)) 
                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_6__DOT__result_valid)) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_7__DOT__result_valid))));
-    bufp->fullBit(oldp+928940,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_valid));
+    bufp->fullBit(oldp+928939,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_valid));
     __Vtemp_4[0U] = (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_1__024put_data_data) 
                       << 0x10U) | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_0__024put_data_data));
     __Vtemp_4[1U] = (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_3__024put_data_data) 
@@ -8830,8 +8830,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                              << 0x10U) 
                                                             | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_4__024put_data_data))))) 
                              >> 0x20U));
-    bufp->fullWData(oldp+928941,(__Vtemp_4),128);
-    bufp->fullBit(oldp+928945,(((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_0__DOT__result_valid) 
+    bufp->fullWData(oldp+928940,(__Vtemp_4),128);
+    bufp->fullBit(oldp+928944,(((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_0__DOT__result_valid) 
                                       & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_1__DOT__result_valid)) 
                                      & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_2__DOT__result_valid)) 
                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_3__DOT__result_valid)) 
@@ -8839,14 +8839,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_5__DOT__result_valid)) 
                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_6__DOT__result_valid)) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_7__DOT__result_valid))));
-    bufp->fullBit(oldp+928946,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_0__DOT__result_valid));
-    bufp->fullWData(oldp+928947,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__max_unit__024findMax),512);
-    bufp->fullBit(oldp+928963,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__p_fifo__DOT__full_reg));
-    bufp->fullWData(oldp+928964,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_input_fifo__024D_IN),1536);
-    bufp->fullWData(oldp+929012,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_input_fifo__DOT__data0_reg),1536);
-    bufp->fullBit(oldp+929060,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_input_fifo__024DEQ));
-    bufp->fullBit(oldp+929061,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_input_fifo__DOT__empty_reg));
-    bufp->fullBit(oldp+929062,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_input_fifo__DOT__full_reg));
+    bufp->fullBit(oldp+928945,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_0__DOT__result_valid));
+    bufp->fullWData(oldp+928946,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__max_unit__024findMax),512);
+    bufp->fullBit(oldp+928962,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__p_fifo__DOT__full_reg));
+    bufp->fullWData(oldp+928963,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_input_fifo__024D_IN),1536);
+    bufp->fullWData(oldp+929011,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_input_fifo__DOT__data0_reg),1536);
+    bufp->fullBit(oldp+929059,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_input_fifo__024DEQ));
+    bufp->fullBit(oldp+929060,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_input_fifo__DOT__empty_reg));
+    bufp->fullBit(oldp+929061,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_input_fifo__DOT__full_reg));
     __Vtemp_10[0U] = (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_1__024put_data_data) 
                        << 0x10U) | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_0__024put_data_data));
     __Vtemp_10[1U] = (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_3__024put_data_data) 
@@ -8874,7 +8874,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                               << 0x10U) 
                                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_4__024put_data_data))))) 
                               >> 0x20U));
-    bufp->fullWData(oldp+929063,(__Vtemp_10),256);
+    bufp->fullWData(oldp+929062,(__Vtemp_10),256);
     __Vtemp_12[0U] = ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq43) 
                         << 0x1fU) | (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq44) 
                                       << 0x17U) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq45) 
@@ -8936,7 +8936,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                     << 7U) 
                                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq36))))))) 
                               >> 0x20U));
-    bufp->fullWData(oldp+929071,(__Vtemp_12),128);
+    bufp->fullWData(oldp+929070,(__Vtemp_12),128);
     __Vtemp_14[0U] = ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq19) 
                         << 0x1fU) | (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq20) 
                                       << 0x17U) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq21) 
@@ -8998,7 +8998,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                     << 7U) 
                                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq12))))))) 
                               >> 0x20U));
-    bufp->fullWData(oldp+929075,(__Vtemp_14),128);
+    bufp->fullWData(oldp+929074,(__Vtemp_14),128);
     __Vtemp_16[0U] = ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq67) 
                         << 0x1fU) | (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq68) 
                                       << 0x17U) | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq69) 
@@ -9060,98 +9060,98 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                     << 7U) 
                                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq60))))))) 
                               >> 0x20U));
-    bufp->fullWData(oldp+929079,(__Vtemp_16),128);
-    bufp->fullCData(oldp+929083,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq2),8);
-    bufp->fullCData(oldp+929084,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq26),8);
-    bufp->fullCData(oldp+929085,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq50),8);
-    bufp->fullCData(oldp+929086,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq5),8);
-    bufp->fullCData(oldp+929087,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq29),8);
-    bufp->fullCData(oldp+929088,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq53),8);
-    bufp->fullCData(oldp+929089,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq8),8);
-    bufp->fullCData(oldp+929090,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq32),8);
-    bufp->fullCData(oldp+929091,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq56),8);
-    bufp->fullCData(oldp+929092,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq11),8);
-    bufp->fullCData(oldp+929093,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq35),8);
-    bufp->fullCData(oldp+929094,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq59),8);
-    bufp->fullCData(oldp+929095,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq14),8);
-    bufp->fullCData(oldp+929096,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq38),8);
-    bufp->fullCData(oldp+929097,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq62),8);
-    bufp->fullCData(oldp+929098,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq17),8);
-    bufp->fullCData(oldp+929099,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq41),8);
-    bufp->fullCData(oldp+929100,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq65),8);
-    bufp->fullCData(oldp+929101,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq20),8);
-    bufp->fullCData(oldp+929102,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq44),8);
-    bufp->fullCData(oldp+929103,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq68),8);
-    bufp->fullCData(oldp+929104,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq23),8);
-    bufp->fullCData(oldp+929105,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq47),8);
-    bufp->fullCData(oldp+929106,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq71),8);
-    bufp->fullCData(oldp+929107,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq3),7);
-    bufp->fullCData(oldp+929108,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq51),7);
-    bufp->fullCData(oldp+929109,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq27),7);
-    bufp->fullCData(oldp+929110,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq6),7);
-    bufp->fullCData(oldp+929111,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq54),7);
-    bufp->fullCData(oldp+929112,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq30),7);
-    bufp->fullCData(oldp+929113,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq9),7);
-    bufp->fullCData(oldp+929114,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq57),7);
-    bufp->fullCData(oldp+929115,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq33),7);
-    bufp->fullCData(oldp+929116,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq12),7);
-    bufp->fullCData(oldp+929117,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq60),7);
-    bufp->fullCData(oldp+929118,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq36),7);
-    bufp->fullCData(oldp+929119,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq15),7);
-    bufp->fullCData(oldp+929120,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq63),7);
-    bufp->fullCData(oldp+929121,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq39),7);
-    bufp->fullCData(oldp+929122,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq18),7);
-    bufp->fullCData(oldp+929123,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq66),7);
-    bufp->fullCData(oldp+929124,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq42),7);
-    bufp->fullCData(oldp+929125,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq21),7);
-    bufp->fullCData(oldp+929126,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq69),7);
-    bufp->fullCData(oldp+929127,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq45),7);
-    bufp->fullCData(oldp+929128,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq24),7);
-    bufp->fullCData(oldp+929129,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq72),7);
-    bufp->fullCData(oldp+929130,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq48),7);
-    bufp->fullBit(oldp+929131,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq1));
-    bufp->fullBit(oldp+929132,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq25));
-    bufp->fullBit(oldp+929133,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq49));
-    bufp->fullBit(oldp+929134,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq4));
-    bufp->fullBit(oldp+929135,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq28));
-    bufp->fullBit(oldp+929136,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq52));
-    bufp->fullBit(oldp+929137,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq7));
-    bufp->fullBit(oldp+929138,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq31));
-    bufp->fullBit(oldp+929139,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq55));
-    bufp->fullBit(oldp+929140,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq10));
-    bufp->fullBit(oldp+929141,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq34));
-    bufp->fullBit(oldp+929142,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq58));
-    bufp->fullBit(oldp+929143,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq13));
-    bufp->fullBit(oldp+929144,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq37));
-    bufp->fullBit(oldp+929145,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq61));
-    bufp->fullBit(oldp+929146,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq16));
-    bufp->fullBit(oldp+929147,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq40));
-    bufp->fullBit(oldp+929148,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq64));
-    bufp->fullBit(oldp+929149,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq19));
-    bufp->fullBit(oldp+929150,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq43));
-    bufp->fullBit(oldp+929151,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq67));
-    bufp->fullBit(oldp+929152,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq22));
-    bufp->fullBit(oldp+929153,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq46));
-    bufp->fullBit(oldp+929154,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq70));
-    bufp->fullCData(oldp+929155,((7U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
+    bufp->fullWData(oldp+929078,(__Vtemp_16),128);
+    bufp->fullCData(oldp+929082,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq2),8);
+    bufp->fullCData(oldp+929083,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq26),8);
+    bufp->fullCData(oldp+929084,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq50),8);
+    bufp->fullCData(oldp+929085,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq5),8);
+    bufp->fullCData(oldp+929086,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq29),8);
+    bufp->fullCData(oldp+929087,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq53),8);
+    bufp->fullCData(oldp+929088,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq8),8);
+    bufp->fullCData(oldp+929089,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq32),8);
+    bufp->fullCData(oldp+929090,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq56),8);
+    bufp->fullCData(oldp+929091,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq11),8);
+    bufp->fullCData(oldp+929092,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq35),8);
+    bufp->fullCData(oldp+929093,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq59),8);
+    bufp->fullCData(oldp+929094,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq14),8);
+    bufp->fullCData(oldp+929095,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq38),8);
+    bufp->fullCData(oldp+929096,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq62),8);
+    bufp->fullCData(oldp+929097,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq17),8);
+    bufp->fullCData(oldp+929098,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq41),8);
+    bufp->fullCData(oldp+929099,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq65),8);
+    bufp->fullCData(oldp+929100,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq20),8);
+    bufp->fullCData(oldp+929101,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq44),8);
+    bufp->fullCData(oldp+929102,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq68),8);
+    bufp->fullCData(oldp+929103,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_1038_T_ETC___05Fq23),8);
+    bufp->fullCData(oldp+929104,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_14_TO___05FETC___05Fq47),8);
+    bufp->fullCData(oldp+929105,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_526_TO_ETC___05Fq71),8);
+    bufp->fullCData(oldp+929106,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq3),7);
+    bufp->fullCData(oldp+929107,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq51),7);
+    bufp->fullCData(oldp+929108,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq27),7);
+    bufp->fullCData(oldp+929109,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq6),7);
+    bufp->fullCData(oldp+929110,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq54),7);
+    bufp->fullCData(oldp+929111,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq30),7);
+    bufp->fullCData(oldp+929112,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq9),7);
+    bufp->fullCData(oldp+929113,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq57),7);
+    bufp->fullCData(oldp+929114,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq33),7);
+    bufp->fullCData(oldp+929115,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq12),7);
+    bufp->fullCData(oldp+929116,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq60),7);
+    bufp->fullCData(oldp+929117,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq36),7);
+    bufp->fullCData(oldp+929118,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq15),7);
+    bufp->fullCData(oldp+929119,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq63),7);
+    bufp->fullCData(oldp+929120,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq39),7);
+    bufp->fullCData(oldp+929121,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq18),7);
+    bufp->fullCData(oldp+929122,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq66),7);
+    bufp->fullCData(oldp+929123,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq42),7);
+    bufp->fullCData(oldp+929124,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq21),7);
+    bufp->fullCData(oldp+929125,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq69),7);
+    bufp->fullCData(oldp+929126,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq45),7);
+    bufp->fullCData(oldp+929127,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_1030_T_ETC___05Fq24),7);
+    bufp->fullCData(oldp+929128,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_518_TO_ETC___05Fq72),7);
+    bufp->fullCData(oldp+929129,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BITS_6_TO_0_ETC___05Fq48),7);
+    bufp->fullBit(oldp+929130,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq1));
+    bufp->fullBit(oldp+929131,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq25));
+    bufp->fullBit(oldp+929132,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx245_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq49));
+    bufp->fullBit(oldp+929133,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq4));
+    bufp->fullBit(oldp+929134,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq28));
+    bufp->fullBit(oldp+929135,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx255_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq52));
+    bufp->fullBit(oldp+929136,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq7));
+    bufp->fullBit(oldp+929137,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq31));
+    bufp->fullBit(oldp+929138,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx265_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq55));
+    bufp->fullBit(oldp+929139,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq10));
+    bufp->fullBit(oldp+929140,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq34));
+    bufp->fullBit(oldp+929141,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx275_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq58));
+    bufp->fullBit(oldp+929142,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq13));
+    bufp->fullBit(oldp+929143,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq37));
+    bufp->fullBit(oldp+929144,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx285_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq61));
+    bufp->fullBit(oldp+929145,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq16));
+    bufp->fullBit(oldp+929146,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq40));
+    bufp->fullBit(oldp+929147,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx295_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq64));
+    bufp->fullBit(oldp+929148,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq19));
+    bufp->fullBit(oldp+929149,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq43));
+    bufp->fullBit(oldp+929150,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx305_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq67));
+    bufp->fullBit(oldp+929151,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BIT_1039_1___05FETC___05Fq22));
+    bufp->fullBit(oldp+929152,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BIT_15_1_su_ETC___05Fq46));
+    bufp->fullBit(oldp+929153,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__CASE_idx315_0_sub_input_fifoD_OUT_BIT_527_1_s_ETC___05Fq70));
+    bufp->fullCData(oldp+929154,((7U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
                                                  << 3U)))),5);
-    bufp->fullCData(oldp+929156,((6U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
+    bufp->fullCData(oldp+929155,((6U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
                                                  << 3U)))),5);
-    bufp->fullCData(oldp+929157,((5U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
+    bufp->fullCData(oldp+929156,((5U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
                                                  << 3U)))),5);
-    bufp->fullCData(oldp+929158,((4U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
+    bufp->fullCData(oldp+929157,((4U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
                                                  << 3U)))),5);
-    bufp->fullCData(oldp+929159,((3U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
+    bufp->fullCData(oldp+929158,((3U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
                                                  << 3U)))),5);
-    bufp->fullCData(oldp+929160,((2U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
+    bufp->fullCData(oldp+929159,((2U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
                                                  << 3U)))),5);
-    bufp->fullCData(oldp+929161,((1U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
+    bufp->fullCData(oldp+929160,((1U | (0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
                                                  << 3U)))),5);
-    bufp->fullCData(oldp+929162,((0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
+    bufp->fullCData(oldp+929161,((0x18U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx) 
                                            << 3U))),5);
-    bufp->fullCData(oldp+929163,((7U & ((IData)(1U) 
+    bufp->fullCData(oldp+929162,((7U & ((IData)(1U) 
                                         + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__sub_batch_idx)))),3);
-    bufp->fullBit(oldp+929164,((((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_valid) 
+    bufp->fullBit(oldp+929163,((((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_valid) 
                                        & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__result_valid)) 
                                       & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_2__DOT__result_valid)) 
                                      & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_3__DOT__result_valid)) 
@@ -9169,75 +9169,75 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit2__DOT__exp_units_7__DOT__result_valid)) 
                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__full_reg) 
                                       & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__full_reg))))));
-    bufp->fullWData(oldp+929165,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__data1_reg),128);
-    bufp->fullBit(oldp+929169,((((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__empty_reg)) 
+    bufp->fullWData(oldp+929164,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__data1_reg),128);
+    bufp->fullBit(oldp+929168,((((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__empty_reg)) 
                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN)) 
                                 | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN) 
                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__024EN_get_e1) 
                                       & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__full_reg))))));
-    bufp->fullBit(oldp+929170,(((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__full_reg)) 
+    bufp->fullBit(oldp+929169,(((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__full_reg)) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__024EN_get_e1))));
-    bufp->fullBit(oldp+929171,(((IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_4) 
+    bufp->fullBit(oldp+929170,(((IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_4) 
                                 | (((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__024EN_get_e1)) 
                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__empty_reg)) 
                                    | ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN)) 
                                       & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__full_reg))))));
-    bufp->fullBit(oldp+929172,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN) 
+    bufp->fullBit(oldp+929171,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__empty_reg))));
-    bufp->fullBit(oldp+929173,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__error_checks__DOT__deqerror));
-    bufp->fullBit(oldp+929174,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__error_checks__DOT__enqerror));
-    bufp->fullWData(oldp+929175,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__data1_reg),128);
-    bufp->fullBit(oldp+929179,((((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__empty_reg)) 
+    bufp->fullBit(oldp+929172,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__error_checks__DOT__deqerror));
+    bufp->fullBit(oldp+929173,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e1_fifo__DOT__error_checks__DOT__enqerror));
+    bufp->fullWData(oldp+929174,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__data1_reg),128);
+    bufp->fullBit(oldp+929178,((((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__empty_reg)) 
                                  & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN)) 
                                 | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN) 
                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__024EN_get_e1) 
                                       & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__full_reg))))));
-    bufp->fullBit(oldp+929180,(((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__full_reg)) 
+    bufp->fullBit(oldp+929179,(((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__full_reg)) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__024EN_get_e1))));
-    bufp->fullBit(oldp+929181,(((IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_4) 
+    bufp->fullBit(oldp+929180,(((IData)(vlSelfRef.__VdfgRegularize_h6171c202_0_4) 
                                 | (((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__024EN_get_e1)) 
                                     & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__empty_reg)) 
                                    | ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN)) 
                                       & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__full_reg))))));
-    bufp->fullBit(oldp+929182,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN) 
+    bufp->fullBit(oldp+929181,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected__024EN) 
                                 & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__empty_reg))));
-    bufp->fullBit(oldp+929183,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__error_checks__DOT__deqerror));
-    bufp->fullBit(oldp+929184,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__error_checks__DOT__enqerror));
-    bufp->fullIData(oldp+929185,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__inputs_fed),32);
-    bufp->fullIData(oldp+929186,(((IData)(1U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__inputs_fed)),32);
-    bufp->fullIData(oldp+929187,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected),32);
-    bufp->fullIData(oldp+929188,(((IData)(1U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected)),32);
-    bufp->fullSData(oldp+929189,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_data),16);
-    bufp->fullSData(oldp+929190,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__024put_data_data),16);
-    bufp->fullSData(oldp+929191,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__result_data),16);
-    bufp->fullSData(oldp+929192,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__024put_data_data),16);
-    bufp->fullBit(oldp+929193,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__result_valid));
-    bufp->fullSData(oldp+929194,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_2__DOT__result_data),16);
-    bufp->fullSData(oldp+929195,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_2__024put_data_data),16);
-    bufp->fullBit(oldp+929196,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_2__DOT__result_valid));
-    bufp->fullSData(oldp+929197,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_3__DOT__result_data),16);
-    bufp->fullSData(oldp+929198,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_3__024put_data_data),16);
-    bufp->fullBit(oldp+929199,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_3__DOT__result_valid));
-    bufp->fullSData(oldp+929200,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_4__DOT__result_data),16);
-    bufp->fullSData(oldp+929201,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_4__024put_data_data),16);
-    bufp->fullBit(oldp+929202,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_4__DOT__result_valid));
-    bufp->fullSData(oldp+929203,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_5__DOT__result_data),16);
-    bufp->fullSData(oldp+929204,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_5__024put_data_data),16);
-    bufp->fullBit(oldp+929205,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_5__DOT__result_valid));
-    bufp->fullSData(oldp+929206,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_6__DOT__result_data),16);
-    bufp->fullSData(oldp+929207,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_6__024put_data_data),16);
-    bufp->fullBit(oldp+929208,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_6__DOT__result_valid));
-    bufp->fullSData(oldp+929209,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_7__DOT__result_data),16);
-    bufp->fullSData(oldp+929210,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_7__024put_data_data),16);
-    bufp->fullBit(oldp+929211,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_7__DOT__result_valid));
-    bufp->fullBit(oldp+929212,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_2__DOT__result_valid) 
+    bufp->fullBit(oldp+929182,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__error_checks__DOT__deqerror));
+    bufp->fullBit(oldp+929183,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__e2_fifo__DOT__error_checks__DOT__enqerror));
+    bufp->fullIData(oldp+929184,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__inputs_fed),32);
+    bufp->fullIData(oldp+929185,(((IData)(1U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__inputs_fed)),32);
+    bufp->fullIData(oldp+929186,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected),32);
+    bufp->fullIData(oldp+929187,(((IData)(1U) + vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__outputs_collected)),32);
+    bufp->fullSData(oldp+929188,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_data),16);
+    bufp->fullSData(oldp+929189,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__024put_data_data),16);
+    bufp->fullSData(oldp+929190,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__result_data),16);
+    bufp->fullSData(oldp+929191,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__024put_data_data),16);
+    bufp->fullBit(oldp+929192,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__result_valid));
+    bufp->fullSData(oldp+929193,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_2__DOT__result_data),16);
+    bufp->fullSData(oldp+929194,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_2__024put_data_data),16);
+    bufp->fullBit(oldp+929195,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_2__DOT__result_valid));
+    bufp->fullSData(oldp+929196,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_3__DOT__result_data),16);
+    bufp->fullSData(oldp+929197,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_3__024put_data_data),16);
+    bufp->fullBit(oldp+929198,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_3__DOT__result_valid));
+    bufp->fullSData(oldp+929199,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_4__DOT__result_data),16);
+    bufp->fullSData(oldp+929200,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_4__024put_data_data),16);
+    bufp->fullBit(oldp+929201,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_4__DOT__result_valid));
+    bufp->fullSData(oldp+929202,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_5__DOT__result_data),16);
+    bufp->fullSData(oldp+929203,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_5__024put_data_data),16);
+    bufp->fullBit(oldp+929204,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_5__DOT__result_valid));
+    bufp->fullSData(oldp+929205,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_6__DOT__result_data),16);
+    bufp->fullSData(oldp+929206,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_6__024put_data_data),16);
+    bufp->fullBit(oldp+929207,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_6__DOT__result_valid));
+    bufp->fullSData(oldp+929208,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_7__DOT__result_data),16);
+    bufp->fullSData(oldp+929209,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_7__024put_data_data),16);
+    bufp->fullBit(oldp+929210,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_7__DOT__result_valid));
+    bufp->fullBit(oldp+929211,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_2__DOT__result_valid) 
                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_3__DOT__result_valid) 
                                    & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_4__DOT__result_valid) 
                                       & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_5__DOT__result_valid) 
                                          & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_6__DOT__result_valid) 
                                             & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_valid) 
                                                & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_7__DOT__result_valid)))))))));
-    bufp->fullSData(oldp+929213,(((0x8000U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y) 
+    bufp->fullSData(oldp+929212,(((0x8000U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y) 
                                               ^ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_x))) 
                                   | (((IData)((0U == 
                                                (0x7fffU 
@@ -9263,15 +9263,15 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh9405))
                                                    : 0x7f80U))))),16);
-    bufp->fullBit(oldp+929214,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage4)));
-    bufp->fullBit(oldp+929215,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage4 
+    bufp->fullBit(oldp+929213,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage4)));
+    bufp->fullBit(oldp+929214,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage4 
                                       | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_valid)))));
-    bufp->fullSData(oldp+929216,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s1_input_z),16);
-    bufp->fullSData(oldp+929217,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1 
+    bufp->fullSData(oldp+929215,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s1_input_z),16);
+    bufp->fullSData(oldp+929216,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1 
                                              >> 1U))),16);
-    bufp->fullBit(oldp+929218,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1)));
-    bufp->fullSData(oldp+929219,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s1_zc1),16);
-    bufp->fullSData(oldp+929220,(((0x8000U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1 
+    bufp->fullBit(oldp+929217,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1)));
+    bufp->fullSData(oldp+929218,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s1_zc1),16);
+    bufp->fullSData(oldp+929219,(((0x8000U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1 
                                               >> 1U)) 
                                   | ((IData)((0U == 
                                               (0xfffeU 
@@ -9293,12 +9293,12 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh997))
                                                    : 0x7f80U))))),16);
-    bufp->fullSData(oldp+929221,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z),16);
-    bufp->fullBit(oldp+929222,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage2)));
-    bufp->fullSData(oldp+929223,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_n),16);
-    bufp->fullSData(oldp+929224,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_n__024D_IN),16);
-    bufp->fullSData(oldp+929225,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_y),16);
-    bufp->fullSData(oldp+929226,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp___05Fh2199)) 
+    bufp->fullSData(oldp+929220,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z),16);
+    bufp->fullBit(oldp+929221,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage2)));
+    bufp->fullSData(oldp+929222,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_n),16);
+    bufp->fullSData(oldp+929223,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_n__024D_IN),16);
+    bufp->fullSData(oldp+929224,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_y),16);
+    bufp->fullSData(oldp+929225,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp___05Fh2199)) 
                                    | ((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_exp___05Fh2202)) 
                                       & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_mant___05Fh2203))))
                                    ? 0U : ((IData)(
@@ -9318,10 +9318,10 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh4346))
                                                 : 0x7f80U)))),16);
-    bufp->fullSData(oldp+929227,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_n),16);
-    bufp->fullBit(oldp+929228,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage3)));
-    bufp->fullSData(oldp+929229,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_x),16);
-    bufp->fullSData(oldp+929230,(((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+929226,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_n),16);
+    bufp->fullBit(oldp+929227,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage3)));
+    bufp->fullSData(oldp+929228,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_x),16);
+    bufp->fullSData(oldp+929229,(((IData)((0U == (0x7fffU 
                                                   & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943))))
                                    ? 0x3f80U : ((((0x8000U 
                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943))
@@ -9423,30 +9423,30 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446)) 
                                                               << 1U))
                                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446)))))))),16);
-    bufp->fullSData(oldp+929231,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y),16);
-    bufp->fullIData(oldp+929232,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1),17);
-    bufp->fullIData(oldp+929233,((1U | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__024put_data_data) 
+    bufp->fullSData(oldp+929230,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y),16);
+    bufp->fullIData(oldp+929231,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1),17);
+    bufp->fullIData(oldp+929232,((1U | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__024put_data_data) 
                                         << 1U))),17);
-    bufp->fullIData(oldp+929234,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage2),17);
-    bufp->fullIData(oldp+929235,(((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1)
+    bufp->fullIData(oldp+929233,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage2),17);
+    bufp->fullIData(oldp+929234,(((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1)
                                    ? (1U | (0x1fffeU 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage1))
                                    : 0U)),17);
-    bufp->fullIData(oldp+929236,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage3),17);
-    bufp->fullIData(oldp+929237,(((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage2)
+    bufp->fullIData(oldp+929235,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage3),17);
+    bufp->fullIData(oldp+929236,(((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage2)
                                    ? (1U | (0x1fffeU 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage2))
                                    : 0U)),17);
-    bufp->fullIData(oldp+929238,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage4),17);
-    bufp->fullIData(oldp+929239,(((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage3)
+    bufp->fullIData(oldp+929237,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage4),17);
+    bufp->fullIData(oldp+929238,(((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage3)
                                    ? (1U | (0x1fffeU 
                                             & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__stage3))
                                    : 0U)),17);
-    bufp->fullCData(oldp+929240,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_exp___05Fh2202),8);
-    bufp->fullCData(oldp+929241,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_mant___05Fh2203),7);
-    bufp->fullSData(oldp+929242,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_0_CONCAT_s1_zc1_15_BITS_14_TO_7_17_18_MINUS_ETC___05F_d246),16);
-    bufp->fullSData(oldp+929243,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_0b1_CONCAT_s1_zc1_15_BITS_6_TO_0_26_CONCAT___05FETC___05F_d241),16);
-    bufp->fullSData(oldp+929244,((0xffffU & ((0x8000U 
+    bufp->fullCData(oldp+929239,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_exp___05Fh2202),8);
+    bufp->fullCData(oldp+929240,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_mant___05Fh2203),7);
+    bufp->fullSData(oldp+929241,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_0_CONCAT_s1_zc1_15_BITS_14_TO_7_17_18_MINUS_ETC___05F_d246),16);
+    bufp->fullSData(oldp+929242,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_0b1_CONCAT_s1_zc1_15_BITS_6_TO_0_26_CONCAT___05FETC___05F_d241),16);
+    bufp->fullSData(oldp+929243,((0xffffU & ((0x8000U 
                                               >= (0xffffU 
                                                   & (0x8000U 
                                                      ^ 
@@ -9466,40 +9466,40 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                   ? 
                                                  (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_0b1_CONCAT_s1_zc1_15_BITS_6_TO_0_26_CONCAT___05FETC___05F_d241))
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_0b1_CONCAT_s1_zc1_15_BITS_6_TO_0_26_CONCAT___05FETC___05F_d241))))),16);
-    bufp->fullSData(oldp+929245,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_IF_s1_zc1_15_EQ_0x0_16_OR_0_CONCAT_s1_zc_ETC___05F_d259),16);
-    bufp->fullSData(oldp+929246,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_5_36)
+    bufp->fullSData(oldp+929244,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_IF_s1_zc1_15_EQ_0x0_16_OR_0_CONCAT_s1_zc_ETC___05F_d259),16);
+    bufp->fullSData(oldp+929245,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_5_36)
                                               ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_5_4)
                                                   ? 0U
                                                   : 
                                                  (- (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_0_CONCAT_s1_zc1_15_BITS_14_TO_7_17_18_MINUS_ETC___05F_d246)))
                                               : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_n__024D_IN)))),16);
-    bufp->fullSData(oldp+929247,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s1_zc1_15_EQ_0x0_16_OR_0_CONCAT_s1_zc1_1_ETC___05F_d256),16);
-    bufp->fullSData(oldp+929248,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s1_zc1_15_EQ_0x0_16_OR_0_CONCAT_s1_zc1_1_ETC___05F_d264),16);
-    bufp->fullSData(oldp+929249,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_n_91_BIT_15_01_THEN_NEG_s2_n_91_02_EL_ETC___05F_d606),16);
-    bufp->fullSData(oldp+929250,((0xffffU & ((IData)(0x7fU) 
+    bufp->fullSData(oldp+929246,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s1_zc1_15_EQ_0x0_16_OR_0_CONCAT_s1_zc1_1_ETC___05F_d256),16);
+    bufp->fullSData(oldp+929247,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s1_zc1_15_EQ_0x0_16_OR_0_CONCAT_s1_zc1_1_ETC___05F_d264),16);
+    bufp->fullSData(oldp+929248,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_n_91_BIT_15_01_THEN_NEG_s2_n_91_02_EL_ETC___05F_d606),16);
+    bufp->fullSData(oldp+929249,((0xffffU & ((IData)(0x7fU) 
                                              + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_n_91_BIT_15_01_THEN_NEG_s2_n_91_02_EL_ETC___05F_d606)))),16);
-    bufp->fullSData(oldp+929251,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_5_7)
+    bufp->fullSData(oldp+929250,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_5_7)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_snd___05Fh4494)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___0_CONCAT_NOT_IF_127_MINUS_IF_IF_s1_zc1_15_EQ_0_ETC___05F_d289))),16);
-    bufp->fullSData(oldp+929252,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_28)
+    bufp->fullSData(oldp+929251,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_28)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_snd___05Fh7125)
                                               : ((IData)(0xb1U) 
                                                  * (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_full_mant___05Fh6954))))),16);
-    bufp->fullSData(oldp+929253,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_2_2)
+    bufp->fullSData(oldp+929252,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_2_2)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_snd___05Fh9553)
                                               : vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___0_CONCAT_NOT_s3_y_063_BITS_14_TO_7_068_EQ_0_06_ETC___05F_d1085))),16);
-    bufp->fullSData(oldp+929254,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_3_5)
+    bufp->fullSData(oldp+929253,((0xffffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_3_5)
                                               ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_snd___05Fh1157)
                                               : ((IData)(0xb9U) 
                                                  * (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_full_mant___05Fh986))))),16);
-    bufp->fullSData(oldp+929255,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s1_zc1_15_EQ_0x0_16_OR_0_CONCAT_s1_zc1_15_B_ETC___05F_d260),16);
-    bufp->fullSData(oldp+929256,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943),16);
-    bufp->fullSData(oldp+929257,((0xffffU & VL_SHIFTL_III(16,16,16, (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__abs_val___05Fh5617), 
+    bufp->fullSData(oldp+929254,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s1_zc1_15_EQ_0x0_16_OR_0_CONCAT_s1_zc1_15_B_ETC___05F_d260),16);
+    bufp->fullSData(oldp+929255,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943),16);
+    bufp->fullSData(oldp+929256,((0xffffU & VL_SHIFTL_III(16,16,16, (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__abs_val___05Fh5617), 
                                                           (0xffffU 
                                                            & ((IData)(0xfU) 
                                                               - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_n_91_BIT_15_01_THEN_NEG_s2_n_91_02_EL_ETC___05F_d606)))))),16);
-    bufp->fullSData(oldp+929258,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__abs_val___05Fh5617),16);
-    bufp->fullSData(oldp+929259,((0xffffU & VL_SHIFTR_III(16,16,16, 
+    bufp->fullSData(oldp+929257,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__abs_val___05Fh5617),16);
+    bufp->fullSData(oldp+929258,((0xffffU & VL_SHIFTR_III(16,16,16, 
                                                           (0x8000U 
                                                            | (0x7f00U 
                                                               & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s1_zc1) 
@@ -9511,15 +9511,15 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                 & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s1_zc1) 
                                                                    >> 7U)) 
                                                                - (IData)(0x7fU))))))),16);
-    bufp->fullSData(oldp+929260,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__integer_part___05Fh2009),16);
-    bufp->fullSData(oldp+929261,((0x8000U | (0x7f00U 
+    bufp->fullSData(oldp+929259,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__integer_part___05Fh2009),16);
+    bufp->fullSData(oldp+929260,((0x8000U | (0x7f00U 
                                              & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s1_zc1) 
                                                 << 8U)))),16);
-    bufp->fullSData(oldp+929262,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__zn_sign___05Fh5558)) 
+    bufp->fullSData(oldp+929261,(((0x8000U & ((~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__zn_sign___05Fh5558)) 
                                               << 0xfU)) 
                                   | ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_26)
                                       ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_0_CONCAT_NOT_IF_s2_n_91_EQ_0_99_THEN_0_E_ETC___05F_d824)))),16);
-    bufp->fullSData(oldp+929263,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh4347) 
+    bufp->fullSData(oldp+929262,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh4347) 
                                             >> 9U) 
                                            | (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh4347))))
                                    ? ((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh4347))
@@ -9532,7 +9532,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      << 7U)) 
                                                  | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh4346))
                                                  : 0x7f80U))),16);
-    bufp->fullSData(oldp+929264,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z_93_BIT_15_32_EQ_INV_NOT_s2_n_91_EQ___05FETC___05F_d833)
+    bufp->fullSData(oldp+929263,(((0x8000U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z_93_BIT_15_32_EQ_INV_NOT_s2_n_91_EQ___05FETC___05F_d833)
                                                 ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_sign___05Fh7844)
                                                 : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___0b1_CONCAT_IF_s2_input_z_93_BITS_14_TO_7_94_UL_ETC___05F_d845)
                                                     ? 
@@ -9622,7 +9622,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                       : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh7790)) 
                                                     << 1U))
                                               : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh7790))))))),16);
-    bufp->fullSData(oldp+929265,(((((0x8000U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943))
+    bufp->fullSData(oldp+929264,(((((0x8000U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943))
                                      ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_sign___05Fh8499)
                                      : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AN_ETC___05F_d959)
                                          ? ((~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
@@ -9716,21 +9716,21 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446)) 
                                                              << 1U))
                                                           : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446))))))),16);
-    bufp->fullSData(oldp+929266,((0xffffU & (((IData)(0xfU) 
+    bufp->fullSData(oldp+929265,((0xffffU & (((IData)(0xfU) 
                                               - ((0xffU 
                                                   & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s1_zc1) 
                                                      >> 7U)) 
                                                  - (IData)(0x7fU))) 
                                              - (IData)(1U)))),16);
-    bufp->fullSData(oldp+929267,((0xffffU & (- ((IData)(0xfU) 
+    bufp->fullSData(oldp+929266,((0xffffU & (- ((IData)(0xfU) 
                                                 - (
                                                    (0xffU 
                                                     & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s1_zc1) 
                                                        >> 7U)) 
                                                    - (IData)(0x7fU)))))),16);
-    bufp->fullSData(oldp+929268,((0xffffU & ((IData)(0xfU) 
+    bufp->fullSData(oldp+929267,((0xffffU & ((IData)(0xfU) 
                                              - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_n_91_BIT_15_01_THEN_NEG_s2_n_91_02_EL_ETC___05F_d606)))),16);
-    bufp->fullSData(oldp+929269,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh4347) 
+    bufp->fullSData(oldp+929268,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh4347) 
                                             >> 9U) 
                                            | (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh4347))))
                                    ? ((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh4347))
@@ -9743,8 +9743,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      << 7U)) 
                                                  | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh4346))
                                                  : 0x7f80U))),15);
-    bufp->fullSData(oldp+929270,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_0_CONCAT_NOT_IF_s2_n_91_EQ_0_99_THEN_0_E_ETC___05F_d824),15);
-    bufp->fullSData(oldp+929271,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh9406) 
+    bufp->fullSData(oldp+929269,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_0_CONCAT_NOT_IF_s2_n_91_EQ_0_99_THEN_0_E_ETC___05F_d824),15);
+    bufp->fullSData(oldp+929270,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh9406) 
                                             >> 9U) 
                                            | (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh9406))))
                                    ? ((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh9406))
@@ -9757,7 +9757,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      << 7U)) 
                                                  | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh9405))
                                                  : 0x7f80U))),15);
-    bufp->fullSData(oldp+929272,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh998) 
+    bufp->fullSData(oldp+929271,(((IData)((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh998) 
                                             >> 9U) 
                                            | (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh998))))
                                    ? ((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh998))
@@ -9770,7 +9770,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                      << 7U)) 
                                                  | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh997))
                                                  : 0x7f80U))),15);
-    bufp->fullSData(oldp+929273,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446))
+    bufp->fullSData(oldp+929272,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_fst_exp___05Fh8523)) 
                                                   << 7U)) 
@@ -9847,7 +9847,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446)))))),15);
-    bufp->fullSData(oldp+929274,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh7790))
+    bufp->fullSData(oldp+929273,(((0x100U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh7790))
                                    ? ((0x7f80U & (((IData)(1U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_fst_exp___05Fh7868)) 
                                                   << 7U)) 
@@ -9924,9 +9924,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                         : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh7790)) 
                                                       << 1U))
                                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh7790)))))),15);
-    bufp->fullSData(oldp+929275,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_26)
+    bufp->fullSData(oldp+929274,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_26)
                                    ? 0U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_0_CONCAT_NOT_IF_s2_n_91_EQ_0_99_THEN_0_E_ETC___05F_d824))),15);
-    bufp->fullSData(oldp+929276,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_30)
+    bufp->fullSData(oldp+929275,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_30)
                                    ? ((0x7f80U & (((IData)(0x7fU) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_n_91_BIT_15_01_THEN_NEG_s2_n_91_02_EL_ETC___05F_d606)) 
                                                   << 7U)) 
@@ -9936,7 +9936,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                     - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_n_91_BIT_15_01_THEN_NEG_s2_n_91_02_EL_ETC___05F_d606)))) 
                                                   >> 8U)))
                                    : 0U)),15);
-    bufp->fullSData(oldp+929277,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_n))
+    bufp->fullSData(oldp+929276,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_n))
                                    ? 0U : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_30)
                                             ? ((0x7f80U 
                                                 & (((IData)(0x7fU) 
@@ -9949,7 +9949,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                                        - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_n_91_BIT_15_01_THEN_NEG_s2_n_91_02_EL_ETC___05F_d606)))) 
                                                      >> 8U)))
                                             : 0U))),15);
-    bufp->fullSData(oldp+929278,((((IData)((0U == (0x7fffU 
+    bufp->fullSData(oldp+929277,((((IData)((0U == (0x7fffU 
                                                    & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y)))) 
                                    | (IData)((0U == 
                                               (0x7fffU 
@@ -9971,18 +9971,18 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh9405))
                                                 : 0x7f80U)))),15);
-    bufp->fullSData(oldp+929279,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340),10);
-    bufp->fullSData(oldp+929280,((0x1ffU & ((IData)(0x7aU) 
+    bufp->fullSData(oldp+929278,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340),10);
+    bufp->fullSData(oldp+929279,((0x1ffU & ((IData)(0x7aU) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957)))),10);
-    bufp->fullSData(oldp+929281,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399),10);
-    bufp->fullSData(oldp+929282,((0x1ffU & ((IData)(0x83U) 
+    bufp->fullSData(oldp+929280,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399),10);
+    bufp->fullSData(oldp+929281,((0x1ffU & ((IData)(0x83U) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989)))),10);
-    bufp->fullSData(oldp+929283,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+929282,((0x3ffU & ((IData)(1U) 
                                             + ((0x1ffU 
                                                 & ((IData)(0x83U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+929284,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_3_5)
+    bufp->fullSData(oldp+929283,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_3_5)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_3_8)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_3_10)
@@ -10147,11 +10147,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                  & ((IData)(0x83U) 
                                                     + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+929285,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh4347),10);
-    bufp->fullSData(oldp+929286,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+929284,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh4347),10);
+    bufp->fullSData(oldp+929285,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+929287,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_5_7)
+    bufp->fullSData(oldp+929286,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_5_7)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_5_10)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_5_12)
@@ -10290,13 +10290,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+929288,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh6966),10);
-    bufp->fullSData(oldp+929289,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+929287,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh6966),10);
+    bufp->fullSData(oldp+929288,((0x3ffU & ((IData)(1U) 
                                             + ((0x1ffU 
                                                 & ((IData)(0x7aU) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+929290,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_28)
+    bufp->fullSData(oldp+929289,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_28)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_68)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_70)
@@ -10461,11 +10461,11 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                  & ((IData)(0x7aU) 
                                                     + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+929291,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh9406),10);
-    bufp->fullSData(oldp+929292,((0x3ffU & ((IData)(1U) 
+    bufp->fullSData(oldp+929290,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh9406),10);
+    bufp->fullSData(oldp+929291,((0x3ffU & ((IData)(1U) 
                                             + ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+929293,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_2_2)
+    bufp->fullSData(oldp+929292,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_2_2)
                                              ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_2_11)
                                                  ? 
                                                 ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_2_13)
@@ -10604,20 +10604,20 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                  - (IData)(1U)))
                                              : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                 - (IData)(0x7fU))))),10);
-    bufp->fullSData(oldp+929294,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh998),10);
-    bufp->fullSData(oldp+929295,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
+    bufp->fullSData(oldp+929293,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_exp_10___05Fh998),10);
+    bufp->fullSData(oldp+929294,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+929296,((0x3ffU & ((0x1ffU 
+    bufp->fullSData(oldp+929295,((0x3ffU & ((0x1ffU 
                                              & ((IData)(0x7aU) 
                                                 + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+929297,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
+    bufp->fullSData(oldp+929296,((0x3ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+929298,((0x3ffU & ((0x1ffU 
+    bufp->fullSData(oldp+929297,((0x3ffU & ((0x1ffU 
                                              & ((IData)(0x83U) 
                                                 + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
                                             - (IData)(0x7fU)))),10);
-    bufp->fullSData(oldp+929299,((0x3ffU & ((((((0x1ffU 
+    bufp->fullSData(oldp+929298,((0x3ffU & ((((((0x1ffU 
                                                  & ((IData)(0x83U) 
                                                     + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
                                                 - (IData)(0x7fU)) 
@@ -10625,13 +10625,13 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929300,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
+    bufp->fullSData(oldp+929299,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929301,((0x3ffU & ((((((0x1ffU 
+    bufp->fullSData(oldp+929300,((0x3ffU & ((((((0x1ffU 
                                                  & ((IData)(0x7aU) 
                                                     + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
                                                 - (IData)(0x7fU)) 
@@ -10639,73 +10639,73 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929302,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
+    bufp->fullSData(oldp+929301,((0x3ffU & ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                 - (IData)(0x7fU)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929303,((0x3ffU & (((((0x1ffU 
+    bufp->fullSData(oldp+929302,((0x3ffU & (((((0x1ffU 
                                                 & ((IData)(0x83U) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929304,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
+    bufp->fullSData(oldp+929303,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929305,((0x3ffU & (((((0x1ffU 
+    bufp->fullSData(oldp+929304,((0x3ffU & (((((0x1ffU 
                                                 & ((IData)(0x7aU) 
                                                    + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929306,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
+    bufp->fullSData(oldp+929305,((0x3ffU & (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                - (IData)(0x7fU)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929307,((0x3ffU & ((((0x1ffU 
+    bufp->fullSData(oldp+929306,((0x3ffU & ((((0x1ffU 
                                                & ((IData)(0x83U) 
                                                   + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929308,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
+    bufp->fullSData(oldp+929307,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929309,((0x3ffU & ((((0x1ffU 
+    bufp->fullSData(oldp+929308,((0x3ffU & ((((0x1ffU 
                                                & ((IData)(0x7aU) 
                                                   + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929310,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
+    bufp->fullSData(oldp+929309,((0x3ffU & ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                               - (IData)(0x7fU)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929311,((0x3ffU & (((0x1ffU 
+    bufp->fullSData(oldp+929310,((0x3ffU & (((0x1ffU 
                                               & ((IData)(0x83U) 
                                                  + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929312,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
+    bufp->fullSData(oldp+929311,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929313,((0x3ffU & (((0x1ffU 
+    bufp->fullSData(oldp+929312,((0x3ffU & (((0x1ffU 
                                               & ((IData)(0x7aU) 
                                                  + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929314,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
+    bufp->fullSData(oldp+929313,((0x3ffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                              - (IData)(0x7fU)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929315,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929314,((0x3ffU & ((((((((
                                                    (((((((0x1ffU 
                                                           & ((IData)(0x83U) 
                                                              + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
@@ -10723,7 +10723,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929316,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929315,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -10739,7 +10739,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929317,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929316,((0x3ffU & ((((((((
                                                    (((((((0x1ffU 
                                                           & ((IData)(0x7aU) 
                                                              + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
@@ -10757,7 +10757,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929318,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929317,((0x3ffU & ((((((((
                                                    (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                          - (IData)(0x7fU)) 
                                                         - (IData)(1U)) 
@@ -10773,7 +10773,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929319,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929318,((0x3ffU & ((((((((
                                                    ((((((0x1ffU 
                                                          & ((IData)(0x83U) 
                                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
@@ -10790,7 +10790,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929320,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929319,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -10805,7 +10805,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929321,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929320,((0x3ffU & ((((((((
                                                    ((((((0x1ffU 
                                                          & ((IData)(0x7aU) 
                                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
@@ -10822,7 +10822,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929322,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929321,((0x3ffU & ((((((((
                                                    ((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                         - (IData)(0x7fU)) 
                                                        - (IData)(1U)) 
@@ -10837,7 +10837,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929323,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929322,((0x3ffU & ((((((((
                                                    (((((0x1ffU 
                                                         & ((IData)(0x83U) 
                                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
@@ -10853,7 +10853,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929324,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929323,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -10867,7 +10867,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929325,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929324,((0x3ffU & ((((((((
                                                    (((((0x1ffU 
                                                         & ((IData)(0x7aU) 
                                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
@@ -10883,7 +10883,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929326,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929325,((0x3ffU & ((((((((
                                                    (((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                        - (IData)(0x7fU)) 
                                                       - (IData)(1U)) 
@@ -10897,7 +10897,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929327,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929326,((0x3ffU & ((((((((
                                                    ((((0x1ffU 
                                                        & ((IData)(0x83U) 
                                                           + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
@@ -10912,7 +10912,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929328,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929327,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -10925,7 +10925,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929329,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929328,((0x3ffU & ((((((((
                                                    ((((0x1ffU 
                                                        & ((IData)(0x7aU) 
                                                           + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
@@ -10940,7 +10940,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929330,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929329,((0x3ffU & ((((((((
                                                    ((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                       - (IData)(0x7fU)) 
                                                      - (IData)(1U)) 
@@ -10953,7 +10953,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929331,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929330,((0x3ffU & ((((((((
                                                    (((0x1ffU 
                                                       & ((IData)(0x83U) 
                                                          + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
@@ -10967,7 +10967,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929332,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929331,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -10979,7 +10979,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929333,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929332,((0x3ffU & ((((((((
                                                    (((0x1ffU 
                                                       & ((IData)(0x7aU) 
                                                          + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
@@ -10993,7 +10993,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929334,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929333,((0x3ffU & ((((((((
                                                    (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                      - (IData)(0x7fU)) 
                                                     - (IData)(1U)) 
@@ -11005,7 +11005,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929335,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929334,((0x3ffU & ((((((((
                                                    ((0x1ffU 
                                                      & ((IData)(0x83U) 
                                                         + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
@@ -11018,7 +11018,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929336,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929335,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -11029,7 +11029,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929337,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929336,((0x3ffU & ((((((((
                                                    ((0x1ffU 
                                                      & ((IData)(0x7aU) 
                                                         + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
@@ -11042,7 +11042,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929338,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929337,((0x3ffU & ((((((((
                                                    ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                     - (IData)(0x7fU)) 
                                                    - (IData)(1U)) 
@@ -11053,7 +11053,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929339,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929338,((0x3ffU & ((((((((
                                                    (0x1ffU 
                                                     & ((IData)(0x83U) 
                                                        + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
@@ -11065,7 +11065,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929340,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
+    bufp->fullSData(oldp+929339,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -11074,7 +11074,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929341,((0x3ffU & ((((((((
+    bufp->fullSData(oldp+929340,((0x3ffU & ((((((((
                                                    (0x1ffU 
                                                     & ((IData)(0x7aU) 
                                                        + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
@@ -11086,7 +11086,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929342,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
+    bufp->fullSData(oldp+929341,((0x3ffU & (((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                    - (IData)(0x7fU)) 
                                                   - (IData)(1U)) 
                                                  - (IData)(1U)) 
@@ -11095,7 +11095,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929343,((0x3ffU & ((((((((0x1ffU 
+    bufp->fullSData(oldp+929342,((0x3ffU & ((((((((0x1ffU 
                                                    & ((IData)(0x83U) 
                                                       + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
                                                   - (IData)(0x7fU)) 
@@ -11105,7 +11105,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929344,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
+    bufp->fullSData(oldp+929343,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -11113,7 +11113,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929345,((0x3ffU & ((((((((0x1ffU 
+    bufp->fullSData(oldp+929344,((0x3ffU & ((((((((0x1ffU 
                                                    & ((IData)(0x7aU) 
                                                       + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
                                                   - (IData)(0x7fU)) 
@@ -11123,7 +11123,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929346,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
+    bufp->fullSData(oldp+929345,((0x3ffU & ((((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                   - (IData)(0x7fU)) 
                                                  - (IData)(1U)) 
                                                 - (IData)(1U)) 
@@ -11131,7 +11131,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929347,((0x3ffU & (((((((0x1ffU 
+    bufp->fullSData(oldp+929346,((0x3ffU & (((((((0x1ffU 
                                                   & ((IData)(0x83U) 
                                                      + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989))) 
                                                  - (IData)(0x7fU)) 
@@ -11140,14 +11140,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929348,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
+    bufp->fullSData(oldp+929347,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929349,((0x3ffU & (((((((0x1ffU 
+    bufp->fullSData(oldp+929348,((0x3ffU & (((((((0x1ffU 
                                                   & ((IData)(0x7aU) 
                                                      + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957))) 
                                                  - (IData)(0x7fU)) 
@@ -11156,14 +11156,14 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929350,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
+    bufp->fullSData(oldp+929349,((0x3ffU & (((((((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399) 
                                                  - (IData)(0x7fU)) 
                                                 - (IData)(1U)) 
                                                - (IData)(1U)) 
                                               - (IData)(1U)) 
                                              - (IData)(1U)) 
                                             - (IData)(1U)))),10);
-    bufp->fullSData(oldp+929351,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_33)
+    bufp->fullSData(oldp+929350,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_33)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_53)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_55)
@@ -11205,7 +11205,7 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446))),9);
-    bufp->fullSData(oldp+929352,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_34)
+    bufp->fullSData(oldp+929351,(((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_34)
                                    ? (0x1feU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_39)
                                                   ? 
                                                  ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_41)
@@ -11247,80 +11247,80 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                   : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh7790)) 
                                                 << 1U))
                                    : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh7790))),9);
-    bufp->fullSData(oldp+929353,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp___05Fh2199))
+    bufp->fullSData(oldp+929352,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp___05Fh2199))
                                    ? 1U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp___05Fh2199))),9);
-    bufp->fullSData(oldp+929354,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957),9);
-    bufp->fullSData(oldp+929355,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y) 
+    bufp->fullSData(oldp+929353,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957),9);
+    bufp->fullSData(oldp+929354,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+929356,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989),9);
-    bufp->fullSData(oldp+929357,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_exp___05Fh2202))
+    bufp->fullSData(oldp+929355,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989),9);
+    bufp->fullSData(oldp+929356,(((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_exp___05Fh2202))
                                    ? 1U : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_exp___05Fh2202))),9);
-    bufp->fullSData(oldp+929358,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_x) 
+    bufp->fullSData(oldp+929357,(((0U == (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_x) 
                                                    >> 7U)))
                                    ? 1U : (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_x) 
                                             >> 7U)))),9);
-    bufp->fullSData(oldp+929359,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340),9);
-    bufp->fullSData(oldp+929360,((0x1ffU & ((IData)(0x7aU) 
+    bufp->fullSData(oldp+929358,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh4340),9);
+    bufp->fullSData(oldp+929359,((0x1ffU & ((IData)(0x7aU) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh6957)))),9);
-    bufp->fullSData(oldp+929361,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399),9);
-    bufp->fullSData(oldp+929362,((0x1ffU & ((IData)(0x83U) 
+    bufp->fullSData(oldp+929360,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__exp_sum___05Fh9399),9);
+    bufp->fullSData(oldp+929361,((0x1ffU & ((IData)(0x83U) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp_eff___05Fh989)))),9);
-    bufp->fullSData(oldp+929363,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+929362,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2___05FETC___05F_d836)) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh7784)))),9);
-    bufp->fullSData(oldp+929364,((0x1ffU & ((0x80U 
+    bufp->fullSData(oldp+929363,((0x1ffU & ((0x80U 
                                              | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2___05FETC___05F_d836)) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh7784)))),9);
-    bufp->fullSData(oldp+929365,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh7784) 
+    bufp->fullSData(oldp+929364,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh7784) 
                                             - (0x80U 
                                                | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2___05FETC___05F_d836))))),9);
-    bufp->fullSData(oldp+929366,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__bigger_m___05Fh8439) 
+    bufp->fullSData(oldp+929365,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__bigger_m___05Fh8439) 
                                             + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh8440)))),9);
-    bufp->fullSData(oldp+929367,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__bigger_m___05Fh8439) 
+    bufp->fullSData(oldp+929366,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__bigger_m___05Fh8439) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh8440)))),9);
-    bufp->fullSData(oldp+929368,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh8440) 
+    bufp->fullSData(oldp+929367,((0x1ffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh8440) 
                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__bigger_m___05Fh8439)))),9);
-    bufp->fullSData(oldp+929369,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh7790),9);
-    bufp->fullSData(oldp+929370,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446),9);
-    bufp->fullCData(oldp+929371,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp___05Fh2199),8);
-    bufp->fullCData(oldp+929372,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp___05Fh2199)) 
+    bufp->fullSData(oldp+929368,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh7790),9);
+    bufp->fullSData(oldp+929369,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__tmp___05Fh8446),9);
+    bufp->fullCData(oldp+929370,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp___05Fh2199),8);
+    bufp->fullCData(oldp+929371,(((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_exp___05Fh2199)) 
                                   << 7U)),8);
-    bufp->fullCData(oldp+929373,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_full_mant___05Fh6954),8);
-    bufp->fullCData(oldp+929374,((((0U != (0xffU & 
+    bufp->fullCData(oldp+929372,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_full_mant___05Fh6954),8);
+    bufp->fullCData(oldp+929373,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y)))),8);
-    bufp->fullCData(oldp+929375,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_full_mant___05Fh986),8);
-    bufp->fullCData(oldp+929376,((((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_exp___05Fh2202)) 
+    bufp->fullCData(oldp+929374,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__a_full_mant___05Fh986),8);
+    bufp->fullCData(oldp+929375,((((0U != (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_exp___05Fh2202)) 
                                    << 7U) | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__b_mant___05Fh2203))),8);
-    bufp->fullCData(oldp+929377,((((0U != (0xffU & 
+    bufp->fullCData(oldp+929376,((((0U != (0xffU & 
                                            ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_x) 
                                             >> 7U))) 
                                    << 7U) | (0x7fU 
                                              & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_x)))),8);
-    bufp->fullCData(oldp+929378,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2___05FETC___05F_d836))),8);
-    bufp->fullCData(oldp+929379,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__bigger_m___05Fh8439),8);
-    bufp->fullCData(oldp+929380,((0x80U | (0x7fU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943)))),8);
-    bufp->fullCData(oldp+929381,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z) 
+    bufp->fullCData(oldp+929377,((0x80U | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2___05FETC___05F_d836))),8);
+    bufp->fullCData(oldp+929378,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__bigger_m___05Fh8439),8);
+    bufp->fullCData(oldp+929379,((0x80U | (0x7fU & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943)))),8);
+    bufp->fullCData(oldp+929380,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z) 
                                             >> 7U) 
                                            - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_102)))),8);
-    bufp->fullCData(oldp+929382,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_102) 
+    bufp->fullCData(oldp+929381,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_102) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+929383,((0xffU & ((IData)(0x7fU) 
+    bufp->fullCData(oldp+929382,((0xffU & ((IData)(0x7fU) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
                                               >> 7U)))),8);
-    bufp->fullCData(oldp+929384,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
+    bufp->fullCData(oldp+929383,((0xffU & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
                                             >> 7U) 
                                            - (IData)(0x7fU)))),8);
-    bufp->fullCData(oldp+929385,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+929384,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_fst_exp___05Fh7868)))),8);
-    bufp->fullCData(oldp+929386,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_fst_exp___05Fh7868) 
+    bufp->fullCData(oldp+929385,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_fst_exp___05Fh7868) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_34)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_39)
                                                    ? 
@@ -11344,9 +11344,9 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+929387,((0xffU & ((IData)(1U) 
+    bufp->fullCData(oldp+929386,((0xffU & ((IData)(1U) 
                                            + (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_fst_exp___05Fh8523)))),8);
-    bufp->fullCData(oldp+929388,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_fst_exp___05Fh8523) 
+    bufp->fullCData(oldp+929387,((0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___theResult___05F_fst_exp___05Fh8523) 
                                            - ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_33)
                                                ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_53)
                                                    ? 
@@ -11370,15 +11370,15 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                     : 2U)
                                                    : 1U)
                                                : 0U)))),8);
-    bufp->fullCData(oldp+929389,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh7784),8);
-    bufp->fullCData(oldp+929390,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+929388,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh7784),8);
+    bufp->fullCData(oldp+929389,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_101)), 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z) 
                                                              >> 7U) 
                                                             - (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT____VdfgRegularize_ha845b8a3_6_102)))))),8);
-    bufp->fullCData(oldp+929391,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+929390,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z))), 
@@ -11387,8 +11387,8 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+929392,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh8440),8);
-    bufp->fullCData(oldp+929393,((0xffU & VL_SHIFTR_III(8,8,8, 
+    bufp->fullCData(oldp+929391,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__smaller_m___05Fh8440),8);
+    bufp->fullCData(oldp+929392,((0xffU & VL_SHIFTR_III(8,8,8, 
                                                         (0x80U 
                                                          | (0x7fU 
                                                             & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943))), 
@@ -11397,23 +11397,23 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                             - 
                                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
                                                              >> 7U)))))),8);
-    bufp->fullCData(oldp+929394,((0xffU & VL_SHIFTR_III(8,8,8, 0x80U, 
+    bufp->fullCData(oldp+929393,((0xffU & VL_SHIFTR_III(8,8,8, 0x80U, 
                                                         (0xffU 
                                                          & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
                                                              >> 7U) 
                                                             - (IData)(0x7fU)))))),8);
-    bufp->fullCData(oldp+929395,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2___05FETC___05F_d836),7);
-    bufp->fullCData(oldp+929396,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh4346),7);
-    bufp->fullCData(oldp+929397,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh6965),7);
-    bufp->fullCData(oldp+929398,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh9405),7);
-    bufp->fullCData(oldp+929399,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh997),7);
-    bufp->fullBit(oldp+929400,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AN_ETC___05F_d959));
-    bufp->fullBit(oldp+929401,((0x7fU >= (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
+    bufp->fullCData(oldp+929394,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2___05FETC___05F_d836),7);
+    bufp->fullCData(oldp+929395,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh4346),7);
+    bufp->fullCData(oldp+929396,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh6965),7);
+    bufp->fullCData(oldp+929397,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh9405),7);
+    bufp->fullCData(oldp+929398,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__final_mant___05Fh997),7);
+    bufp->fullBit(oldp+929399,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AN_ETC___05F_d959));
+    bufp->fullBit(oldp+929400,((0x7fU >= (0xffU & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
                                                    >> 7U)))));
-    bufp->fullBit(oldp+929402,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y) 
+    bufp->fullBit(oldp+929401,((1U & (((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_y) 
                                        ^ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s3_x)) 
                                       >> 0xfU))));
-    bufp->fullBit(oldp+929403,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z_93_BIT_15_32_EQ_INV_NOT_s2_n_91_EQ___05FETC___05F_d833)
+    bufp->fullBit(oldp+929402,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z_93_BIT_15_32_EQ_INV_NOT_s2_n_91_EQ___05FETC___05F_d833)
                                        ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_sign___05Fh7844)
                                        : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT___0b1_CONCAT_IF_s2_input_z_93_BITS_14_TO_7_94_UL_ETC___05F_d845)
                                            ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2_n_9_ETC___05F_d834)
@@ -11421,12 +11421,12 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                   >> 0xfU)
                                                : (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__zn_sign___05Fh5558)))
                                            : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_sign___05Fh7844))))));
-    bufp->fullBit(oldp+929404,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_sign___05Fh7844));
-    bufp->fullBit(oldp+929405,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2_n_9_ETC___05F_d834)
+    bufp->fullBit(oldp+929403,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_sign___05Fh7844));
+    bufp->fullBit(oldp+929404,((1U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2_n_9_ETC___05F_d834)
                                        ? ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z) 
                                           >> 0xfU) : 
                                       (~ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__zn_sign___05Fh5558))))));
-    bufp->fullBit(oldp+929406,(((0x8000U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943))
+    bufp->fullBit(oldp+929405,(((0x8000U & (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943))
                                  ? (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_sign___05Fh8499)
                                  : ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AN_ETC___05F_d959)
                                      ? ((~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
@@ -11436,17 +11436,17 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                             ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
                                              >> 7U))))
                                      : (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_sign___05Fh8499)))));
-    bufp->fullBit(oldp+929407,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_sign___05Fh8499));
-    bufp->fullBit(oldp+929408,(((~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
+    bufp->fullBit(oldp+929406,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__result_sign___05Fh8499));
+    bufp->fullBit(oldp+929407,(((~ ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
                                     >> 0xfU)) & (0x7fU 
                                                  >= 
                                                  (0xffU 
                                                   & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__IF_s2_input_z_93_BITS_14_TO_7_94_EQ_0_95_AND_s_ETC___05F_d943) 
                                                      >> 7U))))));
-    bufp->fullBit(oldp+929409,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2_n_9_ETC___05F_d834));
-    bufp->fullBit(oldp+929410,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z_93_BIT_15_32_EQ_INV_NOT_s2_n_91_EQ___05FETC___05F_d833));
-    bufp->fullBit(oldp+929411,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__zn_sign___05Fh5558));
-    bufp->fullSData(oldp+929412,(((0x8000U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s3_y) 
+    bufp->fullBit(oldp+929408,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z_93_BITS_14_TO_7_94_ULT_IF_IF_s2_n_9_ETC___05F_d834));
+    bufp->fullBit(oldp+929409,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__s2_input_z_93_BIT_15_32_EQ_INV_NOT_s2_n_91_EQ___05FETC___05F_d833));
+    bufp->fullBit(oldp+929410,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_0__DOT__zn_sign___05Fh5558));
+    bufp->fullSData(oldp+929411,(((0x8000U & ((IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s3_y) 
                                               ^ (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s3_x))) 
                                   | (((IData)((0U == 
                                                (0x7fffU 
@@ -11472,15 +11472,15 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__final_mant___05Fh9405))
                                                    : 0x7f80U))))),16);
-    bufp->fullBit(oldp+929413,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage4)));
-    bufp->fullBit(oldp+929414,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage4 
+    bufp->fullBit(oldp+929412,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage4)));
+    bufp->fullBit(oldp+929413,((1U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage4 
                                       | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__result_valid)))));
-    bufp->fullSData(oldp+929415,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s1_input_z),16);
-    bufp->fullSData(oldp+929416,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage1 
+    bufp->fullSData(oldp+929414,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s1_input_z),16);
+    bufp->fullSData(oldp+929415,((0xffffU & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage1 
                                              >> 1U))),16);
-    bufp->fullBit(oldp+929417,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage1)));
-    bufp->fullSData(oldp+929418,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s1_zc1),16);
-    bufp->fullSData(oldp+929419,(((0x8000U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage1 
+    bufp->fullBit(oldp+929416,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage1)));
+    bufp->fullSData(oldp+929417,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s1_zc1),16);
+    bufp->fullSData(oldp+929418,(((0x8000U & (vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage1 
                                               >> 1U)) 
                                   | ((IData)((0U == 
                                               (0xfffeU 
@@ -11502,12 +11502,12 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__final_mant___05Fh997))
                                                    : 0x7f80U))))),16);
-    bufp->fullSData(oldp+929420,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s2_input_z),16);
-    bufp->fullBit(oldp+929421,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage2)));
-    bufp->fullSData(oldp+929422,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s2_n),16);
-    bufp->fullSData(oldp+929423,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s2_n__024D_IN),16);
-    bufp->fullSData(oldp+929424,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s2_y),16);
-    bufp->fullSData(oldp+929425,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__a_exp___05Fh2199)) 
+    bufp->fullSData(oldp+929419,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s2_input_z),16);
+    bufp->fullBit(oldp+929420,((1U & vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__stage2)));
+    bufp->fullSData(oldp+929421,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s2_n),16);
+    bufp->fullSData(oldp+929422,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s2_n__024D_IN),16);
+    bufp->fullSData(oldp+929423,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s2_y),16);
+    bufp->fullSData(oldp+929424,((((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__a_exp___05Fh2199)) 
                                    | ((0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__b_exp___05Fh2202)) 
                                       & (0U == (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__b_mant___05Fh2203))))
                                    ? 0U : ((IData)(
@@ -11527,5 +11527,5 @@ VL_ATTR_COLD void VmkTb_COP___024root__trace_full_0_sub_7(VmkTb_COP___024root* v
                                                        << 7U)) 
                                                    | (IData)(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__final_mant___05Fh4346))
                                                 : 0x7f80U)))),16);
-    bufp->fullSData(oldp+929426,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s3_n),16);
+    bufp->fullSData(oldp+929425,(vlSelfRef.mkTb_COP__DOT__cop__DOT__mse__DOT__exp_unit1__DOT__exp_units_1__DOT__s3_n),16);
 }
