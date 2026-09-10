@@ -9,6 +9,7 @@
 set -e
 cd "$(dirname "$0")"
 
+DUTS="r1 r2 r3 r4 r6 r8 r12 r16"   # 8 distinct designs (one per lane count)
 CFGS="r1_n64 r2_n64 r3_n64 r4_n64 r6_n64 r12_n64 r4_n16 r4_n32 r4_n96 r4_n192 r8_n32 r8_n96 r2_n128 r6_n128 r16_n48"
 
 do_sim () {
@@ -32,13 +33,17 @@ do_sim () {
 
 do_verilog () {
   mkdir -p ppa/verilog ppa/vobj
-  for c in $CFGS; do
+  rm -f ppa/verilog/mkAblation_*.v
+  for d in $DUTS; do
     bsc -verilog -bdir ppa/vobj -vdir ppa/verilog -info-dir ppa/vobj \
-        -g mkAblation_$c -u BF16_SIMD_AblationPPA.bsv > /dev/null 2>&1
+        -g mkAblation_$d -u BF16_SIMD_AblationPPA.bsv > /dev/null 2>&1
   done
   echo ""
-  echo "Verilog for synthesis in ppa/verilog/  (top module = mkAblation_<config>)"
-  ls -1 ppa/verilog/mkAblation_*.v 2>/dev/null | sed 's/^/  /'
+  echo "Verilog for synthesis in ppa/verilog/  (top module = mkAblation_r<lanes>)"
+  echo "Also copy FIFO2.v and RevertReg.v from \$BLUESPECDIR/Verilog/ before synth."
+  for f in ppa/verilog/mkAblation_*.v; do
+    printf "  %-28s %5s lines\n" "$(basename $f)" "$(wc -l < $f | tr -d ' ')"
+  done
 }
 
 # Verbose build: -D VERBOSE turns on the per-input / per-output banners.

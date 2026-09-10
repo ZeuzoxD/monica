@@ -3,71 +3,73 @@ package BF16_SIMD_AblationPPA;
 import BF16::*;
 import BF16_SIMD::*;
 import Vector::*;
-import FIFOF::*;
-import SpecialFIFOs::*;
 
 // ============================================================
 // STREAMING PPA ABLATION DUT
 //
-// One generic module, two ablation axes:
-//
 //   r = number of parallel lanes. Each lane is one mkBF16_SIMD,
 //       i.e. exactly 2 multipliers + 1 adder computing a*b + c*d.
 //
-//   n = depth of the per-lane elastic INPUT buffer, in elements.
-//       Built from mkSizedBypassFIFOF, so an empty buffer is
-//       combinationally transparent: it costs AREA and POWER but
-//       adds ZERO cycles of latency. That is what makes n an
-//       independent PPA axis - cycles/op depend only on r.
+// That is the entire design. It is a pure fan-out / fan-in over r
+// independent lanes: put_operands hands one column of r elements
+// straight to the lanes, get_result collects one column back. No
+// operand storage, no state machine, no input buffering, no
+// notion of a "pass" - each lane's own in/mid/out FIFOs are the
+// only state, and they are what makes it a pipeline.
 //
-// Strictly streaming: put_operands accepts one column of r
-// elements per cycle and get_result produces one column per
-// cycle. There is no batch load, no operand storage, no state
-// machine, and no notion of a "pass" anywhere in the hardware.
-// Total work of 768 elements is a testbench-side loop of 768/r
-// columns.
+// Strictly streaming: one column in per cycle, one column out per
+// cycle, r elements wide. The 768-element workload is a
+// testbench-side loop of 768/r columns.
 //
-// Steady-state throughput is r elements/cycle; end-to-end
-// latency is 4 cycles. Hence for the full 768-element tensor:
+// Steady-state throughput is r elements/cycle; end-to-end latency
+// is 4 cycles. For the full 768-element tensor:
 //
-//        cycles = 768/r + 4        (independent of n)
+//        cycles = 768/r + 4
+//
+// NOTE ON THE n AXIS
+// ------------------
+// An earlier revision carried a per-lane elastic input buffer of
+// depth n (mkSizedBypassFIFOF) purely so that the n column of the
+// config sweep had a hardware meaning. It was measured to be
+// functionally redundant - the lanes already hold their own input
+// FIFOs, and the testbench feeds exactly one column per cycle, so
+// the buffer never held more than one entry and removing it left
+// every cycle count and every result bit-identical.
+//
+// It was NOT free: r*n*64 bits of storage against r*224 bits of
+// real lane state, i.e. up to 55x the compute it was attached to.
+// Keeping it would have meant the synthesised area and power
+// numbers described the buffer rather than the datapath - the
+// same defect that made the old batch ablation's area curve flat.
+//
+// So n is gone from the hardware. It survives only as a testbench
+// label, which is why this file exposes 8 synthesis targets (one
+// per distinct r) rather than 15: the 15-row sweep contains only
+// 8 distinct designs.
 // ============================================================
 
-typedef Tuple4#(BF16, BF16, BF16, BF16) Operands;
-
-// n is a phantom parameter on the interface: it does not appear in
-// any method signature, it only selects the internal buffer depth.
-interface IfcAblationPPA#(numeric type r, numeric type n);
+interface IfcAblationPPA#(numeric type r);
    method Action put_operands(Vector#(r, BF16) a, Vector#(r, BF16) b,
                               Vector#(r, BF16) c, Vector#(r, BF16) d);
    method ActionValue#(Vector#(r, BF16)) get_result();
 endinterface
 
-module mkAblationPPA_Generic(IfcAblationPPA#(r, n))
-   provisos (Add#(1, _unusedR, r),    // r >= 1
-             Add#(2, _unusedN, n));   // n >= 2 (mkSizedBypassFIFOF minimum)
+module mkAblationPPA_Generic(IfcAblationPPA#(r))
+   provisos (Add#(1, _unusedR, r));   // r >= 1
 
-   Vector#(r, IfcBF16_SIMD)     lanes <- replicateM(mkBF16_SIMD());
-   Vector#(r, FIFOF#(Operands)) ibuf  <- replicateM(mkSizedBypassFIFOF(valueOf(n)));
+   Vector#(r, IfcBF16_SIMD) lanes <- replicateM(mkBF16_SIMD());
 
-   // Hand one buffered column to the lanes each cycle. Because ibuf is a
-   // BYPASS fifo, enq (in put_operands) is ordered before deq here, so on
-   // an empty buffer the operands reach the lane in the SAME cycle they
-   // were presented - the buffer adds depth, never delay.
-   rule rl_drain;
-      for (Integer l = 0; l < valueOf(r); l = l + 1) begin
-         match {.a, .b, .c, .d} = ibuf[l].first;
-         ibuf[l].deq;
-         lanes[l].put_operands(a, b, c, d);
-      end
-   endrule
-
+   // Same-cycle parallel dispatch: one method invocation drives all
+   // r lanes, so column k enters every lane on the same edge.
    method Action put_operands(Vector#(r, BF16) a, Vector#(r, BF16) b,
                               Vector#(r, BF16) c, Vector#(r, BF16) d);
       for (Integer l = 0; l < valueOf(r); l = l + 1)
-         ibuf[l].enq(tuple4(a[l], b[l], c[l], d[l]));
+         lanes[l].put_operands(a[l], b[l], c[l], d[l]);
    endmethod
 
+   // Implicit guard is the AND of all r lanes' out_fifo.notEmpty.
+   // Safe because every lane has identical fixed latency and is fed
+   // on the identical schedule, so they always fill in lockstep.
    method ActionValue#(Vector#(r, BF16)) get_result();
       Vector#(r, BF16) res = newVector;
       for (Integer l = 0; l < valueOf(r); l = l + 1) begin
@@ -80,44 +82,27 @@ module mkAblationPPA_Generic(IfcAblationPPA#(r, n))
 endmodule
 
 // ============================================================
-// SYNTHESIS WRAPPERS - one per (r, n) config in the sweep.
-// Each is a separate synthesis boundary, so each gives its own
-// area/power number from the generated Verilog.
+// SYNTHESIS TARGETS - one per distinct lane count in the sweep.
+// Each is its own synthesis boundary => its own area/power point.
+//   r  : 1   2   3   4   6   8   12  16
+//   cyc: 772 388 260 196 132 100 68  52
 // ============================================================
+typedef IfcAblationPPA#(1)  Ifc_r1;
+typedef IfcAblationPPA#(2)  Ifc_r2;
+typedef IfcAblationPPA#(3)  Ifc_r3;
+typedef IfcAblationPPA#(4)  Ifc_r4;
+typedef IfcAblationPPA#(6)  Ifc_r6;
+typedef IfcAblationPPA#(8)  Ifc_r8;
+typedef IfcAblationPPA#(12) Ifc_r12;
+typedef IfcAblationPPA#(16) Ifc_r16;
 
-// --- axis 1: sweep r at fixed n = 64 ---
-typedef IfcAblationPPA#(1,  64)  Ifc_r1_n64;
-typedef IfcAblationPPA#(2,  64)  Ifc_r2_n64;
-typedef IfcAblationPPA#(3,  64)  Ifc_r3_n64;
-typedef IfcAblationPPA#(4,  64)  Ifc_r4_n64;
-typedef IfcAblationPPA#(6,  64)  Ifc_r6_n64;
-typedef IfcAblationPPA#(12, 64)  Ifc_r12_n64;
-// --- axis 2: sweep n at fixed r = 4 ---
-typedef IfcAblationPPA#(4,  16)  Ifc_r4_n16;
-typedef IfcAblationPPA#(4,  32)  Ifc_r4_n32;
-typedef IfcAblationPPA#(4,  96)  Ifc_r4_n96;
-typedef IfcAblationPPA#(4,  192) Ifc_r4_n192;
-// --- mixed corners ---
-typedef IfcAblationPPA#(8,  32)  Ifc_r8_n32;
-typedef IfcAblationPPA#(8,  96)  Ifc_r8_n96;
-typedef IfcAblationPPA#(2,  128) Ifc_r2_n128;
-typedef IfcAblationPPA#(6,  128) Ifc_r6_n128;
-typedef IfcAblationPPA#(16, 48)  Ifc_r16_n48;
-
-(* synthesize *) module mkAblation_r1_n64  (Ifc_r1_n64);   let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r2_n64  (Ifc_r2_n64);   let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r3_n64  (Ifc_r3_n64);   let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r4_n64  (Ifc_r4_n64);   let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r6_n64  (Ifc_r6_n64);   let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r12_n64 (Ifc_r12_n64);  let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r4_n16  (Ifc_r4_n16);   let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r4_n32  (Ifc_r4_n32);   let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r4_n96  (Ifc_r4_n96);   let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r4_n192 (Ifc_r4_n192);  let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r8_n32  (Ifc_r8_n32);   let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r8_n96  (Ifc_r8_n96);   let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r2_n128 (Ifc_r2_n128);  let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r6_n128 (Ifc_r6_n128);  let i <- mkAblationPPA_Generic; return i; endmodule
-(* synthesize *) module mkAblation_r16_n48 (Ifc_r16_n48);  let i <- mkAblationPPA_Generic; return i; endmodule
+(* synthesize *) module mkAblation_r1  (Ifc_r1);  let i <- mkAblationPPA_Generic; return i; endmodule
+(* synthesize *) module mkAblation_r2  (Ifc_r2);  let i <- mkAblationPPA_Generic; return i; endmodule
+(* synthesize *) module mkAblation_r3  (Ifc_r3);  let i <- mkAblationPPA_Generic; return i; endmodule
+(* synthesize *) module mkAblation_r4  (Ifc_r4);  let i <- mkAblationPPA_Generic; return i; endmodule
+(* synthesize *) module mkAblation_r6  (Ifc_r6);  let i <- mkAblationPPA_Generic; return i; endmodule
+(* synthesize *) module mkAblation_r8  (Ifc_r8);  let i <- mkAblationPPA_Generic; return i; endmodule
+(* synthesize *) module mkAblation_r12 (Ifc_r12); let i <- mkAblationPPA_Generic; return i; endmodule
+(* synthesize *) module mkAblation_r16 (Ifc_r16); let i <- mkAblationPPA_Generic; return i; endmodule
 
 endpackage

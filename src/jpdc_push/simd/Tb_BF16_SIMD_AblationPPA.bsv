@@ -76,8 +76,8 @@ endfunction
 // Generic TB body. Takes the DUT as an argument so bsc can infer
 // r and n from it; `cols` = 768/r columns to stream.
 // ------------------------------------------------------------
-module mkTbBody#(IfcAblationPPA#(r, n) dut,
-                 Integer cols, Integer expCycles, String label)(Empty)
+module mkTbBody#(IfcAblationPPA#(r) dut,
+                 Integer cols, Integer expCycles, Integer nLabel, String label)(Empty)
    provisos (Add#(1, _unused, r));
 
    Integer rv = valueOf(r);
@@ -102,8 +102,8 @@ module mkTbBody#(IfcAblationPPA#(r, n) dut,
    rule rl_begin (!started);
       started <= True;
       $display("############################################################");
-      $display("# CONFIG %s  |  r=%0d lanes (2 mul + 1 add each)  |  n=%0d buffer depth",
-               label, rv, valueOf(n));
+      $display("# CONFIG %s  |  r=%0d lanes (2 mul + 1 add each)  |  n=%0d (label only)",
+               label, rv, nLabel);
       $display("# streaming %0d columns x %0d lanes = 768 elements of a*b + c*d",
                cols, rv);
       $display("# operands: 64-value tile reused 12x; rotations a+0 b+17 c+34 d+51");
@@ -190,7 +190,7 @@ module mkTbBody#(IfcAblationPPA#(r, n) dut,
 
    rule rl_finish (started && recv_idx == fromInteger(cols));
       $display("%s | r=%0d n=%0d | cols=%0d | cycles=%0d (expected %0d) %s | first_out=%0d | checked=%0d errors=%0d %s",
-               label, rv, valueOf(n), cols, cyc, expCycles,
+               label, rv, nLabel, cols, cyc, expCycles,
                (cyc == fromInteger(expCycles)) ? "MATCH  " : "**DIFF**",
                first_out, checked, errors,
                (errors == 0) ? "PASS" : "**FAIL**");
@@ -200,37 +200,40 @@ module mkTbBody#(IfcAblationPPA#(r, n) dut,
 endmodule
 
 // ------------------------------------------------------------
-// One TB per config. cols = 768/r, expected cycles = 768/r + 4.
+// One TB per (r, n) row of the sweep: 15 rows, but only 8 distinct
+// DUTs - every row with the same r instantiates the same hardware,
+// which is precisely the point n is making. cols = 768/r,
+// expected cycles = 768/r + 4.
 // ------------------------------------------------------------
 (* synthesize *) module mkTb_r1_n64 (Empty);
-   Ifc_r1_n64  d <- mkAblation_r1_n64();   Empty t <- mkTbBody(d, 768, 772, "r1_n64 ");  return t; endmodule
+   Ifc_r1   d <- mkAblation_r1();  Empty t <- mkTbBody(d, 768, 772,  64, "r1_n64 ");  return t; endmodule
 (* synthesize *) module mkTb_r2_n64 (Empty);
-   Ifc_r2_n64  d <- mkAblation_r2_n64();   Empty t <- mkTbBody(d, 384, 388, "r2_n64 ");  return t; endmodule
+   Ifc_r2   d <- mkAblation_r2();  Empty t <- mkTbBody(d, 384, 388,  64, "r2_n64 ");  return t; endmodule
 (* synthesize *) module mkTb_r3_n64 (Empty);
-   Ifc_r3_n64  d <- mkAblation_r3_n64();   Empty t <- mkTbBody(d, 256, 260, "r3_n64 ");  return t; endmodule
+   Ifc_r3   d <- mkAblation_r3();  Empty t <- mkTbBody(d, 256, 260,  64, "r3_n64 ");  return t; endmodule
 (* synthesize *) module mkTb_r4_n64 (Empty);
-   Ifc_r4_n64  d <- mkAblation_r4_n64();   Empty t <- mkTbBody(d, 192, 196, "r4_n64 ");  return t; endmodule
+   Ifc_r4   d <- mkAblation_r4();  Empty t <- mkTbBody(d, 192, 196,  64, "r4_n64 ");  return t; endmodule
 (* synthesize *) module mkTb_r6_n64 (Empty);
-   Ifc_r6_n64  d <- mkAblation_r6_n64();   Empty t <- mkTbBody(d, 128, 132, "r6_n64 ");  return t; endmodule
+   Ifc_r6   d <- mkAblation_r6();  Empty t <- mkTbBody(d, 128, 132,  64, "r6_n64 ");  return t; endmodule
 (* synthesize *) module mkTb_r12_n64 (Empty);
-   Ifc_r12_n64 d <- mkAblation_r12_n64();  Empty t <- mkTbBody(d,  64,  68, "r12_n64");  return t; endmodule
+   Ifc_r12  d <- mkAblation_r12();  Empty t <- mkTbBody(d,  64,  68,  64, "r12_n64");  return t; endmodule
 (* synthesize *) module mkTb_r4_n16 (Empty);
-   Ifc_r4_n16  d <- mkAblation_r4_n16();   Empty t <- mkTbBody(d, 192, 196, "r4_n16 ");  return t; endmodule
+   Ifc_r4   d <- mkAblation_r4();  Empty t <- mkTbBody(d, 192, 196,  16, "r4_n16 ");  return t; endmodule
 (* synthesize *) module mkTb_r4_n32 (Empty);
-   Ifc_r4_n32  d <- mkAblation_r4_n32();   Empty t <- mkTbBody(d, 192, 196, "r4_n32 ");  return t; endmodule
+   Ifc_r4   d <- mkAblation_r4();  Empty t <- mkTbBody(d, 192, 196,  32, "r4_n32 ");  return t; endmodule
 (* synthesize *) module mkTb_r4_n96 (Empty);
-   Ifc_r4_n96  d <- mkAblation_r4_n96();   Empty t <- mkTbBody(d, 192, 196, "r4_n96 ");  return t; endmodule
+   Ifc_r4   d <- mkAblation_r4();  Empty t <- mkTbBody(d, 192, 196,  96, "r4_n96 ");  return t; endmodule
 (* synthesize *) module mkTb_r4_n192 (Empty);
-   Ifc_r4_n192 d <- mkAblation_r4_n192();  Empty t <- mkTbBody(d, 192, 196, "r4_n192");  return t; endmodule
+   Ifc_r4   d <- mkAblation_r4();  Empty t <- mkTbBody(d, 192, 196, 192, "r4_n192");  return t; endmodule
 (* synthesize *) module mkTb_r8_n32 (Empty);
-   Ifc_r8_n32  d <- mkAblation_r8_n32();   Empty t <- mkTbBody(d,  96, 100, "r8_n32 ");  return t; endmodule
+   Ifc_r8   d <- mkAblation_r8();  Empty t <- mkTbBody(d,  96, 100,  32, "r8_n32 ");  return t; endmodule
 (* synthesize *) module mkTb_r8_n96 (Empty);
-   Ifc_r8_n96  d <- mkAblation_r8_n96();   Empty t <- mkTbBody(d,  96, 100, "r8_n96 ");  return t; endmodule
+   Ifc_r8   d <- mkAblation_r8();  Empty t <- mkTbBody(d,  96, 100,  96, "r8_n96 ");  return t; endmodule
 (* synthesize *) module mkTb_r2_n128 (Empty);
-   Ifc_r2_n128 d <- mkAblation_r2_n128();  Empty t <- mkTbBody(d, 384, 388, "r2_n128");  return t; endmodule
+   Ifc_r2   d <- mkAblation_r2();  Empty t <- mkTbBody(d, 384, 388, 128, "r2_n128");  return t; endmodule
 (* synthesize *) module mkTb_r6_n128 (Empty);
-   Ifc_r6_n128 d <- mkAblation_r6_n128();  Empty t <- mkTbBody(d, 128, 132, "r6_n128");  return t; endmodule
+   Ifc_r6   d <- mkAblation_r6();  Empty t <- mkTbBody(d, 128, 132, 128, "r6_n128");  return t; endmodule
 (* synthesize *) module mkTb_r16_n48 (Empty);
-   Ifc_r16_n48 d <- mkAblation_r16_n48();  Empty t <- mkTbBody(d,  48,  52, "r16_n48");  return t; endmodule
+   Ifc_r16  d <- mkAblation_r16();  Empty t <- mkTbBody(d,  48,  52,  48, "r16_n48");  return t; endmodule
 
 endpackage

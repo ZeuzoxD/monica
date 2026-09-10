@@ -1,0 +1,1843 @@
+############################################################
+# CONFIG r16_n48  |  r=16 lanes (2 mul + 1 add each)  |  n=48 (label only)
+# streaming 48 columns x 16 lanes = 768 elements of a*b + c*d
+# operands: 64-value tile reused 12x; rotations a+0 b+17 c+34 d+51
+# expected: 52 cycles, first result at cycle 4
+############################################################
+
+>>> INPUT  SENT   | cyc=1 | $time=20 | column 0 of 48
+      lane=0  elem=0  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=1  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=2  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=3  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=4  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=5  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=6  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=7  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=8  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=9  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=10  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=11  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=12  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=13  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=14  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=15  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+>>> INPUT  SENT   | cyc=2 | $time=30 | column 1 of 48
+      lane=0  elem=16  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=17  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=18  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=19  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=20  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=21  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=22  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=23  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=24  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=25  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=26  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=27  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=28  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=29  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=30  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=31  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+>>> INPUT  SENT   | cyc=3 | $time=40 | column 2 of 48
+      lane=0  elem=32  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=33  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=34  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=35  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=36  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=37  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=38  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=39  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=40  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=41  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=42  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=43  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=44  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=45  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=46  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=47  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+>>> INPUT  SENT   | cyc=4 | $time=50 | column 3 of 48
+      lane=0  elem=48  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=49  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=50  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=51  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=52  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=53  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=54  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=55  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=56  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=57  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=58  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=59  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=60  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=61  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=62  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=63  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=4 | $time=50 | column 0 of 48
+      lane=0  elem=0  (tile 0)   result=472c   expected=472c   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=0  (tile idx 0)   col=0  lane=0  cyc=4
+|    a = 441a     b = 4320
+|    c = c415     d = 42b7
+|    a*b       = 47c0
+|    c*d       = c755
+|    a*b + c*d = 472c   <- reference
+|    DUT result= 472c   OK
++---------------------------------------------------------------
+      lane=1  elem=1  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=2  (tile 2)   result=493a   expected=493a   OK
+      lane=3  elem=3  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=4  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=5  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=6  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=7  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=8  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=9  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=10  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=11  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=12  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=13  (tile 13)   result=c88c   expected=c88c   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=13  (tile idx 13)   col=0  lane=13  cyc=4
+|    a = 4207     b = 443a
+|    c = c3fe     d = 441a
+|    a*b       = 46c4
+|    c*d       = c898
+|    a*b + c*d = c88c   <- reference
+|    DUT result= c88c   OK
++---------------------------------------------------------------
+      lane=14  elem=14  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=15  (tile 15)   result=c7e2   expected=c7e2   OK
+
+>>> INPUT  SENT   | cyc=5 | $time=60 | column 4 of 48
+      lane=0  elem=64  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=65  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=66  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=67  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=68  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=69  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=70  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=71  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=72  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=73  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=74  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=75  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=76  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=77  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=78  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=79  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+<<< OUTPUT READY  | cyc=5 | $time=60 | column 1 of 48
+      lane=0  elem=16  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=17  (tile 17)   result=c815   expected=c815   OK
+      lane=2  elem=18  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=19  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=20  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=21  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=22  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=23  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=24  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=25  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=26  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=27  (tile 27)   result=4912   expected=4912   OK
+      lane=12  elem=28  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=29  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=30  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=31  (tile 31)   result=c8e7   expected=c8e7   OK
+
+>>> INPUT  SENT   | cyc=6 | $time=70 | column 5 of 48
+      lane=0  elem=80  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=81  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=82  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=83  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=84  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=85  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=86  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=87  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=88  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=89  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=90  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=91  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=92  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=93  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=94  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=95  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+<<< OUTPUT READY  | cyc=6 | $time=70 | column 2 of 48
+      lane=0  elem=32  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=33  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=34  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=35  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=36  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=37  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=38  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=39  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=40  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=41  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=42  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=43  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=44  (tile 44)   result=479c   expected=479c   OK
+      lane=13  elem=45  (tile 45)   result=c946   expected=c946   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=45  (tile idx 45)   col=2  lane=13  cyc=6
+|    a = 4447     b = c478
+|    c = c293     d = 43a8
+|    a*b       = c940
+|    c*d       = c6c0
+|    a*b + c*d = c946   <- reference
+|    DUT result= c946   OK
++---------------------------------------------------------------
+      lane=14  elem=46  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=47  (tile 47)   result=c8c6   expected=c8c6   OK
+
+>>> INPUT  SENT   | cyc=7 | $time=80 | column 6 of 48
+      lane=0  elem=96  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=97  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=98  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=99  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=100  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=101  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=102  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=103  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=104  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=105  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=106  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=107  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=108  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=109  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=110  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=111  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+<<< OUTPUT READY  | cyc=7 | $time=80 | column 3 of 48
+      lane=0  elem=48  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=49  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=50  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=51  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=52  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=53  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=54  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=55  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=56  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=57  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=58  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=59  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=60  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=61  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=62  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=63  (tile 63)   result=c760   expected=c760   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=63  (tile idx 63)   col=3  lane=15  cyc=7
+|    a = c330     b = 442e
+|    c = 4321     d = 43ca
+|    a*b       = c7ef
+|    c*d       = 477e
+|    a*b + c*d = c760   <- reference
+|    DUT result= c760   OK
++---------------------------------------------------------------
+
+>>> INPUT  SENT   | cyc=8 | $time=90 | column 7 of 48
+      lane=0  elem=112  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=113  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=114  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=115  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=116  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=117  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=118  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=119  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=120  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=121  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=122  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=123  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=124  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=125  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=126  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=127  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=8 | $time=90 | column 4 of 48
+      lane=0  elem=64  (tile 0)   result=472c   expected=472c   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=64  (tile idx 0)   col=4  lane=0  cyc=8
+|    a = 441a     b = 4320
+|    c = c415     d = 42b7
+|    a*b       = 47c0
+|    c*d       = c755
+|    a*b + c*d = 472c   <- reference
+|    DUT result= 472c   OK
++---------------------------------------------------------------
+      lane=1  elem=65  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=66  (tile 2)   result=493a   expected=493a   OK
+      lane=3  elem=67  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=68  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=69  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=70  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=71  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=72  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=73  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=74  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=75  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=76  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=77  (tile 13)   result=c88c   expected=c88c   OK
+      lane=14  elem=78  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=79  (tile 15)   result=c7e2   expected=c7e2   OK
+
+>>> INPUT  SENT   | cyc=9 | $time=100 | column 8 of 48
+      lane=0  elem=128  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=129  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=130  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=131  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=132  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=133  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=134  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=135  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=136  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=137  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=138  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=139  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=140  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=141  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=142  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=143  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+<<< OUTPUT READY  | cyc=9 | $time=100 | column 5 of 48
+      lane=0  elem=80  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=81  (tile 17)   result=c815   expected=c815   OK
+      lane=2  elem=82  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=83  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=84  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=85  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=86  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=87  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=88  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=89  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=90  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=91  (tile 27)   result=4912   expected=4912   OK
+      lane=12  elem=92  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=93  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=94  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=95  (tile 31)   result=c8e7   expected=c8e7   OK
+
+>>> INPUT  SENT   | cyc=10 | $time=110 | column 9 of 48
+      lane=0  elem=144  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=145  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=146  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=147  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=148  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=149  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=150  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=151  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=152  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=153  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=154  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=155  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=156  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=157  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=158  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=159  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+<<< OUTPUT READY  | cyc=10 | $time=110 | column 6 of 48
+      lane=0  elem=96  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=97  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=98  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=99  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=100  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=101  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=102  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=103  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=104  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=105  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=106  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=107  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=108  (tile 44)   result=479c   expected=479c   OK
+      lane=13  elem=109  (tile 45)   result=c946   expected=c946   OK
+      lane=14  elem=110  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=111  (tile 47)   result=c8c6   expected=c8c6   OK
+
+>>> INPUT  SENT   | cyc=11 | $time=120 | column 10 of 48
+      lane=0  elem=160  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=161  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=162  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=163  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=164  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=165  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=166  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=167  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=168  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=169  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=170  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=171  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=172  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=173  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=174  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=175  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+<<< OUTPUT READY  | cyc=11 | $time=120 | column 7 of 48
+      lane=0  elem=112  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=113  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=114  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=115  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=116  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=117  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=118  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=119  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=120  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=121  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=122  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=123  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=124  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=125  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=126  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=127  (tile 63)   result=c760   expected=c760   OK
+
+>>> INPUT  SENT   | cyc=12 | $time=130 | column 11 of 48
+      lane=0  elem=176  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=177  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=178  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=179  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=180  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=181  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=182  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=183  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=184  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=185  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=186  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=187  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=188  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=189  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=190  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=191  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=12 | $time=130 | column 8 of 48
+      lane=0  elem=128  (tile 0)   result=472c   expected=472c   OK
+      lane=1  elem=129  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=130  (tile 2)   result=493a   expected=493a   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=130  (tile idx 2)   col=8  lane=2  cyc=12
+|    a = c437     b = c2ec
+|    c = 444e     d = 444e
+|    a*b       = 47a8
+|    c*d       = 4925
+|    a*b + c*d = 493a   <- reference
+|    DUT result= 493a   OK
++---------------------------------------------------------------
+      lane=3  elem=131  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=132  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=133  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=134  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=135  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=136  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=137  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=138  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=139  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=140  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=141  (tile 13)   result=c88c   expected=c88c   OK
+      lane=14  elem=142  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=143  (tile 15)   result=c7e2   expected=c7e2   OK
+
+>>> INPUT  SENT   | cyc=13 | $time=140 | column 12 of 48
+      lane=0  elem=192  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=193  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=194  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=195  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=196  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=197  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=198  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=199  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=200  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=201  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=202  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=203  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=204  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=205  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=206  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=207  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+<<< OUTPUT READY  | cyc=13 | $time=140 | column 9 of 48
+      lane=0  elem=144  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=145  (tile 17)   result=c815   expected=c815   OK
+      lane=2  elem=146  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=147  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=148  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=149  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=150  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=151  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=152  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=153  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=154  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=155  (tile 27)   result=4912   expected=4912   OK
+      lane=12  elem=156  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=157  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=158  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=159  (tile 31)   result=c8e7   expected=c8e7   OK
+
+>>> INPUT  SENT   | cyc=14 | $time=150 | column 13 of 48
+      lane=0  elem=208  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=209  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=210  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=211  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=212  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=213  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=214  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=215  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=216  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=217  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=218  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=219  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=220  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=221  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=222  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=223  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+<<< OUTPUT READY  | cyc=14 | $time=150 | column 10 of 48
+      lane=0  elem=160  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=161  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=162  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=163  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=164  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=165  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=166  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=167  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=168  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=169  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=170  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=171  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=172  (tile 44)   result=479c   expected=479c   OK
+      lane=13  elem=173  (tile 45)   result=c946   expected=c946   OK
+      lane=14  elem=174  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=175  (tile 47)   result=c8c6   expected=c8c6   OK
+
+>>> INPUT  SENT   | cyc=15 | $time=160 | column 14 of 48
+      lane=0  elem=224  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=225  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=226  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=227  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=228  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=229  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=230  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=231  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=232  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=233  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=234  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=235  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=236  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=237  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=238  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=239  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+<<< OUTPUT READY  | cyc=15 | $time=160 | column 11 of 48
+      lane=0  elem=176  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=177  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=178  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=179  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=180  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=181  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=182  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=183  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=184  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=185  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=186  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=187  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=188  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=189  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=190  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=191  (tile 63)   result=c760   expected=c760   OK
+
+>>> INPUT  SENT   | cyc=16 | $time=170 | column 15 of 48
+      lane=0  elem=240  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=241  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=242  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=243  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=244  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=245  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=246  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=247  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=248  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=249  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=250  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=251  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=252  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=253  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=254  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=255  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=16 | $time=170 | column 12 of 48
+      lane=0  elem=192  (tile 0)   result=472c   expected=472c   OK
+      lane=1  elem=193  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=194  (tile 2)   result=493a   expected=493a   OK
+      lane=3  elem=195  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=196  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=197  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=198  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=199  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=200  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=201  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=202  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=203  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=204  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=205  (tile 13)   result=c88c   expected=c88c   OK
+      lane=14  elem=206  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=207  (tile 15)   result=c7e2   expected=c7e2   OK
+
+>>> INPUT  SENT   | cyc=17 | $time=180 | column 16 of 48
+      lane=0  elem=256  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=257  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=258  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=259  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=260  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=261  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=262  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=263  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=264  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=265  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=266  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=267  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=268  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=269  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=270  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=271  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+<<< OUTPUT READY  | cyc=17 | $time=180 | column 13 of 48
+      lane=0  elem=208  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=209  (tile 17)   result=c815   expected=c815   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=209  (tile idx 17)   col=13  lane=1  cyc=17
+|    a = 4320     b = c415
+|    c = 42b7     d = c41e
+|    a*b       = c7ba
+|    c*d       = c761
+|    a*b + c*d = c815   <- reference
+|    DUT result= c815   OK
++---------------------------------------------------------------
+      lane=2  elem=210  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=211  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=212  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=213  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=214  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=215  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=216  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=217  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=218  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=219  (tile 27)   result=4912   expected=4912   OK
+      lane=12  elem=220  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=221  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=222  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=223  (tile 31)   result=c8e7   expected=c8e7   OK
+
+>>> INPUT  SENT   | cyc=18 | $time=190 | column 17 of 48
+      lane=0  elem=272  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=273  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=274  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=275  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=276  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=277  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=278  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=279  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=280  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=281  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=282  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=283  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=284  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=285  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=286  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=287  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+<<< OUTPUT READY  | cyc=18 | $time=190 | column 14 of 48
+      lane=0  elem=224  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=225  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=226  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=227  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=228  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=229  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=230  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=231  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=232  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=233  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=234  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=235  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=236  (tile 44)   result=479c   expected=479c   OK
+      lane=13  elem=237  (tile 45)   result=c946   expected=c946   OK
+      lane=14  elem=238  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=239  (tile 47)   result=c8c6   expected=c8c6   OK
+
+>>> INPUT  SENT   | cyc=19 | $time=200 | column 18 of 48
+      lane=0  elem=288  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=289  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=290  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=291  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=292  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=293  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=294  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=295  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=296  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=297  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=298  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=299  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=300  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=301  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=302  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=303  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+<<< OUTPUT READY  | cyc=19 | $time=200 | column 15 of 48
+      lane=0  elem=240  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=241  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=242  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=243  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=244  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=245  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=246  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=247  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=248  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=249  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=250  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=251  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=252  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=253  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=254  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=255  (tile 63)   result=c760   expected=c760   OK
+
+>>> INPUT  SENT   | cyc=20 | $time=210 | column 19 of 48
+      lane=0  elem=304  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=305  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=306  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=307  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=308  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=309  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=310  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=311  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=312  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=313  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=314  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=315  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=316  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=317  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=318  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=319  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=20 | $time=210 | column 16 of 48
+      lane=0  elem=256  (tile 0)   result=472c   expected=472c   OK
+      lane=1  elem=257  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=258  (tile 2)   result=493a   expected=493a   OK
+      lane=3  elem=259  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=260  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=261  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=262  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=263  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=264  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=265  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=266  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=267  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=268  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=269  (tile 13)   result=c88c   expected=c88c   OK
+      lane=14  elem=270  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=271  (tile 15)   result=c7e2   expected=c7e2   OK
+
+>>> INPUT  SENT   | cyc=21 | $time=220 | column 20 of 48
+      lane=0  elem=320  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=321  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=322  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=323  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=324  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=325  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=326  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=327  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=328  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=329  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=330  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=331  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=332  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=333  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=334  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=335  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+<<< OUTPUT READY  | cyc=21 | $time=220 | column 17 of 48
+      lane=0  elem=272  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=273  (tile 17)   result=c815   expected=c815   OK
+      lane=2  elem=274  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=275  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=276  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=277  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=278  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=279  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=280  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=281  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=282  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=283  (tile 27)   result=4912   expected=4912   OK
+      lane=12  elem=284  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=285  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=286  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=287  (tile 31)   result=c8e7   expected=c8e7   OK
+
+>>> INPUT  SENT   | cyc=22 | $time=230 | column 21 of 48
+      lane=0  elem=336  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=337  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=338  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=339  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=340  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=341  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=342  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=343  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=344  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=345  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=346  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=347  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=348  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=349  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=350  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=351  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+<<< OUTPUT READY  | cyc=22 | $time=230 | column 18 of 48
+      lane=0  elem=288  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=289  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=290  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=291  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=292  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=293  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=294  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=295  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=296  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=297  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=298  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=299  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=300  (tile 44)   result=479c   expected=479c   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=300  (tile idx 44)   col=18  lane=12  cyc=22
+|    a = c40d     b = c3e9
+|    c = c3d0     d = 43dd
+|    a*b       = 4880
+|    c*d       = c833
+|    a*b + c*d = 479c   <- reference
+|    DUT result= 479c   OK
++---------------------------------------------------------------
+      lane=13  elem=301  (tile 45)   result=c946   expected=c946   OK
+      lane=14  elem=302  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=303  (tile 47)   result=c8c6   expected=c8c6   OK
+
+>>> INPUT  SENT   | cyc=23 | $time=240 | column 22 of 48
+      lane=0  elem=352  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=353  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=354  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=355  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=356  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=357  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=358  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=359  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=360  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=361  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=362  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=363  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=364  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=365  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=366  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=367  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+<<< OUTPUT READY  | cyc=23 | $time=240 | column 19 of 48
+      lane=0  elem=304  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=305  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=306  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=307  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=308  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=309  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=310  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=311  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=312  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=313  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=314  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=315  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=316  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=317  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=318  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=319  (tile 63)   result=c760   expected=c760   OK
+
+>>> INPUT  SENT   | cyc=24 | $time=250 | column 23 of 48
+      lane=0  elem=368  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=369  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=370  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=371  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=372  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=373  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=374  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=375  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=376  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=377  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=378  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=379  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=380  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=381  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=382  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=383  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=24 | $time=250 | column 20 of 48
+      lane=0  elem=320  (tile 0)   result=472c   expected=472c   OK
+      lane=1  elem=321  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=322  (tile 2)   result=493a   expected=493a   OK
+      lane=3  elem=323  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=324  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=325  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=326  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=327  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=328  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=329  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=330  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=331  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=332  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=333  (tile 13)   result=c88c   expected=c88c   OK
+      lane=14  elem=334  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=335  (tile 15)   result=c7e2   expected=c7e2   OK
+
+>>> INPUT  SENT   | cyc=25 | $time=260 | column 24 of 48
+      lane=0  elem=384  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=385  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=386  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=387  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=388  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=389  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=390  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=391  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=392  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=393  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=394  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=395  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=396  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=397  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=398  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=399  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+<<< OUTPUT READY  | cyc=25 | $time=260 | column 21 of 48
+      lane=0  elem=336  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=337  (tile 17)   result=c815   expected=c815   OK
+      lane=2  elem=338  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=339  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=340  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=341  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=342  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=343  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=344  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=345  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=346  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=347  (tile 27)   result=4912   expected=4912   OK
+      lane=12  elem=348  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=349  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=350  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=351  (tile 31)   result=c8e7   expected=c8e7   OK
+
+>>> INPUT  SENT   | cyc=26 | $time=270 | column 25 of 48
+      lane=0  elem=400  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=401  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=402  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=403  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=404  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=405  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=406  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=407  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=408  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=409  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=410  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=411  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=412  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=413  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=414  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=415  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+<<< OUTPUT READY  | cyc=26 | $time=270 | column 22 of 48
+      lane=0  elem=352  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=353  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=354  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=355  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=356  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=357  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=358  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=359  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=360  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=361  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=362  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=363  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=364  (tile 44)   result=479c   expected=479c   OK
+      lane=13  elem=365  (tile 45)   result=c946   expected=c946   OK
+      lane=14  elem=366  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=367  (tile 47)   result=c8c6   expected=c8c6   OK
+
+>>> INPUT  SENT   | cyc=27 | $time=280 | column 26 of 48
+      lane=0  elem=416  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=417  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=418  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=419  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=420  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=421  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=422  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=423  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=424  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=425  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=426  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=427  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=428  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=429  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=430  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=431  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+<<< OUTPUT READY  | cyc=27 | $time=280 | column 23 of 48
+      lane=0  elem=368  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=369  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=370  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=371  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=372  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=373  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=374  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=375  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=376  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=377  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=378  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=379  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=380  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=381  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=382  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=383  (tile 63)   result=c760   expected=c760   OK
+
+>>> INPUT  SENT   | cyc=28 | $time=290 | column 27 of 48
+      lane=0  elem=432  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=433  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=434  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=435  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=436  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=437  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=438  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=439  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=440  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=441  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=442  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=443  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=444  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=445  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=446  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=447  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=28 | $time=290 | column 24 of 48
+      lane=0  elem=384  (tile 0)   result=472c   expected=472c   OK
+      lane=1  elem=385  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=386  (tile 2)   result=493a   expected=493a   OK
+      lane=3  elem=387  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=388  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=389  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=390  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=391  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=392  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=393  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=394  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=395  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=396  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=397  (tile 13)   result=c88c   expected=c88c   OK
+      lane=14  elem=398  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=399  (tile 15)   result=c7e2   expected=c7e2   OK
+
+>>> INPUT  SENT   | cyc=29 | $time=300 | column 28 of 48
+      lane=0  elem=448  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=449  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=450  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=451  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=452  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=453  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=454  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=455  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=456  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=457  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=458  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=459  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=460  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=461  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=462  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=463  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+<<< OUTPUT READY  | cyc=29 | $time=300 | column 25 of 48
+      lane=0  elem=400  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=401  (tile 17)   result=c815   expected=c815   OK
+      lane=2  elem=402  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=403  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=404  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=405  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=406  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=407  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=408  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=409  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=410  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=411  (tile 27)   result=4912   expected=4912   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=411  (tile idx 27)   col=25  lane=11  cyc=29
+|    a = c435     b = c40d
+|    c = c3e9     d = c3d0
+|    a*b       = 48c7
+|    c*d       = 483d
+|    a*b + c*d = 4912   <- reference
+|    DUT result= 4912   OK
++---------------------------------------------------------------
+      lane=12  elem=412  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=413  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=414  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=415  (tile 31)   result=c8e7   expected=c8e7   OK
+
+>>> INPUT  SENT   | cyc=30 | $time=310 | column 29 of 48
+      lane=0  elem=464  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=465  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=466  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=467  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=468  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=469  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=470  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=471  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=472  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=473  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=474  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=475  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=476  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=477  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=478  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=479  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+<<< OUTPUT READY  | cyc=30 | $time=310 | column 26 of 48
+      lane=0  elem=416  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=417  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=418  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=419  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=420  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=421  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=422  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=423  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=424  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=425  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=426  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=427  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=428  (tile 44)   result=479c   expected=479c   OK
+      lane=13  elem=429  (tile 45)   result=c946   expected=c946   OK
+      lane=14  elem=430  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=431  (tile 47)   result=c8c6   expected=c8c6   OK
+
+>>> INPUT  SENT   | cyc=31 | $time=320 | column 30 of 48
+      lane=0  elem=480  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=481  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=482  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=483  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=484  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=485  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=486  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=487  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=488  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=489  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=490  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=491  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=492  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=493  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=494  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=495  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+<<< OUTPUT READY  | cyc=31 | $time=320 | column 27 of 48
+      lane=0  elem=432  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=433  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=434  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=435  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=436  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=437  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=438  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=439  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=440  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=441  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=442  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=443  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=444  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=445  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=446  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=447  (tile 63)   result=c760   expected=c760   OK
+
+>>> INPUT  SENT   | cyc=32 | $time=330 | column 31 of 48
+      lane=0  elem=496  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=497  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=498  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=499  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=500  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=501  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=502  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=503  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=504  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=505  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=506  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=507  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=508  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=509  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=510  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=511  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=32 | $time=330 | column 28 of 48
+      lane=0  elem=448  (tile 0)   result=472c   expected=472c   OK
+      lane=1  elem=449  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=450  (tile 2)   result=493a   expected=493a   OK
+      lane=3  elem=451  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=452  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=453  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=454  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=455  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=456  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=457  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=458  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=459  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=460  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=461  (tile 13)   result=c88c   expected=c88c   OK
+      lane=14  elem=462  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=463  (tile 15)   result=c7e2   expected=c7e2   OK
+
+>>> INPUT  SENT   | cyc=33 | $time=340 | column 32 of 48
+      lane=0  elem=512  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=513  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=514  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=515  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=516  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=517  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=518  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=519  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=520  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=521  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=522  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=523  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=524  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=525  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=526  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=527  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+<<< OUTPUT READY  | cyc=33 | $time=340 | column 29 of 48
+      lane=0  elem=464  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=465  (tile 17)   result=c815   expected=c815   OK
+      lane=2  elem=466  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=467  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=468  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=469  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=470  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=471  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=472  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=473  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=474  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=475  (tile 27)   result=4912   expected=4912   OK
+      lane=12  elem=476  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=477  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=478  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=479  (tile 31)   result=c8e7   expected=c8e7   OK
+
+>>> INPUT  SENT   | cyc=34 | $time=350 | column 33 of 48
+      lane=0  elem=528  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=529  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=530  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=531  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=532  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=533  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=534  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=535  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=536  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=537  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=538  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=539  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=540  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=541  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=542  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=543  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+<<< OUTPUT READY  | cyc=34 | $time=350 | column 30 of 48
+      lane=0  elem=480  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=481  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=482  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=483  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=484  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=485  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=486  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=487  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=488  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=489  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=490  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=491  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=492  (tile 44)   result=479c   expected=479c   OK
+      lane=13  elem=493  (tile 45)   result=c946   expected=c946   OK
+      lane=14  elem=494  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=495  (tile 47)   result=c8c6   expected=c8c6   OK
+
+>>> INPUT  SENT   | cyc=35 | $time=360 | column 34 of 48
+      lane=0  elem=544  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=545  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=546  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=547  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=548  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=549  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=550  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=551  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=552  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=553  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=554  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=555  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=556  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=557  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=558  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=559  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+<<< OUTPUT READY  | cyc=35 | $time=360 | column 31 of 48
+      lane=0  elem=496  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=497  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=498  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=499  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=500  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=501  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=502  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=503  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=504  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=505  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=506  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=507  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=508  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=509  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=510  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=511  (tile 63)   result=c760   expected=c760   OK
+
+>>> INPUT  SENT   | cyc=36 | $time=370 | column 35 of 48
+      lane=0  elem=560  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=561  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=562  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=563  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=564  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=565  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=566  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=567  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=568  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=569  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=570  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=571  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=572  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=573  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=574  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=575  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=36 | $time=370 | column 32 of 48
+      lane=0  elem=512  (tile 0)   result=472c   expected=472c   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=512  (tile idx 0)   col=32  lane=0  cyc=36
+|    a = 441a     b = 4320
+|    c = c415     d = 42b7
+|    a*b       = 47c0
+|    c*d       = c755
+|    a*b + c*d = 472c   <- reference
+|    DUT result= 472c   OK
++---------------------------------------------------------------
+      lane=1  elem=513  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=514  (tile 2)   result=493a   expected=493a   OK
+      lane=3  elem=515  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=516  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=517  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=518  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=519  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=520  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=521  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=522  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=523  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=524  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=525  (tile 13)   result=c88c   expected=c88c   OK
+      lane=14  elem=526  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=527  (tile 15)   result=c7e2   expected=c7e2   OK
+
+>>> INPUT  SENT   | cyc=37 | $time=380 | column 36 of 48
+      lane=0  elem=576  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=577  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=578  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=579  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=580  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=581  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=582  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=583  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=584  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=585  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=586  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=587  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=588  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=589  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=590  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=591  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+<<< OUTPUT READY  | cyc=37 | $time=380 | column 33 of 48
+      lane=0  elem=528  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=529  (tile 17)   result=c815   expected=c815   OK
+      lane=2  elem=530  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=531  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=532  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=533  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=534  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=535  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=536  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=537  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=538  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=539  (tile 27)   result=4912   expected=4912   OK
+      lane=12  elem=540  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=541  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=542  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=543  (tile 31)   result=c8e7   expected=c8e7   OK
+
+>>> INPUT  SENT   | cyc=38 | $time=390 | column 37 of 48
+      lane=0  elem=592  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=593  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=594  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=595  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=596  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=597  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=598  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=599  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=600  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=601  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=602  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=603  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=604  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=605  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=606  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=607  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+<<< OUTPUT READY  | cyc=38 | $time=390 | column 34 of 48
+      lane=0  elem=544  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=545  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=546  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=547  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=548  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=549  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=550  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=551  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=552  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=553  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=554  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=555  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=556  (tile 44)   result=479c   expected=479c   OK
+      lane=13  elem=557  (tile 45)   result=c946   expected=c946   OK
+      lane=14  elem=558  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=559  (tile 47)   result=c8c6   expected=c8c6   OK
+
+>>> INPUT  SENT   | cyc=39 | $time=400 | column 38 of 48
+      lane=0  elem=608  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=609  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=610  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=611  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=612  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=613  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=614  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=615  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=616  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=617  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=618  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=619  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=620  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=621  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=622  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=623  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+<<< OUTPUT READY  | cyc=39 | $time=400 | column 35 of 48
+      lane=0  elem=560  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=561  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=562  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=563  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=564  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=565  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=566  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=567  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=568  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=569  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=570  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=571  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=572  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=573  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=574  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=575  (tile 63)   result=c760   expected=c760   OK
+
+>>> INPUT  SENT   | cyc=40 | $time=410 | column 39 of 48
+      lane=0  elem=624  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=625  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=626  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=627  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=628  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=629  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=630  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=631  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=632  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=633  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=634  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=635  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=636  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=637  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=638  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=639  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=40 | $time=410 | column 36 of 48
+      lane=0  elem=576  (tile 0)   result=472c   expected=472c   OK
+      lane=1  elem=577  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=578  (tile 2)   result=493a   expected=493a   OK
+      lane=3  elem=579  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=580  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=581  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=582  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=583  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=584  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=585  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=586  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=587  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=588  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=589  (tile 13)   result=c88c   expected=c88c   OK
+      lane=14  elem=590  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=591  (tile 15)   result=c7e2   expected=c7e2   OK
+
+>>> INPUT  SENT   | cyc=41 | $time=420 | column 40 of 48
+      lane=0  elem=640  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=641  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=642  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=643  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=644  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=645  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=646  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=647  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=648  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=649  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=650  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=651  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=652  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=653  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=654  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=655  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+<<< OUTPUT READY  | cyc=41 | $time=420 | column 37 of 48
+      lane=0  elem=592  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=593  (tile 17)   result=c815   expected=c815   OK
+      lane=2  elem=594  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=595  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=596  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=597  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=598  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=599  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=600  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=601  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=602  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=603  (tile 27)   result=4912   expected=4912   OK
+      lane=12  elem=604  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=605  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=606  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=607  (tile 31)   result=c8e7   expected=c8e7   OK
+
+>>> INPUT  SENT   | cyc=42 | $time=430 | column 41 of 48
+      lane=0  elem=656  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=657  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=658  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=659  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=660  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=661  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=662  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=663  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=664  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=665  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=666  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=667  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=668  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=669  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=670  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=671  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+<<< OUTPUT READY  | cyc=42 | $time=430 | column 38 of 48
+      lane=0  elem=608  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=609  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=610  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=611  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=612  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=613  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=614  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=615  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=616  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=617  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=618  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=619  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=620  (tile 44)   result=479c   expected=479c   OK
+      lane=13  elem=621  (tile 45)   result=c946   expected=c946   OK
+      lane=14  elem=622  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=623  (tile 47)   result=c8c6   expected=c8c6   OK
+
+>>> INPUT  SENT   | cyc=43 | $time=440 | column 42 of 48
+      lane=0  elem=672  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=673  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=674  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=675  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=676  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=677  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=678  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=679  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=680  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=681  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=682  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=683  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=684  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=685  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=686  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=687  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+<<< OUTPUT READY  | cyc=43 | $time=440 | column 39 of 48
+      lane=0  elem=624  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=625  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=626  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=627  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=628  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=629  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=630  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=631  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=632  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=633  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=634  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=635  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=636  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=637  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=638  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=639  (tile 63)   result=c760   expected=c760   OK
+
+>>> INPUT  SENT   | cyc=44 | $time=450 | column 43 of 48
+      lane=0  elem=688  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=689  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=690  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=691  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=692  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=693  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=694  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=695  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=696  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=697  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=698  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=699  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=700  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=701  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=702  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=703  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=44 | $time=450 | column 40 of 48
+      lane=0  elem=640  (tile 0)   result=472c   expected=472c   OK
+      lane=1  elem=641  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=642  (tile 2)   result=493a   expected=493a   OK
+      lane=3  elem=643  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=644  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=645  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=646  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=647  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=648  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=649  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=650  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=651  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=652  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=653  (tile 13)   result=c88c   expected=c88c   OK
+      lane=14  elem=654  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=655  (tile 15)   result=c7e2   expected=c7e2   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=655  (tile idx 15)   col=40  lane=15  cyc=44
+|    a = c293     b = 43a8
+|    c = 42fa     d = c437
+|    a*b       = c6c0
+|    c*d       = c7b2
+|    a*b + c*d = c7e2   <- reference
+|    DUT result= c7e2   OK
++---------------------------------------------------------------
+
+>>> INPUT  SENT   | cyc=45 | $time=460 | column 44 of 48
+      lane=0  elem=704  (tile 0)   a=441a  b=4320  c=c415  d=42b7
+      lane=1  elem=705  (tile 1)   a=444c  b=c36c  c=c35d  d=4372
+      lane=2  elem=706  (tile 2)   a=c437  b=c2ec  c=444e  d=444e
+      lane=3  elem=707  (tile 3)   a=4383  b=43f8  c=4447  d=c3f0
+      lane=4  elem=708  (tile 4)   a=c41e  b=c41c  c=c381  d=4403
+      lane=5  elem=709  (tile 5)   a=42ee  b=4399  c=4455  d=c16f
+      lane=6  elem=710  (tile 6)   a=42fd  b=4448  c=c32b  d=43eb
+      lane=7  elem=711  (tile 7)   a=442a  b=c425  c=4402  d=445e
+      lane=8  elem=712  (tile 8)   a=43cc  b=c405  c=c46e  d=413e
+      lane=9  elem=713  (tile 9)   a=4461  b=c386  c=c3a5  d=4475
+      lane=10  elem=714  (tile 10)   a=c3da  b=c435  c=c40d  d=c3e9
+      lane=11  elem=715  (tile 11)   a=c31f  b=4375  c=4447  d=c478
+      lane=12  elem=716  (tile 12)   a=438e  b=c401  c=4444  d=c330
+      lane=13  elem=717  (tile 13)   a=4207  b=443a  c=c3fe  d=441a
+      lane=14  elem=718  (tile 14)   a=c3d0  b=43dd  c=c41f  d=444c
+      lane=15  elem=719  (tile 15)   a=c293  b=43a8  c=42fa  d=c437
+
+<<< OUTPUT READY  | cyc=45 | $time=460 | column 41 of 48
+      lane=0  elem=656  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=657  (tile 17)   result=c815   expected=c815   OK
+      lane=2  elem=658  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=659  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=660  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=661  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=662  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=663  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=664  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=665  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=666  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=667  (tile 27)   result=4912   expected=4912   OK
+      lane=12  elem=668  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=669  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=670  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=671  (tile 31)   result=c8e7   expected=c8e7   OK
+
+>>> INPUT  SENT   | cyc=46 | $time=470 | column 45 of 48
+      lane=0  elem=720  (tile 16)   a=442e  b=4321  c=43ca  d=4383
+      lane=1  elem=721  (tile 17)   a=4320  b=c415  c=42b7  d=c41e
+      lane=2  elem=722  (tile 18)   a=c36c  b=c35d  c=4372  d=42ee
+      lane=3  elem=723  (tile 19)   a=c2ec  b=444e  c=444e  d=42fd
+      lane=4  elem=724  (tile 20)   a=43f8  b=4447  c=c3f0  d=442a
+      lane=5  elem=725  (tile 21)   a=c41c  b=c381  c=4403  d=43cc
+      lane=6  elem=726  (tile 22)   a=4399  b=4455  c=c16f  d=4461
+      lane=7  elem=727  (tile 23)   a=4448  b=c32b  c=43eb  d=c3da
+      lane=8  elem=728  (tile 24)   a=c425  b=4402  c=445e  d=c31f
+      lane=9  elem=729  (tile 25)   a=c405  b=c46e  c=413e  d=438e
+      lane=10  elem=730  (tile 26)   a=c386  b=c3a5  c=4475  d=4207
+      lane=11  elem=731  (tile 27)   a=c435  b=c40d  c=c3e9  d=c3d0
+      lane=12  elem=732  (tile 28)   a=4375  b=4447  c=c478  d=c293
+      lane=13  elem=733  (tile 29)   a=c401  b=4444  c=c330  d=442e
+      lane=14  elem=734  (tile 30)   a=443a  b=c3fe  c=441a  d=4320
+      lane=15  elem=735  (tile 31)   a=43dd  b=c41f  c=444c  d=c36c
+
+<<< OUTPUT READY  | cyc=46 | $time=470 | column 42 of 48
+      lane=0  elem=672  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=673  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=674  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=675  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=676  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=677  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=678  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=679  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=680  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=681  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=682  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=683  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=684  (tile 44)   result=479c   expected=479c   OK
+      lane=13  elem=685  (tile 45)   result=c946   expected=c946   OK
+      lane=14  elem=686  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=687  (tile 47)   result=c8c6   expected=c8c6   OK
+
+>>> INPUT  SENT   | cyc=47 | $time=480 | column 46 of 48
+      lane=0  elem=736  (tile 32)   a=43a8  b=42fa  c=c437  d=c2ec
+      lane=1  elem=737  (tile 33)   a=4321  b=43ca  c=4383  d=43f8
+      lane=2  elem=738  (tile 34)   a=c415  b=42b7  c=c41e  d=c41c
+      lane=3  elem=739  (tile 35)   a=c35d  b=4372  c=42ee  d=4399
+      lane=4  elem=740  (tile 36)   a=444e  b=444e  c=42fd  d=4448
+      lane=5  elem=741  (tile 37)   a=4447  b=c3f0  c=442a  d=c425
+      lane=6  elem=742  (tile 38)   a=c381  b=4403  c=43cc  d=c405
+      lane=7  elem=743  (tile 39)   a=4455  b=c16f  c=4461  d=c386
+      lane=8  elem=744  (tile 40)   a=c32b  b=43eb  c=c3da  d=c435
+      lane=9  elem=745  (tile 41)   a=4402  b=445e  c=c31f  d=4375
+      lane=10  elem=746  (tile 42)   a=c46e  b=413e  c=438e  d=c401
+      lane=11  elem=747  (tile 43)   a=c3a5  b=4475  c=4207  d=443a
+      lane=12  elem=748  (tile 44)   a=c40d  b=c3e9  c=c3d0  d=43dd
+      lane=13  elem=749  (tile 45)   a=4447  b=c478  c=c293  d=43a8
+      lane=14  elem=750  (tile 46)   a=4444  b=c330  c=442e  d=4321
+      lane=15  elem=751  (tile 47)   a=c3fe  b=441a  c=4320  d=c415
+
+<<< OUTPUT READY  | cyc=47 | $time=480 | column 43 of 48
+      lane=0  elem=688  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=689  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=690  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=691  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=692  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=693  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=694  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=695  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=696  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=697  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=698  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=699  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=700  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=701  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=702  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=703  (tile 63)   result=c760   expected=c760   OK
+
+>>> INPUT  SENT   | cyc=48 | $time=490 | column 47 of 48
+      lane=0  elem=752  (tile 48)   a=c41f  b=444c  c=c36c  d=c35d
+      lane=1  elem=753  (tile 49)   a=42fa  b=c437  c=c2ec  d=444e
+      lane=2  elem=754  (tile 50)   a=43ca  b=4383  c=43f8  d=4447
+      lane=3  elem=755  (tile 51)   a=42b7  b=c41e  c=c41c  d=c381
+      lane=4  elem=756  (tile 52)   a=4372  b=42ee  c=4399  d=4455
+      lane=5  elem=757  (tile 53)   a=444e  b=42fd  c=4448  d=c32b
+      lane=6  elem=758  (tile 54)   a=c3f0  b=442a  c=c425  d=4402
+      lane=7  elem=759  (tile 55)   a=4403  b=43cc  c=c405  d=c46e
+      lane=8  elem=760  (tile 56)   a=c16f  b=4461  c=c386  d=c3a5
+      lane=9  elem=761  (tile 57)   a=43eb  b=c3da  c=c435  d=c40d
+      lane=10  elem=762  (tile 58)   a=445e  b=c31f  c=4375  d=4447
+      lane=11  elem=763  (tile 59)   a=413e  b=438e  c=c401  d=4444
+      lane=12  elem=764  (tile 60)   a=4475  b=4207  c=443a  d=c3fe
+      lane=13  elem=765  (tile 61)   a=c3e9  b=c3d0  c=43dd  d=c41f
+      lane=14  elem=766  (tile 62)   a=c478  b=c293  c=43a8  d=42fa
+      lane=15  elem=767  (tile 63)   a=c330  b=442e  c=4321  d=43ca
+
+<<< OUTPUT READY  | cyc=48 | $time=490 | column 44 of 48
+      lane=0  elem=704  (tile 0)   result=472c   expected=472c   OK
+      lane=1  elem=705  (tile 1)   result=c870   expected=c870   OK
+      lane=2  elem=706  (tile 2)   result=493a   expected=493a   OK
+      lane=3  elem=707  (tile 3)   result=c876   expected=c876   OK
+      lane=4  elem=708  (tile 4)   result=487c   expected=487c   OK
+      lane=5  elem=709  (tile 5)   result=46ba   expected=46ba   OK
+      lane=6  elem=710  (tile 6)   result=46a4   expected=46a4   OK
+      lane=7  elem=711  (tile 7)   result=4640   expected=4640   OK
+      lane=8  elem=712  (tile 8)   result=c85e   expected=c85e   OK
+      lane=9  elem=713  (tile 9)   result=c909   expected=c909   OK
+      lane=10  elem=714  (tile 10)   result=490d   expected=490d   OK
+      lane=11  elem=715  (tile 11)   result=c949   expected=c949   OK
+      lane=12  elem=716  (tile 12)   result=c88a   expected=c88a   OK
+      lane=13  elem=717  (tile 13)   result=c88c   expected=c88c   OK
+      lane=14  elem=718  (tile 14)   result=c92b   expected=c92b   OK
+      lane=15  elem=719  (tile 15)   result=c7e2   expected=c7e2   OK
+
+<<< OUTPUT READY  | cyc=49 | $time=500 | column 45 of 48
+      lane=0  elem=720  (tile 16)   result=4854   expected=4854   OK
+      lane=1  elem=721  (tile 17)   result=c815   expected=c815   OK
+      lane=2  elem=722  (tile 18)   result=479d   expected=479d   OK
+      lane=3  elem=723  (tile 19)   result=45e0   expected=45e0   OK
+      lane=4  elem=724  (tile 20)   result=4784   expected=4784   OK
+      lane=5  elem=725  (tile 21)   result=48b6   expected=48b6   OK
+      lane=6  elem=726  (tile 22)   result=4871   expected=4871   OK
+      lane=7  elem=727  (tile 23)   result=c8a6   expected=c8a6   OK
+      lane=8  elem=728  (tile 24)   result=c8eb   expected=c8eb   OK
+      lane=9  elem=729  (tile 25)   result=48f8   expected=48f8   OK
+      lane=10  elem=730  (tile 26)   result=47ec   expected=47ec   OK
+      lane=11  elem=731  (tile 27)   result=4912   expected=4912   OK
+      lane=12  elem=732  (tile 28)   result=4882   expected=4882   OK
+      lane=13  elem=733  (tile 29)   result=c900   expected=c900   OK
+      lane=14  elem=734  (tile 30)   result=c888   expected=c888   OK
+      lane=15  elem=735  (tile 31)   result=c8e7   expected=c8e7   OK
+
+<<< OUTPUT READY  | cyc=50 | $time=510 | column 46 of 48
+      lane=0  elem=736  (tile 32)   result=47fa   expected=47fa   OK
+      lane=1  elem=737  (tile 33)   result=483e   expected=483e   OK
+      lane=2  elem=738  (tile 34)   result=48a6   expected=48a6   OK
+      lane=3  elem=739  (tile 35)   result=c684   expected=c684   OK
+      lane=4  elem=740  (tile 36)   result=493d   expected=493d   OK
+      lane=5  elem=741  (tile 37)   result=c94a   expected=c94a   OK
+      lane=6  elem=742  (tile 38)   result=c8ab   expected=c8ab   OK
+      lane=7  elem=743  (tile 39)   result=c877   expected=c877   OK
+      lane=8  elem=744  (tile 40)   result=4866   expected=4866   OK
+      lane=9  elem=745  (tile 41)   result=48ce   expected=48ce   OK
+      lane=10  elem=746  (tile 42)   result=c81a   expected=c81a   OK
+      lane=11  elem=747  (tile 43)   result=c891   expected=c891   OK
+      lane=12  elem=748  (tile 44)   result=479c   expected=479c   OK
+      lane=13  elem=749  (tile 45)   result=c946   expected=c946   OK
+      lane=14  elem=750  (tile 46)   result=c6c8   expected=c6c8   OK
+      lane=15  elem=751  (tile 47)   result=c8c6   expected=c8c6   OK
+
+<<< OUTPUT READY  | cyc=51 | $time=520 | column 47 of 48
+      lane=0  elem=752  (tile 48)   result=c8e4   expected=c8e4   OK
+      lane=1  elem=753  (tile 49)   result=c837   expected=c837   OK
+      lane=2  elem=754  (tile 50)   result=48f3   expected=48f3   OK
+      lane=3  elem=755  (tile 51)   result=47ca   expected=47ca   OK
+      lane=4  elem=756  (tile 52)   result=488d   expected=488d   OK
+      lane=5  elem=757  (tile 53)   result=c700   expected=c700   OK
+      lane=6  elem=758  (tile 54)   result=c923   expected=c923   OK
+      lane=7  elem=759  (tile 55)   result=492f   expected=492f   OK
+      lane=8  elem=760  (tile 56)   result=4792   expected=4792   OK
+      lane=9  elem=761  (tile 57)   result=4846   expected=4846   OK
+      lane=10  elem=762  (tile 58)   result=4754   expected=4754   OK
+      lane=11  elem=763  (tile 59)   result=c8c4   expected=c8c4   OK
+      lane=12  elem=764  (tile 60)   result=c8a8   expected=c8a8   OK
+      lane=13  elem=765  (tile 61)   result=c7ac   expected=c7ac   OK
+      lane=14  elem=766  (tile 62)   result=47e0   expected=47e0   OK
+      lane=15  elem=767  (tile 63)   result=c760   expected=c760   OK
++---------------------------------------------------------------
+| SPOT CHECK  elem=767  (tile idx 63)   col=47  lane=15  cyc=51
+|    a = c330     b = 442e
+|    c = 4321     d = 43ca
+|    a*b       = c7ef
+|    c*d       = 477e
+|    a*b + c*d = c760   <- reference
+|    DUT result= c760   OK
++---------------------------------------------------------------
+r16_n48 | r=16 n=48 | cols=48 | cycles=52 (expected 52) MATCH   | first_out=4 | checked=768 errors=0 PASS
