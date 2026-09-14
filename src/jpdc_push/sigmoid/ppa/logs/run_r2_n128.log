@@ -1,0 +1,175 @@
+
+################################################################
+# CONFIG r2_n128 | r=2 lanes | n=128 (label only) | starting op 0
+# op0: sig16 (hand-picked spectrum) golden tile, tiled mod 16, 384 columns x 2 lanes = 768 elements
+# expected: 388 cycles for this op
+################################################################
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=0   col=0  lane=0  cyc=5
+|    x = 0000
+|    sigmoid(x) = 3f04   <- golden reference (hardware model)
+|    DUT result = 3f04   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=13   col=6  lane=1  cyc=11
+|    x = 4120
+|    sigmoid(x) = 3f80   <- golden reference (hardware model)
+|    DUT result = 3f80   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=45   col=22  lane=1  cyc=27
+|    x = 4120
+|    sigmoid(x) = 3f80   <- golden reference (hardware model)
+|    DUT result = 3f80   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=63   col=31  lane=1  cyc=36
+|    x = 41a0
+|    sigmoid(x) = 3f80   <- golden reference (hardware model)
+|    DUT result = 3f80   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=64   col=32  lane=0  cyc=37
+|    x = 0000
+|    sigmoid(x) = 3f04   <- golden reference (hardware model)
+|    DUT result = 3f04   OK
++---------------------------------------------------------------
+  [r2_n128] op=0 progress: 64/384 columns received (cyc=69, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=130   col=65  lane=0  cyc=70
+|    x = bdcc
+|    sigmoid(x) = 3efb   <- golden reference (hardware model)
+|    DUT result = 3efb   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=209   col=104  lane=1  cyc=109
+|    x = 3dcc
+|    sigmoid(x) = 3f06   <- golden reference (hardware model)
+|    DUT result = 3f06   OK
++---------------------------------------------------------------
+  [r2_n128] op=0 progress: 128/384 columns received (cyc=133, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=300   col=150  lane=0  cyc=155
+|    x = c0a0
+|    sigmoid(x) = 3c80   <- golden reference (hardware model)
+|    DUT result = 3c80   OK
++---------------------------------------------------------------
+  [r2_n128] op=0 progress: 192/384 columns received (cyc=197, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=411   col=205  lane=1  cyc=210
+|    x = 40a0
+|    sigmoid(x) = 3f74   <- golden reference (hardware model)
+|    DUT result = 3f74   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=512   col=256  lane=0  cyc=261
+|    x = 0000
+|    sigmoid(x) = 3f04   <- golden reference (hardware model)
+|    DUT result = 3f04   OK
++---------------------------------------------------------------
+  [r2_n128] op=0 progress: 256/384 columns received (cyc=261, mismatches so far=0)
+  [r2_n128] op=0 progress: 320/384 columns received (cyc=325, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=655   col=327  lane=1  cyc=332
+|    x = 41a0
+|    sigmoid(x) = 3f80   <- golden reference (hardware model)
+|    DUT result = 3f80   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=767   col=383  lane=1  cyc=388
+|    x = 41a0
+|    sigmoid(x) = 3f80   <- golden reference (hardware model)
+|    DUT result = 3f80   OK
++---------------------------------------------------------------
+[cycle 388] op 0 complete in 388 cycles (expected 388) MATCH   (first input @0, first output @5): 0 mismatches out of 768
+Sigmoid (r=2,n=128) op0: functional check PASS (768/768 elements)
+
+################################################################
+# CONFIG r2_n128 | r=2 lanes | n=128 (label only) | starting op 1
+# op1: sig32 (lane-order coverage) golden tile, tiled mod 32, 384 columns x 2 lanes = 768 elements
+# expected: 388 cycles for this op
+################################################################
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=0   col=0  lane=0  cyc=394
+|    x = c007
+|    sigmoid(x) = 3df8   <- golden reference (hardware model)
+|    DUT result = 3df8   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=13   col=6  lane=1  cyc=400
+|    x = 407b
+|    sigmoid(x) = 3f7e   <- golden reference (hardware model)
+|    DUT result = 3f7e   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=45   col=22  lane=1  cyc=416
+|    x = 407b
+|    sigmoid(x) = 3f7e   <- golden reference (hardware model)
+|    DUT result = 3f7e   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=63   col=31  lane=1  cyc=425
+|    x = bfc3
+|    sigmoid(x) = 3e3c   <- golden reference (hardware model)
+|    DUT result = 3e3c   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=64   col=32  lane=0  cyc=426
+|    x = c007
+|    sigmoid(x) = 3df8   <- golden reference (hardware model)
+|    DUT result = 3df8   OK
++---------------------------------------------------------------
+  [r2_n128] op=1 progress: 64/384 columns received (cyc=458, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=130   col=65  lane=0  cyc=459
+|    x = 3fe7
+|    sigmoid(x) = 3f73   <- golden reference (hardware model)
+|    DUT result = 3f73   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=209   col=104  lane=1  cyc=498
+|    x = 40ab
+|    sigmoid(x) = 3f75   <- golden reference (hardware model)
+|    DUT result = 3f75   OK
++---------------------------------------------------------------
+  [r2_n128] op=1 progress: 128/384 columns received (cyc=522, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=300   col=150  lane=0  cyc=544
+|    x = bf67
+|    sigmoid(x) = 3e8c   <- golden reference (hardware model)
+|    DUT result = 3e8c   OK
++---------------------------------------------------------------
+  [r2_n128] op=1 progress: 192/384 columns received (cyc=586, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=411   col=205  lane=1  cyc=599
+|    x = 4072
+|    sigmoid(x) = 3f7c   <- golden reference (hardware model)
+|    DUT result = 3f7c   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=512   col=256  lane=0  cyc=650
+|    x = c007
+|    sigmoid(x) = 3df8   <- golden reference (hardware model)
+|    DUT result = 3df8   OK
++---------------------------------------------------------------
+  [r2_n128] op=1 progress: 256/384 columns received (cyc=650, mismatches so far=0)
+  [r2_n128] op=1 progress: 320/384 columns received (cyc=714, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=655   col=327  lane=1  cyc=721
+|    x = c054
+|    sigmoid(x) = 3d2b   <- golden reference (hardware model)
+|    DUT result = 3d2b   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=767   col=383  lane=1  cyc=777
+|    x = bfc3
+|    sigmoid(x) = 3e3c   <- golden reference (hardware model)
+|    DUT result = 3e3c   OK
++---------------------------------------------------------------
+[cycle 777] op 1 complete in 388 cycles (expected 388) MATCH   (first input @389, first output @394): 0 mismatches out of 768
+Sigmoid (r=2,n=128) op1: functional check PASS (768/768 elements)
+
+================================================
+    TEST RESULT: PASS  (r=2, n=128)
+================================================
+

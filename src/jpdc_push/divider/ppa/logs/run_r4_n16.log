@@ -1,0 +1,169 @@
+
+################################################################
+# CONFIG r4_n16  | r=4 lanes | n=16 (label only) | starting op 0
+# op0: div8 (bit-exact/tolerance mix) golden tile, tiled mod 8, 192 columns x 4 lanes = 768 elements
+# expected: 196 cycles for this op
+################################################################
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=0   col=0  lane=0  cyc=5
+|    a = 40c0     b = 4000
+|    a / b      = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=13   col=3  lane=1  cyc=8
+|    a = 0000     b = 40a0
+|    a / b      = 0000   <- golden reference
+|    DUT result = 0000   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=45   col=11  lane=1  cyc=16
+|    a = 0000     b = 40a0
+|    a / b      = 0000   <- golden reference
+|    DUT result = 0000   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=63   col=15  lane=3  cyc=20
+|    a = 42c8     b = 4080
+|    a / b      = 41c8   <- golden reference
+|    DUT result = 41c8   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=64   col=16  lane=0  cyc=21
+|    a = 40c0     b = 4000
+|    a / b      = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=130   col=32  lane=2  cyc=37
+|    a = c0c0     b = 4000
+|    a / b      = c040   <- golden reference
+|    DUT result = c040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=209   col=52  lane=1  cyc=57
+|    a = 4110     b = 4040
+|    a / b      = 4041   <- golden reference
+|    DUT result = 4041   OK
++---------------------------------------------------------------
+  [r4_n16 ] op=0 progress: 64/192 columns received (cyc=69, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=300   col=75  lane=0  cyc=80
+|    a = c0c0     b = c000
+|    a / b      = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=411   col=102  lane=3  cyc=107
+|    a = 40c0     b = c000
+|    a / b      = c040   <- golden reference
+|    DUT result = c040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=512   col=128  lane=0  cyc=133
+|    a = 40c0     b = 4000
+|    a / b      = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
+  [r4_n16 ] op=0 progress: 128/192 columns received (cyc=133, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=655   col=163  lane=3  cyc=168
+|    a = 42c8     b = 4080
+|    a / b      = 41c8   <- golden reference
+|    DUT result = 41c8   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=767   col=191  lane=3  cyc=196
+|    a = 42c8     b = 4080
+|    a / b      = 41c8   <- golden reference
+|    DUT result = 41c8   OK
++---------------------------------------------------------------
+[cycle 196] op 0 complete in 196 cycles (expected 196) MATCH   (first input @0, first output @5): 0 mismatches out of 768
+SIMD divider (r=4,n=16) op0: functional check PASS (768/768 elements)
+
+################################################################
+# CONFIG r4_n16  | r=4 lanes | n=16 (label only) | starting op 1
+# op1: div32 (tolerance) golden tile, tiled mod 32, 192 columns x 4 lanes = 768 elements
+# expected: 196 cycles for this op
+################################################################
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=0   col=0  lane=0  cyc=202
+|    a = c038     b = c10f
+|    a / b      = 3ea6   <- golden reference
+|    DUT result = 3ea6   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=13   col=3  lane=1  cyc=205
+|    a = c03a     b = c0dd
+|    a / b      = 3eda   <- golden reference
+|    DUT result = 3eda   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=45   col=11  lane=1  cyc=213
+|    a = c03a     b = c0dd
+|    a / b      = 3eda   <- golden reference
+|    DUT result = 3eda   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=63   col=15  lane=3  cyc=217
+|    a = 40fd     b = c08c
+|    a / b      = bfea   <- golden reference
+|    DUT result = bfea   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=64   col=16  lane=0  cyc=218
+|    a = c038     b = c10f
+|    a / b      = 3ea6   <- golden reference
+|    DUT result = 3ea6   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=130   col=32  lane=2  cyc=234
+|    a = 40f9     b = c0ee
+|    a / b      = bf87   <- golden reference
+|    DUT result = bf87   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=209   col=52  lane=1  cyc=254
+|    a = 404a     b = 4164
+|    a / b      = 3e64   <- golden reference
+|    DUT result = 3e64   OK
++---------------------------------------------------------------
+  [r4_n16 ] op=1 progress: 64/192 columns received (cyc=266, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=300   col=75  lane=0  cyc=277
+|    a = 4103     b = bf6d
+|    a / b      = c10f   <- golden reference
+|    DUT result = c10f   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=411   col=102  lane=3  cyc=304
+|    a = c0a3     b = 3f33
+|    a / b      = c0ec   <- golden reference
+|    DUT result = c0ec   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=512   col=128  lane=0  cyc=330
+|    a = c038     b = c10f
+|    a / b      = 3ea6   <- golden reference
+|    DUT result = 3ea6   OK
++---------------------------------------------------------------
+  [r4_n16 ] op=1 progress: 128/192 columns received (cyc=330, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=655   col=163  lane=3  cyc=365
+|    a = 416a     b = 3f83
+|    a / b      = 4167   <- golden reference
+|    DUT result = 4167   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=767   col=191  lane=3  cyc=393
+|    a = 40fd     b = c08c
+|    a / b      = bfea   <- golden reference
+|    DUT result = bfea   OK
++---------------------------------------------------------------
+[cycle 393] op 1 complete in 196 cycles (expected 196) MATCH   (first input @197, first output @202): 0 mismatches out of 768
+SIMD divider (r=4,n=16) op1: functional check PASS (768/768 elements)
+
+================================================
+    TEST RESULT: PASS  (r=4, n=16)
+================================================
+

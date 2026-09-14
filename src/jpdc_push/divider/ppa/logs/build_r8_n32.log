@@ -1,0 +1,9 @@
+checking package dependencies
+All packages are up to date.
+Bluesim object reused: ppa/obj/mkBF16Divider_SIMD.{h,o}
+Bluesim object reused: ppa/obj/mkBF16Divider.{h,o}
+Bluesim object created: ppa/obj/mkTbDiv_r8_n32.{h,o}
+Bluesim object created: ppa/obj/mkDividerAblation_r8.{h,o}
+Bluesim object created: ppa/obj/model_mkTbDiv_r8_n32.{h,o}
+Simulation shared library created: ppa/sim_r8_n32.so
+Simulation executable created: ppa/sim_r8_n32

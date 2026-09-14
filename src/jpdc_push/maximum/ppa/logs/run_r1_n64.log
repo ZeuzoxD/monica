@@ -1,0 +1,187 @@
+
+################################################################
+# CONFIG r1_n64  | r=1 lanes | n=64 (label only) | starting op 0
+# op0: max16 (hand-picked, all 3 sign branches) golden tile, tiled mod 16, 768 columns x 1 lanes = 768 elements
+# expected: 767 cycles for this op (zero-latency: same-cycle result)
+################################################################
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=0   col=0  lane=0  cyc=0
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=13   col=13  lane=0  cyc=13
+|    a = c100     b = c108
+|    max(a,b)   = c100   <- golden reference
+|    DUT result = c100   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=45   col=45  lane=0  cyc=45
+|    a = c100     b = c108
+|    max(a,b)   = c100   <- golden reference
+|    DUT result = c100   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=63   col=63  lane=0  cyc=63
+|    a = c060     b = c040
+|    max(a,b)   = c040   <- golden reference
+|    DUT result = c040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=64   col=64  lane=0  cyc=64
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=0 progress: 64/768 columns processed (cyc=64, mismatches so far=0)
+  [r1_n64 ] op=0 progress: 128/768 columns processed (cyc=128, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=130   col=130  lane=0  cyc=130
+|    a = bf80     b = c000
+|    max(a,b)   = bf80   <- golden reference
+|    DUT result = bf80   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=0 progress: 192/768 columns processed (cyc=192, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=209   col=209  lane=0  cyc=209
+|    a = 3fc0     b = 4080
+|    max(a,b)   = 4080   <- golden reference
+|    DUT result = 4080   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=0 progress: 256/768 columns processed (cyc=256, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=300   col=300  lane=0  cyc=300
+|    a = 3e00     b = be00
+|    max(a,b)   = 3e00   <- golden reference
+|    DUT result = 3e00   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=0 progress: 320/768 columns processed (cyc=320, mismatches so far=0)
+  [r1_n64 ] op=0 progress: 384/768 columns processed (cyc=384, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=411   col=411  lane=0  cyc=411
+|    a = c120     b = 4120
+|    max(a,b)   = 4120   <- golden reference
+|    DUT result = 4120   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=0 progress: 448/768 columns processed (cyc=448, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=512   col=512  lane=0  cyc=512
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=0 progress: 512/768 columns processed (cyc=512, mismatches so far=0)
+  [r1_n64 ] op=0 progress: 576/768 columns processed (cyc=576, mismatches so far=0)
+  [r1_n64 ] op=0 progress: 640/768 columns processed (cyc=640, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=655   col=655  lane=0  cyc=655
+|    a = c060     b = c040
+|    max(a,b)   = c040   <- golden reference
+|    DUT result = c040   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=0 progress: 704/768 columns processed (cyc=704, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=767   col=767  lane=0  cyc=767
+|    a = c060     b = c040
+|    max(a,b)   = c040   <- golden reference
+|    DUT result = c040   OK
++---------------------------------------------------------------
+[cycle 767] op 0 complete in 767 cycles (expected 767) MATCH  : 0 mismatches out of 768
+Max (r=1,n=64) op0: functional check PASS (768/768 elements bit-exact)
+
+################################################################
+# CONFIG r1_n64  | r=1 lanes | n=64 (label only) | starting op 1
+# op1: max32 (lane-order coverage) golden tile, tiled mod 32, 768 columns x 1 lanes = 768 elements
+# expected: 767 cycles for this op (zero-latency: same-cycle result)
+################################################################
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=0   col=0  lane=0  cyc=768
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=13   col=13  lane=0  cyc=781
+|    a = c100     b = c108
+|    max(a,b)   = c100   <- golden reference
+|    DUT result = c100   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=45   col=45  lane=0  cyc=813
+|    a = c100     b = c108
+|    max(a,b)   = c100   <- golden reference
+|    DUT result = c100   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=63   col=63  lane=0  cyc=831
+|    a = c61c     b = c61c
+|    max(a,b)   = c61c   <- golden reference
+|    DUT result = c61c   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=64   col=64  lane=0  cyc=832
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=1 progress: 64/768 columns processed (cyc=832, mismatches so far=0)
+  [r1_n64 ] op=1 progress: 128/768 columns processed (cyc=896, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=130   col=130  lane=0  cyc=898
+|    a = bf80     b = c000
+|    max(a,b)   = bf80   <- golden reference
+|    DUT result = bf80   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=1 progress: 192/768 columns processed (cyc=960, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=209   col=209  lane=0  cyc=977
+|    a = c2c8     b = c2c6
+|    max(a,b)   = c2c6   <- golden reference
+|    DUT result = c2c6   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=1 progress: 256/768 columns processed (cyc=1024, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=300   col=300  lane=0  cyc=1068
+|    a = 3e00     b = be00
+|    max(a,b)   = 3e00   <- golden reference
+|    DUT result = 3e00   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=1 progress: 320/768 columns processed (cyc=1088, mismatches so far=0)
+  [r1_n64 ] op=1 progress: 384/768 columns processed (cyc=1152, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=411   col=411  lane=0  cyc=1179
+|    a = 8000     b = 0000
+|    max(a,b)   = 0000   <- golden reference
+|    DUT result = 0000   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=1 progress: 448/768 columns processed (cyc=1216, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=512   col=512  lane=0  cyc=1280
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=1 progress: 512/768 columns processed (cyc=1280, mismatches so far=0)
+  [r1_n64 ] op=1 progress: 576/768 columns processed (cyc=1344, mismatches so far=0)
+  [r1_n64 ] op=1 progress: 640/768 columns processed (cyc=1408, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=655   col=655  lane=0  cyc=1423
+|    a = c060     b = c040
+|    max(a,b)   = c040   <- golden reference
+|    DUT result = c040   OK
++---------------------------------------------------------------
+  [r1_n64 ] op=1 progress: 704/768 columns processed (cyc=1472, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=767   col=767  lane=0  cyc=1535
+|    a = c61c     b = c61c
+|    max(a,b)   = c61c   <- golden reference
+|    DUT result = c61c   OK
++---------------------------------------------------------------
+[cycle 1535] op 1 complete in 767 cycles (expected 767) MATCH  : 0 mismatches out of 768
+Max (r=1,n=64) op1: functional check PASS (768/768 elements bit-exact)
+
+================================================
+    TEST RESULT: PASS  (r=1, n=64)
+================================================
+

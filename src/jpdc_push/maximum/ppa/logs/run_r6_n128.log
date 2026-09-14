@@ -1,0 +1,167 @@
+
+################################################################
+# CONFIG r6_n128 | r=6 lanes | n=128 (label only) | starting op 0
+# op0: max16 (hand-picked, all 3 sign branches) golden tile, tiled mod 16, 128 columns x 6 lanes = 768 elements
+# expected: 127 cycles for this op (zero-latency: same-cycle result)
+################################################################
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=0   col=0  lane=0  cyc=0
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=13   col=2  lane=1  cyc=2
+|    a = c100     b = c108
+|    max(a,b)   = c100   <- golden reference
+|    DUT result = c100   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=45   col=7  lane=3  cyc=7
+|    a = c100     b = c108
+|    max(a,b)   = c100   <- golden reference
+|    DUT result = c100   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=63   col=10  lane=3  cyc=10
+|    a = c060     b = c040
+|    max(a,b)   = c040   <- golden reference
+|    DUT result = c040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=64   col=10  lane=4  cyc=10
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=130   col=21  lane=4  cyc=21
+|    a = bf80     b = c000
+|    max(a,b)   = bf80   <- golden reference
+|    DUT result = bf80   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=209   col=34  lane=5  cyc=34
+|    a = 3fc0     b = 4080
+|    max(a,b)   = 4080   <- golden reference
+|    DUT result = 4080   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=300   col=50  lane=0  cyc=50
+|    a = 3e00     b = be00
+|    max(a,b)   = 3e00   <- golden reference
+|    DUT result = 3e00   OK
++---------------------------------------------------------------
+  [r6_n128] op=0 progress: 64/128 columns processed (cyc=64, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=411   col=68  lane=3  cyc=68
+|    a = c120     b = 4120
+|    max(a,b)   = 4120   <- golden reference
+|    DUT result = 4120   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=512   col=85  lane=2  cyc=85
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=655   col=109  lane=1  cyc=109
+|    a = c060     b = c040
+|    max(a,b)   = c040   <- golden reference
+|    DUT result = c040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=767   col=127  lane=5  cyc=127
+|    a = c060     b = c040
+|    max(a,b)   = c040   <- golden reference
+|    DUT result = c040   OK
++---------------------------------------------------------------
+[cycle 127] op 0 complete in 127 cycles (expected 127) MATCH  : 0 mismatches out of 768
+Max (r=6,n=128) op0: functional check PASS (768/768 elements bit-exact)
+
+################################################################
+# CONFIG r6_n128 | r=6 lanes | n=128 (label only) | starting op 1
+# op1: max32 (lane-order coverage) golden tile, tiled mod 32, 128 columns x 6 lanes = 768 elements
+# expected: 127 cycles for this op (zero-latency: same-cycle result)
+################################################################
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=0   col=0  lane=0  cyc=128
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=13   col=2  lane=1  cyc=130
+|    a = c100     b = c108
+|    max(a,b)   = c100   <- golden reference
+|    DUT result = c100   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=45   col=7  lane=3  cyc=135
+|    a = c100     b = c108
+|    max(a,b)   = c100   <- golden reference
+|    DUT result = c100   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=63   col=10  lane=3  cyc=138
+|    a = c61c     b = c61c
+|    max(a,b)   = c61c   <- golden reference
+|    DUT result = c61c   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=64   col=10  lane=4  cyc=138
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=130   col=21  lane=4  cyc=149
+|    a = bf80     b = c000
+|    max(a,b)   = bf80   <- golden reference
+|    DUT result = bf80   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=209   col=34  lane=5  cyc=162
+|    a = c2c8     b = c2c6
+|    max(a,b)   = c2c6   <- golden reference
+|    DUT result = c2c6   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=300   col=50  lane=0  cyc=178
+|    a = 3e00     b = be00
+|    max(a,b)   = 3e00   <- golden reference
+|    DUT result = 3e00   OK
++---------------------------------------------------------------
+  [r6_n128] op=1 progress: 64/128 columns processed (cyc=192, mismatches so far=0)
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=411   col=68  lane=3  cyc=196
+|    a = 8000     b = 0000
+|    max(a,b)   = 0000   <- golden reference
+|    DUT result = 0000   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=512   col=85  lane=2  cyc=213
+|    a = 4040     b = 4000
+|    max(a,b)   = 4040   <- golden reference
+|    DUT result = 4040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=655   col=109  lane=1  cyc=237
+|    a = c060     b = c040
+|    max(a,b)   = c040   <- golden reference
+|    DUT result = c040   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=767   col=127  lane=5  cyc=255
+|    a = c61c     b = c61c
+|    max(a,b)   = c61c   <- golden reference
+|    DUT result = c61c   OK
++---------------------------------------------------------------
+[cycle 255] op 1 complete in 127 cycles (expected 127) MATCH  : 0 mismatches out of 768
+Max (r=6,n=128) op1: functional check PASS (768/768 elements bit-exact)
+
+================================================
+    TEST RESULT: PASS  (r=6, n=128)
+================================================
+

@@ -1,0 +1,165 @@
+
+################################################################
+# CONFIG r16_n48 | r=16 lanes | n=48 (label only) | starting op 0
+# op0: sig16 (hand-picked spectrum) golden tile, tiled mod 16, 48 columns x 16 lanes = 768 elements
+# expected: 52 cycles for this op
+################################################################
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=0   col=0  lane=0  cyc=5
+|    x = 0000
+|    sigmoid(x) = 3f04   <- golden reference (hardware model)
+|    DUT result = 3f04   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=13   col=0  lane=13  cyc=5
+|    x = 4120
+|    sigmoid(x) = 3f80   <- golden reference (hardware model)
+|    DUT result = 3f80   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=45   col=2  lane=13  cyc=7
+|    x = 4120
+|    sigmoid(x) = 3f80   <- golden reference (hardware model)
+|    DUT result = 3f80   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=63   col=3  lane=15  cyc=8
+|    x = 41a0
+|    sigmoid(x) = 3f80   <- golden reference (hardware model)
+|    DUT result = 3f80   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=64   col=4  lane=0  cyc=9
+|    x = 0000
+|    sigmoid(x) = 3f04   <- golden reference (hardware model)
+|    DUT result = 3f04   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=130   col=8  lane=2  cyc=13
+|    x = bdcc
+|    sigmoid(x) = 3efb   <- golden reference (hardware model)
+|    DUT result = 3efb   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=209   col=13  lane=1  cyc=18
+|    x = 3dcc
+|    sigmoid(x) = 3f06   <- golden reference (hardware model)
+|    DUT result = 3f06   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=300   col=18  lane=12  cyc=23
+|    x = c0a0
+|    sigmoid(x) = 3c80   <- golden reference (hardware model)
+|    DUT result = 3c80   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=411   col=25  lane=11  cyc=30
+|    x = 40a0
+|    sigmoid(x) = 3f74   <- golden reference (hardware model)
+|    DUT result = 3f74   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=512   col=32  lane=0  cyc=37
+|    x = 0000
+|    sigmoid(x) = 3f04   <- golden reference (hardware model)
+|    DUT result = 3f04   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=655   col=40  lane=15  cyc=45
+|    x = 41a0
+|    sigmoid(x) = 3f80   <- golden reference (hardware model)
+|    DUT result = 3f80   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=0  elem=767   col=47  lane=15  cyc=52
+|    x = 41a0
+|    sigmoid(x) = 3f80   <- golden reference (hardware model)
+|    DUT result = 3f80   OK
++---------------------------------------------------------------
+[cycle 52] op 0 complete in 52 cycles (expected 52) MATCH   (first input @0, first output @5): 0 mismatches out of 768
+Sigmoid (r=16,n=48) op0: functional check PASS (768/768 elements)
+
+################################################################
+# CONFIG r16_n48 | r=16 lanes | n=48 (label only) | starting op 1
+# op1: sig32 (lane-order coverage) golden tile, tiled mod 32, 48 columns x 16 lanes = 768 elements
+# expected: 52 cycles for this op
+################################################################
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=0   col=0  lane=0  cyc=58
+|    x = c007
+|    sigmoid(x) = 3df8   <- golden reference (hardware model)
+|    DUT result = 3df8   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=13   col=0  lane=13  cyc=58
+|    x = 407b
+|    sigmoid(x) = 3f7e   <- golden reference (hardware model)
+|    DUT result = 3f7e   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=45   col=2  lane=13  cyc=60
+|    x = 407b
+|    sigmoid(x) = 3f7e   <- golden reference (hardware model)
+|    DUT result = 3f7e   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=63   col=3  lane=15  cyc=61
+|    x = bfc3
+|    sigmoid(x) = 3e3c   <- golden reference (hardware model)
+|    DUT result = 3e3c   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=64   col=4  lane=0  cyc=62
+|    x = c007
+|    sigmoid(x) = 3df8   <- golden reference (hardware model)
+|    DUT result = 3df8   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=130   col=8  lane=2  cyc=66
+|    x = 3fe7
+|    sigmoid(x) = 3f73   <- golden reference (hardware model)
+|    DUT result = 3f73   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=209   col=13  lane=1  cyc=71
+|    x = 40ab
+|    sigmoid(x) = 3f75   <- golden reference (hardware model)
+|    DUT result = 3f75   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=300   col=18  lane=12  cyc=76
+|    x = bf67
+|    sigmoid(x) = 3e8c   <- golden reference (hardware model)
+|    DUT result = 3e8c   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=411   col=25  lane=11  cyc=83
+|    x = 4072
+|    sigmoid(x) = 3f7c   <- golden reference (hardware model)
+|    DUT result = 3f7c   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=512   col=32  lane=0  cyc=90
+|    x = c007
+|    sigmoid(x) = 3df8   <- golden reference (hardware model)
+|    DUT result = 3df8   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=655   col=40  lane=15  cyc=98
+|    x = c054
+|    sigmoid(x) = 3d2b   <- golden reference (hardware model)
+|    DUT result = 3d2b   OK
++---------------------------------------------------------------
++---------------------------------------------------------------
+| SPOT CHECK  op=1  elem=767   col=47  lane=15  cyc=105
+|    x = bfc3
+|    sigmoid(x) = 3e3c   <- golden reference (hardware model)
+|    DUT result = 3e3c   OK
++---------------------------------------------------------------
+[cycle 105] op 1 complete in 52 cycles (expected 52) MATCH   (first input @53, first output @58): 0 mismatches out of 768
+Sigmoid (r=16,n=48) op1: functional check PASS (768/768 elements)
+
+================================================
+    TEST RESULT: PASS  (r=16, n=48)
+================================================
+

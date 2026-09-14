@@ -1,0 +1,64 @@
+checking package dependencies
+compiling ./BF16.bsv
+compiling ./TorchMaximum.bsv
+code generation for mkTorchMaximum starts
+Elaborated module file created: ppa/obj/mkTorchMaximum.ba
+compiling ./TorchMaximum_SIMD.bsv
+code generation for mkTorchMaximum_SIMD starts
+Elaborated module file created: ppa/obj/mkTorchMaximum_SIMD.ba
+compiling ./TorchMaximum_SIMD_AblationPPA.bsv
+code generation for mkMaxAblation_r1 starts
+Elaborated module file created: ppa/obj/mkMaxAblation_r1.ba
+code generation for mkMaxAblation_r2 starts
+Elaborated module file created: ppa/obj/mkMaxAblation_r2.ba
+code generation for mkMaxAblation_r3 starts
+Elaborated module file created: ppa/obj/mkMaxAblation_r3.ba
+code generation for mkMaxAblation_r4 starts
+Elaborated module file created: ppa/obj/mkMaxAblation_r4.ba
+code generation for mkMaxAblation_r6 starts
+Elaborated module file created: ppa/obj/mkMaxAblation_r6.ba
+code generation for mkMaxAblation_r12 starts
+Elaborated module file created: ppa/obj/mkMaxAblation_r12.ba
+code generation for mkMaxAblation_r8 starts
+Elaborated module file created: ppa/obj/mkMaxAblation_r8.ba
+code generation for mkMaxAblation_r16 starts
+Elaborated module file created: ppa/obj/mkMaxAblation_r16.ba
+compiling Tb_TorchMaximum_SIMD_AblationPPA.bsv
+code generation for mkTbMax_r1_n64 starts
+Elaborated module file created: ppa/obj/mkTbMax_r1_n64.ba
+code generation for mkTbMax_r2_n64 starts
+Elaborated module file created: ppa/obj/mkTbMax_r2_n64.ba
+code generation for mkTbMax_r3_n64 starts
+Elaborated module file created: ppa/obj/mkTbMax_r3_n64.ba
+code generation for mkTbMax_r4_n64 starts
+Elaborated module file created: ppa/obj/mkTbMax_r4_n64.ba
+code generation for mkTbMax_r6_n64 starts
+Elaborated module file created: ppa/obj/mkTbMax_r6_n64.ba
+code generation for mkTbMax_r12_n64 starts
+Elaborated module file created: ppa/obj/mkTbMax_r12_n64.ba
+code generation for mkTbMax_r4_n16 starts
+Elaborated module file created: ppa/obj/mkTbMax_r4_n16.ba
+code generation for mkTbMax_r4_n32 starts
+Elaborated module file created: ppa/obj/mkTbMax_r4_n32.ba
+code generation for mkTbMax_r4_n96 starts
+Elaborated module file created: ppa/obj/mkTbMax_r4_n96.ba
+code generation for mkTbMax_r4_n192 starts
+Elaborated module file created: ppa/obj/mkTbMax_r4_n192.ba
+code generation for mkTbMax_r8_n32 starts
+Elaborated module file created: ppa/obj/mkTbMax_r8_n32.ba
+code generation for mkTbMax_r8_n96 starts
+Elaborated module file created: ppa/obj/mkTbMax_r8_n96.ba
+code generation for mkTbMax_r2_n128 starts
+Elaborated module file created: ppa/obj/mkTbMax_r2_n128.ba
+code generation for mkTbMax_r6_n128 starts
+Elaborated module file created: ppa/obj/mkTbMax_r6_n128.ba
+code generation for mkTbMax_r16_n48 starts
+Elaborated module file created: ppa/obj/mkTbMax_r16_n48.ba
+All packages are up to date.
+Bluesim object created: ppa/obj/mkTbMax_r1_n64.{h,o}
+Bluesim object created: ppa/obj/mkMaxAblation_r1.{h,o}
+Bluesim object created: ppa/obj/mkTorchMaximum_SIMD.{h,o}
+Bluesim object created: ppa/obj/mkTorchMaximum.{h,o}
+Bluesim object created: ppa/obj/model_mkTbMax_r1_n64.{h,o}
+Simulation shared library created: ppa/sim_r1_n64.so
+Simulation executable created: ppa/sim_r1_n64

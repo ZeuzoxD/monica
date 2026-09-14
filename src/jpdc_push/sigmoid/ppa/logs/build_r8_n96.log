@@ -1,0 +1,9 @@
+checking package dependencies
+All packages are up to date.
+Bluesim object reused: ppa/obj/mkSigmoidAblation_r8.{h,o}
+Bluesim object reused: ppa/obj/mkBF16Sigmoid_SIMD.{h,o}
+Bluesim object reused: ppa/obj/mkBF16Sigmoid.{h,o}
+Bluesim object created: ppa/obj/mkTbSig_r8_n96.{h,o}
+Bluesim object created: ppa/obj/model_mkTbSig_r8_n96.{h,o}
+Simulation shared library created: ppa/sim_r8_n96.so
+Simulation executable created: ppa/sim_r8_n96

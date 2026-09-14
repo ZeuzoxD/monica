@@ -1,0 +1,9 @@
+checking package dependencies
+All packages are up to date.
+Bluesim object reused: ppa/obj/mkTorchMaximum_SIMD.{h,o}
+Bluesim object reused: ppa/obj/mkTorchMaximum.{h,o}
+Bluesim object created: ppa/obj/mkTbMax_r2_n64.{h,o}
+Bluesim object created: ppa/obj/mkMaxAblation_r2.{h,o}
+Bluesim object created: ppa/obj/model_mkTbMax_r2_n64.{h,o}
+Simulation shared library created: ppa/sim_r2_n64.so
+Simulation executable created: ppa/sim_r2_n64
